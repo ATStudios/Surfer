@@ -1,0 +1,1816 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SurferManager
+   | Surfer Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SurferManager
+   | Surfer Unity documentation ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Surfer.SurferManager">
+  
+  
+  <h1 id="Surfer_SurferManager" data-uid="Surfer.SurferManager" class="text-break">Class SurferManager
+  </h1>
+  <div class="markdown level0 summary"><p>Surfer Singleton that manages states, scene, conditions and actions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SurferManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Surfer_SurferManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class SurferManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Surfer_SurferManager_I_" data-uid="Surfer.SurferManager.I*"></a>
+  <h4 id="Surfer_SurferManager_I" data-uid="Surfer.SurferManager.I">I</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SurferManager I { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SurferManager.html">SurferManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_LastClosedStates_" data-uid="Surfer.SurferManager.LastClosedStates*"></a>
+  <h4 id="Surfer_SurferManager_LastClosedStates" data-uid="Surfer.SurferManager.LastClosedStates">LastClosedStates</h4>
+  <div class="markdown level1 summary"><p>Get all the closed states.This list is cleared after OpenState is called and performed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;SUStateEventData&gt; LastClosedStates { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Surfer.SUStateEventData.html">SUStateEventData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_LastUnloaded_" data-uid="Surfer.SurferManager.LastUnloaded*"></a>
+  <h4 id="Surfer_SurferManager_LastUnloaded" data-uid="Surfer.SurferManager.LastUnloaded">LastUnloaded</h4>
+  <div class="markdown level1 summary"><p>Get the last unloaded scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LastUnloaded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_LoadingScenes_" data-uid="Surfer.SurferManager.LoadingScenes*"></a>
+  <h4 id="Surfer_SurferManager_LoadingScenes" data-uid="Surfer.SurferManager.LoadingScenes">LoadingScenes</h4>
+  <div class="markdown level1 summary"><p>Get all the scenes that are currently loading</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; LoadingScenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenedScenes_" data-uid="Surfer.SurferManager.OpenedScenes*"></a>
+  <h4 id="Surfer_SurferManager_OpenedScenes" data-uid="Surfer.SurferManager.OpenedScenes">OpenedScenes</h4>
+  <div class="markdown level1 summary"><p>Get all the currently opened scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; OpenedScenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenedStates_" data-uid="Surfer.SurferManager.OpenedStates*"></a>
+  <h4 id="Surfer_SurferManager_OpenedStates" data-uid="Surfer.SurferManager.OpenedStates">OpenedStates</h4>
+  <div class="markdown level1 summary"><p>Get all the currently opened states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;SUStateEventData&gt; OpenedStates { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Surfer.SUStateEventData.html">SUStateEventData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_SO_" data-uid="Surfer.SurferManager.SO*"></a>
+  <h4 id="Surfer_SurferManager_SO" data-uid="Surfer.SurferManager.SO">SO</h4>
+  <div class="markdown level1 summary"><p>Surfer Scriptable object that contains states and scenes list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SurferSO SO { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SurferSO.html">SurferSO</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnloadingScenes_" data-uid="Surfer.SurferManager.UnloadingScenes*"></a>
+  <h4 id="Surfer_SurferManager_UnloadingScenes" data-uid="Surfer.SurferManager.UnloadingScenes">UnloadingScenes</h4>
+  <div class="markdown level1 summary"><p>Get all the scenes that are currently unloading</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; UnloadingScenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Surfer_SurferManager_CloseState_" data-uid="Surfer.SurferManager.CloseState*"></a>
+  <h4 id="Surfer_SurferManager_CloseState_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.CloseState(System.String,System.Int32,System.Object[])">CloseState(String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state with a custom list of data and a version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseState(string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_CloseState_" data-uid="Surfer.SurferManager.CloseState*"></a>
+  <h4 id="Surfer_SurferManager_CloseState_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.CloseState(System.String,System.Int32,System.Single,System.Object[])">CloseState(String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state , with a specific delay,version and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseState(string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_CloseState_" data-uid="Surfer.SurferManager.CloseState*"></a>
+  <h4 id="Surfer_SurferManager_CloseState_System_String_System_Object___" data-uid="Surfer.SurferManager.CloseState(System.String,System.Object[])">CloseState(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseState(string state, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_FocusOnObject_" data-uid="Surfer.SurferManager.FocusOnObject*"></a>
+  <h4 id="Surfer_SurferManager_FocusOnObject_GameObject_" data-uid="Surfer.SurferManager.FocusOnObject(GameObject)">FocusOnObject(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Make the EventSystem focus on a particular gameObject by making it selected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FocusOnObject(GameObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to select/focus on</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_FocusOnObjectOrLast_" data-uid="Surfer.SurferManager.FocusOnObjectOrLast*"></a>
+  <h4 id="Surfer_SurferManager_FocusOnObjectOrLast_GameObject_" data-uid="Surfer.SurferManager.FocusOnObjectOrLast(GameObject)">FocusOnObjectOrLast(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Make the EventSystem focus on a particular gameObject by making it selected,
+if it was the last (or it will be the first) selected of his panel </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FocusOnObjectOrLast(GameObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to select/focus on</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_GetObjectState_" data-uid="Surfer.SurferManager.GetObjectState*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectState_GameObject_" data-uid="Surfer.SurferManager.GetObjectState(GameObject)">GetObjectState(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent state name of a game object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetObjectState(GameObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_GetObjectStateTransfom_" data-uid="Surfer.SurferManager.GetObjectStateTransfom*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectStateTransfom_GameObject_" data-uid="Surfer.SurferManager.GetObjectStateTransfom(GameObject)">GetObjectStateTransfom(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent state of a game object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GetObjectStateTransfom(GameObject obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_IsClosed_" data-uid="Surfer.SurferManager.IsClosed*"></a>
+  <h4 id="Surfer_SurferManager_IsClosed_System_String_" data-uid="Surfer.SurferManager.IsClosed(System.String)">IsClosed(String)</h4>
+  <div class="markdown level1 summary"><p>Check if a state has been just closed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsClosed(string state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>true if closed, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_IsMyStateOpen_" data-uid="Surfer.SurferManager.IsMyStateOpen*"></a>
+  <h4 id="Surfer_SurferManager_IsMyStateOpen_GameObject_System_Int32_" data-uid="Surfer.SurferManager.IsMyStateOpen(GameObject,System.Int32)">IsMyStateOpen(GameObject, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a state of an object is open or not</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMyStateOpen(GameObject caller, int version = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">caller</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>true if open, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_IsOpen_" data-uid="Surfer.SurferManager.IsOpen*"></a>
+  <h4 id="Surfer_SurferManager_IsOpen_System_String_System_Int32_" data-uid="Surfer.SurferManager.IsOpen(System.String,System.Int32)">IsOpen(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a state is open or not</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOpen(string state, int version = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>true if open, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_IsSatisfied_" data-uid="Surfer.SurferManager.IsSatisfied*"></a>
+  <h4 id="Surfer_SurferManager_IsSatisfied_System_String_GameObject_" data-uid="Surfer.SurferManager.IsSatisfied(System.String,GameObject)">IsSatisfied(String, GameObject)</h4>
+  <div class="markdown level1 summary"><p>Check if a specific condition is satisfied</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSatisfied(string conditionKey, GameObject go)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">conditionKey</span></td>
+        <td><p>Condition key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>true if satisfied, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_LoadScene_" data-uid="Surfer.SurferManager.LoadScene*"></a>
+  <h4 id="Surfer_SurferManager_LoadScene_System_String_System_Single_System_Boolean_" data-uid="Surfer.SurferManager.LoadScene(System.String,System.Single,System.Boolean)">LoadScene(String, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Load a specific scene after a specific delay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadScene(string name, float delay = 0F, bool additive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>scene name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">additive</span></td>
+        <td><p>additive mode or not?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_LoadSceneAsync_" data-uid="Surfer.SurferManager.LoadSceneAsync*"></a>
+  <h4 id="Surfer_SurferManager_LoadSceneAsync_System_String_System_Single_System_Boolean_System_Boolean_" data-uid="Surfer.SurferManager.LoadSceneAsync(System.String,System.Single,System.Boolean,System.Boolean)">LoadSceneAsync(String, Single, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Load a specific scene (async) after a specific delay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadSceneAsync(string name, float delay = 0F, bool additive = false, bool autoActivate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>scene name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">additive</span></td>
+        <td><p>additive mode or not?</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">autoActivate</span></td>
+        <td><p>autoActivate when loaded or not?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenPrefabState_" data-uid="Surfer.SurferManager.OpenPrefabState*"></a>
+  <h4 id="Surfer_SurferManager_OpenPrefabState_GameObject_Transform_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.OpenPrefabState(GameObject,Transform,System.Int32,System.Single,System.Object[])">OpenPrefabState(GameObject, Transform, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a prefab state , with a specific version, delay, custom list of data and in a specific parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPrefabState(GameObject prefab, Transform parent = null, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">prefab</span></td>
+        <td><p>state prefab</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>parent</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenState_" data-uid="Surfer.SurferManager.OpenState*"></a>
+  <h4 id="Surfer_SurferManager_OpenState_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.OpenState(System.String,System.Int32,System.Object[])">OpenState(String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific state , with a specific version and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenState(string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenState_" data-uid="Surfer.SurferManager.OpenState*"></a>
+  <h4 id="Surfer_SurferManager_OpenState_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.OpenState(System.String,System.Int32,System.Single,System.Object[])">OpenState(String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific state , with a specific version, delay and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenState(string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenState_" data-uid="Surfer.SurferManager.OpenState*"></a>
+  <h4 id="Surfer_SurferManager_OpenState_System_String_System_Object___" data-uid="Surfer.SurferManager.OpenState(System.String,System.Object[])">OpenState(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific state with a custom list of data. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenState(string state, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneActivated_" data-uid="Surfer.SurferManager.RegisterSceneActivated*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneActivated_Surfer_ISUSceneActivatedHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneActivated(Surfer.ISUSceneActivatedHandler,System.String[])">RegisterSceneActivated(ISUSceneActivatedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneActivated callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneActivated(ISUSceneActivatedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneDeactivated_" data-uid="Surfer.SurferManager.RegisterSceneDeactivated*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneDeactivated_Surfer_ISUSceneDeactivatedHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneDeactivated(Surfer.ISUSceneDeactivatedHandler,System.String[])">RegisterSceneDeactivated(ISUSceneDeactivatedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneDeactivated callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneDeactivated(ISUSceneDeactivatedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneLoaded_" data-uid="Surfer.SurferManager.RegisterSceneLoaded*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneLoaded_Surfer_ISUSceneLoadedHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneLoaded(Surfer.ISUSceneLoadedHandler,System.String[])">RegisterSceneLoaded(ISUSceneLoadedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneLoaded callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneLoaded(ISUSceneLoadedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneLoading_" data-uid="Surfer.SurferManager.RegisterSceneLoading*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneLoading_Surfer_ISUSceneLoadingHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneLoading(Surfer.ISUSceneLoadingHandler,System.String[])">RegisterSceneLoading(ISUSceneLoadingHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneLoading callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneLoading(ISUSceneLoadingHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneUnloaded_" data-uid="Surfer.SurferManager.RegisterSceneUnloaded*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneUnloaded_Surfer_ISUSceneUnloadedHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneUnloaded(Surfer.ISUSceneUnloadedHandler,System.String[])">RegisterSceneUnloaded(ISUSceneUnloadedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneUnloaded callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneUnloaded(ISUSceneUnloadedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterSceneUnloading_" data-uid="Surfer.SurferManager.RegisterSceneUnloading*"></a>
+  <h4 id="Surfer_SurferManager_RegisterSceneUnloading_Surfer_ISUSceneUnloadingHandler_System_String___" data-uid="Surfer.SurferManager.RegisterSceneUnloading(Surfer.ISUSceneUnloadingHandler,System.String[])">RegisterSceneUnloading(ISUSceneUnloadingHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the SceneUnloading callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterSceneUnloading(ISUSceneUnloadingHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterStateEnter_" data-uid="Surfer.SurferManager.RegisterStateEnter*"></a>
+  <h4 id="Surfer_SurferManager_RegisterStateEnter_Surfer_ISUStateEnterHandler_System_String___" data-uid="Surfer.SurferManager.RegisterStateEnter(Surfer.ISUStateEnterHandler,System.String[])">RegisterStateEnter(ISUStateEnterHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the StateEnter callback of specific states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStateEnter(ISUStateEnterHandler interf, params string[] statesID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">statesID</span></td>
+        <td><p>all the names of the states to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterStateExit_" data-uid="Surfer.SurferManager.RegisterStateExit*"></a>
+  <h4 id="Surfer_SurferManager_RegisterStateExit_Surfer_ISUStateExitHandler_System_String___" data-uid="Surfer.SurferManager.RegisterStateExit(Surfer.ISUStateExitHandler,System.String[])">RegisterStateExit(ISUStateExitHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the StateExit callback of specific states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStateExit(ISUStateExitHandler interf, params string[] statesID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">statesID</span></td>
+        <td><p>all the names of the states to register to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ResetStateHistoryFocus_" data-uid="Surfer.SurferManager.ResetStateHistoryFocus*"></a>
+  <h4 id="Surfer_SurferManager_ResetStateHistoryFocus_System_String_" data-uid="Surfer.SurferManager.ResetStateHistoryFocus(System.String)">ResetStateHistoryFocus(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetStateHistoryFocus(string stateName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">stateName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_SetActiveScene_" data-uid="Surfer.SurferManager.SetActiveScene*"></a>
+  <h4 id="Surfer_SurferManager_SetActiveScene_System_String_System_Single_" data-uid="Surfer.SurferManager.SetActiveScene(System.String,System.Single)">SetActiveScene(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Set a specific scene as active after a specific delay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActiveScene(string name, float delay = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>scene name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ToggleState_" data-uid="Surfer.SurferManager.ToggleState*"></a>
+  <h4 id="Surfer_SurferManager_ToggleState_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.ToggleState(System.String,System.Int32,System.Object[])">ToggleState(String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Toggle a specific state with a specific version and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleState(string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ToggleState_" data-uid="Surfer.SurferManager.ToggleState*"></a>
+  <h4 id="Surfer_SurferManager_ToggleState_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.ToggleState(System.String,System.Int32,System.Single,System.Object[])">ToggleState(String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Toggle a specific state with a specific version,delay and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleState(string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnloadSceneAsync_" data-uid="Surfer.SurferManager.UnloadSceneAsync*"></a>
+  <h4 id="Surfer_SurferManager_UnloadSceneAsync_System_String_System_Single_" data-uid="Surfer.SurferManager.UnloadSceneAsync(System.String,System.Single)">UnloadSceneAsync(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Unload a specific scene after a specific delay</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnloadSceneAsync(string name, float delay = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>scene name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td><p>delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneActivated_" data-uid="Surfer.SurferManager.UnregisterSceneActivated*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneActivated_Surfer_ISUSceneActivatedHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneActivated(Surfer.ISUSceneActivatedHandler,System.String[])">UnregisterSceneActivated(ISUSceneActivatedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneActivated callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneActivated(ISUSceneActivatedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneDeactivated_" data-uid="Surfer.SurferManager.UnregisterSceneDeactivated*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneDeactivated_Surfer_ISUSceneDeactivatedHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneDeactivated(Surfer.ISUSceneDeactivatedHandler,System.String[])">UnregisterSceneDeactivated(ISUSceneDeactivatedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneDeactivated callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneDeactivated(ISUSceneDeactivatedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneLoaded_" data-uid="Surfer.SurferManager.UnregisterSceneLoaded*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneLoaded_Surfer_ISUSceneLoadedHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneLoaded(Surfer.ISUSceneLoadedHandler,System.String[])">UnregisterSceneLoaded(ISUSceneLoadedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneLoaded callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneLoaded(ISUSceneLoadedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneLoading_" data-uid="Surfer.SurferManager.UnregisterSceneLoading*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneLoading_Surfer_ISUSceneLoadingHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneLoading(Surfer.ISUSceneLoadingHandler,System.String[])">UnregisterSceneLoading(ISUSceneLoadingHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneLoading callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneLoading(ISUSceneLoadingHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneUnloaded_" data-uid="Surfer.SurferManager.UnregisterSceneUnloaded*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneUnloaded_Surfer_ISUSceneUnloadedHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneUnloaded(Surfer.ISUSceneUnloadedHandler,System.String[])">UnregisterSceneUnloaded(ISUSceneUnloadedHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneUnloaded callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneUnloaded(ISUSceneUnloadedHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterSceneUnloading_" data-uid="Surfer.SurferManager.UnregisterSceneUnloading*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterSceneUnloading_Surfer_ISUSceneUnloadingHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterSceneUnloading(Surfer.ISUSceneUnloadingHandler,System.String[])">UnregisterSceneUnloading(ISUSceneUnloadingHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the SceneUnloading callback of specific scenes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterSceneUnloading(ISUSceneUnloadingHandler interf, params string[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td><p>all the names of the scenes to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterStateEnter_" data-uid="Surfer.SurferManager.UnregisterStateEnter*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterStateEnter_Surfer_ISUStateEnterHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterStateEnter(Surfer.ISUStateEnterHandler,System.String[])">UnregisterStateEnter(ISUStateEnterHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the StateEnter callback of specific states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterStateEnter(ISUStateEnterHandler interf, params string[] statesID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">statesID</span></td>
+        <td><p>all the names of the states to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterStateExit_" data-uid="Surfer.SurferManager.UnregisterStateExit*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterStateExit_Surfer_ISUStateExitHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterStateExit(Surfer.ISUStateExitHandler,System.String[])">UnregisterStateExit(ISUStateExitHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unegister to the StateExit callback of specific states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterStateExit(ISUStateExitHandler interf, params string[] statesID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">statesID</span></td>
+        <td><p>all the names of the states to unregister to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Surfer Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
