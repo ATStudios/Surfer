@@ -1,848 +1,854 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.DoxygenConfig.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.DoxygenConfig.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.DoxygenWindow.WindowModes.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.DoxygenWindow.WindowModes.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.DoxygenWindow.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.DoxygenWindow.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.DoxyRunner.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.DoxyRunner.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.DoxyThreadSafeOutput.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.DoxyThreadSafeOutput.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.SUSettingsRegister.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.SUSettingsRegister.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.testbtn.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.testbtn.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.testscroll.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.testscroll.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Global.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Global.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ConditionChecks.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ConditionChecks.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.FuncInput.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.FuncInput.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ILastStateSelectionHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ILastStateSelectionHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.IResetLastStateSelectionHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.IResetLastStateSelectionHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneActivatedHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneActivatedHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneDeactivatedHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneDeactivatedHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneLoadedHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneLoadedHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneLoadingHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneLoadingHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneUnloadedHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneUnloadedHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUSceneUnloadingHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneUnloadingHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUStateEnterHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUStateEnterHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ISUStateExitHandler.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUStateExitHandler.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.PathFunc.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.PathFunc.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.ScenesDictionary.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ScenesDictionary.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SerializableDictionary-2.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SerializableDictionary-2.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SerializedPropertyExtensions.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SerializedPropertyExtensions.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.StatesDictionary.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.StatesDictionary.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAction.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAction.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUActionData.SUAction_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.SUAction_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUActionData.SUPrefabParent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.SUPrefabParent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUActionData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUActionDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationData.DelayMode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.DelayMode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationData.EndMode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.EndMode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationData.StartMode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.StartMode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimationsData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationsData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUAnimatorEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimatorEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUBaseUIEvent.SUBaseEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBaseUIEvent.SUBaseEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUBaseUIEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBaseUIEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUBehaviourData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBehaviourData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUBehavioursData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBehavioursData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUCGroupData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCGroupData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUColorData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUColorData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUConditionData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUConditionDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUConditionsData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionsData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUConditionsDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionsDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUDropdownBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUDropdownBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElement.DictEvents.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElement.DictEvents.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElement.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElement.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElementData.StateCloseMode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.StateCloseMode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElementData.Type_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.Type_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElementData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElementDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUElementEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUEvent.Type_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEvent.Type_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUEventDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEventDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastConditionData.Type_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionData.Type_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastConditionData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastConditionDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastConditionsData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionsData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastConditionsDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionsDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastReactionData.Type_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionData.Type_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastReactionData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastReactionDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastReactionsData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionsData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUFastReactionsDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionsDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUGroupStateUI.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGroupStateUI.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUGroupStateUIEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGroupStateUIEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUHierarchyMonitor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHierarchyMonitor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUInputBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUInputBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUInputFieldBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUInputFieldBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUJumpData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUJumpData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUJumpDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUJumpDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SULastSelectionEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SULastSelectionEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SULoadingProgress.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SULoadingProgress.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUPosition.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPosition.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUProgressData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUProgressData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUProgressDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUProgressDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUPunchData.Mode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchData.Mode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUPunchData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUPunchDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SURectSizeData.Mode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeData.Mode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SURectSizeData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SURectSizeDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SurferHelper.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferHelper.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SurferManager.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferManager.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SurferSO.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferSO.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SURotationData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SURotationData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScaleData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScaleData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneActivatedEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneActivatedEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneDeactivatedEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneDeactivatedEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneEvent.SUSceneEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneEvent.SUSceneEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneEventEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneEventEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneLoadedEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneLoadedEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneLoadingEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneLoadingEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScenesData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScenesData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScenesDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScenesDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneUnloadedEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneUnloadedEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSceneUnloadingEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneUnloadingEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScreenAnimationData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScreenAnimationData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScreenAnimationDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScreenAnimationDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUScrollBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScrollBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUShakeData.Mode_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeData.Mode_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUShakeData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUShakeDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSliderBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSliderBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSliderEvent.SUSliderEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSliderEvent.SUSliderEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUSliderEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSliderEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedAnimation.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedAnimation.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedAnimationEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedAnimationEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedFocus.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedFocus.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedInput.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedInput.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedReaction.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedReaction.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedReactionEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedReactionEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatedVisibility.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatedVisibility.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateEvent.SUStateEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateEvent.SUStateEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateEventData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateEventData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateEventEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateEventEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatesData.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatesData.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStatesDataDrawer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatesDataDrawer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateUI.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateUI.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUStateUIEditor.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateUIEditor.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUToggleBehaviour.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUToggleBehaviour.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUToggleEvent.SUToggleEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUToggleEvent.SUToggleEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUToggleEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUToggleEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUToolsMenu.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUToolsMenu.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUTriggerEvent.SUTriggerEvent_ID.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUTriggerEvent.SUTriggerEvent_ID.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.SUTriggerEvent.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUTriggerEvent.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/api/Surfer.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/manual/coniunctis.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/index.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://atstudios.github.io/DocFxForUnity/manual/etiam.html</loc>
-    <lastmod>2021-05-04T08:51:07+02:00</lastmod>
+    <loc>https://atstudios.github.io/Surfer/manual/coniunctis.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/manual/etiam.html</loc>
+    <lastmod>2021-05-04T09:59:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

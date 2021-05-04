@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://atstudios.github.io/DocFxForUnity/",
+        "baseUrl": "https://atstudios.github.io/Surfer/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://atstudios.github.io/DocFxForUnity/",
+    "baseUrl": "https://atstudios.github.io/Surfer/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -1704,6 +1704,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ufFdBCQnLIwlM/062ahUL8cGns4mcpOS4KHcdtqYo+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/coniunctis.md",
       "output": {
         ".html": {
@@ -1776,23 +1788,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 139,
-          "skipped_file_count": 124
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
