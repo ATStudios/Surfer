@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SUElement
+   | Surfer Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SUElement
+   | Surfer Unity documentation ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Surfer.SUElement">
+  
+  
+  <h1 id="Surfer_SUElement" data-uid="Surfer.SUElement" class="text-break">Class SUElement
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SUElement</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
+    <div><span class="xref">IPointerDownHandler</span></div>
+    <div><span class="xref">IPointerUpHandler</span></div>
+    <div><span class="xref">IPointerEnterHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
+    <div><span class="xref">ISelectHandler</span></div>
+    <div><span class="xref">IDeselectHandler</span></div>
+    <div><a class="xref" href="Surfer.ILastStateSelectionHandler.html">ILastStateSelectionHandler</a></div>
+    <div><span class="xref">ISubmitHandler</span></div>
+    <div><a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Surfer_SUElement_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ILastStateSelectionHandler, ISubmitHandler, IResetLastStateSelectionHandler</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Surfer_SUElement_Behaviours_" data-uid="Surfer.SUElement.Behaviours*"></a>
+  <h4 id="Surfer_SUElement_Behaviours" data-uid="Surfer.SUElement.Behaviours">Behaviours</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUBehavioursData Behaviours { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUBehavioursData.html">SUBehavioursData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_ElementData_" data-uid="Surfer.SUElement.ElementData*"></a>
+  <h4 id="Surfer_SUElement_ElementData" data-uid="Surfer.SUElement.ElementData">ElementData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUElementData ElementData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_Events_" data-uid="Surfer.SUElement.Events*"></a>
+  <h4 id="Surfer_SUElement_Events" data-uid="Surfer.SUElement.Events">Events</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUElement.DictEvents Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElement.DictEvents.html">SUElement.DictEvents</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_IsState_" data-uid="Surfer.SUElement.IsState*"></a>
+  <h4 id="Surfer_SUElement_IsState" data-uid="Surfer.SUElement.IsState">IsState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Surfer_SUElement_OnBecomeLastStateSelection_" data-uid="Surfer.SUElement.OnBecomeLastStateSelection*"></a>
+  <h4 id="Surfer_SUElement_OnBecomeLastStateSelection_Surfer_SULastSelectionEventData_" data-uid="Surfer.SUElement.OnBecomeLastStateSelection(Surfer.SULastSelectionEventData)">OnBecomeLastStateSelection(SULastSelectionEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBecomeLastStateSelection(SULastSelectionEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SULastSelectionEventData.html">SULastSelectionEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnDeselect_" data-uid="Surfer.SUElement.OnDeselect*"></a>
+  <h4 id="Surfer_SUElement_OnDeselect_BaseEventData_" data-uid="Surfer.SUElement.OnDeselect(BaseEventData)">OnDeselect(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDeselect(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnPointerClick_" data-uid="Surfer.SUElement.OnPointerClick*"></a>
+  <h4 id="Surfer_SUElement_OnPointerClick_PointerEventData_" data-uid="Surfer.SUElement.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnPointerDown_" data-uid="Surfer.SUElement.OnPointerDown*"></a>
+  <h4 id="Surfer_SUElement_OnPointerDown_PointerEventData_" data-uid="Surfer.SUElement.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnPointerEnter_" data-uid="Surfer.SUElement.OnPointerEnter*"></a>
+  <h4 id="Surfer_SUElement_OnPointerEnter_PointerEventData_" data-uid="Surfer.SUElement.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnPointerExit_" data-uid="Surfer.SUElement.OnPointerExit*"></a>
+  <h4 id="Surfer_SUElement_OnPointerExit_PointerEventData_" data-uid="Surfer.SUElement.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnPointerUp_" data-uid="Surfer.SUElement.OnPointerUp*"></a>
+  <h4 id="Surfer_SUElement_OnPointerUp_PointerEventData_" data-uid="Surfer.SUElement.OnPointerUp(PointerEventData)">OnPointerUp(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerUp(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnResetLastStateSelection_" data-uid="Surfer.SUElement.OnResetLastStateSelection*"></a>
+  <h4 id="Surfer_SUElement_OnResetLastStateSelection" data-uid="Surfer.SUElement.OnResetLastStateSelection">OnResetLastStateSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnResetLastStateSelection()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_OnSelect_" data-uid="Surfer.SUElement.OnSelect*"></a>
+  <h4 id="Surfer_SUElement_OnSelect_BaseEventData_" data-uid="Surfer.SUElement.OnSelect(BaseEventData)">OnSelect(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelect(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSubmit_" data-uid="Surfer.SUElement.OnSubmit*"></a>
+  <h4 id="Surfer_SUElement_OnSubmit_BaseEventData_" data-uid="Surfer.SUElement.OnSubmit(BaseEventData)">OnSubmit(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSubmit(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneActivated_" data-uid="Surfer.SUElement.OnSUSceneActivated*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneActivated_Surfer_SUSceneActivatedEventData_" data-uid="Surfer.SUElement.OnSUSceneActivated(Surfer.SUSceneActivatedEventData)">OnSUSceneActivated(SUSceneActivatedEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneActivated(SUSceneActivatedEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneActivatedEventData.html">SUSceneActivatedEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneDeactivated_" data-uid="Surfer.SUElement.OnSUSceneDeactivated*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneDeactivated_Surfer_SUSceneDeactivatedEventData_" data-uid="Surfer.SUElement.OnSUSceneDeactivated(Surfer.SUSceneDeactivatedEventData)">OnSUSceneDeactivated(SUSceneDeactivatedEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneDeactivated(SUSceneDeactivatedEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneDeactivatedEventData.html">SUSceneDeactivatedEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneLoaded_" data-uid="Surfer.SUElement.OnSUSceneLoaded*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneLoaded_Surfer_SUSceneLoadedEventData_" data-uid="Surfer.SUElement.OnSUSceneLoaded(Surfer.SUSceneLoadedEventData)">OnSUSceneLoaded(SUSceneLoadedEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneLoaded(SUSceneLoadedEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneLoadedEventData.html">SUSceneLoadedEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneLoading_" data-uid="Surfer.SUElement.OnSUSceneLoading*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneLoading_Surfer_SUSceneLoadingEventData_" data-uid="Surfer.SUElement.OnSUSceneLoading(Surfer.SUSceneLoadingEventData)">OnSUSceneLoading(SUSceneLoadingEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneLoading(SUSceneLoadingEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneLoadingEventData.html">SUSceneLoadingEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneUnloaded_" data-uid="Surfer.SUElement.OnSUSceneUnloaded*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneUnloaded_Surfer_SUSceneUnloadedEventData_" data-uid="Surfer.SUElement.OnSUSceneUnloaded(Surfer.SUSceneUnloadedEventData)">OnSUSceneUnloaded(SUSceneUnloadedEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneUnloaded(SUSceneUnloadedEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneUnloadedEventData.html">SUSceneUnloadedEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUSceneUnloading_" data-uid="Surfer.SUElement.OnSUSceneUnloading*"></a>
+  <h4 id="Surfer_SUElement_OnSUSceneUnloading_Surfer_SUSceneUnloadingEventData_" data-uid="Surfer.SUElement.OnSUSceneUnloading(Surfer.SUSceneUnloadingEventData)">OnSUSceneUnloading(SUSceneUnloadingEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUSceneUnloading(SUSceneUnloadingEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUSceneUnloadingEventData.html">SUSceneUnloadingEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUStateEnter_" data-uid="Surfer.SUElement.OnSUStateEnter*"></a>
+  <h4 id="Surfer_SUElement_OnSUStateEnter_Surfer_SUStateEventData_" data-uid="Surfer.SUElement.OnSUStateEnter(Surfer.SUStateEventData)">OnSUStateEnter(SUStateEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUStateEnter(SUStateEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUStateEventData.html">SUStateEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUStateExit_" data-uid="Surfer.SUElement.OnSUStateExit*"></a>
+  <h4 id="Surfer_SUElement_OnSUStateExit_Surfer_SUStateEventData_" data-uid="Surfer.SUElement.OnSUStateExit(Surfer.SUStateEventData)">OnSUStateExit(SUStateEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUStateExit(SUStateEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUStateEventData.html">SUStateEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_RunEventBehaviour_" data-uid="Surfer.SUElement.RunEventBehaviour*"></a>
+  <h4 id="Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_" data-uid="Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)">RunEventBehaviour(SUEvent.Type_ID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunEventBehaviour(SUEvent.Type_ID eventID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a></td>
+        <td><span class="parametername">eventID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_RunEventBehaviourParams_" data-uid="Surfer.SUElement.RunEventBehaviourParams*"></a>
+  <h4 id="Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_" data-uid="Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)">RunEventBehaviourParams(SUEvent.Type_ID, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunEventBehaviourParams(SUEvent.Type_ID eventID, string stringVal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a></td>
+        <td><span class="parametername">eventID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">stringVal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerEnterHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
+  </div>
+  <div>
+      <span class="xref">ISelectHandler</span>
+  </div>
+  <div>
+      <span class="xref">IDeselectHandler</span>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ILastStateSelectionHandler.html">ILastStateSelectionHandler</a>
+  </div>
+  <div>
+      <span class="xref">ISubmitHandler</span>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Surfer Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
