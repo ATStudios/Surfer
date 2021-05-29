@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SUProgressDataDrawer
+    <title>Struct PathAction
    | Surfer Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SUProgressDataDrawer
+    <meta name="title" content="Struct PathAction
    | Surfer Unity documentation ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,35 +78,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SUProgressDataDrawer">
+            <article class="content wrap" id="_content" data-uid="Surfer.PathAction">
   
   
-  <h1 id="Surfer_SUProgressDataDrawer" data-uid="Surfer.SUProgressDataDrawer" class="text-break">Class SUProgressDataDrawer
+  <h1 id="Surfer_PathAction" data-uid="Surfer.PathAction" class="text-break">Struct PathAction
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Data to store reaction name/path and runtime logic</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SUProgressDataDrawer</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SUProgressDataDrawer_syntax">Syntax</h5>
+  <h5 id="Surfer_PathAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUProgressDataDrawer : PropertyDrawer</code></pre>
+    <pre><code class="lang-csharp hljs">public struct PathAction</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Surfer_SUProgressDataDrawer_GetPropertyHeight_" data-uid="Surfer.SUProgressDataDrawer.GetPropertyHeight*"></a>
-  <h4 id="Surfer_SUProgressDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_" data-uid="Surfer.SUProgressDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)">GetPropertyHeight(SerializedProperty, GUIContent)</h4>
+  <a id="Surfer_PathAction__ctor_" data-uid="Surfer.PathAction.#ctor*"></a>
+  <h4 id="Surfer_PathAction__ctor_System_String_System_Action_Surfer_FuncInput__" data-uid="Surfer.PathAction.#ctor(System.String,System.Action{Surfer.FuncInput})">PathAction(String, Action&lt;FuncInput&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override float GetPropertyHeight(SerializedProperty property, GUIContent label)</code></pre>
+    <pre><code class="lang-csharp hljs">public PathAction(string path, Action&lt;FuncInput&gt; act)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,65 +115,65 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SerializedProperty</span></td>
-        <td><span class="parametername">property</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">GUIContent</span></td>
-        <td><span class="parametername">label</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Surfer.FuncInput.html">FuncInput</a>&gt;</td>
+        <td><span class="parametername">act</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   
   
-  <a id="Surfer_SUProgressDataDrawer_OnGUI_" data-uid="Surfer.SUProgressDataDrawer.OnGUI*"></a>
-  <h4 id="Surfer_SUProgressDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_" data-uid="Surfer.SUProgressDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)">OnGUI(Rect, SerializedProperty, GUIContent)</h4>
+  <a id="Surfer_PathAction_Action_" data-uid="Surfer.PathAction.Action*"></a>
+  <h4 id="Surfer_PathAction_Action" data-uid="Surfer.PathAction.Action">Action</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;FuncInput&gt; Action { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Rect</span></td>
-        <td><span class="parametername">position</span></td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Surfer.FuncInput.html">FuncInput</a>&gt;</td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_PathAction_Path_" data-uid="Surfer.PathAction.Path*"></a>
+  <h4 id="Surfer_PathAction_Path" data-uid="Surfer.PathAction.Path">Path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Path { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">SerializedProperty</span></td>
-        <td><span class="parametername">property</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><span class="xref">GUIContent</span></td>
-        <td><span class="parametername">label</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

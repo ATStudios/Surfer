@@ -1,460 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Global
-  name: Global
-  href: api/Global.html
-  name.vb: ''
-  fullName: Global
-  fullName.vb: ''
-  nameWithType: Global
-  nameWithType.vb: ''
-- uid: Global.DoxygenConfig
-  name: DoxygenConfig
-  href: api/Global.DoxygenConfig.html
-  commentId: T:Global.DoxygenConfig
-  fullName: DoxygenConfig
-  nameWithType: DoxygenConfig
-- uid: Global.DoxygenConfig.DocDirectory
-  name: DocDirectory
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_DocDirectory
-  commentId: F:Global.DoxygenConfig.DocDirectory
-  fullName: DoxygenConfig.DocDirectory
-  nameWithType: DoxygenConfig.DocDirectory
-- uid: Global.DoxygenConfig.PathtoDoxygen
-  name: PathtoDoxygen
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_PathtoDoxygen
-  commentId: F:Global.DoxygenConfig.PathtoDoxygen
-  fullName: DoxygenConfig.PathtoDoxygen
-  nameWithType: DoxygenConfig.PathtoDoxygen
-- uid: Global.DoxygenConfig.Project
-  name: Project
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_Project
-  commentId: F:Global.DoxygenConfig.Project
-  fullName: DoxygenConfig.Project
-  nameWithType: DoxygenConfig.Project
-- uid: Global.DoxygenConfig.ScriptsDirectory
-  name: ScriptsDirectory
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_ScriptsDirectory
-  commentId: F:Global.DoxygenConfig.ScriptsDirectory
-  fullName: DoxygenConfig.ScriptsDirectory
-  nameWithType: DoxygenConfig.ScriptsDirectory
-- uid: Global.DoxygenConfig.Synopsis
-  name: Synopsis
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_Synopsis
-  commentId: F:Global.DoxygenConfig.Synopsis
-  fullName: DoxygenConfig.Synopsis
-  nameWithType: DoxygenConfig.Synopsis
-- uid: Global.DoxygenConfig.Version
-  name: Version
-  href: api/Global.DoxygenConfig.html#Global_DoxygenConfig_Version
-  commentId: F:Global.DoxygenConfig.Version
-  fullName: DoxygenConfig.Version
-  nameWithType: DoxygenConfig.Version
-- uid: Global.DoxygenWindow
-  name: DoxygenWindow
-  href: api/Global.DoxygenWindow.html
-  commentId: T:Global.DoxygenWindow
-  fullName: DoxygenWindow
-  nameWithType: DoxygenWindow
-- uid: Global.DoxygenWindow.AssestsFolder
-  name: AssestsFolder
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_AssestsFolder
-  commentId: F:Global.DoxygenWindow.AssestsFolder
-  fullName: DoxygenWindow.AssestsFolder
-  nameWithType: DoxygenWindow.AssestsFolder
-- uid: Global.DoxygenWindow.BaseFileString
-  name: BaseFileString
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_BaseFileString
-  commentId: F:Global.DoxygenWindow.BaseFileString
-  fullName: DoxygenWindow.BaseFileString
-  nameWithType: DoxygenWindow.BaseFileString
-- uid: Global.DoxygenWindow.CurentOutput
-  name: CurentOutput
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_CurentOutput
-  commentId: F:Global.DoxygenWindow.CurentOutput
-  fullName: DoxygenWindow.CurentOutput
-  nameWithType: DoxygenWindow.CurentOutput
-- uid: Global.DoxygenWindow.DoxygenOutputString
-  name: DoxygenOutputString
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_DoxygenOutputString
-  commentId: F:Global.DoxygenWindow.DoxygenOutputString
-  fullName: DoxygenWindow.DoxygenOutputString
-  nameWithType: DoxygenWindow.DoxygenOutputString
-- uid: Global.DoxygenWindow.Init
-  name: Init()
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_Init
-  commentId: M:Global.DoxygenWindow.Init
-  fullName: DoxygenWindow.Init()
-  nameWithType: DoxygenWindow.Init()
-- uid: Global.DoxygenWindow.Init*
-  name: Init
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_Init_
-  commentId: Overload:Global.DoxygenWindow.Init
-  isSpec: "True"
-  fullName: DoxygenWindow.Init
-  nameWithType: DoxygenWindow.Init
-- uid: Global.DoxygenWindow.Instance
-  name: Instance
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_Instance
-  commentId: F:Global.DoxygenWindow.Instance
-  fullName: DoxygenWindow.Instance
-  nameWithType: DoxygenWindow.Instance
-- uid: Global.DoxygenWindow.MakeNewDoxyFile(DoxygenConfig)
-  name: MakeNewDoxyFile(DoxygenConfig)
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_MakeNewDoxyFile_DoxygenConfig_
-  commentId: M:Global.DoxygenWindow.MakeNewDoxyFile(DoxygenConfig)
-  fullName: DoxygenWindow.MakeNewDoxyFile(DoxygenConfig)
-  nameWithType: DoxygenWindow.MakeNewDoxyFile(DoxygenConfig)
-- uid: Global.DoxygenWindow.MakeNewDoxyFile*
-  name: MakeNewDoxyFile
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_MakeNewDoxyFile_
-  commentId: Overload:Global.DoxygenWindow.MakeNewDoxyFile
-  isSpec: "True"
-  fullName: DoxygenWindow.MakeNewDoxyFile
-  nameWithType: DoxygenWindow.MakeNewDoxyFile
-- uid: Global.DoxygenWindow.OnDoxygenFinished(System.Int32)
-  name: OnDoxygenFinished(Int32)
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_OnDoxygenFinished_System_Int32_
-  commentId: M:Global.DoxygenWindow.OnDoxygenFinished(System.Int32)
-  fullName: DoxygenWindow.OnDoxygenFinished(System.Int32)
-  nameWithType: DoxygenWindow.OnDoxygenFinished(Int32)
-- uid: Global.DoxygenWindow.OnDoxygenFinished*
-  name: OnDoxygenFinished
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_OnDoxygenFinished_
-  commentId: Overload:Global.DoxygenWindow.OnDoxygenFinished
-  isSpec: "True"
-  fullName: DoxygenWindow.OnDoxygenFinished
-  nameWithType: DoxygenWindow.OnDoxygenFinished
-- uid: Global.DoxygenWindow.readBaseConfig
-  name: readBaseConfig()
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_readBaseConfig
-  commentId: M:Global.DoxygenWindow.readBaseConfig
-  fullName: DoxygenWindow.readBaseConfig()
-  nameWithType: DoxygenWindow.readBaseConfig()
-- uid: Global.DoxygenWindow.readBaseConfig*
-  name: readBaseConfig
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_readBaseConfig_
-  commentId: Overload:Global.DoxygenWindow.readBaseConfig
-  isSpec: "True"
-  fullName: DoxygenWindow.readBaseConfig
-  nameWithType: DoxygenWindow.readBaseConfig
-- uid: Global.DoxygenWindow.RunDoxygen
-  name: RunDoxygen()
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_RunDoxygen
-  commentId: M:Global.DoxygenWindow.RunDoxygen
-  fullName: DoxygenWindow.RunDoxygen()
-  nameWithType: DoxygenWindow.RunDoxygen()
-- uid: Global.DoxygenWindow.RunDoxygen*
-  name: RunDoxygen
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_RunDoxygen_
-  commentId: Overload:Global.DoxygenWindow.RunDoxygen
-  isSpec: "True"
-  fullName: DoxygenWindow.RunDoxygen
-  nameWithType: DoxygenWindow.RunDoxygen
-- uid: Global.DoxygenWindow.SelectedTheme
-  name: SelectedTheme
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_SelectedTheme
-  commentId: F:Global.DoxygenWindow.SelectedTheme
-  fullName: DoxygenWindow.SelectedTheme
-  nameWithType: DoxygenWindow.SelectedTheme
-- uid: Global.DoxygenWindow.Themes
-  name: Themes
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_Themes
-  commentId: F:Global.DoxygenWindow.Themes
-  fullName: DoxygenWindow.Themes
-  nameWithType: DoxygenWindow.Themes
-- uid: Global.DoxygenWindow.UnityProjectID
-  name: UnityProjectID
-  href: api/Global.DoxygenWindow.html#Global_DoxygenWindow_UnityProjectID
-  commentId: F:Global.DoxygenWindow.UnityProjectID
-  fullName: DoxygenWindow.UnityProjectID
-  nameWithType: DoxygenWindow.UnityProjectID
-- uid: Global.DoxygenWindow.WindowModes
-  name: DoxygenWindow.WindowModes
-  href: api/Global.DoxygenWindow.WindowModes.html
-  commentId: T:Global.DoxygenWindow.WindowModes
-  fullName: DoxygenWindow.WindowModes
-  nameWithType: DoxygenWindow.WindowModes
-- uid: Global.DoxygenWindow.WindowModes.About
-  name: About
-  href: api/Global.DoxygenWindow.WindowModes.html#Global_DoxygenWindow_WindowModes_About
-  commentId: F:Global.DoxygenWindow.WindowModes.About
-  fullName: DoxygenWindow.WindowModes.About
-  nameWithType: DoxygenWindow.WindowModes.About
-- uid: Global.DoxygenWindow.WindowModes.Configuration
-  name: Configuration
-  href: api/Global.DoxygenWindow.WindowModes.html#Global_DoxygenWindow_WindowModes_Configuration
-  commentId: F:Global.DoxygenWindow.WindowModes.Configuration
-  fullName: DoxygenWindow.WindowModes.Configuration
-  nameWithType: DoxygenWindow.WindowModes.Configuration
-- uid: Global.DoxygenWindow.WindowModes.Generate
-  name: Generate
-  href: api/Global.DoxygenWindow.WindowModes.html#Global_DoxygenWindow_WindowModes_Generate
-  commentId: F:Global.DoxygenWindow.WindowModes.Generate
-  fullName: DoxygenWindow.WindowModes.Generate
-  nameWithType: DoxygenWindow.WindowModes.Generate
-- uid: Global.DoxyRunner
-  name: DoxyRunner
-  href: api/Global.DoxyRunner.html
-  commentId: T:Global.DoxyRunner
-  fullName: DoxyRunner
-  nameWithType: DoxyRunner
-- uid: Global.DoxyRunner.#ctor(System.String,System.String[],DoxyThreadSafeOutput,Action{System.Int32})
-  name: DoxyRunner(String, String[], DoxyThreadSafeOutput, Action<Int32>)
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner__ctor_System_String_System_String___DoxyThreadSafeOutput_Action_System_Int32__
-  commentId: M:Global.DoxyRunner.#ctor(System.String,System.String[],DoxyThreadSafeOutput,Action{System.Int32})
-  name.vb: DoxyRunner(String, String(), DoxyThreadSafeOutput, Action(Of Int32))
-  fullName: DoxyRunner.DoxyRunner(System.String, System.String[], DoxyThreadSafeOutput, Action<System.Int32>)
-  fullName.vb: DoxyRunner.DoxyRunner(System.String, System.String(), DoxyThreadSafeOutput, Action(Of System.Int32))
-  nameWithType: DoxyRunner.DoxyRunner(String, String[], DoxyThreadSafeOutput, Action<Int32>)
-  nameWithType.vb: DoxyRunner.DoxyRunner(String, String(), DoxyThreadSafeOutput, Action(Of Int32))
-- uid: Global.DoxyRunner.#ctor*
-  name: DoxyRunner
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner__ctor_
-  commentId: Overload:Global.DoxyRunner.#ctor
-  isSpec: "True"
-  fullName: DoxyRunner.DoxyRunner
-  nameWithType: DoxyRunner.DoxyRunner
-- uid: Global.DoxyRunner.Args
-  name: Args
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_Args
-  commentId: F:Global.DoxyRunner.Args
-  fullName: DoxyRunner.Args
-  nameWithType: DoxyRunner.Args
-- uid: Global.DoxyRunner.EscapeArguments(System.String[])
-  name: EscapeArguments(String[])
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_EscapeArguments_System_String___
-  commentId: M:Global.DoxyRunner.EscapeArguments(System.String[])
-  name.vb: EscapeArguments(String())
-  fullName: DoxyRunner.EscapeArguments(System.String[])
-  fullName.vb: DoxyRunner.EscapeArguments(System.String())
-  nameWithType: DoxyRunner.EscapeArguments(String[])
-  nameWithType.vb: DoxyRunner.EscapeArguments(String())
-- uid: Global.DoxyRunner.EscapeArguments*
-  name: EscapeArguments
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_EscapeArguments_
-  commentId: Overload:Global.DoxyRunner.EscapeArguments
-  isSpec: "True"
-  fullName: DoxyRunner.EscapeArguments
-  nameWithType: DoxyRunner.EscapeArguments
-- uid: Global.DoxyRunner.EXE
-  name: EXE
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_EXE
-  commentId: F:Global.DoxyRunner.EXE
-  fullName: DoxyRunner.EXE
-  nameWithType: DoxyRunner.EXE
-- uid: Global.DoxyRunner.FindExePath(System.String)
-  name: FindExePath(String)
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_FindExePath_System_String_
-  commentId: M:Global.DoxyRunner.FindExePath(System.String)
-  fullName: DoxyRunner.FindExePath(System.String)
-  nameWithType: DoxyRunner.FindExePath(String)
-- uid: Global.DoxyRunner.FindExePath*
-  name: FindExePath
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_FindExePath_
-  commentId: Overload:Global.DoxyRunner.FindExePath
-  isSpec: "True"
-  fullName: DoxyRunner.FindExePath
-  nameWithType: DoxyRunner.FindExePath
-- uid: Global.DoxyRunner.onCompleteCallBack
-  name: onCompleteCallBack
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_onCompleteCallBack
-  commentId: F:Global.DoxyRunner.onCompleteCallBack
-  fullName: DoxyRunner.onCompleteCallBack
-  nameWithType: DoxyRunner.onCompleteCallBack
-- uid: Global.DoxyRunner.Run(Action{System.String},TextReader,System.String,System.String[])
-  name: Run(Action<String>, TextReader, String, String[])
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_Run_Action_System_String__TextReader_System_String_System_String___
-  commentId: M:Global.DoxyRunner.Run(Action{System.String},TextReader,System.String,System.String[])
-  name.vb: Run(Action(Of String), TextReader, String, String())
-  fullName: DoxyRunner.Run(Action<System.String>, TextReader, System.String, System.String[])
-  fullName.vb: DoxyRunner.Run(Action(Of System.String), TextReader, System.String, System.String())
-  nameWithType: DoxyRunner.Run(Action<String>, TextReader, String, String[])
-  nameWithType.vb: DoxyRunner.Run(Action(Of String), TextReader, String, String())
-- uid: Global.DoxyRunner.Run*
-  name: Run
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_Run_
-  commentId: Overload:Global.DoxyRunner.Run
-  isSpec: "True"
-  fullName: DoxyRunner.Run
-  nameWithType: DoxyRunner.Run
-- uid: Global.DoxyRunner.RunThreadedDoxy
-  name: RunThreadedDoxy()
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_RunThreadedDoxy
-  commentId: M:Global.DoxyRunner.RunThreadedDoxy
-  fullName: DoxyRunner.RunThreadedDoxy()
-  nameWithType: DoxyRunner.RunThreadedDoxy()
-- uid: Global.DoxyRunner.RunThreadedDoxy*
-  name: RunThreadedDoxy
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_RunThreadedDoxy_
-  commentId: Overload:Global.DoxyRunner.RunThreadedDoxy
-  isSpec: "True"
-  fullName: DoxyRunner.RunThreadedDoxy
-  nameWithType: DoxyRunner.RunThreadedDoxy
-- uid: Global.DoxyRunner.updateOuputString(System.String)
-  name: updateOuputString(String)
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_updateOuputString_System_String_
-  commentId: M:Global.DoxyRunner.updateOuputString(System.String)
-  fullName: DoxyRunner.updateOuputString(System.String)
-  nameWithType: DoxyRunner.updateOuputString(String)
-- uid: Global.DoxyRunner.updateOuputString*
-  name: updateOuputString
-  href: api/Global.DoxyRunner.html#Global_DoxyRunner_updateOuputString_
-  commentId: Overload:Global.DoxyRunner.updateOuputString
-  isSpec: "True"
-  fullName: DoxyRunner.updateOuputString
-  nameWithType: DoxyRunner.updateOuputString
-- uid: Global.DoxyThreadSafeOutput
-  name: DoxyThreadSafeOutput
-  href: api/Global.DoxyThreadSafeOutput.html
-  commentId: T:Global.DoxyThreadSafeOutput
-  fullName: DoxyThreadSafeOutput
-  nameWithType: DoxyThreadSafeOutput
-- uid: Global.DoxyThreadSafeOutput.isFinished
-  name: isFinished()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_isFinished
-  commentId: M:Global.DoxyThreadSafeOutput.isFinished
-  fullName: DoxyThreadSafeOutput.isFinished()
-  nameWithType: DoxyThreadSafeOutput.isFinished()
-- uid: Global.DoxyThreadSafeOutput.isFinished*
-  name: isFinished
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_isFinished_
-  commentId: Overload:Global.DoxyThreadSafeOutput.isFinished
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.isFinished
-  nameWithType: DoxyThreadSafeOutput.isFinished
-- uid: Global.DoxyThreadSafeOutput.isStarted
-  name: isStarted()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_isStarted
-  commentId: M:Global.DoxyThreadSafeOutput.isStarted
-  fullName: DoxyThreadSafeOutput.isStarted()
-  nameWithType: DoxyThreadSafeOutput.isStarted()
-- uid: Global.DoxyThreadSafeOutput.isStarted*
-  name: isStarted
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_isStarted_
-  commentId: Overload:Global.DoxyThreadSafeOutput.isStarted
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.isStarted
-  nameWithType: DoxyThreadSafeOutput.isStarted
-- uid: Global.DoxyThreadSafeOutput.ReadFullLog
-  name: ReadFullLog()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_ReadFullLog
-  commentId: M:Global.DoxyThreadSafeOutput.ReadFullLog
-  fullName: DoxyThreadSafeOutput.ReadFullLog()
-  nameWithType: DoxyThreadSafeOutput.ReadFullLog()
-- uid: Global.DoxyThreadSafeOutput.ReadFullLog*
-  name: ReadFullLog
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_ReadFullLog_
-  commentId: Overload:Global.DoxyThreadSafeOutput.ReadFullLog
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.ReadFullLog
-  nameWithType: DoxyThreadSafeOutput.ReadFullLog
-- uid: Global.DoxyThreadSafeOutput.ReadLine
-  name: ReadLine()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_ReadLine
-  commentId: M:Global.DoxyThreadSafeOutput.ReadLine
-  fullName: DoxyThreadSafeOutput.ReadLine()
-  nameWithType: DoxyThreadSafeOutput.ReadLine()
-- uid: Global.DoxyThreadSafeOutput.ReadLine*
-  name: ReadLine
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_ReadLine_
-  commentId: Overload:Global.DoxyThreadSafeOutput.ReadLine
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.ReadLine
-  nameWithType: DoxyThreadSafeOutput.ReadLine
-- uid: Global.DoxyThreadSafeOutput.SetFinished
-  name: SetFinished()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_SetFinished
-  commentId: M:Global.DoxyThreadSafeOutput.SetFinished
-  fullName: DoxyThreadSafeOutput.SetFinished()
-  nameWithType: DoxyThreadSafeOutput.SetFinished()
-- uid: Global.DoxyThreadSafeOutput.SetFinished*
-  name: SetFinished
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_SetFinished_
-  commentId: Overload:Global.DoxyThreadSafeOutput.SetFinished
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.SetFinished
-  nameWithType: DoxyThreadSafeOutput.SetFinished
-- uid: Global.DoxyThreadSafeOutput.SetStarted
-  name: SetStarted()
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_SetStarted
-  commentId: M:Global.DoxyThreadSafeOutput.SetStarted
-  fullName: DoxyThreadSafeOutput.SetStarted()
-  nameWithType: DoxyThreadSafeOutput.SetStarted()
-- uid: Global.DoxyThreadSafeOutput.SetStarted*
-  name: SetStarted
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_SetStarted_
-  commentId: Overload:Global.DoxyThreadSafeOutput.SetStarted
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.SetStarted
-  nameWithType: DoxyThreadSafeOutput.SetStarted
-- uid: Global.DoxyThreadSafeOutput.WriteFullLog(System.Collections.Generic.List{System.String})
-  name: WriteFullLog(List<String>)
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_WriteFullLog_System_Collections_Generic_List_System_String__
-  commentId: M:Global.DoxyThreadSafeOutput.WriteFullLog(System.Collections.Generic.List{System.String})
-  name.vb: WriteFullLog(List(Of String))
-  fullName: DoxyThreadSafeOutput.WriteFullLog(System.Collections.Generic.List<System.String>)
-  fullName.vb: DoxyThreadSafeOutput.WriteFullLog(System.Collections.Generic.List(Of System.String))
-  nameWithType: DoxyThreadSafeOutput.WriteFullLog(List<String>)
-  nameWithType.vb: DoxyThreadSafeOutput.WriteFullLog(List(Of String))
-- uid: Global.DoxyThreadSafeOutput.WriteFullLog*
-  name: WriteFullLog
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_WriteFullLog_
-  commentId: Overload:Global.DoxyThreadSafeOutput.WriteFullLog
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.WriteFullLog
-  nameWithType: DoxyThreadSafeOutput.WriteFullLog
-- uid: Global.DoxyThreadSafeOutput.WriteLine(System.String)
-  name: WriteLine(String)
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_WriteLine_System_String_
-  commentId: M:Global.DoxyThreadSafeOutput.WriteLine(System.String)
-  fullName: DoxyThreadSafeOutput.WriteLine(System.String)
-  nameWithType: DoxyThreadSafeOutput.WriteLine(String)
-- uid: Global.DoxyThreadSafeOutput.WriteLine*
-  name: WriteLine
-  href: api/Global.DoxyThreadSafeOutput.html#Global_DoxyThreadSafeOutput_WriteLine_
-  commentId: Overload:Global.DoxyThreadSafeOutput.WriteLine
-  isSpec: "True"
-  fullName: DoxyThreadSafeOutput.WriteLine
-  nameWithType: DoxyThreadSafeOutput.WriteLine
-- uid: Global.SUSettingsRegister
-  name: SUSettingsRegister
-  href: api/Global.SUSettingsRegister.html
-  commentId: T:Global.SUSettingsRegister
-  fullName: SUSettingsRegister
-  nameWithType: SUSettingsRegister
-- uid: Global.SUSettingsRegister.CreateSettingsProvider
-  name: CreateSettingsProvider()
-  href: api/Global.SUSettingsRegister.html#Global_SUSettingsRegister_CreateSettingsProvider
-  commentId: M:Global.SUSettingsRegister.CreateSettingsProvider
-  fullName: SUSettingsRegister.CreateSettingsProvider()
-  nameWithType: SUSettingsRegister.CreateSettingsProvider()
-- uid: Global.SUSettingsRegister.CreateSettingsProvider*
-  name: CreateSettingsProvider
-  href: api/Global.SUSettingsRegister.html#Global_SUSettingsRegister_CreateSettingsProvider_
-  commentId: Overload:Global.SUSettingsRegister.CreateSettingsProvider
-  isSpec: "True"
-  fullName: SUSettingsRegister.CreateSettingsProvider
-  nameWithType: SUSettingsRegister.CreateSettingsProvider
-- uid: Global.testbtn
-  name: testbtn
-  href: api/Global.testbtn.html
-  commentId: T:Global.testbtn
-  fullName: testbtn
-  nameWithType: testbtn
-- uid: Global.testbtn._text
-  name: _text
-  href: api/Global.testbtn.html#Global_testbtn__text
-  commentId: F:Global.testbtn._text
-  fullName: testbtn._text
-  nameWithType: testbtn._text
-- uid: Global.testscroll
-  name: testscroll
-  href: api/Global.testscroll.html
-  commentId: T:Global.testscroll
-  fullName: testscroll
-  nameWithType: testscroll
 - uid: Surfer
   name: Surfer
   href: api/Surfer.html
@@ -512,6 +58,63 @@ references:
   isSpec: "True"
   fullName: Surfer.ConditionChecks.GetName
   nameWithType: ConditionChecks.GetName
+- uid: Surfer.CustomReactions
+  name: CustomReactions
+  href: api/Surfer.CustomReactions.html
+  commentId: T:Surfer.CustomReactions
+  fullName: Surfer.CustomReactions
+  nameWithType: CustomReactions
+- uid: Surfer.CustomReactions.All
+  name: All
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_All
+  commentId: F:Surfer.CustomReactions.All
+  fullName: Surfer.CustomReactions.All
+  nameWithType: CustomReactions.All
+- uid: Surfer.CustomReactions.GetAllNames
+  name: GetAllNames()
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetAllNames
+  commentId: M:Surfer.CustomReactions.GetAllNames
+  fullName: Surfer.CustomReactions.GetAllNames()
+  nameWithType: CustomReactions.GetAllNames()
+- uid: Surfer.CustomReactions.GetAllNames*
+  name: GetAllNames
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetAllNames_
+  commentId: Overload:Surfer.CustomReactions.GetAllNames
+  isSpec: "True"
+  fullName: Surfer.CustomReactions.GetAllNames
+  nameWithType: CustomReactions.GetAllNames
+- uid: Surfer.CustomReactions.GetKey(System.String)
+  name: GetKey(String)
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetKey_System_String_
+  commentId: M:Surfer.CustomReactions.GetKey(System.String)
+  fullName: Surfer.CustomReactions.GetKey(System.String)
+  nameWithType: CustomReactions.GetKey(String)
+- uid: Surfer.CustomReactions.GetKey*
+  name: GetKey
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetKey_
+  commentId: Overload:Surfer.CustomReactions.GetKey
+  isSpec: "True"
+  fullName: Surfer.CustomReactions.GetKey
+  nameWithType: CustomReactions.GetKey
+- uid: Surfer.CustomReactions.GetName(System.String)
+  name: GetName(String)
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetName_System_String_
+  commentId: M:Surfer.CustomReactions.GetName(System.String)
+  fullName: Surfer.CustomReactions.GetName(System.String)
+  nameWithType: CustomReactions.GetName(String)
+- uid: Surfer.CustomReactions.GetName*
+  name: GetName
+  href: api/Surfer.CustomReactions.html#Surfer_CustomReactions_GetName_
+  commentId: Overload:Surfer.CustomReactions.GetName
+  isSpec: "True"
+  fullName: Surfer.CustomReactions.GetName
+  nameWithType: CustomReactions.GetName
+- uid: Surfer.EventsDictionary
+  name: EventsDictionary
+  href: api/Surfer.EventsDictionary.html
+  commentId: T:Surfer.EventsDictionary
+  fullName: Surfer.EventsDictionary
+  nameWithType: EventsDictionary
 - uid: Surfer.FuncInput
   name: FuncInput
   href: api/Surfer.FuncInput.html
@@ -582,6 +185,25 @@ references:
   isSpec: "True"
   fullName: Surfer.IResetLastStateSelectionHandler.OnResetLastStateSelection
   nameWithType: IResetLastStateSelectionHandler.OnResetLastStateSelection
+- uid: Surfer.ISUCustomEventHandler
+  name: ISUCustomEventHandler
+  href: api/Surfer.ISUCustomEventHandler.html
+  commentId: T:Surfer.ISUCustomEventHandler
+  fullName: Surfer.ISUCustomEventHandler
+  nameWithType: ISUCustomEventHandler
+- uid: Surfer.ISUCustomEventHandler.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  name: OnSUCustomEvent(SUCustomEventEventData)
+  href: api/Surfer.ISUCustomEventHandler.html#Surfer_ISUCustomEventHandler_OnSUCustomEvent_Surfer_SUCustomEventEventData_
+  commentId: M:Surfer.ISUCustomEventHandler.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  fullName: Surfer.ISUCustomEventHandler.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  nameWithType: ISUCustomEventHandler.OnSUCustomEvent(SUCustomEventEventData)
+- uid: Surfer.ISUCustomEventHandler.OnSUCustomEvent*
+  name: OnSUCustomEvent
+  href: api/Surfer.ISUCustomEventHandler.html#Surfer_ISUCustomEventHandler_OnSUCustomEvent_
+  commentId: Overload:Surfer.ISUCustomEventHandler.OnSUCustomEvent
+  isSpec: "True"
+  fullName: Surfer.ISUCustomEventHandler.OnSUCustomEvent
+  nameWithType: ISUCustomEventHandler.OnSUCustomEvent
 - uid: Surfer.ISUSceneActivatedHandler
   name: ISUSceneActivatedHandler
   href: api/Surfer.ISUSceneActivatedHandler.html
@@ -734,19 +356,67 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUStateExitHandler.OnSUStateExit
   nameWithType: ISUStateExitHandler.OnSUStateExit
+- uid: Surfer.PathAction
+  name: PathAction
+  href: api/Surfer.PathAction.html
+  commentId: T:Surfer.PathAction
+  fullName: Surfer.PathAction
+  nameWithType: PathAction
+- uid: Surfer.PathAction.#ctor(System.String,System.Action{Surfer.FuncInput})
+  name: PathAction(String, Action<FuncInput>)
+  href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_System_String_System_Action_Surfer_FuncInput__
+  commentId: M:Surfer.PathAction.#ctor(System.String,System.Action{Surfer.FuncInput})
+  name.vb: PathAction(String, Action(Of FuncInput))
+  fullName: Surfer.PathAction.PathAction(System.String, System.Action<Surfer.FuncInput>)
+  fullName.vb: Surfer.PathAction.PathAction(System.String, System.Action(Of Surfer.FuncInput))
+  nameWithType: PathAction.PathAction(String, Action<FuncInput>)
+  nameWithType.vb: PathAction.PathAction(String, Action(Of FuncInput))
+- uid: Surfer.PathAction.#ctor*
+  name: PathAction
+  href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_
+  commentId: Overload:Surfer.PathAction.#ctor
+  isSpec: "True"
+  fullName: Surfer.PathAction.PathAction
+  nameWithType: PathAction.PathAction
+- uid: Surfer.PathAction.Action
+  name: Action
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Action
+  commentId: P:Surfer.PathAction.Action
+  fullName: Surfer.PathAction.Action
+  nameWithType: PathAction.Action
+- uid: Surfer.PathAction.Action*
+  name: Action
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Action_
+  commentId: Overload:Surfer.PathAction.Action
+  isSpec: "True"
+  fullName: Surfer.PathAction.Action
+  nameWithType: PathAction.Action
+- uid: Surfer.PathAction.Path
+  name: Path
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Path
+  commentId: P:Surfer.PathAction.Path
+  fullName: Surfer.PathAction.Path
+  nameWithType: PathAction.Path
+- uid: Surfer.PathAction.Path*
+  name: Path
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Path_
+  commentId: Overload:Surfer.PathAction.Path
+  isSpec: "True"
+  fullName: Surfer.PathAction.Path
+  nameWithType: PathAction.Path
 - uid: Surfer.PathFunc
   name: PathFunc
   href: api/Surfer.PathFunc.html
   commentId: T:Surfer.PathFunc
   fullName: Surfer.PathFunc
   nameWithType: PathFunc
-- uid: Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean})
+- uid: Surfer.PathFunc.#ctor(System.String,System.Func{Surfer.FuncInput,System.Boolean})
   name: PathFunc(String, Func<FuncInput, Boolean>)
-  href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_System_String_Func_Surfer_FuncInput_System_Boolean__
-  commentId: M:Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean})
+  href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_System_String_System_Func_Surfer_FuncInput_System_Boolean__
+  commentId: M:Surfer.PathFunc.#ctor(System.String,System.Func{Surfer.FuncInput,System.Boolean})
   name.vb: PathFunc(String, Func(Of FuncInput, Boolean))
-  fullName: Surfer.PathFunc.PathFunc(System.String, Func<Surfer.FuncInput, System.Boolean>)
-  fullName.vb: Surfer.PathFunc.PathFunc(System.String, Func(Of Surfer.FuncInput, System.Boolean))
+  fullName: Surfer.PathFunc.PathFunc(System.String, System.Func<Surfer.FuncInput, System.Boolean>)
+  fullName.vb: Surfer.PathFunc.PathFunc(System.String, System.Func(Of Surfer.FuncInput, System.Boolean))
   nameWithType: PathFunc.PathFunc(String, Func<FuncInput, Boolean>)
   nameWithType.vb: PathFunc.PathFunc(String, Func(Of FuncInput, Boolean))
 - uid: Surfer.PathFunc.#ctor*
@@ -844,15 +514,15 @@ references:
   isSpec: "True"
   fullName: Surfer.SerializedPropertyExtensions.AddField
   nameWithType: SerializedPropertyExtensions.AddField
-- uid: Surfer.SerializedPropertyExtensions.AddField``1(SerializedProperty,Rect@,SerializedProperty)
-  name: AddField<T>(SerializedProperty, ref Rect, SerializedProperty)
-  href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddField__1_SerializedProperty_Rect__SerializedProperty_
-  commentId: M:Surfer.SerializedPropertyExtensions.AddField``1(SerializedProperty,Rect@,SerializedProperty)
-  name.vb: AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty)
-  fullName: Surfer.SerializedPropertyExtensions.AddField<T>(SerializedProperty, ref Rect, SerializedProperty)
-  fullName.vb: Surfer.SerializedPropertyExtensions.AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty)
-  nameWithType: SerializedPropertyExtensions.AddField<T>(SerializedProperty, ref Rect, SerializedProperty)
-  nameWithType.vb: SerializedPropertyExtensions.AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty)
+- uid: Surfer.SerializedPropertyExtensions.AddField``1(SerializedProperty,Rect@,SerializedProperty,System.Boolean)
+  name: AddField<T>(SerializedProperty, ref Rect, SerializedProperty, Boolean)
+  href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddField__1_SerializedProperty_Rect__SerializedProperty_System_Boolean_
+  commentId: M:Surfer.SerializedPropertyExtensions.AddField``1(SerializedProperty,Rect@,SerializedProperty,System.Boolean)
+  name.vb: AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty, Boolean)
+  fullName: Surfer.SerializedPropertyExtensions.AddField<T>(SerializedProperty, ref Rect, SerializedProperty, System.Boolean)
+  fullName.vb: Surfer.SerializedPropertyExtensions.AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty, System.Boolean)
+  nameWithType: SerializedPropertyExtensions.AddField<T>(SerializedProperty, ref Rect, SerializedProperty, Boolean)
+  nameWithType.vb: SerializedPropertyExtensions.AddField(Of T)(SerializedProperty, ByRef Rect, SerializedProperty, Boolean)
 - uid: Surfer.SerializedPropertyExtensions.AddGOField(SerializedProperty,Rect@,SerializedProperty)
   name: AddGOField(SerializedProperty, ref Rect, SerializedProperty)
   href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddGOField_SerializedProperty_Rect__SerializedProperty_
@@ -993,6 +663,12 @@ references:
   commentId: F:Surfer.SUActionData.SUAction_ID.OpenState
   fullName: Surfer.SUActionData.SUAction_ID.OpenState
   nameWithType: SUActionData.SUAction_ID.OpenState
+- uid: Surfer.SUActionData.SUAction_ID.SendCustomEvent
+  name: SendCustomEvent
+  href: api/Surfer.SUActionData.SUAction_ID.html#Surfer_SUActionData_SUAction_ID_SendCustomEvent
+  commentId: F:Surfer.SUActionData.SUAction_ID.SendCustomEvent
+  fullName: Surfer.SUActionData.SUAction_ID.SendCustomEvent
+  nameWithType: SUActionData.SUAction_ID.SendCustomEvent
 - uid: Surfer.SUActionData.SUAction_ID.SetActiveScene
   name: SetActiveScene
   href: api/Surfer.SUActionData.SUAction_ID.html#Surfer_SUActionData_SUAction_ID_SetActiveScene
@@ -1073,6 +749,76 @@ references:
   isSpec: "True"
   fullName: Surfer.SUActionDataDrawer.OnGUI
   nameWithType: SUActionDataDrawer.OnGUI
+- uid: Surfer.SUAnchoredAnimationData
+  name: SUAnchoredAnimationData
+  href: api/Surfer.SUAnchoredAnimationData.html
+  commentId: T:Surfer.SUAnchoredAnimationData
+  fullName: Surfer.SUAnchoredAnimationData
+  nameWithType: SUAnchoredAnimationData
+- uid: Surfer.SUAnchoredAnimationData._rectCp
+  name: _rectCp
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData__rectCp
+  commentId: F:Surfer.SUAnchoredAnimationData._rectCp
+  fullName: Surfer.SUAnchoredAnimationData._rectCp
+  nameWithType: SUAnchoredAnimationData._rectCp
+- uid: Surfer.SUAnchoredAnimationData.GetFromPosition
+  name: GetFromPosition()
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_GetFromPosition
+  commentId: M:Surfer.SUAnchoredAnimationData.GetFromPosition
+  fullName: Surfer.SUAnchoredAnimationData.GetFromPosition()
+  nameWithType: SUAnchoredAnimationData.GetFromPosition()
+- uid: Surfer.SUAnchoredAnimationData.GetFromPosition*
+  name: GetFromPosition
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_GetFromPosition_
+  commentId: Overload:Surfer.SUAnchoredAnimationData.GetFromPosition
+  isSpec: "True"
+  fullName: Surfer.SUAnchoredAnimationData.GetFromPosition
+  nameWithType: SUAnchoredAnimationData.GetFromPosition
+- uid: Surfer.SUAnchoredAnimationData.GetToPosition
+  name: GetToPosition()
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_GetToPosition
+  commentId: M:Surfer.SUAnchoredAnimationData.GetToPosition
+  fullName: Surfer.SUAnchoredAnimationData.GetToPosition()
+  nameWithType: SUAnchoredAnimationData.GetToPosition()
+- uid: Surfer.SUAnchoredAnimationData.GetToPosition*
+  name: GetToPosition
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_GetToPosition_
+  commentId: Overload:Surfer.SUAnchoredAnimationData.GetToPosition
+  isSpec: "True"
+  fullName: Surfer.SUAnchoredAnimationData.GetToPosition
+  nameWithType: SUAnchoredAnimationData.GetToPosition
+- uid: Surfer.SUAnchoredAnimationData.OnCache(GameObject)
+  name: OnCache(GameObject)
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_OnCache_GameObject_
+  commentId: M:Surfer.SUAnchoredAnimationData.OnCache(GameObject)
+  fullName: Surfer.SUAnchoredAnimationData.OnCache(GameObject)
+  nameWithType: SUAnchoredAnimationData.OnCache(GameObject)
+- uid: Surfer.SUAnchoredAnimationData.OnCache*
+  name: OnCache
+  href: api/Surfer.SUAnchoredAnimationData.html#Surfer_SUAnchoredAnimationData_OnCache_
+  commentId: Overload:Surfer.SUAnchoredAnimationData.OnCache
+  isSpec: "True"
+  fullName: Surfer.SUAnchoredAnimationData.OnCache
+  nameWithType: SUAnchoredAnimationData.OnCache
+- uid: Surfer.SUAnchoredPositionData
+  name: SUAnchoredPositionData
+  href: api/Surfer.SUAnchoredPositionData.html
+  commentId: T:Surfer.SUAnchoredPositionData
+  fullName: Surfer.SUAnchoredPositionData
+  nameWithType: SUAnchoredPositionData
+- uid: Surfer.SUAnchoredPositionData.OnPlay(GameObject)
+  name: OnPlay(GameObject)
+  href: api/Surfer.SUAnchoredPositionData.html#Surfer_SUAnchoredPositionData_OnPlay_GameObject_
+  commentId: M:Surfer.SUAnchoredPositionData.OnPlay(GameObject)
+  fullName: Surfer.SUAnchoredPositionData.OnPlay(GameObject)
+  nameWithType: SUAnchoredPositionData.OnPlay(GameObject)
+- uid: Surfer.SUAnchoredPositionData.OnPlay*
+  name: OnPlay
+  href: api/Surfer.SUAnchoredPositionData.html#Surfer_SUAnchoredPositionData_OnPlay_
+  commentId: Overload:Surfer.SUAnchoredPositionData.OnPlay
+  isSpec: "True"
+  fullName: Surfer.SUAnchoredPositionData.OnPlay
+  nameWithType: SUAnchoredPositionData.OnPlay
 - uid: Surfer.SUAnimationData
   name: SUAnimationData
   href: api/Surfer.SUAnimationData.html
@@ -1615,68 +1361,68 @@ references:
   isSpec: "True"
   fullName: Surfer.SUAnimationsData.Play
   nameWithType: SUAnimationsData.Play
-- uid: Surfer.SUAnimatorEvent
-  name: SUAnimatorEvent
-  href: api/Surfer.SUAnimatorEvent.html
-  commentId: T:Surfer.SUAnimatorEvent
-  fullName: Surfer.SUAnimatorEvent
-  nameWithType: SUAnimatorEvent
-- uid: Surfer.SUAnimatorEvent.OnEnter
+- uid: Surfer.SUAnimatorBehaviour
+  name: SUAnimatorBehaviour
+  href: api/Surfer.SUAnimatorBehaviour.html
+  commentId: T:Surfer.SUAnimatorBehaviour
+  fullName: Surfer.SUAnimatorBehaviour
+  nameWithType: SUAnimatorBehaviour
+- uid: Surfer.SUAnimatorBehaviour.OnEnter
   name: OnEnter
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnEnter
-  commentId: F:Surfer.SUAnimatorEvent.OnEnter
-  fullName: Surfer.SUAnimatorEvent.OnEnter
-  nameWithType: SUAnimatorEvent.OnEnter
-- uid: Surfer.SUAnimatorEvent.OnExit
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnEnter
+  commentId: F:Surfer.SUAnimatorBehaviour.OnEnter
+  fullName: Surfer.SUAnimatorBehaviour.OnEnter
+  nameWithType: SUAnimatorBehaviour.OnEnter
+- uid: Surfer.SUAnimatorBehaviour.OnExit
   name: OnExit
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnExit
-  commentId: F:Surfer.SUAnimatorEvent.OnExit
-  fullName: Surfer.SUAnimatorEvent.OnExit
-  nameWithType: SUAnimatorEvent.OnExit
-- uid: Surfer.SUAnimatorEvent.OnStateEnter(Animator,AnimatorStateInfo,System.Int32)
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnExit
+  commentId: F:Surfer.SUAnimatorBehaviour.OnExit
+  fullName: Surfer.SUAnimatorBehaviour.OnExit
+  nameWithType: SUAnimatorBehaviour.OnExit
+- uid: Surfer.SUAnimatorBehaviour.OnStateEnter(Animator,AnimatorStateInfo,System.Int32)
   name: OnStateEnter(Animator, AnimatorStateInfo, Int32)
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnStateEnter_Animator_AnimatorStateInfo_System_Int32_
-  commentId: M:Surfer.SUAnimatorEvent.OnStateEnter(Animator,AnimatorStateInfo,System.Int32)
-  fullName: Surfer.SUAnimatorEvent.OnStateEnter(Animator, AnimatorStateInfo, System.Int32)
-  nameWithType: SUAnimatorEvent.OnStateEnter(Animator, AnimatorStateInfo, Int32)
-- uid: Surfer.SUAnimatorEvent.OnStateEnter*
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnStateEnter_Animator_AnimatorStateInfo_System_Int32_
+  commentId: M:Surfer.SUAnimatorBehaviour.OnStateEnter(Animator,AnimatorStateInfo,System.Int32)
+  fullName: Surfer.SUAnimatorBehaviour.OnStateEnter(Animator, AnimatorStateInfo, System.Int32)
+  nameWithType: SUAnimatorBehaviour.OnStateEnter(Animator, AnimatorStateInfo, Int32)
+- uid: Surfer.SUAnimatorBehaviour.OnStateEnter*
   name: OnStateEnter
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnStateEnter_
-  commentId: Overload:Surfer.SUAnimatorEvent.OnStateEnter
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnStateEnter_
+  commentId: Overload:Surfer.SUAnimatorBehaviour.OnStateEnter
   isSpec: "True"
-  fullName: Surfer.SUAnimatorEvent.OnStateEnter
-  nameWithType: SUAnimatorEvent.OnStateEnter
-- uid: Surfer.SUAnimatorEvent.OnStateExit(Animator,AnimatorStateInfo,System.Int32)
+  fullName: Surfer.SUAnimatorBehaviour.OnStateEnter
+  nameWithType: SUAnimatorBehaviour.OnStateEnter
+- uid: Surfer.SUAnimatorBehaviour.OnStateExit(Animator,AnimatorStateInfo,System.Int32)
   name: OnStateExit(Animator, AnimatorStateInfo, Int32)
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnStateExit_Animator_AnimatorStateInfo_System_Int32_
-  commentId: M:Surfer.SUAnimatorEvent.OnStateExit(Animator,AnimatorStateInfo,System.Int32)
-  fullName: Surfer.SUAnimatorEvent.OnStateExit(Animator, AnimatorStateInfo, System.Int32)
-  nameWithType: SUAnimatorEvent.OnStateExit(Animator, AnimatorStateInfo, Int32)
-- uid: Surfer.SUAnimatorEvent.OnStateExit*
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnStateExit_Animator_AnimatorStateInfo_System_Int32_
+  commentId: M:Surfer.SUAnimatorBehaviour.OnStateExit(Animator,AnimatorStateInfo,System.Int32)
+  fullName: Surfer.SUAnimatorBehaviour.OnStateExit(Animator, AnimatorStateInfo, System.Int32)
+  nameWithType: SUAnimatorBehaviour.OnStateExit(Animator, AnimatorStateInfo, Int32)
+- uid: Surfer.SUAnimatorBehaviour.OnStateExit*
   name: OnStateExit
-  href: api/Surfer.SUAnimatorEvent.html#Surfer_SUAnimatorEvent_OnStateExit_
-  commentId: Overload:Surfer.SUAnimatorEvent.OnStateExit
+  href: api/Surfer.SUAnimatorBehaviour.html#Surfer_SUAnimatorBehaviour_OnStateExit_
+  commentId: Overload:Surfer.SUAnimatorBehaviour.OnStateExit
   isSpec: "True"
-  fullName: Surfer.SUAnimatorEvent.OnStateExit
-  nameWithType: SUAnimatorEvent.OnStateExit
-- uid: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID
-  name: SUAnimatorEvent.SUAnimatorEvent_ID
-  href: api/Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.html
-  commentId: T:Surfer.SUAnimatorEvent.SUAnimatorEvent_ID
-  fullName: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID
-  nameWithType: SUAnimatorEvent.SUAnimatorEvent_ID
-- uid: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Enter
+  fullName: Surfer.SUAnimatorBehaviour.OnStateExit
+  nameWithType: SUAnimatorBehaviour.OnStateExit
+- uid: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID
+  name: SUAnimatorBehaviour.SUAnimatorEvent_ID
+  href: api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.html
+  commentId: T:Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID
+  fullName: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID
+  nameWithType: SUAnimatorBehaviour.SUAnimatorEvent_ID
+- uid: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Enter
   name: Enter
-  href: api/Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.html#Surfer_SUAnimatorEvent_SUAnimatorEvent_ID_Enter
-  commentId: F:Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Enter
-  fullName: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Enter
-  nameWithType: SUAnimatorEvent.SUAnimatorEvent_ID.Enter
-- uid: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Exit
+  href: api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.html#Surfer_SUAnimatorBehaviour_SUAnimatorEvent_ID_Enter
+  commentId: F:Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Enter
+  fullName: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Enter
+  nameWithType: SUAnimatorBehaviour.SUAnimatorEvent_ID.Enter
+- uid: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Exit
   name: Exit
-  href: api/Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.html#Surfer_SUAnimatorEvent_SUAnimatorEvent_ID_Exit
-  commentId: F:Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Exit
-  fullName: Surfer.SUAnimatorEvent.SUAnimatorEvent_ID.Exit
-  nameWithType: SUAnimatorEvent.SUAnimatorEvent_ID.Exit
+  href: api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.html#Surfer_SUAnimatorBehaviour_SUAnimatorEvent_ID_Exit
+  commentId: F:Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Exit
+  fullName: Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.Exit
+  nameWithType: SUAnimatorBehaviour.SUAnimatorEvent_ID.Exit
 - uid: Surfer.SUBaseUIEvent
   name: SUBaseUIEvent
   href: api/Surfer.SUBaseUIEvent.html
@@ -1956,19 +1702,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehaviourData.Run
   nameWithType: SUBehaviourData.Run
-- uid: Surfer.SUBehaviourData.RunProgress(GameObject,System.Single)
-  name: RunProgress(GameObject, Single)
-  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_RunProgress_GameObject_System_Single_
-  commentId: M:Surfer.SUBehaviourData.RunProgress(GameObject,System.Single)
-  fullName: Surfer.SUBehaviourData.RunProgress(GameObject, System.Single)
-  nameWithType: SUBehaviourData.RunProgress(GameObject, Single)
-- uid: Surfer.SUBehaviourData.RunProgress*
-  name: RunProgress
-  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_RunProgress_
-  commentId: Overload:Surfer.SUBehaviourData.RunProgress
-  isSpec: "True"
-  fullName: Surfer.SUBehaviourData.RunProgress
-  nameWithType: SUBehaviourData.RunProgress
 - uid: Surfer.SUBehavioursData
   name: SUBehavioursData
   href: api/Surfer.SUBehavioursData.html
@@ -2014,6 +1747,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.RunWithParams
   nameWithType: SUBehavioursData.RunWithParams
+- uid: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,System.String)
+  name: RunWithParamsCustomEvent(GameObject, String)
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsCustomEvent_GameObject_System_String_
+  commentId: M:Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,System.String)
+  fullName: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject, System.String)
+  nameWithType: SUBehavioursData.RunWithParamsCustomEvent(GameObject, String)
+- uid: Surfer.SUBehavioursData.RunWithParamsCustomEvent*
+  name: RunWithParamsCustomEvent
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsCustomEvent_
+  commentId: Overload:Surfer.SUBehavioursData.RunWithParamsCustomEvent
+  isSpec: "True"
+  fullName: Surfer.SUBehavioursData.RunWithParamsCustomEvent
+  nameWithType: SUBehavioursData.RunWithParamsCustomEvent
 - uid: Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String)
   name: RunWithParamsScene(GameObject, String)
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsScene_GameObject_System_String_
@@ -2040,19 +1786,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.RunWithParamsState
   nameWithType: SUBehavioursData.RunWithParamsState
-- uid: Surfer.SUBehavioursData.RunWithSceneProgress(GameObject,System.String,System.Single)
-  name: RunWithSceneProgress(GameObject, String, Single)
-  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithSceneProgress_GameObject_System_String_System_Single_
-  commentId: M:Surfer.SUBehavioursData.RunWithSceneProgress(GameObject,System.String,System.Single)
-  fullName: Surfer.SUBehavioursData.RunWithSceneProgress(GameObject, System.String, System.Single)
-  nameWithType: SUBehavioursData.RunWithSceneProgress(GameObject, String, Single)
-- uid: Surfer.SUBehavioursData.RunWithSceneProgress*
-  name: RunWithSceneProgress
-  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithSceneProgress_
-  commentId: Overload:Surfer.SUBehavioursData.RunWithSceneProgress
-  isSpec: "True"
-  fullName: Surfer.SUBehavioursData.RunWithSceneProgress
-  nameWithType: SUBehavioursData.RunWithSceneProgress
 - uid: Surfer.SUCGroupData
   name: SUCGroupData
   href: api/Surfer.SUCGroupData.html
@@ -2258,6 +1991,195 @@ references:
   isSpec: "True"
   fullName: Surfer.SUConditionsDataDrawer.OnGUI
   nameWithType: SUConditionsDataDrawer.OnGUI
+- uid: Surfer.SUCustomEventData
+  name: SUCustomEventData
+  href: api/Surfer.SUCustomEventData.html
+  commentId: T:Surfer.SUCustomEventData
+  fullName: Surfer.SUCustomEventData
+  nameWithType: SUCustomEventData
+- uid: Surfer.SUCustomEventData.#ctor(System.String,System.String)
+  name: SUCustomEventData(String, String)
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData__ctor_System_String_System_String_
+  commentId: M:Surfer.SUCustomEventData.#ctor(System.String,System.String)
+  fullName: Surfer.SUCustomEventData.SUCustomEventData(System.String, System.String)
+  nameWithType: SUCustomEventData.SUCustomEventData(String, String)
+- uid: Surfer.SUCustomEventData.#ctor*
+  name: SUCustomEventData
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData__ctor_
+  commentId: Overload:Surfer.SUCustomEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventData.SUCustomEventData
+  nameWithType: SUCustomEventData.SUCustomEventData
+- uid: Surfer.SUCustomEventData.GUID
+  name: GUID
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData_GUID
+  commentId: P:Surfer.SUCustomEventData.GUID
+  fullName: Surfer.SUCustomEventData.GUID
+  nameWithType: SUCustomEventData.GUID
+- uid: Surfer.SUCustomEventData.GUID*
+  name: GUID
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData_GUID_
+  commentId: Overload:Surfer.SUCustomEventData.GUID
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventData.GUID
+  nameWithType: SUCustomEventData.GUID
+- uid: Surfer.SUCustomEventData.Name
+  name: Name
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData_Name
+  commentId: P:Surfer.SUCustomEventData.Name
+  fullName: Surfer.SUCustomEventData.Name
+  nameWithType: SUCustomEventData.Name
+- uid: Surfer.SUCustomEventData.Name*
+  name: Name
+  href: api/Surfer.SUCustomEventData.html#Surfer_SUCustomEventData_Name_
+  commentId: Overload:Surfer.SUCustomEventData.Name
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventData.Name
+  nameWithType: SUCustomEventData.Name
+- uid: Surfer.SUCustomEventDataDrawer
+  name: SUCustomEventDataDrawer
+  href: api/Surfer.SUCustomEventDataDrawer.html
+  commentId: T:Surfer.SUCustomEventDataDrawer
+  fullName: Surfer.SUCustomEventDataDrawer
+  nameWithType: SUCustomEventDataDrawer
+- uid: Surfer.SUCustomEventDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Surfer.SUCustomEventDataDrawer.html#Surfer_SUCustomEventDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUCustomEventDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: Surfer.SUCustomEventDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SUCustomEventDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Surfer.SUCustomEventDataDrawer.OnGUI*
+  name: OnGUI
+  href: api/Surfer.SUCustomEventDataDrawer.html#Surfer_SUCustomEventDataDrawer_OnGUI_
+  commentId: Overload:Surfer.SUCustomEventDataDrawer.OnGUI
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventDataDrawer.OnGUI
+  nameWithType: SUCustomEventDataDrawer.OnGUI
+- uid: Surfer.SUCustomEventEventData
+  name: SUCustomEventEventData
+  href: api/Surfer.SUCustomEventEventData.html
+  commentId: T:Surfer.SUCustomEventEventData
+  fullName: Surfer.SUCustomEventEventData
+  nameWithType: SUCustomEventEventData
+- uid: Surfer.SUCustomEventEventData.#ctor(System.String,System.Object[])
+  name: SUCustomEventEventData(String, Object[])
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData__ctor_System_String_System_Object___
+  commentId: M:Surfer.SUCustomEventEventData.#ctor(System.String,System.Object[])
+  name.vb: SUCustomEventEventData(String, Object())
+  fullName: Surfer.SUCustomEventEventData.SUCustomEventEventData(System.String, System.Object[])
+  fullName.vb: Surfer.SUCustomEventEventData.SUCustomEventEventData(System.String, System.Object())
+  nameWithType: SUCustomEventEventData.SUCustomEventEventData(String, Object[])
+  nameWithType.vb: SUCustomEventEventData.SUCustomEventEventData(String, Object())
+- uid: Surfer.SUCustomEventEventData.#ctor*
+  name: SUCustomEventEventData
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData__ctor_
+  commentId: Overload:Surfer.SUCustomEventEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventEventData.SUCustomEventEventData
+  nameWithType: SUCustomEventEventData.SUCustomEventEventData
+- uid: Surfer.SUCustomEventEventData.CustomData
+  name: CustomData
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData_CustomData
+  commentId: P:Surfer.SUCustomEventEventData.CustomData
+  fullName: Surfer.SUCustomEventEventData.CustomData
+  nameWithType: SUCustomEventEventData.CustomData
+- uid: Surfer.SUCustomEventEventData.CustomData*
+  name: CustomData
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData_CustomData_
+  commentId: Overload:Surfer.SUCustomEventEventData.CustomData
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventEventData.CustomData
+  nameWithType: SUCustomEventEventData.CustomData
+- uid: Surfer.SUCustomEventEventData.Name
+  name: Name
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData_Name
+  commentId: P:Surfer.SUCustomEventEventData.Name
+  fullName: Surfer.SUCustomEventEventData.Name
+  nameWithType: SUCustomEventEventData.Name
+- uid: Surfer.SUCustomEventEventData.Name*
+  name: Name
+  href: api/Surfer.SUCustomEventEventData.html#Surfer_SUCustomEventEventData_Name_
+  commentId: Overload:Surfer.SUCustomEventEventData.Name
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventEventData.Name
+  nameWithType: SUCustomEventEventData.Name
+- uid: Surfer.SUCustomEventsData
+  name: SUCustomEventsData
+  href: api/Surfer.SUCustomEventsData.html
+  commentId: T:Surfer.SUCustomEventsData
+  fullName: Surfer.SUCustomEventsData
+  nameWithType: SUCustomEventsData
+- uid: Surfer.SUCustomEventsData.AllNames
+  name: AllNames
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_AllNames
+  commentId: P:Surfer.SUCustomEventsData.AllNames
+  fullName: Surfer.SUCustomEventsData.AllNames
+  nameWithType: SUCustomEventsData.AllNames
+- uid: Surfer.SUCustomEventsData.AllNames*
+  name: AllNames
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_AllNames_
+  commentId: Overload:Surfer.SUCustomEventsData.AllNames
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventsData.AllNames
+  nameWithType: SUCustomEventsData.AllNames
+- uid: Surfer.SUCustomEventsData.AllNamesArray
+  name: AllNamesArray
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_AllNamesArray
+  commentId: P:Surfer.SUCustomEventsData.AllNamesArray
+  fullName: Surfer.SUCustomEventsData.AllNamesArray
+  nameWithType: SUCustomEventsData.AllNamesArray
+- uid: Surfer.SUCustomEventsData.AllNamesArray*
+  name: AllNamesArray
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_AllNamesArray_
+  commentId: Overload:Surfer.SUCustomEventsData.AllNamesArray
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventsData.AllNamesArray
+  nameWithType: SUCustomEventsData.AllNamesArray
+- uid: Surfer.SUCustomEventsData.List
+  name: List
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_List
+  commentId: P:Surfer.SUCustomEventsData.List
+  fullName: Surfer.SUCustomEventsData.List
+  nameWithType: SUCustomEventsData.List
+- uid: Surfer.SUCustomEventsData.List*
+  name: List
+  href: api/Surfer.SUCustomEventsData.html#Surfer_SUCustomEventsData_List_
+  commentId: Overload:Surfer.SUCustomEventsData.List
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventsData.List
+  nameWithType: SUCustomEventsData.List
+- uid: Surfer.SUCustomEventsDataDrawer
+  name: SUCustomEventsDataDrawer
+  href: api/Surfer.SUCustomEventsDataDrawer.html
+  commentId: T:Surfer.SUCustomEventsDataDrawer
+  fullName: Surfer.SUCustomEventsDataDrawer
+  nameWithType: SUCustomEventsDataDrawer
+- uid: Surfer.SUCustomEventsDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/Surfer.SUCustomEventsDataDrawer.html#Surfer_SUCustomEventsDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUCustomEventsDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: Surfer.SUCustomEventsDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: SUCustomEventsDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: Surfer.SUCustomEventsDataDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/Surfer.SUCustomEventsDataDrawer.html#Surfer_SUCustomEventsDataDrawer_GetPropertyHeight_
+  commentId: Overload:Surfer.SUCustomEventsDataDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventsDataDrawer.GetPropertyHeight
+  nameWithType: SUCustomEventsDataDrawer.GetPropertyHeight
+- uid: Surfer.SUCustomEventsDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Surfer.SUCustomEventsDataDrawer.html#Surfer_SUCustomEventsDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUCustomEventsDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: Surfer.SUCustomEventsDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SUCustomEventsDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Surfer.SUCustomEventsDataDrawer.OnGUI*
+  name: OnGUI
+  href: api/Surfer.SUCustomEventsDataDrawer.html#Surfer_SUCustomEventsDataDrawer_OnGUI_
+  commentId: Overload:Surfer.SUCustomEventsDataDrawer.OnGUI
+  isSpec: "True"
+  fullName: Surfer.SUCustomEventsDataDrawer.OnGUI
+  nameWithType: SUCustomEventsDataDrawer.OnGUI
 - uid: Surfer.SUDropdownBehaviour
   name: SUDropdownBehaviour
   href: api/Surfer.SUDropdownBehaviour.html
@@ -2354,19 +2276,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.IsState
   nameWithType: SUElement.IsState
-- uid: Surfer.SUElement.OnBecomeLastStateSelection(Surfer.SULastSelectionEventData)
-  name: OnBecomeLastStateSelection(SULastSelectionEventData)
-  href: api/Surfer.SUElement.html#Surfer_SUElement_OnBecomeLastStateSelection_Surfer_SULastSelectionEventData_
-  commentId: M:Surfer.SUElement.OnBecomeLastStateSelection(Surfer.SULastSelectionEventData)
-  fullName: Surfer.SUElement.OnBecomeLastStateSelection(Surfer.SULastSelectionEventData)
-  nameWithType: SUElement.OnBecomeLastStateSelection(SULastSelectionEventData)
-- uid: Surfer.SUElement.OnBecomeLastStateSelection*
-  name: OnBecomeLastStateSelection
-  href: api/Surfer.SUElement.html#Surfer_SUElement_OnBecomeLastStateSelection_
-  commentId: Overload:Surfer.SUElement.OnBecomeLastStateSelection
+- uid: Surfer.SUElement.OnBeginDrag(PointerEventData)
+  name: OnBeginDrag(PointerEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnBeginDrag_PointerEventData_
+  commentId: M:Surfer.SUElement.OnBeginDrag(PointerEventData)
+  fullName: Surfer.SUElement.OnBeginDrag(PointerEventData)
+  nameWithType: SUElement.OnBeginDrag(PointerEventData)
+- uid: Surfer.SUElement.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnBeginDrag_
+  commentId: Overload:Surfer.SUElement.OnBeginDrag
   isSpec: "True"
-  fullName: Surfer.SUElement.OnBecomeLastStateSelection
-  nameWithType: SUElement.OnBecomeLastStateSelection
+  fullName: Surfer.SUElement.OnBeginDrag
+  nameWithType: SUElement.OnBeginDrag
 - uid: Surfer.SUElement.OnDeselect(BaseEventData)
   name: OnDeselect(BaseEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnDeselect_BaseEventData_
@@ -2380,6 +2302,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnDeselect
   nameWithType: SUElement.OnDeselect
+- uid: Surfer.SUElement.OnDrag(PointerEventData)
+  name: OnDrag(PointerEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnDrag_PointerEventData_
+  commentId: M:Surfer.SUElement.OnDrag(PointerEventData)
+  fullName: Surfer.SUElement.OnDrag(PointerEventData)
+  nameWithType: SUElement.OnDrag(PointerEventData)
+- uid: Surfer.SUElement.OnDrag*
+  name: OnDrag
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnDrag_
+  commentId: Overload:Surfer.SUElement.OnDrag
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnDrag
+  nameWithType: SUElement.OnDrag
+- uid: Surfer.SUElement.OnEndDrag(PointerEventData)
+  name: OnEndDrag(PointerEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnEndDrag_PointerEventData_
+  commentId: M:Surfer.SUElement.OnEndDrag(PointerEventData)
+  fullName: Surfer.SUElement.OnEndDrag(PointerEventData)
+  nameWithType: SUElement.OnEndDrag(PointerEventData)
+- uid: Surfer.SUElement.OnEndDrag*
+  name: OnEndDrag
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnEndDrag_
+  commentId: Overload:Surfer.SUElement.OnEndDrag
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnEndDrag
+  nameWithType: SUElement.OnEndDrag
 - uid: Surfer.SUElement.OnPointerClick(PointerEventData)
   name: OnPointerClick(PointerEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnPointerClick_PointerEventData_
@@ -2484,6 +2432,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnSubmit
   nameWithType: SUElement.OnSubmit
+- uid: Surfer.SUElement.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  name: OnSUCustomEvent(SUCustomEventEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnSUCustomEvent_Surfer_SUCustomEventEventData_
+  commentId: M:Surfer.SUElement.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  fullName: Surfer.SUElement.OnSUCustomEvent(Surfer.SUCustomEventEventData)
+  nameWithType: SUElement.OnSUCustomEvent(SUCustomEventEventData)
+- uid: Surfer.SUElement.OnSUCustomEvent*
+  name: OnSUCustomEvent
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnSUCustomEvent_
+  commentId: Overload:Surfer.SUElement.OnSUCustomEvent
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnSUCustomEvent
+  nameWithType: SUElement.OnSUCustomEvent
 - uid: Surfer.SUElement.OnSUSceneActivated(Surfer.SUSceneActivatedEventData)
   name: OnSUSceneActivated(SUSceneActivatedEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnSUSceneActivated_Surfer_SUSceneActivatedEventData_
@@ -2588,6 +2549,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnSUStateExit
   nameWithType: SUElement.OnSUStateExit
+- uid: Surfer.SUElement.RunCustomEventBehaviour(System.String)
+  name: RunCustomEventBehaviour(String)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_System_String_
+  commentId: M:Surfer.SUElement.RunCustomEventBehaviour(System.String)
+  fullName: Surfer.SUElement.RunCustomEventBehaviour(System.String)
+  nameWithType: SUElement.RunCustomEventBehaviour(String)
+- uid: Surfer.SUElement.RunCustomEventBehaviour*
+  name: RunCustomEventBehaviour
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_
+  commentId: Overload:Surfer.SUElement.RunCustomEventBehaviour
+  isSpec: "True"
+  fullName: Surfer.SUElement.RunCustomEventBehaviour
+  nameWithType: SUElement.RunCustomEventBehaviour
 - uid: Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)
   name: RunEventBehaviour(SUEvent.Type_ID)
   href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_
@@ -2672,6 +2646,51 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.HandleOnDestroy
   nameWithType: SUElementData.HandleOnDestroy
+- uid: Surfer.SUElementData.IsDrag
+  name: IsDrag
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsDrag
+  commentId: P:Surfer.SUElementData.IsDrag
+  fullName: Surfer.SUElementData.IsDrag
+  nameWithType: SUElementData.IsDrag
+- uid: Surfer.SUElementData.IsDrag*
+  name: IsDrag
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsDrag_
+  commentId: Overload:Surfer.SUElementData.IsDrag
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsDrag
+  nameWithType: SUElementData.IsDrag
+- uid: Surfer.SUElementData.IsLoading
+  name: IsLoading
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsLoading
+  commentId: P:Surfer.SUElementData.IsLoading
+  fullName: Surfer.SUElementData.IsLoading
+  nameWithType: SUElementData.IsLoading
+- uid: Surfer.SUElementData.IsLoading*
+  name: IsLoading
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsLoading_
+  commentId: Overload:Surfer.SUElementData.IsLoading
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsLoading
+  nameWithType: SUElementData.IsLoading
+- uid: Surfer.SUElementData.IsStackable
+  name: IsStackable
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsStackable
+  commentId: P:Surfer.SUElementData.IsStackable
+  fullName: Surfer.SUElementData.IsStackable
+  nameWithType: SUElementData.IsStackable
+- uid: Surfer.SUElementData.IsStackable*
+  name: IsStackable
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsStackable_
+  commentId: Overload:Surfer.SUElementData.IsStackable
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsStackable
+  nameWithType: SUElementData.IsStackable
+- uid: Surfer.SUElementData.IsStackDelayRunning
+  name: IsStackDelayRunning
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsStackDelayRunning
+  commentId: F:Surfer.SUElementData.IsStackDelayRunning
+  fullName: Surfer.SUElementData.IsStackDelayRunning
+  nameWithType: SUElementData.IsStackDelayRunning
 - uid: Surfer.SUElementData.IsState
   name: IsState
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsState
@@ -2685,6 +2704,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.IsState
   nameWithType: SUElementData.IsState
+- uid: Surfer.SUElementData.IsTooltip
+  name: IsTooltip
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsTooltip
+  commentId: P:Surfer.SUElementData.IsTooltip
+  fullName: Surfer.SUElementData.IsTooltip
+  nameWithType: SUElementData.IsTooltip
+- uid: Surfer.SUElementData.IsTooltip*
+  name: IsTooltip
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsTooltip_
+  commentId: Overload:Surfer.SUElementData.IsTooltip
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsTooltip
+  nameWithType: SUElementData.IsTooltip
 - uid: Surfer.SUElementData.ParentUIStates
   name: ParentUIStates
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_ParentUIStates
@@ -2698,6 +2730,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.ParentUIStates
   nameWithType: SUElementData.ParentUIStates
+- uid: Surfer.SUElementData.PlayerID
+  name: PlayerID
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_PlayerID
+  commentId: P:Surfer.SUElementData.PlayerID
+  fullName: Surfer.SUElementData.PlayerID
+  nameWithType: SUElementData.PlayerID
+- uid: Surfer.SUElementData.PlayerID*
+  name: PlayerID
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_PlayerID_
+  commentId: Overload:Surfer.SUElementData.PlayerID
+  isSpec: "True"
+  fullName: Surfer.SUElementData.PlayerID
+  nameWithType: SUElementData.PlayerID
 - uid: Surfer.SUElementData.SetUp(GameObject)
   name: SetUp(GameObject)
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetUp_GameObject_
@@ -2711,6 +2756,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.SetUp
   nameWithType: SUElementData.SetUp
+- uid: Surfer.SUElementData.StackDelay
+  name: StackDelay
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StackDelay
+  commentId: P:Surfer.SUElementData.StackDelay
+  fullName: Surfer.SUElementData.StackDelay
+  nameWithType: SUElementData.StackDelay
+- uid: Surfer.SUElementData.StackDelay*
+  name: StackDelay
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StackDelay_
+  commentId: Overload:Surfer.SUElementData.StackDelay
+  isSpec: "True"
+  fullName: Surfer.SUElementData.StackDelay
+  nameWithType: SUElementData.StackDelay
 - uid: Surfer.SUElementData.StateCloseMode_ID
   name: SUElementData.StateCloseMode_ID
   href: api/Surfer.SUElementData.StateCloseMode_ID.html
@@ -2773,12 +2831,87 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.StatesToClose
   nameWithType: SUElementData.StatesToClose
+- uid: Surfer.SUElementData.StringVal
+  name: StringVal
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StringVal
+  commentId: P:Surfer.SUElementData.StringVal
+  fullName: Surfer.SUElementData.StringVal
+  nameWithType: SUElementData.StringVal
+- uid: Surfer.SUElementData.StringVal*
+  name: StringVal
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StringVal_
+  commentId: Overload:Surfer.SUElementData.StringVal
+  isSpec: "True"
+  fullName: Surfer.SUElementData.StringVal
+  nameWithType: SUElementData.StringVal
+- uid: Surfer.SUElementData.StringVal2
+  name: StringVal2
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StringVal2
+  commentId: P:Surfer.SUElementData.StringVal2
+  fullName: Surfer.SUElementData.StringVal2
+  nameWithType: SUElementData.StringVal2
+- uid: Surfer.SUElementData.StringVal2*
+  name: StringVal2
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_StringVal2_
+  commentId: Overload:Surfer.SUElementData.StringVal2
+  isSpec: "True"
+  fullName: Surfer.SUElementData.StringVal2
+  nameWithType: SUElementData.StringVal2
+- uid: Surfer.SUElementData.Type
+  name: Type
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_Type
+  commentId: P:Surfer.SUElementData.Type
+  fullName: Surfer.SUElementData.Type
+  nameWithType: SUElementData.Type
+- uid: Surfer.SUElementData.Type*
+  name: Type
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_Type_
+  commentId: Overload:Surfer.SUElementData.Type
+  isSpec: "True"
+  fullName: Surfer.SUElementData.Type
+  nameWithType: SUElementData.Type
 - uid: Surfer.SUElementData.Type_ID
   name: SUElementData.Type_ID
   href: api/Surfer.SUElementData.Type_ID.html
   commentId: T:Surfer.SUElementData.Type_ID
   fullName: Surfer.SUElementData.Type_ID
   nameWithType: SUElementData.Type_ID
+- uid: Surfer.SUElementData.Type_ID.DragDown_State
+  name: DragDown_State
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_DragDown_State
+  commentId: F:Surfer.SUElementData.Type_ID.DragDown_State
+  fullName: Surfer.SUElementData.Type_ID.DragDown_State
+  nameWithType: SUElementData.Type_ID.DragDown_State
+- uid: Surfer.SUElementData.Type_ID.DragLeft_State
+  name: DragLeft_State
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_DragLeft_State
+  commentId: F:Surfer.SUElementData.Type_ID.DragLeft_State
+  fullName: Surfer.SUElementData.Type_ID.DragLeft_State
+  nameWithType: SUElementData.Type_ID.DragLeft_State
+- uid: Surfer.SUElementData.Type_ID.DragRight_State
+  name: DragRight_State
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_DragRight_State
+  commentId: F:Surfer.SUElementData.Type_ID.DragRight_State
+  fullName: Surfer.SUElementData.Type_ID.DragRight_State
+  nameWithType: SUElementData.Type_ID.DragRight_State
+- uid: Surfer.SUElementData.Type_ID.DragUp_State
+  name: DragUp_State
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_DragUp_State
+  commentId: F:Surfer.SUElementData.Type_ID.DragUp_State
+  fullName: Surfer.SUElementData.Type_ID.DragUp_State
+  nameWithType: SUElementData.Type_ID.DragUp_State
+- uid: Surfer.SUElementData.Type_ID.Loading_Image
+  name: Loading_Image
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Loading_Image
+  commentId: F:Surfer.SUElementData.Type_ID.Loading_Image
+  fullName: Surfer.SUElementData.Type_ID.Loading_Image
+  nameWithType: SUElementData.Type_ID.Loading_Image
+- uid: Surfer.SUElementData.Type_ID.Loading_Text
+  name: Loading_Text
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Loading_Text
+  commentId: F:Surfer.SUElementData.Type_ID.Loading_Text
+  fullName: Surfer.SUElementData.Type_ID.Loading_Text
+  nameWithType: SUElementData.Type_ID.Loading_Text
 - uid: Surfer.SUElementData.Type_ID.Normal
   name: Normal
   href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Normal
@@ -2791,6 +2924,25 @@ references:
   commentId: F:Surfer.SUElementData.Type_ID.State
   fullName: Surfer.SUElementData.Type_ID.State
   nameWithType: SUElementData.Type_ID.State
+- uid: Surfer.SUElementData.Type_ID.Tooltip_State
+  name: Tooltip_State
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Tooltip_State
+  commentId: F:Surfer.SUElementData.Type_ID.Tooltip_State
+  fullName: Surfer.SUElementData.Type_ID.Tooltip_State
+  nameWithType: SUElementData.Type_ID.Tooltip_State
+- uid: Surfer.SUElementData.Vector
+  name: Vector
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_Vector
+  commentId: P:Surfer.SUElementData.Vector
+  fullName: Surfer.SUElementData.Vector
+  nameWithType: SUElementData.Vector
+- uid: Surfer.SUElementData.Vector*
+  name: Vector
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_Vector_
+  commentId: Overload:Surfer.SUElementData.Vector
+  isSpec: "True"
+  fullName: Surfer.SUElementData.Vector
+  nameWithType: SUElementData.Vector
 - uid: Surfer.SUElementDataDrawer
   name: SUElementDataDrawer
   href: api/Surfer.SUElementDataDrawer.html
@@ -2848,6 +3000,19 @@ references:
   commentId: T:Surfer.SUEvent
   fullName: Surfer.SUEvent
   nameWithType: SUEvent
+- uid: Surfer.SUEvent.CEventsData
+  name: CEventsData
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_CEventsData
+  commentId: P:Surfer.SUEvent.CEventsData
+  fullName: Surfer.SUEvent.CEventsData
+  nameWithType: SUEvent.CEventsData
+- uid: Surfer.SUEvent.CEventsData*
+  name: CEventsData
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_CEventsData_
+  commentId: Overload:Surfer.SUEvent.CEventsData
+  isSpec: "True"
+  fullName: Surfer.SUEvent.CEventsData
+  nameWithType: SUEvent.CEventsData
 - uid: Surfer.SUEvent.FloatVal
   name: FloatVal
   href: api/Surfer.SUEvent.html#Surfer_SUEvent_FloatVal
@@ -2874,6 +3039,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUEvent.IntVal
   nameWithType: SUEvent.IntVal
+- uid: Surfer.SUEvent.IntVal2
+  name: IntVal2
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_IntVal2
+  commentId: P:Surfer.SUEvent.IntVal2
+  fullName: Surfer.SUEvent.IntVal2
+  nameWithType: SUEvent.IntVal2
+- uid: Surfer.SUEvent.IntVal2*
+  name: IntVal2
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_IntVal2_
+  commentId: Overload:Surfer.SUEvent.IntVal2
+  isSpec: "True"
+  fullName: Surfer.SUEvent.IntVal2
+  nameWithType: SUEvent.IntVal2
 - uid: Surfer.SUEvent.KeyCodeVal
   name: KeyCodeVal
   href: api/Surfer.SUEvent.html#Surfer_SUEvent_KeyCodeVal
@@ -3017,6 +3195,12 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.MonoBehaviour_OnStart
   fullName: Surfer.SUEvent.Type_ID.MonoBehaviour_OnStart
   nameWithType: SUEvent.Type_ID.MonoBehaviour_OnStart
+- uid: Surfer.SUEvent.Type_ID.MyCustomEvent
+  name: MyCustomEvent
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MyCustomEvent
+  commentId: F:Surfer.SUEvent.Type_ID.MyCustomEvent
+  fullName: Surfer.SUEvent.Type_ID.MyCustomEvent
+  nameWithType: SUEvent.Type_ID.MyCustomEvent
 - uid: Surfer.SUEvent.Type_ID.Scene_Activated
   name: Scene_Activated
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Scene_Activated
@@ -3277,6 +3461,129 @@ references:
   isSpec: "True"
   fullName: Surfer.SUEventDrawer.OnGUI
   nameWithType: SUEventDrawer.OnGUI
+- uid: Surfer.SUEventSystemManager
+  name: SUEventSystemManager
+  href: api/Surfer.SUEventSystemManager.html
+  commentId: T:Surfer.SUEventSystemManager
+  fullName: Surfer.SUEventSystemManager
+  nameWithType: SUEventSystemManager
+- uid: Surfer.SUEventSystemManager.CheckHistoryFocus(System.Int32,System.String)
+  name: CheckHistoryFocus(Int32, String)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_CheckHistoryFocus_System_Int32_System_String_
+  commentId: M:Surfer.SUEventSystemManager.CheckHistoryFocus(System.Int32,System.String)
+  fullName: Surfer.SUEventSystemManager.CheckHistoryFocus(System.Int32, System.String)
+  nameWithType: SUEventSystemManager.CheckHistoryFocus(Int32, String)
+- uid: Surfer.SUEventSystemManager.CheckHistoryFocus*
+  name: CheckHistoryFocus
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_CheckHistoryFocus_
+  commentId: Overload:Surfer.SUEventSystemManager.CheckHistoryFocus
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.CheckHistoryFocus
+  nameWithType: SUEventSystemManager.CheckHistoryFocus
+- uid: Surfer.SUEventSystemManager.FocusOnObject(GameObject)
+  name: FocusOnObject(GameObject)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObject_GameObject_
+  commentId: M:Surfer.SUEventSystemManager.FocusOnObject(GameObject)
+  fullName: Surfer.SUEventSystemManager.FocusOnObject(GameObject)
+  nameWithType: SUEventSystemManager.FocusOnObject(GameObject)
+- uid: Surfer.SUEventSystemManager.FocusOnObject*
+  name: FocusOnObject
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObject_
+  commentId: Overload:Surfer.SUEventSystemManager.FocusOnObject
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.FocusOnObject
+  nameWithType: SUEventSystemManager.FocusOnObject
+- uid: Surfer.SUEventSystemManager.FocusOnObjectOrLast(GameObject)
+  name: FocusOnObjectOrLast(GameObject)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObjectOrLast_GameObject_
+  commentId: M:Surfer.SUEventSystemManager.FocusOnObjectOrLast(GameObject)
+  fullName: Surfer.SUEventSystemManager.FocusOnObjectOrLast(GameObject)
+  nameWithType: SUEventSystemManager.FocusOnObjectOrLast(GameObject)
+- uid: Surfer.SUEventSystemManager.FocusOnObjectOrLast*
+  name: FocusOnObjectOrLast
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObjectOrLast_
+  commentId: Overload:Surfer.SUEventSystemManager.FocusOnObjectOrLast
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.FocusOnObjectOrLast
+  nameWithType: SUEventSystemManager.FocusOnObjectOrLast
+- uid: Surfer.SUEventSystemManager.GetAllEventSystems
+  name: GetAllEventSystems()
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_GetAllEventSystems
+  commentId: M:Surfer.SUEventSystemManager.GetAllEventSystems
+  fullName: Surfer.SUEventSystemManager.GetAllEventSystems()
+  nameWithType: SUEventSystemManager.GetAllEventSystems()
+- uid: Surfer.SUEventSystemManager.GetAllEventSystems*
+  name: GetAllEventSystems
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_GetAllEventSystems_
+  commentId: Overload:Surfer.SUEventSystemManager.GetAllEventSystems
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.GetAllEventSystems
+  nameWithType: SUEventSystemManager.GetAllEventSystems
+- uid: Surfer.SUEventSystemManager.GetEventSystem(System.Int32)
+  name: GetEventSystem(Int32)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_GetEventSystem_System_Int32_
+  commentId: M:Surfer.SUEventSystemManager.GetEventSystem(System.Int32)
+  fullName: Surfer.SUEventSystemManager.GetEventSystem(System.Int32)
+  nameWithType: SUEventSystemManager.GetEventSystem(Int32)
+- uid: Surfer.SUEventSystemManager.GetEventSystem*
+  name: GetEventSystem
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_GetEventSystem_
+  commentId: Overload:Surfer.SUEventSystemManager.GetEventSystem
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.GetEventSystem
+  nameWithType: SUEventSystemManager.GetEventSystem
+- uid: Surfer.SUEventSystemManager.I
+  name: I
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_I
+  commentId: P:Surfer.SUEventSystemManager.I
+  fullName: Surfer.SUEventSystemManager.I
+  nameWithType: SUEventSystemManager.I
+- uid: Surfer.SUEventSystemManager.I*
+  name: I
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_I_
+  commentId: Overload:Surfer.SUEventSystemManager.I
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.I
+  nameWithType: SUEventSystemManager.I
+- uid: Surfer.SUEventSystemManager.IsHistoryReceiver(GameObject)
+  name: IsHistoryReceiver(GameObject)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_IsHistoryReceiver_GameObject_
+  commentId: M:Surfer.SUEventSystemManager.IsHistoryReceiver(GameObject)
+  fullName: Surfer.SUEventSystemManager.IsHistoryReceiver(GameObject)
+  nameWithType: SUEventSystemManager.IsHistoryReceiver(GameObject)
+- uid: Surfer.SUEventSystemManager.IsHistoryReceiver*
+  name: IsHistoryReceiver
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_IsHistoryReceiver_
+  commentId: Overload:Surfer.SUEventSystemManager.IsHistoryReceiver
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.IsHistoryReceiver
+  nameWithType: SUEventSystemManager.IsHistoryReceiver
+- uid: Surfer.SUEventSystemManager.ResetHistoryReceiver(System.Int32,System.String)
+  name: ResetHistoryReceiver(Int32, String)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_ResetHistoryReceiver_System_Int32_System_String_
+  commentId: M:Surfer.SUEventSystemManager.ResetHistoryReceiver(System.Int32,System.String)
+  fullName: Surfer.SUEventSystemManager.ResetHistoryReceiver(System.Int32, System.String)
+  nameWithType: SUEventSystemManager.ResetHistoryReceiver(Int32, String)
+- uid: Surfer.SUEventSystemManager.ResetHistoryReceiver*
+  name: ResetHistoryReceiver
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_ResetHistoryReceiver_
+  commentId: Overload:Surfer.SUEventSystemManager.ResetHistoryReceiver
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.ResetHistoryReceiver
+  nameWithType: SUEventSystemManager.ResetHistoryReceiver
+- uid: Surfer.SUEventSystemManager.ResetStateHistoryFocus(System.Int32,System.String)
+  name: ResetStateHistoryFocus(Int32, String)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_ResetStateHistoryFocus_System_Int32_System_String_
+  commentId: M:Surfer.SUEventSystemManager.ResetStateHistoryFocus(System.Int32,System.String)
+  fullName: Surfer.SUEventSystemManager.ResetStateHistoryFocus(System.Int32, System.String)
+  nameWithType: SUEventSystemManager.ResetStateHistoryFocus(Int32, String)
+- uid: Surfer.SUEventSystemManager.ResetStateHistoryFocus*
+  name: ResetStateHistoryFocus
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_ResetStateHistoryFocus_
+  commentId: Overload:Surfer.SUEventSystemManager.ResetStateHistoryFocus
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.ResetStateHistoryFocus
+  nameWithType: SUEventSystemManager.ResetStateHistoryFocus
 - uid: Surfer.SUFastConditionData
   name: SUFastConditionData
   href: api/Surfer.SUFastConditionData.html
@@ -3758,6 +4065,18 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.Audio_PlaySource
   fullName: Surfer.SUFastReactionData.Type_ID.Audio_PlaySource
   nameWithType: SUFastReactionData.Type_ID.Audio_PlaySource
+- uid: Surfer.SUFastReactionData.Type_ID.Canvas_BringToFront
+  name: Canvas_BringToFront
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Canvas_BringToFront
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Canvas_BringToFront
+  fullName: Surfer.SUFastReactionData.Type_ID.Canvas_BringToFront
+  nameWithType: SUFastReactionData.Type_ID.Canvas_BringToFront
+- uid: Surfer.SUFastReactionData.Type_ID.Canvas_SendToBack
+  name: Canvas_SendToBack
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Canvas_SendToBack
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Canvas_SendToBack
+  fullName: Surfer.SUFastReactionData.Type_ID.Canvas_SendToBack
+  nameWithType: SUFastReactionData.Type_ID.Canvas_SendToBack
 - uid: Surfer.SUFastReactionData.Type_ID.CanvasGroup_Alpha0
   name: CanvasGroup_Alpha0
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_CanvasGroup_Alpha0
@@ -3986,6 +4305,24 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.Transform_SetLocalScale
   fullName: Surfer.SUFastReactionData.Type_ID.Transform_SetLocalScale
   nameWithType: SUFastReactionData.Type_ID.Transform_SetLocalScale
+- uid: Surfer.SUFastReactionData.Type_ID.Transform_SetSizeDelta
+  name: Transform_SetSizeDelta
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Transform_SetSizeDelta
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Transform_SetSizeDelta
+  fullName: Surfer.SUFastReactionData.Type_ID.Transform_SetSizeDelta
+  nameWithType: SUFastReactionData.Type_ID.Transform_SetSizeDelta
+- uid: Surfer.SUFastReactionData.Type_ID.UIGenerics_DisableClickConstraint
+  name: UIGenerics_DisableClickConstraint
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_UIGenerics_DisableClickConstraint
+  commentId: F:Surfer.SUFastReactionData.Type_ID.UIGenerics_DisableClickConstraint
+  fullName: Surfer.SUFastReactionData.Type_ID.UIGenerics_DisableClickConstraint
+  nameWithType: SUFastReactionData.Type_ID.UIGenerics_DisableClickConstraint
+- uid: Surfer.SUFastReactionData.Type_ID.UIGenerics_EnableClickConstraint
+  name: UIGenerics_EnableClickConstraint
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_UIGenerics_EnableClickConstraint
+  commentId: F:Surfer.SUFastReactionData.Type_ID.UIGenerics_EnableClickConstraint
+  fullName: Surfer.SUFastReactionData.Type_ID.UIGenerics_EnableClickConstraint
+  nameWithType: SUFastReactionData.Type_ID.UIGenerics_EnableClickConstraint
 - uid: Surfer.SUFastReactionData.Type_ID.UIGenerics_FocusOnObject
   name: UIGenerics_FocusOnObject
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_UIGenerics_FocusOnObject
@@ -4359,76 +4696,25 @@ references:
   isSpec: "True"
   fullName: Surfer.SULoadingProgress.OnSUSceneLoading
   nameWithType: SULoadingProgress.OnSUSceneLoading
-- uid: Surfer.SUPosition
-  name: SUPosition
-  href: api/Surfer.SUPosition.html
-  commentId: T:Surfer.SUPosition
-  fullName: Surfer.SUPosition
-  nameWithType: SUPosition
-- uid: Surfer.SUPosition.OnPlay(GameObject)
+- uid: Surfer.SUPositionData
+  name: SUPositionData
+  href: api/Surfer.SUPositionData.html
+  commentId: T:Surfer.SUPositionData
+  fullName: Surfer.SUPositionData
+  nameWithType: SUPositionData
+- uid: Surfer.SUPositionData.OnPlay(GameObject)
   name: OnPlay(GameObject)
-  href: api/Surfer.SUPosition.html#Surfer_SUPosition_OnPlay_GameObject_
-  commentId: M:Surfer.SUPosition.OnPlay(GameObject)
-  fullName: Surfer.SUPosition.OnPlay(GameObject)
-  nameWithType: SUPosition.OnPlay(GameObject)
-- uid: Surfer.SUPosition.OnPlay*
+  href: api/Surfer.SUPositionData.html#Surfer_SUPositionData_OnPlay_GameObject_
+  commentId: M:Surfer.SUPositionData.OnPlay(GameObject)
+  fullName: Surfer.SUPositionData.OnPlay(GameObject)
+  nameWithType: SUPositionData.OnPlay(GameObject)
+- uid: Surfer.SUPositionData.OnPlay*
   name: OnPlay
-  href: api/Surfer.SUPosition.html#Surfer_SUPosition_OnPlay_
-  commentId: Overload:Surfer.SUPosition.OnPlay
+  href: api/Surfer.SUPositionData.html#Surfer_SUPositionData_OnPlay_
+  commentId: Overload:Surfer.SUPositionData.OnPlay
   isSpec: "True"
-  fullName: Surfer.SUPosition.OnPlay
-  nameWithType: SUPosition.OnPlay
-- uid: Surfer.SUProgressData
-  name: SUProgressData
-  href: api/Surfer.SUProgressData.html
-  commentId: T:Surfer.SUProgressData
-  fullName: Surfer.SUProgressData
-  nameWithType: SUProgressData
-- uid: Surfer.SUProgressData.Play(GameObject,System.Single)
-  name: Play(GameObject, Single)
-  href: api/Surfer.SUProgressData.html#Surfer_SUProgressData_Play_GameObject_System_Single_
-  commentId: M:Surfer.SUProgressData.Play(GameObject,System.Single)
-  fullName: Surfer.SUProgressData.Play(GameObject, System.Single)
-  nameWithType: SUProgressData.Play(GameObject, Single)
-- uid: Surfer.SUProgressData.Play*
-  name: Play
-  href: api/Surfer.SUProgressData.html#Surfer_SUProgressData_Play_
-  commentId: Overload:Surfer.SUProgressData.Play
-  isSpec: "True"
-  fullName: Surfer.SUProgressData.Play
-  nameWithType: SUProgressData.Play
-- uid: Surfer.SUProgressDataDrawer
-  name: SUProgressDataDrawer
-  href: api/Surfer.SUProgressDataDrawer.html
-  commentId: T:Surfer.SUProgressDataDrawer
-  fullName: Surfer.SUProgressDataDrawer
-  nameWithType: SUProgressDataDrawer
-- uid: Surfer.SUProgressDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
-  name: GetPropertyHeight(SerializedProperty, GUIContent)
-  href: api/Surfer.SUProgressDataDrawer.html#Surfer_SUProgressDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
-  commentId: M:Surfer.SUProgressDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
-  fullName: Surfer.SUProgressDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
-  nameWithType: SUProgressDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
-- uid: Surfer.SUProgressDataDrawer.GetPropertyHeight*
-  name: GetPropertyHeight
-  href: api/Surfer.SUProgressDataDrawer.html#Surfer_SUProgressDataDrawer_GetPropertyHeight_
-  commentId: Overload:Surfer.SUProgressDataDrawer.GetPropertyHeight
-  isSpec: "True"
-  fullName: Surfer.SUProgressDataDrawer.GetPropertyHeight
-  nameWithType: SUProgressDataDrawer.GetPropertyHeight
-- uid: Surfer.SUProgressDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
-  name: OnGUI(Rect, SerializedProperty, GUIContent)
-  href: api/Surfer.SUProgressDataDrawer.html#Surfer_SUProgressDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
-  commentId: M:Surfer.SUProgressDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
-  fullName: Surfer.SUProgressDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
-  nameWithType: SUProgressDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
-- uid: Surfer.SUProgressDataDrawer.OnGUI*
-  name: OnGUI
-  href: api/Surfer.SUProgressDataDrawer.html#Surfer_SUProgressDataDrawer_OnGUI_
-  commentId: Overload:Surfer.SUProgressDataDrawer.OnGUI
-  isSpec: "True"
-  fullName: Surfer.SUProgressDataDrawer.OnGUI
-  nameWithType: SUProgressDataDrawer.OnGUI
+  fullName: Surfer.SUPositionData.OnPlay
+  nameWithType: SUPositionData.OnPlay
 - uid: Surfer.SUPunchData
   name: SUPunchData
   href: api/Surfer.SUPunchData.html
@@ -4552,6 +4838,147 @@ references:
   isSpec: "True"
   fullName: Surfer.SUPunchDataDrawer.OnCanUseDefaultModes
   nameWithType: SUPunchDataDrawer.OnCanUseDefaultModes
+- uid: Surfer.SUReactionData
+  name: SUReactionData
+  href: api/Surfer.SUReactionData.html
+  commentId: T:Surfer.SUReactionData
+  fullName: Surfer.SUReactionData
+  nameWithType: SUReactionData
+- uid: Surfer.SUReactionData.#ctor(System.String,System.String)
+  name: SUReactionData(String, String)
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData__ctor_System_String_System_String_
+  commentId: M:Surfer.SUReactionData.#ctor(System.String,System.String)
+  fullName: Surfer.SUReactionData.SUReactionData(System.String, System.String)
+  nameWithType: SUReactionData.SUReactionData(String, String)
+- uid: Surfer.SUReactionData.#ctor*
+  name: SUReactionData
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData__ctor_
+  commentId: Overload:Surfer.SUReactionData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUReactionData.SUReactionData
+  nameWithType: SUReactionData.SUReactionData
+- uid: Surfer.SUReactionData.Key
+  name: Key
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Key
+  commentId: P:Surfer.SUReactionData.Key
+  fullName: Surfer.SUReactionData.Key
+  nameWithType: SUReactionData.Key
+- uid: Surfer.SUReactionData.Key*
+  name: Key
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Key_
+  commentId: Overload:Surfer.SUReactionData.Key
+  isSpec: "True"
+  fullName: Surfer.SUReactionData.Key
+  nameWithType: SUReactionData.Key
+- uid: Surfer.SUReactionData.Name
+  name: Name
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Name
+  commentId: P:Surfer.SUReactionData.Name
+  fullName: Surfer.SUReactionData.Name
+  nameWithType: SUReactionData.Name
+- uid: Surfer.SUReactionData.Name*
+  name: Name
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Name_
+  commentId: Overload:Surfer.SUReactionData.Name
+  isSpec: "True"
+  fullName: Surfer.SUReactionData.Name
+  nameWithType: SUReactionData.Name
+- uid: Surfer.SUReactionData.Play(GameObject)
+  name: Play(GameObject)
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Play_GameObject_
+  commentId: M:Surfer.SUReactionData.Play(GameObject)
+  fullName: Surfer.SUReactionData.Play(GameObject)
+  nameWithType: SUReactionData.Play(GameObject)
+- uid: Surfer.SUReactionData.Play*
+  name: Play
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Play_
+  commentId: Overload:Surfer.SUReactionData.Play
+  isSpec: "True"
+  fullName: Surfer.SUReactionData.Play
+  nameWithType: SUReactionData.Play
+- uid: Surfer.SUReactionDataDrawer
+  name: SUReactionDataDrawer
+  href: api/Surfer.SUReactionDataDrawer.html
+  commentId: T:Surfer.SUReactionDataDrawer
+  fullName: Surfer.SUReactionDataDrawer
+  nameWithType: SUReactionDataDrawer
+- uid: Surfer.SUReactionDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/Surfer.SUReactionDataDrawer.html#Surfer_SUReactionDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUReactionDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: Surfer.SUReactionDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: SUReactionDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: Surfer.SUReactionDataDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/Surfer.SUReactionDataDrawer.html#Surfer_SUReactionDataDrawer_GetPropertyHeight_
+  commentId: Overload:Surfer.SUReactionDataDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: Surfer.SUReactionDataDrawer.GetPropertyHeight
+  nameWithType: SUReactionDataDrawer.GetPropertyHeight
+- uid: Surfer.SUReactionDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Surfer.SUReactionDataDrawer.html#Surfer_SUReactionDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUReactionDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: Surfer.SUReactionDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SUReactionDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Surfer.SUReactionDataDrawer.OnGUI*
+  name: OnGUI
+  href: api/Surfer.SUReactionDataDrawer.html#Surfer_SUReactionDataDrawer_OnGUI_
+  commentId: Overload:Surfer.SUReactionDataDrawer.OnGUI
+  isSpec: "True"
+  fullName: Surfer.SUReactionDataDrawer.OnGUI
+  nameWithType: SUReactionDataDrawer.OnGUI
+- uid: Surfer.SUReactionsData
+  name: SUReactionsData
+  href: api/Surfer.SUReactionsData.html
+  commentId: T:Surfer.SUReactionsData
+  fullName: Surfer.SUReactionsData
+  nameWithType: SUReactionsData
+- uid: Surfer.SUReactionsData.Play(GameObject)
+  name: Play(GameObject)
+  href: api/Surfer.SUReactionsData.html#Surfer_SUReactionsData_Play_GameObject_
+  commentId: M:Surfer.SUReactionsData.Play(GameObject)
+  fullName: Surfer.SUReactionsData.Play(GameObject)
+  nameWithType: SUReactionsData.Play(GameObject)
+- uid: Surfer.SUReactionsData.Play*
+  name: Play
+  href: api/Surfer.SUReactionsData.html#Surfer_SUReactionsData_Play_
+  commentId: Overload:Surfer.SUReactionsData.Play
+  isSpec: "True"
+  fullName: Surfer.SUReactionsData.Play
+  nameWithType: SUReactionsData.Play
+- uid: Surfer.SUReactionsDataDrawer
+  name: SUReactionsDataDrawer
+  href: api/Surfer.SUReactionsDataDrawer.html
+  commentId: T:Surfer.SUReactionsDataDrawer
+  fullName: Surfer.SUReactionsDataDrawer
+  nameWithType: SUReactionsDataDrawer
+- uid: Surfer.SUReactionsDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/Surfer.SUReactionsDataDrawer.html#Surfer_SUReactionsDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUReactionsDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: Surfer.SUReactionsDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: SUReactionsDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: Surfer.SUReactionsDataDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/Surfer.SUReactionsDataDrawer.html#Surfer_SUReactionsDataDrawer_GetPropertyHeight_
+  commentId: Overload:Surfer.SUReactionsDataDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: Surfer.SUReactionsDataDrawer.GetPropertyHeight
+  nameWithType: SUReactionsDataDrawer.GetPropertyHeight
+- uid: Surfer.SUReactionsDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Surfer.SUReactionsDataDrawer.html#Surfer_SUReactionsDataDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUReactionsDataDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: Surfer.SUReactionsDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SUReactionsDataDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Surfer.SUReactionsDataDrawer.OnGUI*
+  name: OnGUI
+  href: api/Surfer.SUReactionsDataDrawer.html#Surfer_SUReactionsDataDrawer_OnGUI_
+  commentId: Overload:Surfer.SUReactionsDataDrawer.OnGUI
+  isSpec: "True"
+  fullName: Surfer.SUReactionsDataDrawer.OnGUI
+  nameWithType: SUReactionsDataDrawer.OnGUI
 - uid: Surfer.SURectSizeData
   name: SURectSizeData
   href: api/Surfer.SURectSizeData.html
@@ -4774,6 +5201,62 @@ references:
   commentId: T:Surfer.SurferManager
   fullName: Surfer.SurferManager
   nameWithType: SurferManager
+- uid: Surfer.SurferManager.CheckStateStack(System.String,System.Int32)
+  name: CheckStateStack(String, Int32)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_CheckStateStack_System_String_System_Int32_
+  commentId: M:Surfer.SurferManager.CheckStateStack(System.String,System.Int32)
+  fullName: Surfer.SurferManager.CheckStateStack(System.String, System.Int32)
+  nameWithType: SurferManager.CheckStateStack(String, Int32)
+- uid: Surfer.SurferManager.CheckStateStack*
+  name: CheckStateStack
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_CheckStateStack_
+  commentId: Overload:Surfer.SurferManager.CheckStateStack
+  isSpec: "True"
+  fullName: Surfer.SurferManager.CheckStateStack
+  nameWithType: SurferManager.CheckStateStack
+- uid: Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name: ClosePlayerState(Int32, String, Int32, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Int32_System_Object___
+  commentId: M:Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name.vb: ClosePlayerState(Int32, String, Int32, Object())
+  fullName: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Int32, System.Object[])
+  fullName.vb: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Int32, System.Object())
+  nameWithType: SurferManager.ClosePlayerState(Int32, String, Int32, Object[])
+  nameWithType.vb: SurferManager.ClosePlayerState(Int32, String, Int32, Object())
+- uid: Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name: ClosePlayerState(Int32, String, Int32, Single, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___
+  commentId: M:Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name.vb: ClosePlayerState(Int32, String, Int32, Single, Object())
+  fullName: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object[])
+  fullName.vb: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object())
+  nameWithType: SurferManager.ClosePlayerState(Int32, String, Int32, Single, Object[])
+  nameWithType.vb: SurferManager.ClosePlayerState(Int32, String, Int32, Single, Object())
+- uid: Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Object[])
+  name: ClosePlayerState(Int32, String, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Object___
+  commentId: M:Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Object[])
+  name.vb: ClosePlayerState(Int32, String, Object())
+  fullName: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Object[])
+  fullName.vb: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Object())
+  nameWithType: SurferManager.ClosePlayerState(Int32, String, Object[])
+  nameWithType.vb: SurferManager.ClosePlayerState(Int32, String, Object())
+- uid: Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Single,System.Object[])
+  name: ClosePlayerState(Int32, String, Single, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Single_System_Object___
+  commentId: M:Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Single,System.Object[])
+  name.vb: ClosePlayerState(Int32, String, Single, Object())
+  fullName: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Single, System.Object[])
+  fullName.vb: Surfer.SurferManager.ClosePlayerState(System.Int32, System.String, System.Single, System.Object())
+  nameWithType: SurferManager.ClosePlayerState(Int32, String, Single, Object[])
+  nameWithType.vb: SurferManager.ClosePlayerState(Int32, String, Single, Object())
+- uid: Surfer.SurferManager.ClosePlayerState*
+  name: ClosePlayerState
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ClosePlayerState_
+  commentId: Overload:Surfer.SurferManager.ClosePlayerState
+  isSpec: "True"
+  fullName: Surfer.SurferManager.ClosePlayerState
+  nameWithType: SurferManager.ClosePlayerState
 - uid: Surfer.SurferManager.CloseState(System.String,System.Int32,System.Object[])
   name: CloseState(String, Int32, Object[])
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_CloseState_System_String_System_Int32_System_Object___
@@ -4808,51 +5291,51 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.CloseState
   nameWithType: SurferManager.CloseState
-- uid: Surfer.SurferManager.FocusOnObject(GameObject)
-  name: FocusOnObject(GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_FocusOnObject_GameObject_
-  commentId: M:Surfer.SurferManager.FocusOnObject(GameObject)
-  fullName: Surfer.SurferManager.FocusOnObject(GameObject)
-  nameWithType: SurferManager.FocusOnObject(GameObject)
-- uid: Surfer.SurferManager.FocusOnObject*
-  name: FocusOnObject
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_FocusOnObject_
-  commentId: Overload:Surfer.SurferManager.FocusOnObject
+- uid: Surfer.SurferManager.GetObjectStateElement(GameObject,System.Boolean)
+  name: GetObjectStateElement(GameObject, Boolean)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateElement_GameObject_System_Boolean_
+  commentId: M:Surfer.SurferManager.GetObjectStateElement(GameObject,System.Boolean)
+  fullName: Surfer.SurferManager.GetObjectStateElement(GameObject, System.Boolean)
+  nameWithType: SurferManager.GetObjectStateElement(GameObject, Boolean)
+- uid: Surfer.SurferManager.GetObjectStateElement*
+  name: GetObjectStateElement
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateElement_
+  commentId: Overload:Surfer.SurferManager.GetObjectStateElement
   isSpec: "True"
-  fullName: Surfer.SurferManager.FocusOnObject
-  nameWithType: SurferManager.FocusOnObject
-- uid: Surfer.SurferManager.FocusOnObjectOrLast(GameObject)
-  name: FocusOnObjectOrLast(GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_FocusOnObjectOrLast_GameObject_
-  commentId: M:Surfer.SurferManager.FocusOnObjectOrLast(GameObject)
-  fullName: Surfer.SurferManager.FocusOnObjectOrLast(GameObject)
-  nameWithType: SurferManager.FocusOnObjectOrLast(GameObject)
-- uid: Surfer.SurferManager.FocusOnObjectOrLast*
-  name: FocusOnObjectOrLast
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_FocusOnObjectOrLast_
-  commentId: Overload:Surfer.SurferManager.FocusOnObjectOrLast
+  fullName: Surfer.SurferManager.GetObjectStateElement
+  nameWithType: SurferManager.GetObjectStateElement
+- uid: Surfer.SurferManager.GetObjectStateName(GameObject,System.Boolean)
+  name: GetObjectStateName(GameObject, Boolean)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateName_GameObject_System_Boolean_
+  commentId: M:Surfer.SurferManager.GetObjectStateName(GameObject,System.Boolean)
+  fullName: Surfer.SurferManager.GetObjectStateName(GameObject, System.Boolean)
+  nameWithType: SurferManager.GetObjectStateName(GameObject, Boolean)
+- uid: Surfer.SurferManager.GetObjectStateName*
+  name: GetObjectStateName
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateName_
+  commentId: Overload:Surfer.SurferManager.GetObjectStateName
   isSpec: "True"
-  fullName: Surfer.SurferManager.FocusOnObjectOrLast
-  nameWithType: SurferManager.FocusOnObjectOrLast
-- uid: Surfer.SurferManager.GetObjectState(GameObject)
-  name: GetObjectState(GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectState_GameObject_
-  commentId: M:Surfer.SurferManager.GetObjectState(GameObject)
-  fullName: Surfer.SurferManager.GetObjectState(GameObject)
-  nameWithType: SurferManager.GetObjectState(GameObject)
-- uid: Surfer.SurferManager.GetObjectState*
-  name: GetObjectState
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectState_
-  commentId: Overload:Surfer.SurferManager.GetObjectState
+  fullName: Surfer.SurferManager.GetObjectStateName
+  nameWithType: SurferManager.GetObjectStateName
+- uid: Surfer.SurferManager.GetObjectStatePlayerID(GameObject,System.Boolean)
+  name: GetObjectStatePlayerID(GameObject, Boolean)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStatePlayerID_GameObject_System_Boolean_
+  commentId: M:Surfer.SurferManager.GetObjectStatePlayerID(GameObject,System.Boolean)
+  fullName: Surfer.SurferManager.GetObjectStatePlayerID(GameObject, System.Boolean)
+  nameWithType: SurferManager.GetObjectStatePlayerID(GameObject, Boolean)
+- uid: Surfer.SurferManager.GetObjectStatePlayerID*
+  name: GetObjectStatePlayerID
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStatePlayerID_
+  commentId: Overload:Surfer.SurferManager.GetObjectStatePlayerID
   isSpec: "True"
-  fullName: Surfer.SurferManager.GetObjectState
-  nameWithType: SurferManager.GetObjectState
-- uid: Surfer.SurferManager.GetObjectStateTransfom(GameObject)
-  name: GetObjectStateTransfom(GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateTransfom_GameObject_
-  commentId: M:Surfer.SurferManager.GetObjectStateTransfom(GameObject)
-  fullName: Surfer.SurferManager.GetObjectStateTransfom(GameObject)
-  nameWithType: SurferManager.GetObjectStateTransfom(GameObject)
+  fullName: Surfer.SurferManager.GetObjectStatePlayerID
+  nameWithType: SurferManager.GetObjectStatePlayerID
+- uid: Surfer.SurferManager.GetObjectStateTransfom(GameObject,System.Boolean)
+  name: GetObjectStateTransfom(GameObject, Boolean)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateTransfom_GameObject_System_Boolean_
+  commentId: M:Surfer.SurferManager.GetObjectStateTransfom(GameObject,System.Boolean)
+  fullName: Surfer.SurferManager.GetObjectStateTransfom(GameObject, System.Boolean)
+  nameWithType: SurferManager.GetObjectStateTransfom(GameObject, Boolean)
 - uid: Surfer.SurferManager.GetObjectStateTransfom*
   name: GetObjectStateTransfom
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_GetObjectStateTransfom_
@@ -4873,12 +5356,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.I
   nameWithType: SurferManager.I
-- uid: Surfer.SurferManager.IsClosed(System.String)
-  name: IsClosed(String)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsClosed_System_String_
-  commentId: M:Surfer.SurferManager.IsClosed(System.String)
-  fullName: Surfer.SurferManager.IsClosed(System.String)
-  nameWithType: SurferManager.IsClosed(String)
+- uid: Surfer.SurferManager.IsClosed(System.String,System.Int32)
+  name: IsClosed(String, Int32)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsClosed_System_String_System_Int32_
+  commentId: M:Surfer.SurferManager.IsClosed(System.String,System.Int32)
+  fullName: Surfer.SurferManager.IsClosed(System.String, System.Int32)
+  nameWithType: SurferManager.IsClosed(String, Int32)
 - uid: Surfer.SurferManager.IsClosed*
   name: IsClosed
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsClosed_
@@ -4905,6 +5388,12 @@ references:
   commentId: M:Surfer.SurferManager.IsOpen(System.String,System.Int32)
   fullName: Surfer.SurferManager.IsOpen(System.String, System.Int32)
   nameWithType: SurferManager.IsOpen(String, Int32)
+- uid: Surfer.SurferManager.IsOpen(System.String,System.Int32,System.Int32)
+  name: IsOpen(String, Int32, Int32)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsOpen_System_String_System_Int32_System_Int32_
+  commentId: M:Surfer.SurferManager.IsOpen(System.String,System.Int32,System.Int32)
+  fullName: Surfer.SurferManager.IsOpen(System.String, System.Int32, System.Int32)
+  nameWithType: SurferManager.IsOpen(String, Int32, Int32)
 - uid: Surfer.SurferManager.IsOpen*
   name: IsOpen
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsOpen_
@@ -5016,6 +5505,40 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.OpenedStates
   nameWithType: SurferManager.OpenedStates
+- uid: Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name: OpenPlayerState(Int32, String, Int32, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Int32_System_Object___
+  commentId: M:Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name.vb: OpenPlayerState(Int32, String, Int32, Object())
+  fullName: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Int32, System.Object[])
+  fullName.vb: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Int32, System.Object())
+  nameWithType: SurferManager.OpenPlayerState(Int32, String, Int32, Object[])
+  nameWithType.vb: SurferManager.OpenPlayerState(Int32, String, Int32, Object())
+- uid: Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name: OpenPlayerState(Int32, String, Int32, Single, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___
+  commentId: M:Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name.vb: OpenPlayerState(Int32, String, Int32, Single, Object())
+  fullName: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object[])
+  fullName.vb: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object())
+  nameWithType: SurferManager.OpenPlayerState(Int32, String, Int32, Single, Object[])
+  nameWithType.vb: SurferManager.OpenPlayerState(Int32, String, Int32, Single, Object())
+- uid: Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Object[])
+  name: OpenPlayerState(Int32, String, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Object___
+  commentId: M:Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Object[])
+  name.vb: OpenPlayerState(Int32, String, Object())
+  fullName: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Object[])
+  fullName.vb: Surfer.SurferManager.OpenPlayerState(System.Int32, System.String, System.Object())
+  nameWithType: SurferManager.OpenPlayerState(Int32, String, Object[])
+  nameWithType.vb: SurferManager.OpenPlayerState(Int32, String, Object())
+- uid: Surfer.SurferManager.OpenPlayerState*
+  name: OpenPlayerState
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_OpenPlayerState_
+  commentId: Overload:Surfer.SurferManager.OpenPlayerState
+  isSpec: "True"
+  fullName: Surfer.SurferManager.OpenPlayerState
+  nameWithType: SurferManager.OpenPlayerState
 - uid: Surfer.SurferManager.OpenPrefabState(GameObject,Transform,System.Int32,System.Single,System.Object[])
   name: OpenPrefabState(GameObject, Transform, Int32, Single, Object[])
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_OpenPrefabState_GameObject_Transform_System_Int32_System_Single_System_Object___
@@ -5066,6 +5589,83 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.OpenState
   nameWithType: SurferManager.OpenState
+- uid: Surfer.SurferManager.PlayReaction(System.String,GameObject)
+  name: PlayReaction(String, GameObject)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_PlayReaction_System_String_GameObject_
+  commentId: M:Surfer.SurferManager.PlayReaction(System.String,GameObject)
+  fullName: Surfer.SurferManager.PlayReaction(System.String, GameObject)
+  nameWithType: SurferManager.PlayReaction(String, GameObject)
+- uid: Surfer.SurferManager.PlayReaction*
+  name: PlayReaction
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_PlayReaction_
+  commentId: Overload:Surfer.SurferManager.PlayReaction
+  isSpec: "True"
+  fullName: Surfer.SurferManager.PlayReaction
+  nameWithType: SurferManager.PlayReaction
+- uid: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name: RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name.vb: RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  nameWithType: SurferManager.RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
+  nameWithType.vb: SurferManager.RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
+- uid: Surfer.SurferManager.RecursiveGetChildStatesUI*
+  name: RecursiveGetChildStatesUI
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_
+  commentId: Overload:Surfer.SurferManager.RecursiveGetChildStatesUI
+  isSpec: "True"
+  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI
+  nameWithType: SurferManager.RecursiveGetChildStatesUI
+- uid: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name: RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name.vb: RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  nameWithType: SurferManager.RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
+  nameWithType.vb: SurferManager.RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
+- uid: Surfer.SurferManager.RecursiveGetParentStatesUI*
+  name: RecursiveGetParentStatesUI
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_
+  commentId: Overload:Surfer.SurferManager.RecursiveGetParentStatesUI
+  isSpec: "True"
+  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI
+  nameWithType: SurferManager.RecursiveGetParentStatesUI
+- uid: Surfer.SurferManager.RecursiveGetParentStateUI(Transform,Surfer.SUElement@)
+  name: RecursiveGetParentStateUI(Transform, ref SUElement)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStateUI_Transform_Surfer_SUElement__
+  commentId: M:Surfer.SurferManager.RecursiveGetParentStateUI(Transform,Surfer.SUElement@)
+  name.vb: RecursiveGetParentStateUI(Transform, ByRef SUElement)
+  fullName: Surfer.SurferManager.RecursiveGetParentStateUI(Transform, ref Surfer.SUElement)
+  fullName.vb: Surfer.SurferManager.RecursiveGetParentStateUI(Transform, ByRef Surfer.SUElement)
+  nameWithType: SurferManager.RecursiveGetParentStateUI(Transform, ref SUElement)
+  nameWithType.vb: SurferManager.RecursiveGetParentStateUI(Transform, ByRef SUElement)
+- uid: Surfer.SurferManager.RecursiveGetParentStateUI*
+  name: RecursiveGetParentStateUI
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStateUI_
+  commentId: Overload:Surfer.SurferManager.RecursiveGetParentStateUI
+  isSpec: "True"
+  fullName: Surfer.SurferManager.RecursiveGetParentStateUI
+  nameWithType: SurferManager.RecursiveGetParentStateUI
+- uid: Surfer.SurferManager.RegisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])
+  name: RegisterCustomEvent(ISUCustomEventHandler, String[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RegisterCustomEvent_Surfer_ISUCustomEventHandler_System_String___
+  commentId: M:Surfer.SurferManager.RegisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])
+  name.vb: RegisterCustomEvent(ISUCustomEventHandler, String())
+  fullName: Surfer.SurferManager.RegisterCustomEvent(Surfer.ISUCustomEventHandler, System.String[])
+  fullName.vb: Surfer.SurferManager.RegisterCustomEvent(Surfer.ISUCustomEventHandler, System.String())
+  nameWithType: SurferManager.RegisterCustomEvent(ISUCustomEventHandler, String[])
+  nameWithType.vb: SurferManager.RegisterCustomEvent(ISUCustomEventHandler, String())
+- uid: Surfer.SurferManager.RegisterCustomEvent*
+  name: RegisterCustomEvent
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RegisterCustomEvent_
+  commentId: Overload:Surfer.SurferManager.RegisterCustomEvent
+  isSpec: "True"
+  fullName: Surfer.SurferManager.RegisterCustomEvent
+  nameWithType: SurferManager.RegisterCustomEvent
 - uid: Surfer.SurferManager.RegisterSceneActivated(Surfer.ISUSceneActivatedHandler,System.String[])
   name: RegisterSceneActivated(ISUSceneActivatedHandler, String[])
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_RegisterSceneActivated_Surfer_ISUSceneActivatedHandler_System_String___
@@ -5194,19 +5794,31 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.RegisterStateExit
   nameWithType: SurferManager.RegisterStateExit
-- uid: Surfer.SurferManager.ResetStateHistoryFocus(System.String)
-  name: ResetStateHistoryFocus(String)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ResetStateHistoryFocus_System_String_
-  commentId: M:Surfer.SurferManager.ResetStateHistoryFocus(System.String)
-  fullName: Surfer.SurferManager.ResetStateHistoryFocus(System.String)
-  nameWithType: SurferManager.ResetStateHistoryFocus(String)
-- uid: Surfer.SurferManager.ResetStateHistoryFocus*
-  name: ResetStateHistoryFocus
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_ResetStateHistoryFocus_
-  commentId: Overload:Surfer.SurferManager.ResetStateHistoryFocus
+- uid: Surfer.SurferManager.SendCustomEvent(System.String,System.Object[])
+  name: SendCustomEvent(String, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_SendCustomEvent_System_String_System_Object___
+  commentId: M:Surfer.SurferManager.SendCustomEvent(System.String,System.Object[])
+  name.vb: SendCustomEvent(String, Object())
+  fullName: Surfer.SurferManager.SendCustomEvent(System.String, System.Object[])
+  fullName.vb: Surfer.SurferManager.SendCustomEvent(System.String, System.Object())
+  nameWithType: SurferManager.SendCustomEvent(String, Object[])
+  nameWithType.vb: SurferManager.SendCustomEvent(String, Object())
+- uid: Surfer.SurferManager.SendCustomEvent(System.String,System.Single,System.Object[])
+  name: SendCustomEvent(String, Single, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_SendCustomEvent_System_String_System_Single_System_Object___
+  commentId: M:Surfer.SurferManager.SendCustomEvent(System.String,System.Single,System.Object[])
+  name.vb: SendCustomEvent(String, Single, Object())
+  fullName: Surfer.SurferManager.SendCustomEvent(System.String, System.Single, System.Object[])
+  fullName.vb: Surfer.SurferManager.SendCustomEvent(System.String, System.Single, System.Object())
+  nameWithType: SurferManager.SendCustomEvent(String, Single, Object[])
+  nameWithType.vb: SurferManager.SendCustomEvent(String, Single, Object())
+- uid: Surfer.SurferManager.SendCustomEvent*
+  name: SendCustomEvent
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_SendCustomEvent_
+  commentId: Overload:Surfer.SurferManager.SendCustomEvent
   isSpec: "True"
-  fullName: Surfer.SurferManager.ResetStateHistoryFocus
-  nameWithType: SurferManager.ResetStateHistoryFocus
+  fullName: Surfer.SurferManager.SendCustomEvent
+  nameWithType: SurferManager.SendCustomEvent
 - uid: Surfer.SurferManager.SetActiveScene(System.String,System.Single)
   name: SetActiveScene(String, Single)
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_SetActiveScene_System_String_System_Single_
@@ -5233,6 +5845,31 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.SO
   nameWithType: SurferManager.SO
+- uid: Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name: TogglePlayerState(Int32, String, Int32, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_TogglePlayerState_System_Int32_System_String_System_Int32_System_Object___
+  commentId: M:Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Object[])
+  name.vb: TogglePlayerState(Int32, String, Int32, Object())
+  fullName: Surfer.SurferManager.TogglePlayerState(System.Int32, System.String, System.Int32, System.Object[])
+  fullName.vb: Surfer.SurferManager.TogglePlayerState(System.Int32, System.String, System.Int32, System.Object())
+  nameWithType: SurferManager.TogglePlayerState(Int32, String, Int32, Object[])
+  nameWithType.vb: SurferManager.TogglePlayerState(Int32, String, Int32, Object())
+- uid: Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name: TogglePlayerState(Int32, String, Int32, Single, Object[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_TogglePlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___
+  commentId: M:Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])
+  name.vb: TogglePlayerState(Int32, String, Int32, Single, Object())
+  fullName: Surfer.SurferManager.TogglePlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object[])
+  fullName.vb: Surfer.SurferManager.TogglePlayerState(System.Int32, System.String, System.Int32, System.Single, System.Object())
+  nameWithType: SurferManager.TogglePlayerState(Int32, String, Int32, Single, Object[])
+  nameWithType.vb: SurferManager.TogglePlayerState(Int32, String, Int32, Single, Object())
+- uid: Surfer.SurferManager.TogglePlayerState*
+  name: TogglePlayerState
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_TogglePlayerState_
+  commentId: Overload:Surfer.SurferManager.TogglePlayerState
+  isSpec: "True"
+  fullName: Surfer.SurferManager.TogglePlayerState
+  nameWithType: SurferManager.TogglePlayerState
 - uid: Surfer.SurferManager.ToggleState(System.String,System.Int32,System.Object[])
   name: ToggleState(String, Int32, Object[])
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_ToggleState_System_String_System_Int32_System_Object___
@@ -5284,6 +5921,22 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.UnloadSceneAsync
   nameWithType: SurferManager.UnloadSceneAsync
+- uid: Surfer.SurferManager.UnregisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])
+  name: UnregisterCustomEvent(ISUCustomEventHandler, String[])
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_UnregisterCustomEvent_Surfer_ISUCustomEventHandler_System_String___
+  commentId: M:Surfer.SurferManager.UnregisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])
+  name.vb: UnregisterCustomEvent(ISUCustomEventHandler, String())
+  fullName: Surfer.SurferManager.UnregisterCustomEvent(Surfer.ISUCustomEventHandler, System.String[])
+  fullName.vb: Surfer.SurferManager.UnregisterCustomEvent(Surfer.ISUCustomEventHandler, System.String())
+  nameWithType: SurferManager.UnregisterCustomEvent(ISUCustomEventHandler, String[])
+  nameWithType.vb: SurferManager.UnregisterCustomEvent(ISUCustomEventHandler, String())
+- uid: Surfer.SurferManager.UnregisterCustomEvent*
+  name: UnregisterCustomEvent
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_UnregisterCustomEvent_
+  commentId: Overload:Surfer.SurferManager.UnregisterCustomEvent
+  isSpec: "True"
+  fullName: Surfer.SurferManager.UnregisterCustomEvent
+  nameWithType: SurferManager.UnregisterCustomEvent
 - uid: Surfer.SurferManager.UnregisterSceneActivated(Surfer.ISUSceneActivatedHandler,System.String[])
   name: UnregisterSceneActivated(ISUSceneActivatedHandler, String[])
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_UnregisterSceneActivated_Surfer_ISUSceneActivatedHandler_System_String___
@@ -5418,6 +6071,19 @@ references:
   commentId: T:Surfer.SurferSO
   fullName: Surfer.SurferSO
   nameWithType: SurferSO
+- uid: Surfer.SurferSO.AddEvent(System.String)
+  name: AddEvent(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddEvent_System_String_
+  commentId: M:Surfer.SurferSO.AddEvent(System.String)
+  fullName: Surfer.SurferSO.AddEvent(System.String)
+  nameWithType: SurferSO.AddEvent(String)
+- uid: Surfer.SurferSO.AddEvent*
+  name: AddEvent
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddEvent_
+  commentId: Overload:Surfer.SurferSO.AddEvent
+  isSpec: "True"
+  fullName: Surfer.SurferSO.AddEvent
+  nameWithType: SurferSO.AddEvent
 - uid: Surfer.SurferSO.AddState(System.String)
   name: AddState(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddState_System_String_
@@ -5431,6 +6097,45 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.AddState
   nameWithType: SurferSO.AddState
+- uid: Surfer.SurferSO.GetEvent(System.String)
+  name: GetEvent(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEvent_System_String_
+  commentId: M:Surfer.SurferSO.GetEvent(System.String)
+  fullName: Surfer.SurferSO.GetEvent(System.String)
+  nameWithType: SurferSO.GetEvent(String)
+- uid: Surfer.SurferSO.GetEvent*
+  name: GetEvent
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEvent_
+  commentId: Overload:Surfer.SurferSO.GetEvent
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetEvent
+  nameWithType: SurferSO.GetEvent
+- uid: Surfer.SurferSO.GetEventKey(System.String)
+  name: GetEventKey(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEventKey_System_String_
+  commentId: M:Surfer.SurferSO.GetEventKey(System.String)
+  fullName: Surfer.SurferSO.GetEventKey(System.String)
+  nameWithType: SurferSO.GetEventKey(String)
+- uid: Surfer.SurferSO.GetEventKey*
+  name: GetEventKey
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEventKey_
+  commentId: Overload:Surfer.SurferSO.GetEventKey
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetEventKey
+  nameWithType: SurferSO.GetEventKey
+- uid: Surfer.SurferSO.GetEventsList(System.Boolean)
+  name: GetEventsList(Boolean)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEventsList_System_Boolean_
+  commentId: M:Surfer.SurferSO.GetEventsList(System.Boolean)
+  fullName: Surfer.SurferSO.GetEventsList(System.Boolean)
+  nameWithType: SurferSO.GetEventsList(Boolean)
+- uid: Surfer.SurferSO.GetEventsList*
+  name: GetEventsList
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEventsList_
+  commentId: Overload:Surfer.SurferSO.GetEventsList
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetEventsList
+  nameWithType: SurferSO.GetEventsList
 - uid: Surfer.SurferSO.GetSceneGUID(System.String)
   name: GetSceneGUID(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetSceneGUID_System_String_
@@ -5522,6 +6227,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.Layers
   nameWithType: SurferSO.Layers
+- uid: Surfer.SurferSO.RemoveEvent(System.String)
+  name: RemoveEvent(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveEvent_System_String_
+  commentId: M:Surfer.SurferSO.RemoveEvent(System.String)
+  fullName: Surfer.SurferSO.RemoveEvent(System.String)
+  nameWithType: SurferSO.RemoveEvent(String)
+- uid: Surfer.SurferSO.RemoveEvent*
+  name: RemoveEvent
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveEvent_
+  commentId: Overload:Surfer.SurferSO.RemoveEvent
+  isSpec: "True"
+  fullName: Surfer.SurferSO.RemoveEvent
+  nameWithType: SurferSO.RemoveEvent
 - uid: Surfer.SurferSO.RemoveState(System.String)
   name: RemoveState(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveState_System_String_
@@ -5535,6 +6253,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.RemoveState
   nameWithType: SurferSO.RemoveState
+- uid: Surfer.SurferSO.RenameEvent(System.String,System.String)
+  name: RenameEvent(String, String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameEvent_System_String_System_String_
+  commentId: M:Surfer.SurferSO.RenameEvent(System.String,System.String)
+  fullName: Surfer.SurferSO.RenameEvent(System.String, System.String)
+  nameWithType: SurferSO.RenameEvent(String, String)
+- uid: Surfer.SurferSO.RenameEvent*
+  name: RenameEvent
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameEvent_
+  commentId: Overload:Surfer.SurferSO.RenameEvent
+  isSpec: "True"
+  fullName: Surfer.SurferSO.RenameEvent
+  nameWithType: SurferSO.RenameEvent
 - uid: Surfer.SurferSO.RenameState(System.String,System.String)
   name: RenameState(String, String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameState_System_String_System_String_
@@ -6260,6 +6991,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUScreenAnimationData.GetFromPosition
   nameWithType: SUScreenAnimationData.GetFromPosition
+- uid: Surfer.SUScreenAnimationData.GetToAnchoredPosition
+  name: GetToAnchoredPosition()
+  href: api/Surfer.SUScreenAnimationData.html#Surfer_SUScreenAnimationData_GetToAnchoredPosition
+  commentId: M:Surfer.SUScreenAnimationData.GetToAnchoredPosition
+  fullName: Surfer.SUScreenAnimationData.GetToAnchoredPosition()
+  nameWithType: SUScreenAnimationData.GetToAnchoredPosition()
+- uid: Surfer.SUScreenAnimationData.GetToAnchoredPosition*
+  name: GetToAnchoredPosition
+  href: api/Surfer.SUScreenAnimationData.html#Surfer_SUScreenAnimationData_GetToAnchoredPosition_
+  commentId: Overload:Surfer.SUScreenAnimationData.GetToAnchoredPosition
+  isSpec: "True"
+  fullName: Surfer.SUScreenAnimationData.GetToAnchoredPosition
+  nameWithType: SUScreenAnimationData.GetToAnchoredPosition
 - uid: Surfer.SUScreenAnimationData.GetToPosition
   name: GetToPosition()
   href: api/Surfer.SUScreenAnimationData.html#Surfer_SUScreenAnimationData_GetToPosition
@@ -6382,6 +7126,25 @@ references:
   isSpec: "True"
   fullName: Surfer.SUScrollBehaviour.HandleDestroy
   nameWithType: SUScrollBehaviour.HandleDestroy
+- uid: Surfer.SUSettingsRegister
+  name: SUSettingsRegister
+  href: api/Surfer.SUSettingsRegister.html
+  commentId: T:Surfer.SUSettingsRegister
+  fullName: Surfer.SUSettingsRegister
+  nameWithType: SUSettingsRegister
+- uid: Surfer.SUSettingsRegister.CreateSettingsProvider
+  name: CreateSettingsProvider()
+  href: api/Surfer.SUSettingsRegister.html#Surfer_SUSettingsRegister_CreateSettingsProvider
+  commentId: M:Surfer.SUSettingsRegister.CreateSettingsProvider
+  fullName: Surfer.SUSettingsRegister.CreateSettingsProvider()
+  nameWithType: SUSettingsRegister.CreateSettingsProvider()
+- uid: Surfer.SUSettingsRegister.CreateSettingsProvider*
+  name: CreateSettingsProvider
+  href: api/Surfer.SUSettingsRegister.html#Surfer_SUSettingsRegister_CreateSettingsProvider_
+  commentId: Overload:Surfer.SUSettingsRegister.CreateSettingsProvider
+  isSpec: "True"
+  fullName: Surfer.SUSettingsRegister.CreateSettingsProvider
+  nameWithType: SUSettingsRegister.CreateSettingsProvider
 - uid: Surfer.SUShakeData
   name: SUShakeData
   href: api/Surfer.SUShakeData.html
@@ -6953,15 +7716,15 @@ references:
   commentId: T:Surfer.SUStateEventData
   fullName: Surfer.SUStateEventData
   nameWithType: SUStateEventData
-- uid: Surfer.SUStateEventData.#ctor(System.String,System.Int32,System.Object[])
-  name: SUStateEventData(String, Int32, Object[])
-  href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData__ctor_System_String_System_Int32_System_Object___
-  commentId: M:Surfer.SUStateEventData.#ctor(System.String,System.Int32,System.Object[])
-  name.vb: SUStateEventData(String, Int32, Object())
-  fullName: Surfer.SUStateEventData.SUStateEventData(System.String, System.Int32, System.Object[])
-  fullName.vb: Surfer.SUStateEventData.SUStateEventData(System.String, System.Int32, System.Object())
-  nameWithType: SUStateEventData.SUStateEventData(String, Int32, Object[])
-  nameWithType.vb: SUStateEventData.SUStateEventData(String, Int32, Object())
+- uid: Surfer.SUStateEventData.#ctor(System.String,System.Int32,System.Int32,System.Object[])
+  name: SUStateEventData(String, Int32, Int32, Object[])
+  href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData__ctor_System_String_System_Int32_System_Int32_System_Object___
+  commentId: M:Surfer.SUStateEventData.#ctor(System.String,System.Int32,System.Int32,System.Object[])
+  name.vb: SUStateEventData(String, Int32, Int32, Object())
+  fullName: Surfer.SUStateEventData.SUStateEventData(System.String, System.Int32, System.Int32, System.Object[])
+  fullName.vb: Surfer.SUStateEventData.SUStateEventData(System.String, System.Int32, System.Int32, System.Object())
+  nameWithType: SUStateEventData.SUStateEventData(String, Int32, Int32, Object[])
+  nameWithType.vb: SUStateEventData.SUStateEventData(String, Int32, Int32, Object())
 - uid: Surfer.SUStateEventData.#ctor*
   name: SUStateEventData
   href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData__ctor_
@@ -6982,6 +7745,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUStateEventData.CustomData
   nameWithType: SUStateEventData.CustomData
+- uid: Surfer.SUStateEventData.PlayerID
+  name: PlayerID
+  href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData_PlayerID
+  commentId: P:Surfer.SUStateEventData.PlayerID
+  fullName: Surfer.SUStateEventData.PlayerID
+  nameWithType: SUStateEventData.PlayerID
+- uid: Surfer.SUStateEventData.PlayerID*
+  name: PlayerID
+  href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData_PlayerID_
+  commentId: Overload:Surfer.SUStateEventData.PlayerID
+  isSpec: "True"
+  fullName: Surfer.SUStateEventData.PlayerID
+  nameWithType: SUStateEventData.PlayerID
 - uid: Surfer.SUStateEventData.StateName
   name: StateName
   href: api/Surfer.SUStateEventData.html#Surfer_SUStateEventData_StateName
@@ -7040,6 +7816,92 @@ references:
   isSpec: "True"
   fullName: Surfer.SUStateEventEditor.OnSupplementaryFields
   nameWithType: SUStateEventEditor.OnSupplementaryFields
+- uid: Surfer.SUStateInfo
+  name: SUStateInfo
+  href: api/Surfer.SUStateInfo.html
+  commentId: T:Surfer.SUStateInfo
+  fullName: Surfer.SUStateInfo
+  nameWithType: SUStateInfo
+- uid: Surfer.SUStateInfo.#ctor(Surfer.SUElementData)
+  name: SUStateInfo(SUElementData)
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo__ctor_Surfer_SUElementData_
+  commentId: M:Surfer.SUStateInfo.#ctor(Surfer.SUElementData)
+  fullName: Surfer.SUStateInfo.SUStateInfo(Surfer.SUElementData)
+  nameWithType: SUStateInfo.SUStateInfo(SUElementData)
+- uid: Surfer.SUStateInfo.#ctor(System.String,System.Int32)
+  name: SUStateInfo(String, Int32)
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo__ctor_System_String_System_Int32_
+  commentId: M:Surfer.SUStateInfo.#ctor(System.String,System.Int32)
+  fullName: Surfer.SUStateInfo.SUStateInfo(System.String, System.Int32)
+  nameWithType: SUStateInfo.SUStateInfo(String, Int32)
+- uid: Surfer.SUStateInfo.#ctor(System.String,System.Int32,System.Int32,System.Object[])
+  name: SUStateInfo(String, Int32, Int32, Object[])
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo__ctor_System_String_System_Int32_System_Int32_System_Object___
+  commentId: M:Surfer.SUStateInfo.#ctor(System.String,System.Int32,System.Int32,System.Object[])
+  name.vb: SUStateInfo(String, Int32, Int32, Object())
+  fullName: Surfer.SUStateInfo.SUStateInfo(System.String, System.Int32, System.Int32, System.Object[])
+  fullName.vb: Surfer.SUStateInfo.SUStateInfo(System.String, System.Int32, System.Int32, System.Object())
+  nameWithType: SUStateInfo.SUStateInfo(String, Int32, Int32, Object[])
+  nameWithType.vb: SUStateInfo.SUStateInfo(String, Int32, Int32, Object())
+- uid: Surfer.SUStateInfo.#ctor*
+  name: SUStateInfo
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo__ctor_
+  commentId: Overload:Surfer.SUStateInfo.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUStateInfo.SUStateInfo
+  nameWithType: SUStateInfo.SUStateInfo
+- uid: Surfer.SUStateInfo.CustomData
+  name: CustomData
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_CustomData
+  commentId: P:Surfer.SUStateInfo.CustomData
+  fullName: Surfer.SUStateInfo.CustomData
+  nameWithType: SUStateInfo.CustomData
+- uid: Surfer.SUStateInfo.CustomData*
+  name: CustomData
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_CustomData_
+  commentId: Overload:Surfer.SUStateInfo.CustomData
+  isSpec: "True"
+  fullName: Surfer.SUStateInfo.CustomData
+  nameWithType: SUStateInfo.CustomData
+- uid: Surfer.SUStateInfo.Name
+  name: Name
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_Name
+  commentId: P:Surfer.SUStateInfo.Name
+  fullName: Surfer.SUStateInfo.Name
+  nameWithType: SUStateInfo.Name
+- uid: Surfer.SUStateInfo.Name*
+  name: Name
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_Name_
+  commentId: Overload:Surfer.SUStateInfo.Name
+  isSpec: "True"
+  fullName: Surfer.SUStateInfo.Name
+  nameWithType: SUStateInfo.Name
+- uid: Surfer.SUStateInfo.PlayerID
+  name: PlayerID
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_PlayerID
+  commentId: P:Surfer.SUStateInfo.PlayerID
+  fullName: Surfer.SUStateInfo.PlayerID
+  nameWithType: SUStateInfo.PlayerID
+- uid: Surfer.SUStateInfo.PlayerID*
+  name: PlayerID
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_PlayerID_
+  commentId: Overload:Surfer.SUStateInfo.PlayerID
+  isSpec: "True"
+  fullName: Surfer.SUStateInfo.PlayerID
+  nameWithType: SUStateInfo.PlayerID
+- uid: Surfer.SUStateInfo.Version
+  name: Version
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_Version
+  commentId: P:Surfer.SUStateInfo.Version
+  fullName: Surfer.SUStateInfo.Version
+  nameWithType: SUStateInfo.Version
+- uid: Surfer.SUStateInfo.Version*
+  name: Version
+  href: api/Surfer.SUStateInfo.html#Surfer_SUStateInfo_Version_
+  commentId: Overload:Surfer.SUStateInfo.Version
+  isSpec: "True"
+  fullName: Surfer.SUStateInfo.Version
+  nameWithType: SUStateInfo.Version
 - uid: Surfer.SUStatesData
   name: SUStatesData
   href: api/Surfer.SUStatesData.html
@@ -7072,6 +7934,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUStatesData.AllNamesArray
   nameWithType: SUStatesData.AllNamesArray
+- uid: Surfer.SUStatesData.GetStateInfos(Surfer.SUElementData)
+  name: GetStateInfos(SUElementData)
+  href: api/Surfer.SUStatesData.html#Surfer_SUStatesData_GetStateInfos_Surfer_SUElementData_
+  commentId: M:Surfer.SUStatesData.GetStateInfos(Surfer.SUElementData)
+  fullName: Surfer.SUStatesData.GetStateInfos(Surfer.SUElementData)
+  nameWithType: SUStatesData.GetStateInfos(SUElementData)
+- uid: Surfer.SUStatesData.GetStateInfos*
+  name: GetStateInfos
+  href: api/Surfer.SUStatesData.html#Surfer_SUStatesData_GetStateInfos_
+  commentId: Overload:Surfer.SUStatesData.GetStateInfos
+  isSpec: "True"
+  fullName: Surfer.SUStatesData.GetStateInfos
+  nameWithType: SUStatesData.GetStateInfos
 - uid: Surfer.SUStatesData.List
   name: List
   href: api/Surfer.SUStatesData.html#Surfer_SUStatesData_List

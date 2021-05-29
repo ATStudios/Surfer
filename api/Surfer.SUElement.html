@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">SUElement</span></div>
   </div>
   <div classs="implements">
@@ -100,22 +100,14 @@
     <div><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></div>
-    <div><span class="xref">IPointerClickHandler</span></div>
-    <div><span class="xref">IPointerDownHandler</span></div>
-    <div><span class="xref">IPointerUpHandler</span></div>
-    <div><span class="xref">IPointerEnterHandler</span></div>
-    <div><span class="xref">IPointerExitHandler</span></div>
-    <div><span class="xref">ISelectHandler</span></div>
-    <div><span class="xref">IDeselectHandler</span></div>
-    <div><a class="xref" href="Surfer.ILastStateSelectionHandler.html">ILastStateSelectionHandler</a></div>
-    <div><span class="xref">ISubmitHandler</span></div>
     <div><a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Surfer_SUElement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ILastStateSelectionHandler, ISubmitHandler, IResetLastStateSelectionHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, IDragHandler, IBeginDragHandler, IEndDragHandler</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -214,7 +206,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -223,13 +215,13 @@
   </h3>
   
   
-  <a id="Surfer_SUElement_OnBecomeLastStateSelection_" data-uid="Surfer.SUElement.OnBecomeLastStateSelection*"></a>
-  <h4 id="Surfer_SUElement_OnBecomeLastStateSelection_Surfer_SULastSelectionEventData_" data-uid="Surfer.SUElement.OnBecomeLastStateSelection(Surfer.SULastSelectionEventData)">OnBecomeLastStateSelection(SULastSelectionEventData)</h4>
+  <a id="Surfer_SUElement_OnBeginDrag_" data-uid="Surfer.SUElement.OnBeginDrag*"></a>
+  <h4 id="Surfer_SUElement_OnBeginDrag_PointerEventData_" data-uid="Surfer.SUElement.OnBeginDrag(PointerEventData)">OnBeginDrag(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBecomeLastStateSelection(SULastSelectionEventData eventInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnBeginDrag(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,8 +234,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Surfer.SULastSelectionEventData.html">SULastSelectionEventData</a></td>
-        <td><span class="parametername">eventInfo</span></td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -270,6 +262,60 @@
     <tbody>
       <tr>
         <td><span class="xref">BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnDrag_" data-uid="Surfer.SUElement.OnDrag*"></a>
+  <h4 id="Surfer_SUElement_OnDrag_PointerEventData_" data-uid="Surfer.SUElement.OnDrag(PointerEventData)">OnDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnEndDrag_" data-uid="Surfer.SUElement.OnEndDrag*"></a>
+  <h4 id="Surfer_SUElement_OnEndDrag_PointerEventData_" data-uid="Surfer.SUElement.OnEndDrag(PointerEventData)">OnEndDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEndDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
@@ -470,6 +516,33 @@
       <tr>
         <td><span class="xref">BaseEventData</span></td>
         <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnSUCustomEvent_" data-uid="Surfer.SUElement.OnSUCustomEvent*"></a>
+  <h4 id="Surfer_SUElement_OnSUCustomEvent_Surfer_SUCustomEventEventData_" data-uid="Surfer.SUElement.OnSUCustomEvent(Surfer.SUCustomEventEventData)">OnSUCustomEvent(SUCustomEventEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSUCustomEvent(SUCustomEventEventData eventInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCustomEventEventData.html">SUCustomEventEventData</a></td>
+        <td><span class="parametername">eventInfo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -692,6 +765,33 @@
   </table>
   
   
+  <a id="Surfer_SUElement_RunCustomEventBehaviour_" data-uid="Surfer.SUElement.RunCustomEventBehaviour*"></a>
+  <h4 id="Surfer_SUElement_RunCustomEventBehaviour_System_String_" data-uid="Surfer.SUElement.RunCustomEventBehaviour(System.String)">RunCustomEventBehaviour(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunCustomEventBehaviour(string eventName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Surfer_SUElement_RunEventBehaviour_" data-uid="Surfer.SUElement.RunEventBehaviour*"></a>
   <h4 id="Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_" data-uid="Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)">RunEventBehaviour(SUEvent.Type_ID)</h4>
   <div class="markdown level1 summary"></div>
@@ -743,7 +843,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">stringVal</span></td>
         <td></td>
       </tr>
@@ -775,34 +875,10 @@
       <a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a>
   </div>
   <div>
-      <span class="xref">IPointerClickHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerDownHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerUpHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerEnterHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerExitHandler</span>
-  </div>
-  <div>
-      <span class="xref">ISelectHandler</span>
-  </div>
-  <div>
-      <span class="xref">IDeselectHandler</span>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ILastStateSelectionHandler.html">ILastStateSelectionHandler</a>
-  </div>
-  <div>
-      <span class="xref">ISubmitHandler</span>
-  </div>
-  <div>
       <a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a>
   </div>
 </article>
           </div>

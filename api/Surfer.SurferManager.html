@@ -88,7 +88,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">SurferManager</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
@@ -171,7 +171,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -197,7 +197,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -223,7 +223,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -301,13 +301,227 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Surfer_SurferManager_CheckStateStack_" data-uid="Surfer.SurferManager.CheckStateStack*"></a>
+  <h4 id="Surfer_SurferManager_CheckStateStack_System_String_System_Int32_" data-uid="Surfer.SurferManager.CheckStateStack(System.String,System.Int32)">CheckStateStack(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a state has a stack of &quot;opening states&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckStateStack(string state, int playerID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state to check </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ClosePlayerState_" data-uid="Surfer.SurferManager.ClosePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Object[])">ClosePlayerState(Int32, String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state of a specific player with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePlayerState(int playerID, string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ClosePlayerState_" data-uid="Surfer.SurferManager.ClosePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])">ClosePlayerState(Int32, String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state of a specific player with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePlayerState(int playerID, string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ClosePlayerState_" data-uid="Surfer.SurferManager.ClosePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Object___" data-uid="Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Object[])">ClosePlayerState(Int32, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state of a spcific playerID with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePlayerState(int playerID, string state, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_ClosePlayerState_" data-uid="Surfer.SurferManager.ClosePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_ClosePlayerState_System_Int32_System_String_System_Single_System_Object___" data-uid="Surfer.SurferManager.ClosePlayerState(System.Int32,System.String,System.Single,System.Object[])">ClosePlayerState(Int32, String, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Close a specific state of a spcific playerID, with a delay and with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePlayerState(int playerID, string state, float delay, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Surfer_SurferManager_CloseState_" data-uid="Surfer.SurferManager.CloseState*"></a>
@@ -330,18 +544,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -370,24 +584,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -416,13 +630,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -431,14 +645,14 @@
   </table>
   
   
-  <a id="Surfer_SurferManager_FocusOnObject_" data-uid="Surfer.SurferManager.FocusOnObject*"></a>
-  <h4 id="Surfer_SurferManager_FocusOnObject_GameObject_" data-uid="Surfer.SurferManager.FocusOnObject(GameObject)">FocusOnObject(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Make the EventSystem focus on a particular gameObject by making it selected</p>
+  <a id="Surfer_SurferManager_GetObjectStateElement_" data-uid="Surfer.SurferManager.GetObjectStateElement*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectStateElement_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateElement(GameObject,System.Boolean)">GetObjectStateElement(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent state element of a game object</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FocusOnObject(GameObject obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public SUElement GetObjectStateElement(GameObject obj, bool checkCaller = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -453,65 +667,11 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">obj</span></td>
-        <td><p>object to select/focus on</p>
-</td>
+        <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_FocusOnObjectOrLast_" data-uid="Surfer.SurferManager.FocusOnObjectOrLast*"></a>
-  <h4 id="Surfer_SurferManager_FocusOnObjectOrLast_GameObject_" data-uid="Surfer.SurferManager.FocusOnObjectOrLast(GameObject)">FocusOnObjectOrLast(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Make the EventSystem focus on a particular gameObject by making it selected,
-if it was the last (or it will be the first) selected of his panel </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FocusOnObjectOrLast(GameObject obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>object to select/focus on</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_GetObjectState_" data-uid="Surfer.SurferManager.GetObjectState*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectState_GameObject_" data-uid="Surfer.SurferManager.GetObjectState(GameObject)">GetObjectState(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Gets the parent state name of a game object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetObjectState(GameObject obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkCaller</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -526,21 +686,21 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="Surfer.SUElement.html">SUElement</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferManager_GetObjectStateTransfom_" data-uid="Surfer.SurferManager.GetObjectStateTransfom*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectStateTransfom_GameObject_" data-uid="Surfer.SurferManager.GetObjectStateTransfom(GameObject)">GetObjectStateTransfom(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Gets the parent state of a game object</p>
+  <a id="Surfer_SurferManager_GetObjectStateName_" data-uid="Surfer.SurferManager.GetObjectStateName*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectStateName_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateName(GameObject,System.Boolean)">GetObjectStateName(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent state name of a game object</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform GetObjectStateTransfom(GameObject obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetObjectStateName(GameObject obj, bool checkCaller = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -555,6 +715,107 @@ if it was the last (or it will be the first) selected of his panel </p>
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkCaller</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_GetObjectStatePlayerID_" data-uid="Surfer.SurferManager.GetObjectStatePlayerID*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectStatePlayerID_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStatePlayerID(GameObject,System.Boolean)">GetObjectStatePlayerID(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the playerID of the parent state of a game object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetObjectStatePlayerID(GameObject obj, bool checkCaller = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkCaller</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_GetObjectStateTransfom_" data-uid="Surfer.SurferManager.GetObjectStateTransfom*"></a>
+  <h4 id="Surfer_SurferManager_GetObjectStateTransfom_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateTransfom(GameObject,System.Boolean)">GetObjectStateTransfom(GameObject, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent state of a game object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GetObjectStateTransfom(GameObject obj, bool checkCaller = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkCaller</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -577,13 +838,13 @@ if it was the last (or it will be the first) selected of his panel </p>
   
   
   <a id="Surfer_SurferManager_IsClosed_" data-uid="Surfer.SurferManager.IsClosed*"></a>
-  <h4 id="Surfer_SurferManager_IsClosed_System_String_" data-uid="Surfer.SurferManager.IsClosed(System.String)">IsClosed(String)</h4>
-  <div class="markdown level1 summary"><p>Check if a state has been just closed</p>
+  <h4 id="Surfer_SurferManager_IsClosed_System_String_System_Int32_" data-uid="Surfer.SurferManager.IsClosed(System.String,System.Int32)">IsClosed(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a state has just been closed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsClosed(string state)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsClosed(string state, int playerID = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -596,10 +857,15 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -613,7 +879,7 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><p>true if closed, false otherwise</p>
 </td>
       </tr>
@@ -646,7 +912,7 @@ if it was the last (or it will be the first) selected of his panel </p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td></td>
       </tr>
@@ -662,7 +928,7 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><p>true if open, false otherwise</p>
 </td>
       </tr>
@@ -677,7 +943,7 @@ if it was the last (or it will be the first) selected of his panel </p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsOpen(string state, int version = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsOpen(string state, int playerID = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -690,14 +956,14 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">version</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -712,7 +978,62 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if open, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_IsOpen_" data-uid="Surfer.SurferManager.IsOpen*"></a>
+  <h4 id="Surfer_SurferManager_IsOpen_System_String_System_Int32_System_Int32_" data-uid="Surfer.SurferManager.IsOpen(System.String,System.Int32,System.Int32)">IsOpen(String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Check if a state is open or not</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOpen(string state, int version = 0, int playerID = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td><p>true if open, false otherwise</p>
 </td>
       </tr>
@@ -740,7 +1061,7 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">conditionKey</span></td>
         <td><p>Condition key</p>
 </td>
@@ -762,7 +1083,7 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><p>true if satisfied, false otherwise</p>
 </td>
       </tr>
@@ -790,19 +1111,19 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>scene name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">additive</span></td>
         <td><p>additive mode or not?</p>
 </td>
@@ -831,27 +1152,158 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>scene name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">additive</span></td>
         <td><p>additive mode or not?</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">autoActivate</span></td>
         <td><p>autoActivate when loaded or not?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenPlayerState_" data-uid="Surfer.SurferManager.OpenPlayerState*"></a>
+  <h4 id="Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Object[])">OpenPlayerState(Int32, String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific player state, with a specific version and with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPlayerState(int playerID, string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenPlayerState_" data-uid="Surfer.SurferManager.OpenPlayerState*"></a>
+  <h4 id="Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])">OpenPlayerState(Int32, String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific player state, with a specific version and with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPlayerState(int playerID, string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_OpenPlayerState_" data-uid="Surfer.SurferManager.OpenPlayerState*"></a>
+  <h4 id="Surfer_SurferManager_OpenPlayerState_System_Int32_System_String_System_Object___" data-uid="Surfer.SurferManager.OpenPlayerState(System.Int32,System.String,System.Object[])">OpenPlayerState(Int32, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Open a specific player state with a custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPlayerState(int playerID, string state, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
 </td>
       </tr>
     </tbody>
@@ -890,19 +1342,19 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td><p>state version</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -931,19 +1383,19 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td><p>state version</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -972,25 +1424,25 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td><p>state version</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -1019,15 +1471,182 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_PlayReaction_" data-uid="Surfer.SurferManager.PlayReaction*"></a>
+  <h4 id="Surfer_SurferManager_PlayReaction_System_String_GameObject_" data-uid="Surfer.SurferManager.PlayReaction(System.String,GameObject)">PlayReaction(String, GameObject)</h4>
+  <div class="markdown level1 summary"><p>Play a specific custom reaction </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayReaction(string key, GameObject go)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RecursiveGetChildStatesUI_" data-uid="Surfer.SurferManager.RecursiveGetChildStatesUI*"></a>
+  <h4 id="Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___" data-uid="Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)">RecursiveGetChildStatesUI(Transform, ref List&lt;SUStateInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get a list of all child states</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecursiveGetChildStatesUI(Transform caller, ref List&lt;SUStateInfo&gt; output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">caller</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Surfer.SUStateInfo.html">SUStateInfo</a>&gt;</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RecursiveGetParentStatesUI_" data-uid="Surfer.SurferManager.RecursiveGetParentStatesUI*"></a>
+  <h4 id="Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___" data-uid="Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)">RecursiveGetParentStatesUI(Transform, ref List&lt;SUStateInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get a list of all parent states </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecursiveGetParentStatesUI(Transform caller, ref List&lt;SUStateInfo&gt; output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">caller</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Surfer.SUStateInfo.html">SUStateInfo</a>&gt;</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RecursiveGetParentStateUI_" data-uid="Surfer.SurferManager.RecursiveGetParentStateUI*"></a>
+  <h4 id="Surfer_SurferManager_RecursiveGetParentStateUI_Transform_Surfer_SUElement__" data-uid="Surfer.SurferManager.RecursiveGetParentStateUI(Transform,Surfer.SUElement@)">RecursiveGetParentStateUI(Transform, ref SUElement)</h4>
+  <div class="markdown level1 summary"><p>Recursively get the parent state of an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecursiveGetParentStateUI(Transform caller, ref SUElement output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">caller</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElement.html">SUElement</a></td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_RegisterCustomEvent_" data-uid="Surfer.SurferManager.RegisterCustomEvent*"></a>
+  <h4 id="Surfer_SurferManager_RegisterCustomEvent_Surfer_ISUCustomEventHandler_System_String___" data-uid="Surfer.SurferManager.RegisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])">RegisterCustomEvent(ISUCustomEventHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Register to the CustomEvent callback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCustomEvent(ISUCustomEventHandler interf, params string[] eventsID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">eventsID</span></td>
+        <td><p>all the names of the custom events to register to</p>
 </td>
       </tr>
     </tbody>
@@ -1060,7 +1679,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1095,7 +1714,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1130,7 +1749,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1165,7 +1784,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1200,7 +1819,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1235,7 +1854,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to register to</p>
 </td>
@@ -1270,7 +1889,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">statesID</span></td>
         <td><p>all the names of the states to register to</p>
 </td>
@@ -1305,7 +1924,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">statesID</span></td>
         <td><p>all the names of the states to register to</p>
 </td>
@@ -1314,13 +1933,13 @@ if it was the last (or it will be the first) selected of his panel </p>
   </table>
   
   
-  <a id="Surfer_SurferManager_ResetStateHistoryFocus_" data-uid="Surfer.SurferManager.ResetStateHistoryFocus*"></a>
-  <h4 id="Surfer_SurferManager_ResetStateHistoryFocus_System_String_" data-uid="Surfer.SurferManager.ResetStateHistoryFocus(System.String)">ResetStateHistoryFocus(String)</h4>
+  <a id="Surfer_SurferManager_SendCustomEvent_" data-uid="Surfer.SurferManager.SendCustomEvent*"></a>
+  <h4 id="Surfer_SurferManager_SendCustomEvent_System_String_System_Object___" data-uid="Surfer.SurferManager.SendCustomEvent(System.String,System.Object[])">SendCustomEvent(String, Object[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetStateHistoryFocus(string stateName)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SendCustomEvent(string eventName, params object[] customData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1333,8 +1952,50 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">stateName</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_SendCustomEvent_" data-uid="Surfer.SurferManager.SendCustomEvent*"></a>
+  <h4 id="Surfer_SurferManager_SendCustomEvent_System_String_System_Single_System_Object___" data-uid="Surfer.SurferManager.SendCustomEvent(System.String,System.Single,System.Object[])">SendCustomEvent(String, Single, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendCustomEvent(string eventName, float delay, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1361,15 +2022,114 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>scene name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_TogglePlayerState_" data-uid="Surfer.SurferManager.TogglePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_TogglePlayerState_System_Int32_System_String_System_Int32_System_Object___" data-uid="Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Object[])">TogglePlayerState(Int32, String, Int32, Object[])</h4>
+  <div class="markdown level1 summary"><p>Toggle a specific state with a specific version, a playerID and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TogglePlayerState(int playerID, string state, int version = 0, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td><p>player ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_TogglePlayerState_" data-uid="Surfer.SurferManager.TogglePlayerState*"></a>
+  <h4 id="Surfer_SurferManager_TogglePlayerState_System_Int32_System_String_System_Int32_System_Single_System_Object___" data-uid="Surfer.SurferManager.TogglePlayerState(System.Int32,System.String,System.Int32,System.Single,System.Object[])">TogglePlayerState(Int32, String, Int32, Single, Object[])</h4>
+  <div class="markdown level1 summary"><p>Toggle a specific state with a specific version, a playerID and custom list of data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TogglePlayerState(int playerID, string state, int version = 0, float delay = 0F, params object[] customData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td><p>player ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>state name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>state version</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">customData</span></td>
+        <td><p>list of custom variables</p>
 </td>
       </tr>
     </tbody>
@@ -1396,19 +2156,19 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td><p>state version</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -1437,25 +2197,25 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">state</span></td>
         <td><p>state name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">version</span></td>
         <td><p>state version</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
@@ -1484,15 +2244,50 @@ if it was the last (or it will be the first) selected of his panel </p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>scene name</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">delay</span></td>
         <td><p>delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SurferManager_UnregisterCustomEvent_" data-uid="Surfer.SurferManager.UnregisterCustomEvent*"></a>
+  <h4 id="Surfer_SurferManager_UnregisterCustomEvent_Surfer_ISUCustomEventHandler_System_String___" data-uid="Surfer.SurferManager.UnregisterCustomEvent(Surfer.ISUCustomEventHandler,System.String[])">UnregisterCustomEvent(ISUCustomEventHandler, String[])</h4>
+  <div class="markdown level1 summary"><p>Unregister to the CustomEvent callback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterCustomEvent(ISUCustomEventHandler interf, params string[] eventsID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></td>
+        <td><span class="parametername">interf</span></td>
+        <td><p>object interface used to unregister</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">eventsID</span></td>
+        <td><p>all the names of the custom events to unregister to</p>
 </td>
       </tr>
     </tbody>
@@ -1525,7 +2320,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1560,7 +2355,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1595,7 +2390,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1630,7 +2425,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1665,7 +2460,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1700,7 +2495,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">scenes</span></td>
         <td><p>all the names of the scenes to unregister to</p>
 </td>
@@ -1735,7 +2530,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">statesID</span></td>
         <td><p>all the names of the states to unregister to</p>
 </td>
@@ -1770,7 +2565,7 @@ if it was the last (or it will be the first) selected of his panel </p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">statesID</span></td>
         <td><p>all the names of the states to unregister to</p>
 </td>

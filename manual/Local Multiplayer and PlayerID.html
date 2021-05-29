@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Local Multiplayer and PlayerID | Surfer Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Local Multiplayer and PlayerID | Surfer Unity documentation ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="local-multiplayer-and-playerid">Local Multiplayer and PlayerID</h1>
+
+<p>If we&#39;re dealing with a local multiplayer game , then we can use a really handy Surfer feature that will help us managing states and panel of different players as well as their EventSystem.</p>
+<p>This feature is the <code>PlayerID</code>.</p>
+<p>Basically, when we setup a state in our <code>SUElement</code>component we can see a field called <code>Player ID</code>: this value is accountable for handling multiple independent player UI states for a local multiplaer game.</p>
+<p>For example , if we have a 2P Local Multiplayer game with two equal state panels called <code>Menu</code> and two EventSystems ( or MultiplayerEventSystems ) in the scene :</p>
+<ul>
+<li>we set the<code>PlayerID</code> of the first Menu to 1 and the <code>PlayerID</code> of the second Menu to 2</li>
+<li>we add to the name of an EventSystem the word <code>1P</code>and to the name of the other one <code>2P</code> </li>
+</ul>
+<p>In this way Surfer will be able to link every player state to its corresponding EventSystem.</p>
+<p>&quot;Image&quot;</p>
+<p>The value of the player id field has a special meaning when set to -1 , like the table shows :</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-1</td>
+<td>The player ID is inherited from the parent object ( Example : if Menu state has playerID 1 , all its substates with playerID -1 will automatically change to 1 at runtime ) . If no parent found , is equal to 0.</td>
+</tr>
+<tr>
+<td>Not -1</td>
+<td>No special use. It will be used the number specified.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="eventsystem-runtime">EventSystem Runtime</h2>
+<p>By default, when we manually select by code an UI object we normally use  <code>EventSystem.current.SetSelectedGameObject(myObject)</code> .</p>
+<p>Instead , we must let Surfer do the job and use the <code>SurferManager.I.FocusOnObject</code> call that will automatically check the playerID of the UI object and handle everything.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Surfer Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
