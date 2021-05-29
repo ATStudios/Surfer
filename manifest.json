@@ -2188,29 +2188,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "diFAcTn96gsva5jqxxwjloppQnzfTFzmWdegrNIyvj4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
+          "hash": "hgZ2SxgG1TkhgBAPAwQk9d9nD5S6ZI0sc9FqsssCBH0="
         }
       },
       "is_incremental": false,
@@ -2233,7 +2211,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "NXYFo0LgLRZoJkboboaTyRh1X1L6XFhjWbvy4WPKpqw="
+          "hash": "BNp97upbAE/sBx8Hm08WXjdPeUvLeZ8aqaqhUsXIeog="
         }
       },
       "is_incremental": false,
