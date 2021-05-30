@@ -79,12 +79,12 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="notification-and-stack">Notification and Stack</h1>
 
-<p>To create a <code>Notification</code> state panel , namely a panel that closes itself, we must simply set as <code>CloseMode</code> the value <code>Myself</code> and set a delay after which the state will automatically close.</p>
+<p>To create a <code>Notification</code> state panel , namely a panel that closes itself, we must simply set as <code>CloseMode</code> the value <code>Myself</code> and set a <code>Delay</code> after which the state will automatically close.</p>
 <p>The in and out animations are not automatically set but we should , as always , react to the events <code>MyStateEnter</code>and <code>MyStateExit</code> and setup whatever animation we want from the reaction list called <code>Animated!</code>.</p>
 <h2 id="stack">Stack</h2>
 <p>When we open a specific state, if it is already opened , the call will be discarded; this is inconvenient for a notification panel.</p>
 <p>To stack all the &quot;Opening Calls&quot; we must check the value <code>IsStackable</code>in the <code>SUElement</code>component.</p>
-<p>Then we must event set the <code>stackDelay</code>value : this value should be higher than the total duration of the <code>MyStateExit</code>animations , otherwise the state will instantly close and reopen itself when the previous closing animations have not finished yet.</p>
+<p>Then we must event set the <code>StackDelay</code>value : this value should be HIGHER than the total duration of the <code>MyStateExit</code>animations , otherwise the state will instantly close and reopen itself when the previous closing animations have not finished yet.</p>
 </article>
           </div>
           

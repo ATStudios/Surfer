@@ -79,28 +79,34 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="custom-events">Custom Events</h1>
 
-<p>For all the events not handled natively in Surfer, we can use <code>CustomEvents</code> :</p>
-<p>events that we send to Surfer in order to let <code>SUElement</code>handle them.</p>
+<p>For all the events not handled natively in Surfer, we can use <code>CustomEvents</code> : events that we send to Surfer in order to let <code>SUElement</code>handle them.</p>
 <h2 id="animator">Animator</h2>
 <p>An example of custom events can be done with the <code>Animator</code>.</p>
 <p>Basically :</p>
 <ul>
-<li>let&#39;s add the component <code>SUAnimatorBehaviour</code> to an animator state machine &quot;Image&quot;</li>
-<li>select if the behavior should run on the Animator State Enter or Exit mode</li>
-<li>create an action <code>SendCustomEvent</code> and choose an event from the dropdown list </li>
-<li>add <code>SUElement</code>to whatever scene object and , as event , select <code>MyCustomEvent</code> and then choose the event name chosen in the step above</li>
+<li><p>let&#39;s add the component <code>SUAnimatorBehaviour</code> to an animator state machine </p>
+</li>
+<li><p>select if the behavior should run on the Animator State Enter or Exit mode</p>
+</li>
+<li><p>create an action <code>SendCustomEvent</code> and choose an event from the dropdown list </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/custome1.png" alt="Image"></p>
+</li>
+<li><p>add <code>SUElement</code>to whatever scene object and , as event , select <code>MyCustomEvent</code> and then choose the event name chosen in the step above</p>
+</li>
 </ul>
 <p>Now , you can react to an Animator State Enter or Exit event as you wish.</p>
 <h2 id="leantouch">LeanTouch</h2>
-<p>An example of custom events can even be Animator`.</p>
+<p>An example of custom events can even be <code>LeanTouch</code>.</p>
 <p>Basically :</p>
 <ul>
 <li>let&#39;s add the component <code>LeanFingerTap</code> to a scene object</li>
 <li>let&#39;s add to the same object the component <code>SUAction</code> : now create a <code>SendCustomEvent</code> action and choose an event from the dropdown list </li>
 <li>in the public event <code>OnWorld</code> of LeanFingerTap , drag the SUAction component in it and select the <code>Play</code> method</li>
+</ul>
+<p><img src="https://atstudios.github.io/Surfer/resources/custome2.png" alt="Image"></p>
+<ul>
 <li>add <code>SUElement</code>to whatever scene object and , as event , select <code>MyCustomEvent</code>and then choose the event name chosen in the step 2</li>
 </ul>
-<p>&quot;Image&quot;</p>
 <p>Now , you can react to a LeanTouch event as you wish.</p>
 </article>
           </div>

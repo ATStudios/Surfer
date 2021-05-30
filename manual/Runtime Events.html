@@ -82,12 +82,12 @@
 <p>Let’s see how we can easily register to specific state/scene events by code, so that we can run our custom class logic.</p>
 <p>First, let’s create a class called, for example, MyTest.
 After, let’s add <code>using Surfer;</code> at the top, so that we can access its namespace.</p>
-<p>Next, let’s declare the interface ISUStateEnterHandler and implement its method OnSUStateEnter.</p>
+<p>Next, let’s declare the interface <code>ISUStateEnterHandler</code> and implement its method OnSUStateEnter.</p>
 <p>Then, in the Awake (or wherever we want), we must register the class as receiver of that event , by passing all the states we want to receive the callback .</p>
 <p>Like this:</p>
-<p>&quot;Image&quot;</p>
-<p>To unregister use UnregisterStateEnter method (see <a href="">API</a> ) and pass the same states as parameters. </p>
-<p>The same we can do for a scene event, like implementing the interface  ISUSceneLoadedHandler or ISUSceneUnloadedHandler , see <a href="">API</a>.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/gene1.png" alt="Image"></p>
+<p>To unregister use UnregisterStateEnter method and pass the same states as parameters. </p>
+<p>The same we can do for a scene event, like implementing the interface  <code>ISUSceneLoadedHandler</code> or <code>ISUSceneUnloadedHandler</code> and calling their corresponding register methods.</p>
 </article>
           </div>
           

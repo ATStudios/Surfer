@@ -80,9 +80,9 @@
 <h1 id="input-integration">Input Integration</h1>
 
 <p>First of all, in Unity-&gt;Preferences-&gt;Surfer we can select the current input system we are using.</p>
-<p>Image</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/edit1.png" alt="Image"></p>
 <p>Then, let&#39;s select <code>Save and Recompile</code> and wait Unity to recompile.</p>
-<blockquote><p>If we are using LeanTouch , the integration comes with the use of <code>CustomEvents</code>, see <a href="">here</a></p>
+<blockquote><p>If we are using LeanTouch , the integration comes with the use of <code>CustomEvents</code>, see [here](<a href="https://atstudios.github.io/Surfer/Custom">https://atstudios.github.io/Surfer/Custom</a> Events.html)</p>
 </blockquote>
 <h2 id="back-button">Back Button</h2>
 <p>Let’s setup a “Back button”, an action that will happen without clicking a specific UI element and only when that state is open.</p>
@@ -94,10 +94,10 @@
 </ul>
 <p>Next, let&#39;s choose the input key that will trigger the action.</p>
 <p>Finally, in the <code>If...</code>section ( category <code>Fast!</code> ) let&#39;s choose <code>State/IsMyStateOpen</code> : this condition will make sure that the input action will be performed only when the state of the object where the component SUElement has been added on, is open; without this condition the input action will be always triggered. </p>
-<p>Image</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/input1.png" alt="Image"></p>
 <p>Now, let&#39;s add the <code>CloseMyState</code>action mode in the <code>DO...</code> -&gt; <code>If Conditons True</code> section.</p>
-<p>Image</p>
-<p>What we ha ve setup, is a stated input, useful for Back buttons or whatever type of input actions that do not require UI elements to be clicked. </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/input2.png" alt="Image"></p>
+<p>What we have setup is a stated input, useful for Back buttons or whatever type of input actions that do not require UI elements to be clicked and that are performed only when the parent state is open. </p>
 </article>
           </div>
           

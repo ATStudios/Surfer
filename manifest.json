@@ -1804,7 +1804,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Bolt.html",
-          "hash": "uSXwVya4mo3lZQCZDrkIQa33cpdiBNa4YxHZoZ1efXk="
+          "hash": "2nF2zIFPVvf9YMxI9tFxJshQXMXg1SzhEE1bAPYpQXs="
         }
       },
       "is_incremental": false,
@@ -1816,7 +1816,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Click button.html",
-          "hash": "tByo450aw9dNVIdBRusn5YfLU6TX8sJoN6UcI0ItvxY="
+          "hash": "J8QRzAtcN3tK3wZKBxx28XT/zOe5exjNx/MSyu6V1qA="
         }
       },
       "is_incremental": false,
@@ -1828,7 +1828,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Close Mode.html",
-          "hash": "Ut4UJPEMJh/CxwYIKztSsTxViyRCBSemb4BzTqkxnVg="
+          "hash": "c2R7T8KksTcylgKanqmzSbu041R0bMimErFnQhJngDQ="
         }
       },
       "is_incremental": false,
@@ -1840,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Custom Conditions.html",
-          "hash": "LiCd1UKLq4tTmovdpg+y5uwN+0EO3+omLDjt8txVO4s="
+          "hash": "4kF79cqWZUD4CPAl1A2qISyI0LbXCRWONErIAeuZLzE="
         }
       },
       "is_incremental": false,
@@ -1852,7 +1852,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Custom Events.html",
-          "hash": "A3OJrSvl+yvl0WYkzcwqHvmMB2tzfYOFK1Z3UjrWDYo="
+          "hash": "KyJTjKjX2EzUDABCLLvlAXy8sN3OtS8IDKsGAw8bHtQ="
         }
       },
       "is_incremental": false,
@@ -1864,7 +1864,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Custom Reactions.html",
-          "hash": "6LiH8nxwz65Tp04TROZwhreB1/3y2ff8dzrQgNai16k="
+          "hash": "FmCjYaUp8wZlgjQ1D4U9BMWNAlYnH73yKw9O0SXcLdk="
         }
       },
       "is_incremental": false,
@@ -1876,7 +1876,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Edit states and events.html",
-          "hash": "fYuiGoYD+zUK3F84COSNA+hMYshEDdFU8F+omfWtDaU="
+          "hash": "jIgbNvaMtK8TLJ5bGvWU+nUOrNlpD9uqbTHEcHGjInU="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/First Conditions Panel.html",
-          "hash": "a+fPKT+o0nw6YCeR67qIyi49ObcTa/u9jegygE86Da0="
+          "hash": "0IpwHOr51cU62E4am6HNBH0c6fTuXrdM5Kg7IFXFfvI="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Focus... and remember.html",
-          "hash": "9KMe5Jppmu9xcgP67jeW9TnIrCySpM7UjK4S4Y58YPw="
+          "hash": "LY5BsaSV6lzllW2CNlGQH4mdezQ4BImmsH3x4ZiYZu0="
         }
       },
       "is_incremental": false,
@@ -1912,7 +1912,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Focus.html",
-          "hash": "2zRkeYeka8WG0qwXsLfqTqMR6qQNR4rucNXmWJw5+Lk="
+          "hash": "uYUeu1YfYcj2DWKYwAQSLiqAFbKB/Vh4RI/evZnZ3xo="
         }
       },
       "is_incremental": false,
@@ -1924,7 +1924,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Generating Constants.html",
-          "hash": "hLAIY4igwBj+FW6peYfKeD0cJomWfZNsBYjh+nb3fDk="
+          "hash": "S9a6QopJOHpACu/Q+V6C7D5xawyiDzs86HKVtfRI1NM="
         }
       },
       "is_incremental": false,
@@ -1936,7 +1936,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/GroupState.html",
-          "hash": "M3OoOltkDurgp3djfLsWUbX8NPecDDjSd297XHKeEEo="
+          "hash": "CVMwujmfaEMnb2IUeWw5pXA0PoP265e8lNeY/bptvt8="
         }
       },
       "is_incremental": false,
@@ -1960,7 +1960,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Input.html",
-          "hash": "LaksuxFSd2FEXElhktHxBzXOhci1mbVfJNs+5iXLExc="
+          "hash": "S5RQQwxqNhwvRE6Ippet1iuYPGj1Ib6++rPetkf+Vjg="
         }
       },
       "is_incremental": false,
@@ -1972,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Installation.html",
-          "hash": "UBQrNbQqiRB4pqUNxxwTbMKCkzoEQ8ZJhhQtzCbjdbI="
+          "hash": "zlHjojZ+MwjLwd9H6IHW4d6Sa7WKf/epHA/Q/A57TZk="
         }
       },
       "is_incremental": false,
@@ -1996,7 +1996,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Local Multiplayer and PlayerID.html",
-          "hash": "WxjUwfCOzgESsJ2ZSjjMRW2qpaDH2HQGwHTwbGU+O14="
+          "hash": "KMrmFq0J+7DMY2iNCx3H4Wapl+kWXl/KRHDZMmkUZhA="
         }
       },
       "is_incremental": false,
@@ -2008,7 +2008,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Migration v1 to v2.html",
-          "hash": "EfeMu5A7Fl9U3EFLQzCIxorYYMjdMh2uHNlLr9mvD2c="
+          "hash": "Q9SppAK9MwZoVycP1J7brmkGME9npSYws2KJFFLbMas="
         }
       },
       "is_incremental": false,
@@ -2044,7 +2044,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Notification and Stack.html",
-          "hash": "ZKHAaE/zYMkRyUOigPQai+a2tFZlm6EUBatDxl0HePE="
+          "hash": "ViD5QCpxSILmCcljbrWvqWy64KnfDbWyV6O/Ib/jTzg="
         }
       },
       "is_incremental": false,
@@ -2056,7 +2056,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Playmaker.html",
-          "hash": "EgOw6uuejNiqRaLrhvmrOeAEwfow6vPFDbcTMIFbyn0="
+          "hash": "8Nz0JeKZXDv2FkS8YNY8BWF1K5MTOOLqPDdb/cx/ihc="
         }
       },
       "is_incremental": false,
@@ -2068,7 +2068,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Position Animation.html",
-          "hash": "+lfk+q/MHmpl72zvE9mK2eANHae220kSVhu0hbdpFs0="
+          "hash": "iJshMinxDLy8AHhoAZRkWsZyKCzuU836mKX+RF/xr3g="
         }
       },
       "is_incremental": false,
@@ -2080,7 +2080,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Runtime Events.html",
-          "hash": "ONCi4dxZfpsO7ZbZnsXJv7xBUy3NPijfTB2aZ17ic9o="
+          "hash": "8NMDZYnd6OV6Lh0JP5LhKqjcdFoXqjGL+t0i3bBL79A="
         }
       },
       "is_incremental": false,
@@ -2092,19 +2092,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Scene First Panel.html",
-          "hash": "JnSU0mSiE9hyxykjUWKhdWPt73BcWCLPdDpE+o4e2bA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/Senza nome.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/Senza nome.html",
-          "hash": "kPjnlH1nwxxpMY0pEsX88pCHaI5Gs7xsJ3pOgXFBAuQ="
+          "hash": "kUafYKhUiGmLRMZg9qyjp7I5MgjyJIc0THPrl2ixBQ4="
         }
       },
       "is_incremental": false,
@@ -2128,7 +2116,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/SideMenu Drag.html",
-          "hash": "oexUU7lRh1TK4wPhLpte3FJr8k5Zh8tEm0fMZs0Lhvg="
+          "hash": "pwR+INXmERLeqjqlGxuVbLcNQOdMsin6jGg/yEkOojo="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2128,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Sprite or Mesh.html",
-          "hash": "aMOJx36Y5LcXodz+XFTa0SQdw0WIIQ64hVxdQ6W3UO0="
+          "hash": "DKFfUIF2GKAeXGF57jhBlwnOTzdVu7JtE8RYiQ0y4JE="
         }
       },
       "is_incremental": false,
@@ -2176,7 +2164,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Versions.html",
-          "hash": "ipVINqE9iblyyUjnVKxHg+6WYjinzVjvkGoh99QwG3U="
+          "hash": "Qwc+OaBVu8LZkck2zg8Th+CvwFWBq/YChCEF0ID+Nts="
         }
       },
       "is_incremental": false,
@@ -2196,10 +2184,450 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/bolt1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/bolt1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/bolt2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/bolt2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/bolt3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/bolt3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/clickb1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/clickb1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/closem1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/closem1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/closem2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/closem2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customc1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customc1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customc2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customc2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customc3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customc3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/custome1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/custome1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/custome2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/custome2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customr1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customr1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customr2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customr2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/edit1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/edit1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/firstc1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/firstc1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/firstc2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/firstc2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/focus1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/focus1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/focus2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/focus2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/focusa1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/focusa1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/gene1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/gene1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/gene2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/gene2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/input1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/input1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/input2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/input2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/installation.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/installation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/logo.png",
       "output": {
         "resource": {
           "relative_path": "resources/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/player1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/player1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/playm1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/playm1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/playm2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/playm2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/playm3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/playm3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/playm4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/playm4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/posa6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/posa6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/scenef1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/scenef1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/scenef2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/scenef2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/scenef3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/scenef3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/spritem1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/spritem1.png"
         }
       },
       "is_incremental": false,
@@ -2230,8 +2658,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 33,
-          "skipped_file_count": 33
+          "total_file_count": 32,
+          "skipped_file_count": 32
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

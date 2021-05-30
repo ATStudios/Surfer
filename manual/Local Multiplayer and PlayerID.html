@@ -81,14 +81,16 @@
 
 <p>If we&#39;re dealing with a local multiplayer game , then we can use a really handy Surfer feature that will help us managing states and panel of different players as well as their EventSystem.</p>
 <p>This feature is the <code>PlayerID</code>.</p>
-<p>Basically, when we setup a state in our <code>SUElement</code>component we can see a field called <code>Player ID</code>: this value is accountable for handling multiple independent player UI states for a local multiplaer game.</p>
+<p>Basically, when we setup a state in our <code>SUElement</code>component we can see a field called <code>Player ID</code>: this value is accountable for handling multiple independent player UI states for a local multiplayer game.</p>
 <p>For example , if we have a 2P Local Multiplayer game with two equal state panels called <code>Menu</code> and two EventSystems ( or MultiplayerEventSystems ) in the scene :</p>
 <ul>
-<li>we set the<code>PlayerID</code> of the first Menu to 1 and the <code>PlayerID</code> of the second Menu to 2</li>
-<li>we add to the name of an EventSystem the word <code>1P</code>and to the name of the other one <code>2P</code> </li>
+<li><p>we set the<code>PlayerID</code> of the first Menu to 1 and the <code>PlayerID</code> of the second Menu to 2</p>
+</li>
+<li><p>we add to the name of an EventSystem the word <code>1P</code>and to the name of the other one <code>2P</code> </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/player1.png" alt="Image"></p>
+</li>
 </ul>
 <p>In this way Surfer will be able to link every player state to its corresponding EventSystem.</p>
-<p>&quot;Image&quot;</p>
 <p>The value of the player id field has a special meaning when set to -1 , like the table shows :</p>
 <table>
 <thead>
