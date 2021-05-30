@@ -807,7 +807,7 @@
   "manual/Installation.html": {
     "href": "manual/Installation.html",
     "title": "Installation | Surfer Unity documentation",
-    "keywords": "Installation First of all, the usage of Surfer requires the free tweening asset called DOTween available here Once you have downloaded and setup DOTween, go to Tools->Surfer and select “Install or Update” : Surfer will automatically install or update itself (this action has to be done every time you download a new version of Surfer) Now you can start using Surfer. DISCLAIMER : All the scripts not used in this GUIDE should NOT be used; they’re part of a migration/deprecation process"
+    "keywords": "Installation First of all, the usage of Surfer requires the free tweening asset called DOTween available here Once you have downloaded and setup DOTween, go to Tools->Surfer and select “Install or Update” : Surfer will automatically install or update itself (this action has to be done every time you download a new version of Surfer) Now you can start using Surfer. DISCLAIMER : All the scripts not used in this guides should NOT be used; they’re part of a migration/deprecation process"
   },
   "manual/Loading Scene Progress.html": {
     "href": "manual/Loading Scene Progress.html",
