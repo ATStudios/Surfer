@@ -1788,6 +1788,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Mxjs1p9BAazL2yffBuhCfg42GGgOnpXefeJAdt8VvqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/Bolt.md",
       "output": {
         ".html": {
@@ -2646,7 +2658,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 31,
+          "total_file_count": 32,
           "skipped_file_count": 31
         },
         "ManagedReferenceDocumentProcessor": {
