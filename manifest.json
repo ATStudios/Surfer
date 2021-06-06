@@ -1860,6 +1860,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog.html",
+          "hash": "NBRgXJwhuFtZANSuMQumMixqyk2veHqbSkJ+D4ZkCg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
@@ -2717,15 +2729,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "GJPTGA29N4spHyqT1Pd1Ui2uDzpsfSN5nhuT9kXQie0="
+          "hash": "TAVxSZ1lYtm5ElYwIYBFtE/vYSMTV0HjixXbfl3Fl6A="
         }
       },
       "is_incremental": false,
@@ -2744,14 +2753,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 32,
+          "total_file_count": 33,
           "skipped_file_count": 32
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 152,
-          "skipped_file_count": 0
+          "skipped_file_count": 152
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

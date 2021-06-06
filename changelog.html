@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog | Copyright &#169; 2021 ATStudio </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog | Copyright &#169; 2021 ATStudio ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="myfavicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to Surfer will be documented in this page.</p>
+<h2 id="23---2021-06-07">[2.3] - 2021-06-07</h2>
+<p>Surfer 2.3 is out!</p>
+<h3 id="added">Added</h3>
+<ul>
+<li><p>8 New Fast Reactions :</p>
+<p>PlayerPrefs_SetInt,</p>
+<p>PlayerPrefs_SetFloat,</p>
+<p>PlayerPrefs_SetString,</p>
+<p>PlayerPrefs_DeleteKey,</p>
+<p>PlayerPrefs_DeleteAll,</p>
+<p>Animator_PlayState,</p>
+<p>Animator_Stop,</p>
+<p>Animations_StopCharTweener</p>
+</li>
+<li><p>8 New Fast Conditions :</p>
+<p>PlayerPrefs_IsIntEqualTo,</p>
+<p>PlayerPrefs_IsIntLowerThan,</p>
+<p>PlayerPrefs_IsIntGreaterThan,</p>
+<p>PlayerPrefs_IsFloatEqualTo,</p>
+<p>PlayerPrefs_IsFloatLowerThan,</p>
+<p>PlayerPrefs_IsFloatGreaterThan,</p>
+<p>PlayerPrefs_IsStringEqualTo,</p>
+<p>PlayerPrefs_StringContains,</p>
+<p>PlayerPrefs_HasKey,</p>
+</li>
+<li><p><code>Slider_OverallVolume</code> element type to easily manage the overall game audio with a Slider!</p>
+</li>
+<li><p><code>BuildVersion_Text</code>element type to easily show the version of the build/game on a text !</p>
+</li>
+<li><p><code>Delete Slider Volume Key</code>button in Surfer Settings : to use only if the overall game audio volume is first managed by Surfer and then should be managed by another plugin (erase Surfer responsibility)</p>
+</li>
+<li><p><code>CharTweener</code> integration : easily animated your TextMeshPro text with this package (only found on GitHub) with these 11 animations :</p>
+<p>SplitIn,</p>
+<p>SplitOut,</p>
+<p>Wave,</p>
+<p>WaveLoop,</p>
+<p>Shaking,</p>
+<p>JumpIn,</p>
+<p>JumpOut,</p>
+<p>JumpInFull,</p>
+<p>JumpOutFull,</p>
+<p>LeftToRight,</p>
+<p>RightToLeft</p>
+</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Surfer Scriptable Object access at runtime ( especially used for Elements types like <code>Loading_Image</code> and <code>Loading_Text</code> )</li>
+</ul>
+<h2 id="22---2021-06-01">[2.2] - 2021-06-01</h2>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>Editor API Error when building</li>
+</ul>
+<h2 id="22---2021-05-30">[2.2] - 2021-05-30</h2>
+<p>Surfer 2.2 is out !</p>
+<h3 id="added-1">Added</h3>
+<ul>
+<li><p>New Online Manual and API !</p>
+</li>
+<li><p>&quot;If Conditions False&quot; Inspector Tab to run reactions when conditions fail! </p>
+</li>
+<li><p>5 New Fast Conditions :  </p>
+<p>DateTime_IsDay,</p>
+<p>DateTime_IsMonth,</p>
+<p>DateTime_IsYear,</p>
+<p>DateTime_IsChristmas,</p>
+<p>DateTime_IsHalloween</p>
+</li>
+<li><p>9 New Fast Reactions : </p>
+<p>Application_OpenURL,</p>
+<p>Cursor_SetIcon,</p>
+<p>Cursor_SetIconCentered,</p>
+<p>Cursor_SetDefaultIcon,</p>
+<p>Transform_SetSizeDelta,</p>
+<p>Canvas_BringToFront,</p>
+<p>Canvas_SendToBack,</p>
+<p>UIGenerics_EnableClickConstraint,</p>
+<p>UIGenerics_DisableClickConstraint</p>
+</li>
+<li><p>Tooltip_State type to create Tooltip with 1 click! </p>
+</li>
+<li><p>DragLeft_State,DragRight_State, DragUp_State, DragDown_State types to create Draggable SideMenus with 1 click!</p>
+</li>
+<li><p><code>AnchoredPosition</code> inspector animation!</p>
+</li>
+<li><p><code>Custom Events</code> to let SUElement handle events of custom developer logic!</p>
+</li>
+<li><p><code>Custom Reactions</code> to run custom programmer reactions!</p>
+</li>
+<li><p><code>IsStackable</code> value to stack opening calls of a state!</p>
+</li>
+<li><p><code>PlayerID</code> value to support Local Multiplayer games with multiple independent players UIs!</p>
+</li>
+<li><p><code>Loading_Text</code> element type to easily show loading progress of a scene in a TextMeshPro!</p>
+</li>
+<li><p><code>Loading_Image</code>element type to easily show loading progress of a scene in a Filled Image!</p>
+</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>History Focus logic and behavior</li>
+</ul>
+<h2 id="21---2021-05-07">[2.1] - 2021-05-07</h2>
+<p>Surfer 2.1 is out ! </p>
+<h3 id="added-2">Added</h3>
+<ul>
+<li><p>11 Inspector Events  : </p>
+<p>ScrollRect_OnReachedTop,</p>
+<p>ScrollRect_OnReachedBottom,</p>
+<p>ScrollRect_OnReachedLeft,</p>
+<p>ScrollRect_OnReachedRight,</p>
+<p>ScrollRect_OnNotReachedAnySide,</p>
+<p>Dropdown_OnOptionSelected,</p>
+<p>Dropdown_OnFirstOptionSelected,</p>
+<p>Slider_OnGreaterThan, </p>
+<p>Slider_OnLowerThan, </p>
+<p>Slider_OnMax, </p>
+<p>Slider_OnMin</p>
+</li>
+<li><p>13 Inspector Conditions : </p>
+<p>Application_IsLanguage,</p>
+<p>Application_IsNotLanguage,</p>
+<p>Application_IsPlatform,</p>
+<p>Application_IsNotPlatform,</p>
+<p>Application_IsMobileDevice,</p>
+<p>Application_IsNotMobileDevice,</p>
+<p>Application_IsConsolePlatform, </p>
+<p>Application_IsNotConsolePlatform,</p>
+<p>Slider_IsMin,</p>
+<p>Slider_IsMax,</p>
+<p>Slider_IsGreaterThan,</p>
+<p>Slider_IsLowerThan,</p>
+<p>Dropdown_IsSelected,</p>
+</li>
+<li><p>3 Inspector Reactions : </p>
+<p>Image_SetSprite,</p>
+<p>Dropdown_SelectOption,</p>
+<p>Slider_SetValue </p>
+</li>
+</ul>
+<h2 id="20---2021-04-29">[2.0] - 2021-04-29</h2>
+<p>Surfer 2.0 is out!</p>
+<p>Surfer becomes easier and faster!</p>
+<h3 id="added-3">Added</h3>
+<ul>
+<li><p><code>SUElement</code> component to manager every ui object.</p>
+</li>
+<li><p>20+ inspector events added</p>
+</li>
+<li><p>20+ easy inspector conditions added</p>
+</li>
+<li><p>20+ easy inspector reactions added</p>
+</li>
+</ul>
+<pre><code>
+## [Unreleased]
+
+## [1.0.0] - 2017-06-20
+### Added
+- New visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
+- Version navigation.
+- Links to latest released version in previous versions.
+- &quot;Why keep a changelog?&quot; section.
+- &quot;Who needs a changelog?&quot; section.
+- &quot;How do I make a changelog?&quot; section.
+- &quot;Frequently Asked Questions&quot; section.
+- New &quot;Guiding Principles&quot; sub-section to &quot;How do I make a changelog?&quot;.
+- Simplified and Traditional Chinese translations from [@tianshuo](https://github.com/tianshuo).
+- German translation from [@mpbzh](https://github.com/mpbzh) &amp; [@Art4](https://github.com/Art4).
+- Italian translation from [@azkidenz](https://github.com/azkidenz).
+- Swedish translation from [@magol](https://github.com/magol).
+- Turkish translation from [@karalamalar](https://github.com/karalamalar).
+- French translation from [@zapashcanon](https://github.com/zapashcanon).
+- Brazilian Portugese translation from [@Webysther](https://github.com/Webysther).
+- Polish translation from [@amielucha](https://github.com/amielucha) &amp; [@m-aciek](https://github.com/m-aciek).
+- Russian translation from [@aishek](https://github.com/aishek).
+- Czech translation from [@h4vry](https://github.com/h4vry).
+- Slovak translation from [@jkostolansky](https://github.com/jkostolansky).
+- Korean translation from [@pierceh89](https://github.com/pierceh89).
+- Croatian translation from [@porx](https://github.com/porx).
+- Persian translation from [@Hameds](https://github.com/Hameds).
+- Ukrainian translation from [@osadchyi-s](https://github.com/osadchyi-s).
+
+### Changed
+- Start using &quot;changelog&quot; over &quot;change log&quot; since it&#39;s the common usage.
+- Start versioning based on the current English version at 0.3.0 to help
+translation authors keep things up-to-date.
+- Rewrite &quot;What makes unicorns cry?&quot; section.
+- Rewrite &quot;Ignoring Deprecations&quot; sub-section to clarify the ideal
+  scenario.
+- Improve &quot;Commit log diffs&quot; sub-section to further argument against
+  them.
+- Merge &quot;Why can’t people just use a git log diff?&quot; with &quot;Commit log
+  diffs&quot;
+- Fix typos in Simplified Chinese and Traditional Chinese translations.
+- Fix typos in Brazilian Portuguese translation.
+- Fix typos in Turkish translation.
+- Fix typos in Czech translation.
+- Fix typos in Swedish translation.
+- Improve phrasing in French translation.
+- Fix phrasing and spelling in German translation.
+
+### Removed
+- Section about &quot;changelog&quot; vs &quot;CHANGELOG&quot;.
+
+## [0.3.0] - 2015-12-03
+### Added
+- RU translation from [@aishek](https://github.com/aishek).
+- pt-BR translation from [@tallesl](https://github.com/tallesl).
+- es-ES translation from [@ZeliosAriex](https://github.com/ZeliosAriex).
+
+## [0.2.0] - 2015-10-06
+### Changed
+- Remove exclusionary mentions of &quot;open source&quot; since this project can
+benefit both &quot;open&quot; and &quot;closed&quot; source projects equally.
+
+## [0.1.0] - 2015-10-06
+### Added
+- Answer &quot;Should you ever rewrite a change log?&quot;.
+
+### Changed
+- Improve argument against commit logs.
+- Start following [SemVer](https://semver.org) properly.
+
+## [0.0.8] - 2015-02-17
+### Changed
+- Update year to match in every README example.
+- Reluctantly stop making fun of Brits only, since most of the world
+  writes dates in a strange way.
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2021 ATStudio
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
