@@ -1792,7 +1792,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SurferHelper.html",
-          "hash": "2krqW/L5MmesrpB49cwYJlVYQiKTgzGyE4brx0fL1Wo="
+          "hash": "zxThwK+6r5jmc6147VpAZev0sNTu+8GK7t4r/8dcFtY="
         }
       },
       "is_incremental": false,
@@ -1889,6 +1889,18 @@
         ".html": {
           "relative_path": "manual/Bolt.html",
           "hash": "CEgLApd3Z7/txKG1gdpBicrz19qizdweheIKsnr5Nbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/CharTweener.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/CharTweener.html",
+          "hash": "28/fm7nmz/P605mdRbi1Y6vpaFBXht9AfLx4Ga7MvhU="
         }
       },
       "is_incremental": false,
@@ -2753,14 +2765,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 33,
-          "skipped_file_count": 31
+          "total_file_count": 34,
+          "skipped_file_count": 33
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 152,
-          "skipped_file_count": 152
+          "skipped_file_count": 51
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
