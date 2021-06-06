@@ -2324,6 +2324,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/chart1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/chart1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/clickb1.png",
       "output": {
         "resource": {
@@ -2766,13 +2777,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 34,
-          "skipped_file_count": 33
+          "skipped_file_count": 34
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 152,
-          "skipped_file_count": 51
+          "skipped_file_count": 152
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
