@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SerializableDictionary&lt;TKey, TValue&gt;
+    <title>Class VersionsDictionary
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SerializableDictionary&lt;TKey, TValue&gt;
+    <meta name="title" content="Class VersionsDictionary
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,72 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SerializableDictionary`2">
+            <article class="content wrap" id="_content" data-uid="Surfer.VersionsDictionary">
   
   
-  <h1 id="Surfer_SerializableDictionary_2" data-uid="Surfer.SerializableDictionary`2" class="text-break">Class SerializableDictionary&lt;TKey, TValue&gt;
+  <h1 id="Surfer_VersionsDictionary" data-uid="Surfer.VersionsDictionary" class="text-break">Class VersionsDictionary
   </h1>
-  <div class="markdown level0 summary"><p>A serializable dictionary for Surfer.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</div>
-    <div class="level2"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
-      <div class="level3"><a class="xref" href="Surfer.EventsDictionary.html">EventsDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.ScenesDictionary.html">ScenesDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.StatesDictionary.html">StatesDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.SUElement.DictEvents.html">SUElement.DictEvents</a></div>
-      <div class="level3"><a class="xref" href="Surfer.VersionsDictionary.html">VersionsDictionary</a></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<span class="xref">RuntimePlatform</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Surfer.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<span class="xref">RuntimePlatform</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</div>
+    <div class="level3"><span class="xref">VersionsDictionary</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Surfer.SerializableDictionary-2.html#Surfer_SerializableDictionary_2_OnBeforeSerialize">SerializableDictionary&lt;RuntimePlatform, String&gt;.OnBeforeSerialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SerializableDictionary-2.html#Surfer_SerializableDictionary_2_OnAfterDeserialize">SerializableDictionary&lt;RuntimePlatform, String&gt;.OnAfterDeserialize()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SerializableDictionary_2_syntax">Syntax</h5>
+  <h5 id="Surfer_VersionsDictionary_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;, IDictionary&lt;TKey, TValue&gt;, ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;TKey, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback, ISerializationCallbackReceiver</code></pre>
-  </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Surfer_SerializableDictionary_2_OnAfterDeserialize_" data-uid="Surfer.SerializableDictionary`2.OnAfterDeserialize*"></a>
-  <h4 id="Surfer_SerializableDictionary_2_OnAfterDeserialize" data-uid="Surfer.SerializableDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
-  </div>
-  
-  
-  <a id="Surfer_SerializableDictionary_2_OnBeforeSerialize_" data-uid="Surfer.SerializableDictionary`2.OnBeforeSerialize*"></a>
-  <h4 id="Surfer_SerializableDictionary_2_OnBeforeSerialize" data-uid="Surfer.SerializableDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+public class VersionsDictionary : SerializableDictionary&lt;RuntimePlatform, string&gt;, IDictionary&lt;RuntimePlatform, string&gt;, ICollection&lt;KeyValuePair&lt;RuntimePlatform, string&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;RuntimePlatform, string&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;RuntimePlatform, string&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;RuntimePlatform, string&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback, ISerializationCallbackReceiver</code></pre>
   </div>
 </article>
           </div>

@@ -922,6 +922,12 @@ references:
   commentId: F:Surfer.SUAnimationData.CGroupPrefix
   fullName: Surfer.SUAnimationData.CGroupPrefix
   nameWithType: SUAnimationData.CGroupPrefix
+- uid: Surfer.SUAnimationData.CharTweenPrefix
+  name: CharTweenPrefix
+  href: api/Surfer.SUAnimationData.html#Surfer_SUAnimationData_CharTweenPrefix
+  commentId: F:Surfer.SUAnimationData.CharTweenPrefix
+  fullName: Surfer.SUAnimationData.CharTweenPrefix
+  nameWithType: SUAnimationData.CharTweenPrefix
 - uid: Surfer.SUAnimationData.ColorPrefix
   name: ColorPrefix
   href: api/Surfer.SUAnimationData.html#Surfer_SUAnimationData_ColorPrefix
@@ -1287,6 +1293,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUAnimationDataDrawer.IsNone
   nameWithType: SUAnimationDataDrawer.IsNone
+- uid: Surfer.SUAnimationDataDrawer.OnCanBeLooped
+  name: OnCanBeLooped()
+  href: api/Surfer.SUAnimationDataDrawer.html#Surfer_SUAnimationDataDrawer_OnCanBeLooped
+  commentId: M:Surfer.SUAnimationDataDrawer.OnCanBeLooped
+  fullName: Surfer.SUAnimationDataDrawer.OnCanBeLooped()
+  nameWithType: SUAnimationDataDrawer.OnCanBeLooped()
+- uid: Surfer.SUAnimationDataDrawer.OnCanBeLooped*
+  name: OnCanBeLooped
+  href: api/Surfer.SUAnimationDataDrawer.html#Surfer_SUAnimationDataDrawer_OnCanBeLooped_
+  commentId: Overload:Surfer.SUAnimationDataDrawer.OnCanBeLooped
+  isSpec: "True"
+  fullName: Surfer.SUAnimationDataDrawer.OnCanBeLooped
+  nameWithType: SUAnimationDataDrawer.OnCanBeLooped
 - uid: Surfer.SUAnimationDataDrawer.OnCanUseDefaultModes(Rect@,SerializedProperty)
   name: OnCanUseDefaultModes(ref Rect, SerializedProperty)
   href: api/Surfer.SUAnimationDataDrawer.html#Surfer_SUAnimationDataDrawer_OnCanUseDefaultModes_Rect__SerializedProperty_
@@ -1818,6 +1837,190 @@ references:
   isSpec: "True"
   fullName: Surfer.SUCGroupData.OnPlay
   nameWithType: SUCGroupData.OnPlay
+- uid: Surfer.SUCharTweenData
+  name: SUCharTweenData
+  href: api/Surfer.SUCharTweenData.html
+  commentId: T:Surfer.SUCharTweenData
+  fullName: Surfer.SUCharTweenData
+  nameWithType: SUCharTweenData
+- uid: Surfer.SUCharTweenData.IsAvailable
+  name: IsAvailable
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_IsAvailable
+  commentId: P:Surfer.SUCharTweenData.IsAvailable
+  fullName: Surfer.SUCharTweenData.IsAvailable
+  nameWithType: SUCharTweenData.IsAvailable
+- uid: Surfer.SUCharTweenData.IsAvailable*
+  name: IsAvailable
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_IsAvailable_
+  commentId: Overload:Surfer.SUCharTweenData.IsAvailable
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenData.IsAvailable
+  nameWithType: SUCharTweenData.IsAvailable
+- uid: Surfer.SUCharTweenData.Mode_ID
+  name: SUCharTweenData.Mode_ID
+  href: api/Surfer.SUCharTweenData.Mode_ID.html
+  commentId: T:Surfer.SUCharTweenData.Mode_ID
+  fullName: Surfer.SUCharTweenData.Mode_ID
+  nameWithType: SUCharTweenData.Mode_ID
+- uid: Surfer.SUCharTweenData.Mode_ID.JumpIn
+  name: JumpIn
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_JumpIn
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.JumpIn
+  fullName: Surfer.SUCharTweenData.Mode_ID.JumpIn
+  nameWithType: SUCharTweenData.Mode_ID.JumpIn
+- uid: Surfer.SUCharTweenData.Mode_ID.JumpInFull
+  name: JumpInFull
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_JumpInFull
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.JumpInFull
+  fullName: Surfer.SUCharTweenData.Mode_ID.JumpInFull
+  nameWithType: SUCharTweenData.Mode_ID.JumpInFull
+- uid: Surfer.SUCharTweenData.Mode_ID.JumpOut
+  name: JumpOut
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_JumpOut
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.JumpOut
+  fullName: Surfer.SUCharTweenData.Mode_ID.JumpOut
+  nameWithType: SUCharTweenData.Mode_ID.JumpOut
+- uid: Surfer.SUCharTweenData.Mode_ID.JumpOutFull
+  name: JumpOutFull
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_JumpOutFull
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.JumpOutFull
+  fullName: Surfer.SUCharTweenData.Mode_ID.JumpOutFull
+  nameWithType: SUCharTweenData.Mode_ID.JumpOutFull
+- uid: Surfer.SUCharTweenData.Mode_ID.LeftToRight
+  name: LeftToRight
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_LeftToRight
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.LeftToRight
+  fullName: Surfer.SUCharTweenData.Mode_ID.LeftToRight
+  nameWithType: SUCharTweenData.Mode_ID.LeftToRight
+- uid: Surfer.SUCharTweenData.Mode_ID.None
+  name: None
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_None
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.None
+  fullName: Surfer.SUCharTweenData.Mode_ID.None
+  nameWithType: SUCharTweenData.Mode_ID.None
+- uid: Surfer.SUCharTweenData.Mode_ID.RightToLeft
+  name: RightToLeft
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_RightToLeft
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.RightToLeft
+  fullName: Surfer.SUCharTweenData.Mode_ID.RightToLeft
+  nameWithType: SUCharTweenData.Mode_ID.RightToLeft
+- uid: Surfer.SUCharTweenData.Mode_ID.Shaking
+  name: Shaking
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_Shaking
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.Shaking
+  fullName: Surfer.SUCharTweenData.Mode_ID.Shaking
+  nameWithType: SUCharTweenData.Mode_ID.Shaking
+- uid: Surfer.SUCharTweenData.Mode_ID.SplitIn
+  name: SplitIn
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_SplitIn
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.SplitIn
+  fullName: Surfer.SUCharTweenData.Mode_ID.SplitIn
+  nameWithType: SUCharTweenData.Mode_ID.SplitIn
+- uid: Surfer.SUCharTweenData.Mode_ID.SplitOut
+  name: SplitOut
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_SplitOut
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.SplitOut
+  fullName: Surfer.SUCharTweenData.Mode_ID.SplitOut
+  nameWithType: SUCharTweenData.Mode_ID.SplitOut
+- uid: Surfer.SUCharTweenData.Mode_ID.Wave
+  name: Wave
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_Wave
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.Wave
+  fullName: Surfer.SUCharTweenData.Mode_ID.Wave
+  nameWithType: SUCharTweenData.Mode_ID.Wave
+- uid: Surfer.SUCharTweenData.Mode_ID.WaveLoop
+  name: WaveLoop
+  href: api/Surfer.SUCharTweenData.Mode_ID.html#Surfer_SUCharTweenData_Mode_ID_WaveLoop
+  commentId: F:Surfer.SUCharTweenData.Mode_ID.WaveLoop
+  fullName: Surfer.SUCharTweenData.Mode_ID.WaveLoop
+  nameWithType: SUCharTweenData.Mode_ID.WaveLoop
+- uid: Surfer.SUCharTweenData.OnCache(GameObject)
+  name: OnCache(GameObject)
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_OnCache_GameObject_
+  commentId: M:Surfer.SUCharTweenData.OnCache(GameObject)
+  fullName: Surfer.SUCharTweenData.OnCache(GameObject)
+  nameWithType: SUCharTweenData.OnCache(GameObject)
+- uid: Surfer.SUCharTweenData.OnCache*
+  name: OnCache
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_OnCache_
+  commentId: Overload:Surfer.SUCharTweenData.OnCache
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenData.OnCache
+  nameWithType: SUCharTweenData.OnCache
+- uid: Surfer.SUCharTweenData.OnPlay(GameObject)
+  name: OnPlay(GameObject)
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_OnPlay_GameObject_
+  commentId: M:Surfer.SUCharTweenData.OnPlay(GameObject)
+  fullName: Surfer.SUCharTweenData.OnPlay(GameObject)
+  nameWithType: SUCharTweenData.OnPlay(GameObject)
+- uid: Surfer.SUCharTweenData.OnPlay*
+  name: OnPlay
+  href: api/Surfer.SUCharTweenData.html#Surfer_SUCharTweenData_OnPlay_
+  commentId: Overload:Surfer.SUCharTweenData.OnPlay
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenData.OnPlay
+  nameWithType: SUCharTweenData.OnPlay
+- uid: Surfer.SUCharTweenDataDrawer
+  name: SUCharTweenDataDrawer
+  href: api/Surfer.SUCharTweenDataDrawer.html
+  commentId: T:Surfer.SUCharTweenDataDrawer
+  fullName: Surfer.SUCharTweenDataDrawer
+  nameWithType: SUCharTweenDataDrawer
+- uid: Surfer.SUCharTweenDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:Surfer.SUCharTweenDataDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: Surfer.SUCharTweenDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: SUCharTweenDataDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: Surfer.SUCharTweenDataDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_GetPropertyHeight_
+  commentId: Overload:Surfer.SUCharTweenDataDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenDataDrawer.GetPropertyHeight
+  nameWithType: SUCharTweenDataDrawer.GetPropertyHeight
+- uid: Surfer.SUCharTweenDataDrawer.IsNone
+  name: IsNone()
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_IsNone
+  commentId: M:Surfer.SUCharTweenDataDrawer.IsNone
+  fullName: Surfer.SUCharTweenDataDrawer.IsNone()
+  nameWithType: SUCharTweenDataDrawer.IsNone()
+- uid: Surfer.SUCharTweenDataDrawer.IsNone*
+  name: IsNone
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_IsNone_
+  commentId: Overload:Surfer.SUCharTweenDataDrawer.IsNone
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenDataDrawer.IsNone
+  nameWithType: SUCharTweenDataDrawer.IsNone
+- uid: Surfer.SUCharTweenDataDrawer.OnCanBeLooped
+  name: OnCanBeLooped()
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_OnCanBeLooped
+  commentId: M:Surfer.SUCharTweenDataDrawer.OnCanBeLooped
+  fullName: Surfer.SUCharTweenDataDrawer.OnCanBeLooped()
+  nameWithType: SUCharTweenDataDrawer.OnCanBeLooped()
+- uid: Surfer.SUCharTweenDataDrawer.OnCanBeLooped*
+  name: OnCanBeLooped
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_OnCanBeLooped_
+  commentId: Overload:Surfer.SUCharTweenDataDrawer.OnCanBeLooped
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenDataDrawer.OnCanBeLooped
+  nameWithType: SUCharTweenDataDrawer.OnCanBeLooped
+- uid: Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes(Rect@,SerializedProperty)
+  name: OnCanUseDefaultModes(ref Rect, SerializedProperty)
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_OnCanUseDefaultModes_Rect__SerializedProperty_
+  commentId: M:Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes(Rect@,SerializedProperty)
+  name.vb: OnCanUseDefaultModes(ByRef Rect, SerializedProperty)
+  fullName: Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes(ref Rect, SerializedProperty)
+  fullName.vb: Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes(ByRef Rect, SerializedProperty)
+  nameWithType: SUCharTweenDataDrawer.OnCanUseDefaultModes(ref Rect, SerializedProperty)
+  nameWithType.vb: SUCharTweenDataDrawer.OnCanUseDefaultModes(ByRef Rect, SerializedProperty)
+- uid: Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes*
+  name: OnCanUseDefaultModes
+  href: api/Surfer.SUCharTweenDataDrawer.html#Surfer_SUCharTweenDataDrawer_OnCanUseDefaultModes_
+  commentId: Overload:Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes
+  isSpec: "True"
+  fullName: Surfer.SUCharTweenDataDrawer.OnCanUseDefaultModes
+  nameWithType: SUCharTweenDataDrawer.OnCanUseDefaultModes
 - uid: Surfer.SUColorData
   name: SUColorData
   href: api/Surfer.SUColorData.html
@@ -2876,6 +3079,12 @@ references:
   commentId: T:Surfer.SUElementData.Type_ID
   fullName: Surfer.SUElementData.Type_ID
   nameWithType: SUElementData.Type_ID
+- uid: Surfer.SUElementData.Type_ID.BuildVersion_Text
+  name: BuildVersion_Text
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_BuildVersion_Text
+  commentId: F:Surfer.SUElementData.Type_ID.BuildVersion_Text
+  fullName: Surfer.SUElementData.Type_ID.BuildVersion_Text
+  nameWithType: SUElementData.Type_ID.BuildVersion_Text
 - uid: Surfer.SUElementData.Type_ID.DragDown_State
   name: DragDown_State
   href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_DragDown_State
@@ -2918,6 +3127,12 @@ references:
   commentId: F:Surfer.SUElementData.Type_ID.Normal
   fullName: Surfer.SUElementData.Type_ID.Normal
   nameWithType: SUElementData.Type_ID.Normal
+- uid: Surfer.SUElementData.Type_ID.Slider_OverallVolume
+  name: Slider_OverallVolume
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Slider_OverallVolume
+  commentId: F:Surfer.SUElementData.Type_ID.Slider_OverallVolume
+  fullName: Surfer.SUElementData.Type_ID.Slider_OverallVolume
+  nameWithType: SUElementData.Type_ID.Slider_OverallVolume
 - uid: Surfer.SUElementData.Type_ID.State
   name: State
   href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_State
@@ -3795,6 +4010,60 @@ references:
   commentId: F:Surfer.SUFastConditionData.Type_ID.None
   fullName: Surfer.SUFastConditionData.Type_ID.None
   nameWithType: SUFastConditionData.Type_ID.None
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_HasKey
+  name: PlayerPrefs_HasKey
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_HasKey
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_HasKey
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_HasKey
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_HasKey
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatEqualTo
+  name: PlayerPrefs_IsFloatEqualTo
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsFloatEqualTo
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatEqualTo
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatEqualTo
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsFloatEqualTo
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatGreaterThan
+  name: PlayerPrefs_IsFloatGreaterThan
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsFloatGreaterThan
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatGreaterThan
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatGreaterThan
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsFloatGreaterThan
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatLowerThan
+  name: PlayerPrefs_IsFloatLowerThan
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsFloatLowerThan
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatLowerThan
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsFloatLowerThan
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsFloatLowerThan
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntEqualTo
+  name: PlayerPrefs_IsIntEqualTo
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsIntEqualTo
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntEqualTo
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntEqualTo
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsIntEqualTo
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntGreaterThan
+  name: PlayerPrefs_IsIntGreaterThan
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsIntGreaterThan
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntGreaterThan
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntGreaterThan
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsIntGreaterThan
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntLowerThan
+  name: PlayerPrefs_IsIntLowerThan
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsIntLowerThan
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntLowerThan
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsIntLowerThan
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsIntLowerThan
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsStringEqualTo
+  name: PlayerPrefs_IsStringEqualTo
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_IsStringEqualTo
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsStringEqualTo
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_IsStringEqualTo
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_IsStringEqualTo
+- uid: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_StringContains
+  name: PlayerPrefs_StringContains
+  href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_PlayerPrefs_StringContains
+  commentId: F:Surfer.SUFastConditionData.Type_ID.PlayerPrefs_StringContains
+  fullName: Surfer.SUFastConditionData.Type_ID.PlayerPrefs_StringContains
+  nameWithType: SUFastConditionData.Type_ID.PlayerPrefs_StringContains
 - uid: Surfer.SUFastConditionData.Type_ID.Scene_IsLastClosed
   name: Scene_IsLastClosed
   href: api/Surfer.SUFastConditionData.Type_ID.html#Surfer_SUFastConditionData_Type_ID_Scene_IsLastClosed
@@ -3999,6 +4268,12 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.Animations_StopCanvasGroup
   fullName: Surfer.SUFastReactionData.Type_ID.Animations_StopCanvasGroup
   nameWithType: SUFastReactionData.Type_ID.Animations_StopCanvasGroup
+- uid: Surfer.SUFastReactionData.Type_ID.Animations_StopCharTweener
+  name: Animations_StopCharTweener
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Animations_StopCharTweener
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Animations_StopCharTweener
+  fullName: Surfer.SUFastReactionData.Type_ID.Animations_StopCharTweener
+  nameWithType: SUFastReactionData.Type_ID.Animations_StopCharTweener
 - uid: Surfer.SUFastReactionData.Type_ID.Animations_StopColor
   name: Animations_StopColor
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Animations_StopColor
@@ -4047,6 +4322,18 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.Animations_StopShake
   fullName: Surfer.SUFastReactionData.Type_ID.Animations_StopShake
   nameWithType: SUFastReactionData.Type_ID.Animations_StopShake
+- uid: Surfer.SUFastReactionData.Type_ID.Animator_PlayState
+  name: Animator_PlayState
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Animator_PlayState
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Animator_PlayState
+  fullName: Surfer.SUFastReactionData.Type_ID.Animator_PlayState
+  nameWithType: SUFastReactionData.Type_ID.Animator_PlayState
+- uid: Surfer.SUFastReactionData.Type_ID.Animator_Stop
+  name: Animator_Stop
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Animator_Stop
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Animator_Stop
+  fullName: Surfer.SUFastReactionData.Type_ID.Animator_Stop
+  nameWithType: SUFastReactionData.Type_ID.Animator_Stop
 - uid: Surfer.SUFastReactionData.Type_ID.Application_OpenURL
   name: Application_OpenURL
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Application_OpenURL
@@ -4227,6 +4514,36 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.None
   fullName: Surfer.SUFastReactionData.Type_ID.None
   nameWithType: SUFastReactionData.Type_ID.None
+- uid: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteAll
+  name: PlayerPrefs_DeleteAll
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_PlayerPrefs_DeleteAll
+  commentId: F:Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteAll
+  fullName: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteAll
+  nameWithType: SUFastReactionData.Type_ID.PlayerPrefs_DeleteAll
+- uid: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteKey
+  name: PlayerPrefs_DeleteKey
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_PlayerPrefs_DeleteKey
+  commentId: F:Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteKey
+  fullName: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_DeleteKey
+  nameWithType: SUFastReactionData.Type_ID.PlayerPrefs_DeleteKey
+- uid: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetFloat
+  name: PlayerPrefs_SetFloat
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_PlayerPrefs_SetFloat
+  commentId: F:Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetFloat
+  fullName: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetFloat
+  nameWithType: SUFastReactionData.Type_ID.PlayerPrefs_SetFloat
+- uid: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetInt
+  name: PlayerPrefs_SetInt
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_PlayerPrefs_SetInt
+  commentId: F:Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetInt
+  fullName: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetInt
+  nameWithType: SUFastReactionData.Type_ID.PlayerPrefs_SetInt
+- uid: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetString
+  name: PlayerPrefs_SetString
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_PlayerPrefs_SetString
+  commentId: F:Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetString
+  fullName: Surfer.SUFastReactionData.Type_ID.PlayerPrefs_SetString
+  nameWithType: SUFastReactionData.Type_ID.PlayerPrefs_SetString
 - uid: Surfer.SUFastReactionData.Type_ID.Selectable_InteractableOff
   name: Selectable_InteractableOff
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Selectable_InteractableOff
@@ -4715,6 +5032,38 @@ references:
   isSpec: "True"
   fullName: Surfer.SUPositionData.OnPlay
   nameWithType: SUPositionData.OnPlay
+- uid: Surfer.SUPreBuildManager
+  name: SUPreBuildManager
+  href: api/Surfer.SUPreBuildManager.html
+  commentId: T:Surfer.SUPreBuildManager
+  fullName: Surfer.SUPreBuildManager
+  nameWithType: SUPreBuildManager
+- uid: Surfer.SUPreBuildManager.callbackOrder
+  name: callbackOrder
+  href: api/Surfer.SUPreBuildManager.html#Surfer_SUPreBuildManager_callbackOrder
+  commentId: P:Surfer.SUPreBuildManager.callbackOrder
+  fullName: Surfer.SUPreBuildManager.callbackOrder
+  nameWithType: SUPreBuildManager.callbackOrder
+- uid: Surfer.SUPreBuildManager.callbackOrder*
+  name: callbackOrder
+  href: api/Surfer.SUPreBuildManager.html#Surfer_SUPreBuildManager_callbackOrder_
+  commentId: Overload:Surfer.SUPreBuildManager.callbackOrder
+  isSpec: "True"
+  fullName: Surfer.SUPreBuildManager.callbackOrder
+  nameWithType: SUPreBuildManager.callbackOrder
+- uid: Surfer.SUPreBuildManager.OnPreprocessBuild(BuildReport)
+  name: OnPreprocessBuild(BuildReport)
+  href: api/Surfer.SUPreBuildManager.html#Surfer_SUPreBuildManager_OnPreprocessBuild_BuildReport_
+  commentId: M:Surfer.SUPreBuildManager.OnPreprocessBuild(BuildReport)
+  fullName: Surfer.SUPreBuildManager.OnPreprocessBuild(BuildReport)
+  nameWithType: SUPreBuildManager.OnPreprocessBuild(BuildReport)
+- uid: Surfer.SUPreBuildManager.OnPreprocessBuild*
+  name: OnPreprocessBuild
+  href: api/Surfer.SUPreBuildManager.html#Surfer_SUPreBuildManager_OnPreprocessBuild_
+  commentId: Overload:Surfer.SUPreBuildManager.OnPreprocessBuild
+  isSpec: "True"
+  fullName: Surfer.SUPreBuildManager.OnPreprocessBuild
+  nameWithType: SUPreBuildManager.OnPreprocessBuild
 - uid: Surfer.SUPunchData
   name: SUPunchData
   href: api/Surfer.SUPunchData.html
@@ -5126,6 +5475,19 @@ references:
   commentId: T:Surfer.SurferHelper
   fullName: Surfer.SurferHelper
   nameWithType: SurferHelper
+- uid: Surfer.SurferHelper.BuildVPrefix
+  name: BuildVPrefix
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_BuildVPrefix
+  commentId: P:Surfer.SurferHelper.BuildVPrefix
+  fullName: Surfer.SurferHelper.BuildVPrefix
+  nameWithType: SurferHelper.BuildVPrefix
+- uid: Surfer.SurferHelper.BuildVPrefix*
+  name: BuildVPrefix
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_BuildVPrefix_
+  commentId: Overload:Surfer.SurferHelper.BuildVPrefix
+  isSpec: "True"
+  fullName: Surfer.SurferHelper.BuildVPrefix
+  nameWithType: SurferHelper.BuildVPrefix
 - uid: Surfer.SurferHelper.fieldWidth
   name: fieldWidth
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_fieldWidth
@@ -5145,6 +5507,25 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferHelper.GetParentRect
   nameWithType: SurferHelper.GetParentRect
+- uid: Surfer.SurferHelper.GetVersion
+  name: GetVersion()
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_GetVersion
+  commentId: M:Surfer.SurferHelper.GetVersion
+  fullName: Surfer.SurferHelper.GetVersion()
+  nameWithType: SurferHelper.GetVersion()
+- uid: Surfer.SurferHelper.GetVersion*
+  name: GetVersion
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_GetVersion_
+  commentId: Overload:Surfer.SurferHelper.GetVersion
+  isSpec: "True"
+  fullName: Surfer.SurferHelper.GetVersion
+  nameWithType: SurferHelper.GetVersion
+- uid: Surfer.SurferHelper.kOverallVolume
+  name: kOverallVolume
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kOverallVolume
+  commentId: F:Surfer.SurferHelper.kOverallVolume
+  fullName: Surfer.SurferHelper.kOverallVolume
+  nameWithType: SurferHelper.kOverallVolume
 - uid: Surfer.SurferHelper.lineHeight
   name: lineHeight
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_lineHeight
@@ -6097,6 +6478,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.AddState
   nameWithType: SurferSO.AddState
+- uid: Surfer.SurferSO.BuildVersions
+  name: BuildVersions
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_BuildVersions
+  commentId: P:Surfer.SurferSO.BuildVersions
+  fullName: Surfer.SurferSO.BuildVersions
+  nameWithType: SurferSO.BuildVersions
+- uid: Surfer.SurferSO.BuildVersions*
+  name: BuildVersions
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_BuildVersions_
+  commentId: Overload:Surfer.SurferSO.BuildVersions
+  isSpec: "True"
+  fullName: Surfer.SurferSO.BuildVersions
+  nameWithType: SurferSO.BuildVersions
 - uid: Surfer.SurferSO.GetEvent(System.String)
   name: GetEvent(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetEvent_System_String_
@@ -8252,3 +8646,28 @@ references:
   commentId: F:Surfer.SUTriggerEvent.SUTriggerEvent_ID.Exit
   fullName: Surfer.SUTriggerEvent.SUTriggerEvent_ID.Exit
   nameWithType: SUTriggerEvent.SUTriggerEvent_ID.Exit
+- uid: Surfer.SUVersionBehaviour
+  name: SUVersionBehaviour
+  href: api/Surfer.SUVersionBehaviour.html
+  commentId: T:Surfer.SUVersionBehaviour
+  fullName: Surfer.SUVersionBehaviour
+  nameWithType: SUVersionBehaviour
+- uid: Surfer.SUVersionBehaviour.#ctor(GameObject,Surfer.SUElement)
+  name: SUVersionBehaviour(GameObject, SUElement)
+  href: api/Surfer.SUVersionBehaviour.html#Surfer_SUVersionBehaviour__ctor_GameObject_Surfer_SUElement_
+  commentId: M:Surfer.SUVersionBehaviour.#ctor(GameObject,Surfer.SUElement)
+  fullName: Surfer.SUVersionBehaviour.SUVersionBehaviour(GameObject, Surfer.SUElement)
+  nameWithType: SUVersionBehaviour.SUVersionBehaviour(GameObject, SUElement)
+- uid: Surfer.SUVersionBehaviour.#ctor*
+  name: SUVersionBehaviour
+  href: api/Surfer.SUVersionBehaviour.html#Surfer_SUVersionBehaviour__ctor_
+  commentId: Overload:Surfer.SUVersionBehaviour.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUVersionBehaviour.SUVersionBehaviour
+  nameWithType: SUVersionBehaviour.SUVersionBehaviour
+- uid: Surfer.VersionsDictionary
+  name: VersionsDictionary
+  href: api/Surfer.VersionsDictionary.html
+  commentId: T:Surfer.VersionsDictionary
+  fullName: Surfer.VersionsDictionary
+  nameWithType: VersionsDictionary
