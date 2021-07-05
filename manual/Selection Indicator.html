@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Surfer
-   | Copyright &#169; 2021 ATStudio </title>
+    <title>Selection Indicator | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Surfer
-   | Copyright &#169; 2021 ATStudio ">
+    <meta name="title" content="Selection Indicator | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../myfavicon.ico">
@@ -78,47 +76,27 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer">
-  
-  <h1 id="Surfer" data-uid="Surfer" class="text-break">Namespace Surfer
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Surfer.SUIndicatorCamInfo.html">SUIndicatorCamInfo</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorData.html">SUIndicatorData</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorDataDrawer.html">SUIndicatorDataDrawer</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorInfo.html">SUIndicatorInfo</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorLink.html">SUIndicatorLink</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorsManager.html">SUIndicatorsManager</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUToolsMenu.html">SUToolsMenu</a></h4>
-      <section></section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="Surfer.SUIndicatorEventData.html">SUIndicatorEventData</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Surfer.SUIndicatorData.CameraType_ID.html">SUIndicatorData.CameraType_ID</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorData.SUIndicatorDistanceState_ID.html">SUIndicatorData.SUIndicatorDistanceState_ID</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorData.Type_ID.html">SUIndicatorData.Type_ID</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Surfer.SUIndicatorState_ID.html">SUIndicatorState_ID</a></h4>
-      <section></section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="selection-indicator">Selection Indicator</h1>
+
+<p>A <code>Selection Indicator</code>is a type of UI element that is used to &quot;indicate&quot;, with or without an animation, the current selected object of a UI Canvas.</p>
+<p>Here&#39;s what to do to add one :</p>
+<ul>
+<li>drag into a scene the <code>SUPersistentCanvas</code>prefab that you can find in the <code>Prefab</code>folder of Surfer</li>
+<li>then drag the prefab <code>Arrows</code> ( available in the <code>Prefab/SelectionIndicators</code>folder ) under the object <code>Canvas</code> of the prefab created above , and set <code>0</code> as playerID </li>
+<li>create a <code>SUElement</code> menu panel state ( with a button inside ) and set <code>0</code>as playerID of the state</li>
+<li>add , in the same panel, a <code>MonoBehaviour/Awake</code> event with a <code>UIGenerics/FocusOnObject</code> fast reaction and put the button created in the available reaction&#39;s field </li>
+</ul>
+<p>Like this </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/selectioni1.png" alt="Image"></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/selectioni2.png" alt="Image"></p>
+<p>Hit play and we&#39;ll see the two arrows of our prefab indicating the button of the menu.</p>
+<h2 id="extra">Extra</h2>
+<ul>
+<li>Normally, the prefab <code>SUPersistentCanvas</code>should be added only to the first scene of a game, like the Splash screen. This object will then persist through all the scenes. </li>
+<li>If you want to use a different indicator for a 2nd player, just duplicate the object <code>Canvas</code> under <code>SUPersistentCanvas/SelectionIndicators</code> , then change the Indicator prefab inside the Canvas and change the playerID of the Indicator accordingly </li>
+<li>If you want to use a scale animation on a SelectionIndicator element , you should NOT run the scale animation on the element itself but you should create an empty child , put all your UI objects in it, and then run the scale animation on this child. That&#39;s because the logic of a SelectionIndicator uses the scale values and every scale animation on the object itself will break the entire logic ( see prefab <code>Corners</code>in <code>Prefab/Indicators</code> folder as scale example )</li>
+</ul>
 </article>
           </div>
           

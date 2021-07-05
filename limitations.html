@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Mouse Hover Selection | Copyright &#169; 2021 ATStudio </title>
+    <title>Limitations | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Mouse Hover Selection | Copyright &#169; 2021 ATStudio ">
+    <meta name="title" content="Limitations | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
-    <link rel="shortcut icon" href="../myfavicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
+    <link rel="shortcut icon" href="myfavicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -67,22 +67,17 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="mouse-hover-selection">Mouse Hover Selection</h2>
+<h1 id="limitations">Limitations</h1>
 
-<p>By default, when you hover on an object with the mouse, Unity won&#39;t select the UI element but will only highlight it.</p>
-<p>If you want the UI element to be selected and deselected on &quot;MouseEnter&quot; and &quot;MouseExit&quot;, just add the <code>SUElement</code>  and the <code>Selectable</code>component ( or one that inherits from it like the Button one) to the UI object itself and Surfer will handle all by itself.</p>
-<blockquote><p><strong>WARNING</strong> : An element hovered but without the SUElement component , won&#39;t be tracked in some Surfer mechanics like the HistoryFocus. It is recommended to use the component if we are going to use a mouse.</p>
-</blockquote>
+<p>Current known Surfer limitations :</p>
+<ul>
+<li>If a UI object is persistent ( is not destroyed when a new scene is loaded ) the <code>SUElement</code> Scene events like <code>MySceneLoaded</code> , <code>MySceneLoading</code>, <code>MySceneUnloading</code>, <code>MySceneUnloaded</code>, <code>MySceneActivated</code>, <code>MySceneDeactivated</code> don&#39;t work : use events like <code>Awake</code>or <code>Start</code>whenever possible.</li>
+<li>Selection Indicators don&#39;t work when the selected object under a Canvas is a Sprite or a Mesh</li>
+<li>Selection Indicators <code>always render in front</code> of the selected UI object , not behind. </li>
+</ul>
 </article>
           </div>
           
@@ -115,8 +110,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
   </body>
 </html>
