@@ -1,25 +1,41 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="38.000000pt" height="38.000000pt" viewBox="0 0 172.000000 172.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by Docfx
-</metadata>
-<g transform="translate(0.000000,172.000000) scale(0.100000,-0.100000)"
-fill="#dddddd" stroke="none">
-<path d="M230 1359 c0 -18 11 -30 44 -48 80 -42 81 -45 81 -441 0 -400 -1
--404 -79 -436 -36 -15 -46 -24 -46 -43 0 -23 2 -24 61 -17 34 3 88 6 120 6
-l59 0 0 495 0 495 -82 0 c-46 0 -100 3 -120 6 -35 6 -38 5 -38 -17z"/>
-<path d="M618 1373 l-118 -4 0 -493 0 -494 154 -7 c181 -9 235 -3 313 34 68
-33 168 130 207 202 75 136 75 384 1 536 -71 145 -234 240 -399 231 -23 -1 -94
--4 -158 -5z m287 -119 c68 -24 144 -101 176 -179 22 -54 24 -75 24 -210 0
--141 -2 -153 -26 -206 -36 -76 -89 -132 -152 -160 -45 -21 -68 -24 -164 -24
--71 0 -116 4 -123 11 -22 22 -31 175 -28 463 2 208 6 293 15 302 32 32 188 33
-278 3z"/>
-<path d="M1170 1228 c75 -104 110 -337 76 -508 -21 -100 -56 -178 -105 -233
-l-36 -41 34 20 c75 43 160 133 198 212 37 75 38 78 38 191 -1 129 -18 191 -75
-270 -28 38 -136 131 -153 131 -4 0 6 -19 23 -42z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.273" height="57.273" viewBox="0 0 57.273 57.273">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9672fb"/>
+      <stop offset="1" stop-color="#d772fb"/>
+    </linearGradient>
+    <filter id="BG" x="0" y="0" width="57.273" height="57.273" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracciato_22302" x="10.331" y="9.554" width="35.68" height="36.409" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Raggruppa_3515" data-name="Raggruppa 3515" transform="translate(-651.502 -114.246)">
+    <g id="Raggruppa_3514" data-name="Raggruppa 3514" transform="translate(657 117.215)">
+      <g id="Airpod" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -5.5, -2.97)" filter="url(#BG)">
+          <rect id="BG-2" data-name="BG" width="39.273" height="39.273" rx="19.637" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Shapes" transform="translate(0 0)" opacity="0.3">
+          <path id="Tracciato_15870" data-name="Tracciato 15870" d="M.606,0A.606.606,0,1,1,0,.606.606.606,0,0,1,.606,0Z" transform="translate(24.153)" fill="url(#linear-gradient)"/>
+          <path id="Tracciato_15869" data-name="Tracciato 15869" d="M.556,0A.556.556,0,1,1,0,.556.556.556,0,0,1,.556,0Z" transform="translate(5.659 42.142)" fill="url(#linear-gradient)"/>
+          <path id="Tracciato_15868" data-name="Tracciato 15868" d="M.556,0A.556.556,0,1,1,0,.556.556.556,0,0,1,.556,0Z" transform="translate(44.062 39.009)" fill="url(#linear-gradient)"/>
+          <path id="Tracciato_15867" data-name="Tracciato 15867" d="M.556,0A.556.556,0,1,1,0,.556.556.556,0,0,1,.556,0Z" transform="translate(0 10.712)" fill="url(#linear-gradient)"/>
+          <path id="Tracciato_15866" data-name="Tracciato 15866" d="M.606,0A.606.606,0,1,1,0,.606.606.606,0,0,1,.606,0Z" transform="translate(38.807 1.112)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -5.5, -2.97)" filter="url(#Tracciato_22302)">
+        <path id="Tracciato_22302-2" data-name="Tracciato 22302" d="M-2.454-295.2a18.118,18.118,0,0,1-4.3-.49,11.57,11.57,0,0,1-3.32-1.3l2.289-4.376a11.737,11.737,0,0,0,5.935,1.635A4.3,4.3,0,0,0-.115-300q.6-.277.6-.754,0-.453-.616-.729a12.354,12.354,0,0,0-1.949-.6,24.016,24.016,0,0,1-2.917-.918,5.4,5.4,0,0,1-2.024-1.433,3.681,3.681,0,0,1-.868-2.553,5.837,5.837,0,0,1,1.069-3.483,6.816,6.816,0,0,1,3.081-2.314,12.588,12.588,0,0,1,4.753-.817,16.328,16.328,0,0,1,3.659.39,10.213,10.213,0,0,1,2.93,1.119l-2.138,4.326a8.027,8.027,0,0,0-2.276-.981,10.007,10.007,0,0,0-2.553-.327,4.222,4.222,0,0,0-1.911.352q-.679.352-.679.83t.616.754a12.127,12.127,0,0,0,2.024.6,22.173,22.173,0,0,1,2.88.855,5.206,5.206,0,0,1,2.024,1.408,3.63,3.63,0,0,1,.855,2.515,5.7,5.7,0,0,1-1.081,3.445,6.94,6.94,0,0,1-3.093,2.3A12.515,12.515,0,0,1-2.454-295.2Z" transform="translate(29.4 329.16)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
 </svg>
