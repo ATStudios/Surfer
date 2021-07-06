@@ -24,6 +24,102 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ConditionChecks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ConditionChecks.html",
+          "hash": "zuc2ycj19PuIDbUyscN54ns5uy00WGP5PXCXdgwZrDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.CustomReactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.CustomReactions.html",
+          "hash": "71QZgvfJLXnaPo/p+BuzChPSiua4+f4Zw/HGjBfnoDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.EventsDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.EventsDictionary.html",
+          "hash": "2zVj87+4i+vaYqJuyC074ryZmOLPz6cIGO42w09m0cU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.FuncInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.FuncInput.html",
+          "hash": "MaR0Pj0dw0B23u3fbR+u2Q/M5smyMZl7b9FvIfNmHL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ILastStateSelectionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ILastStateSelectionHandler.html",
+          "hash": "fR8GcXWgog3QJYni96HFi5ig/RKyKDaMRXf4ThtrxJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.IResetLastStateSelectionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.IResetLastStateSelectionHandler.html",
+          "hash": "UWCuq52+9onpNpPu1HNKtjbOWfizo3ky9csH5hPeqPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUCustomEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUCustomEventHandler.html",
+          "hash": "5gyx2Y354xThVCg+cidvDRKPm353NEI+x2COpVhrGr4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUIndicatorDistanceHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUIndicatorDistanceHandler.html",
+          "hash": "R0kUgxsGTY1lprOnPAilHOED/SWHLtR3JLHCcMgN8Wo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Surfer.ISUIndicatorStateHandler.yml",
       "output": {
         ".html": {
@@ -36,11 +132,839 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneActivatedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneActivatedHandler.html",
+          "hash": "SdoM7vq4U6HX+hObW+Xe0uSpwXQtK65Q4962WKZawvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneDeactivatedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneDeactivatedHandler.html",
+          "hash": "c6t4TQ67s6gSS5vQwgpCbcMFbXW1SgyUqxTkDA51vt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneLoadedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneLoadedHandler.html",
+          "hash": "cjD5MSPDXrHS3QpYmQXXapNU2nvqYG7WeqTQGdg7cUE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneLoadingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneLoadingHandler.html",
+          "hash": "ZImDpiRx83yqf4UaCoKfVyaAK/HBTuY7hLVvcXbrxgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneUnloadedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneUnloadedHandler.html",
+          "hash": "eHij9KZ4f8lP1u4mtmiADBrVlb1OP1yDtSLqULze9cI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUSceneUnloadingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUSceneUnloadingHandler.html",
+          "hash": "1PXZKTloGxJ95HBelVRnH4Et2bNqKuoZx73YWqbpRyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUStateEnterHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUStateEnterHandler.html",
+          "hash": "78Xb89iRf7HH74jmBq7hkrxEwsv7QOf2LHqHkQ0F4oc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ISUStateExitHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ISUStateExitHandler.html",
+          "hash": "ier7y5TrrMNoagmwLHPoJOCnxFst0REFbeL26jcq7TU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.PathAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.PathAction.html",
+          "hash": "rT1prJhtteABH/Bs4twAgyuPqxVTPVykfkvrBEFHG5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.PathFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.PathFunc.html",
+          "hash": "Cs/3xeHasRjF9+rmOomp/BDNU59/hjZcuzlNhpkjYZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAction.html",
+          "hash": "6aanmYlH1R4Ge15EhHbOeCmhe1VmXlkmJxziBs0B9kE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUActionData.SUAction_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUActionData.SUAction_ID.html",
+          "hash": "XVwilLv59uaBzLLa7Hb7MPV0TUcj76MIJPshQvjVW3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUActionData.SUPrefabParent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUActionData.SUPrefabParent_ID.html",
+          "hash": "toNZgrx7jSHlsxF5jfRMnkQ28YE2a3jiD2wE+tbThIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUActionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUActionData.html",
+          "hash": "sFC7rlVI4JpL/fUv5iPG4bxnbjFuOCev1eW9kDBlxfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUActionDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUActionDataDrawer.html",
+          "hash": "1i4EQDnzR9EHUWDvb4zwt8UAf9lkUgNM9ocRoT9GkmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnchoredAnimationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnchoredAnimationData.html",
+          "hash": "JBiR49NgQnBxpyHcHADJOL8x+YT9EchwXf4rL8KX+TI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnchoredPositionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnchoredPositionData.html",
+          "hash": "uKTKCrKssNhpD/aC6xgsX4b7R8BHlRVLGT6dPg6+yjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationData.DelayMode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationData.DelayMode_ID.html",
+          "hash": "VOUqvvrSEH/OVA15lt9K5ZqhIcQy+QV/PE5G5Q1jO9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationData.EndMode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationData.EndMode_ID.html",
+          "hash": "lpxiWD88G/J2djGKx+RapY0JEmLbO6hs4pkISDuPAbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationData.StartMode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationData.StartMode_ID.html",
+          "hash": "+E8RAG35J2E9KTU6UUX/CaDHaEWhjDLVm33zh95jDiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationData.html",
+          "hash": "0aRreVo6LIhYgUs8siDHZvgXfIlnkjb7UDdEScBWxiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationDataDrawer.html",
+          "hash": "/dDq6flZgBDAOMwdsJnOGbBzWp51imF+QYGaeIIFjFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimationsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimationsData.html",
+          "hash": "oBDvojh5umYHMCZ2xJ7SOr0nRBdQTiAtLLTjFhBcxM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.html",
+          "hash": "dK0c+89pBAmqQ+zdaG/Dxxx9vVQ/P3ZQXpaPRKSqBg0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUAnimatorBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUAnimatorBehaviour.html",
+          "hash": "YZ12zqhYcmHHcTWdOjENPdXUp3NtrxULJ6Dg1xq7ZLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUBaseUIEvent.SUBaseEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUBaseUIEvent.SUBaseEvent_ID.html",
+          "hash": "U9oa6WCc54PzIvpvoTelPsBtmFL+s4wgwl5gg4S2tro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUBaseUIEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUBaseUIEvent.html",
+          "hash": "YI5URBhGZoDqSg0lUUvAoS1ODzsLEILU/KjygVWdZmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUBehaviourData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUBehaviourData.html",
+          "hash": "qK5yb3TDB+JuySxif9V0eQU+pFdYrTrb3OlE6mFSPbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUBehavioursData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUBehavioursData.html",
+          "hash": "aIh4lHlVzULHdJ3PBL4dQLOtoNPTZLaVHqlZYnuWfbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCGroupData.html",
+          "hash": "9Mz+TusYNTYqj4Q6IFr/0mDKtAyBQ/z/bN73VxgErMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCharTweenData.Mode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCharTweenData.Mode_ID.html",
+          "hash": "UFdvyzPQCnIjhRQKlJLVcufVEOrMzOGmoW5iaMvXJ+Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCharTweenData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCharTweenData.html",
+          "hash": "199QCLCH2ta+lcvA67E7Mpf+PxsU52cneOAqyRg9Src="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCharTweenDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCharTweenDataDrawer.html",
+          "hash": "7qvMPx05HYQqsbxqLhGq/a5znY0t17J3V37v47ukKTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUColorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUColorData.html",
+          "hash": "hh0uLqpdIX2XAQW81UMLLD9Jqmfh/lrt65w8hnwDSU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUConditionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUConditionData.html",
+          "hash": "4/iemTExtwRUshwy8xgdF1RdOOF6+wIiuK0xjCkkKU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUConditionDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUConditionDataDrawer.html",
+          "hash": "LnOi+yI0+S6Xi5koSdOtQXw6+mVeWOgWWvQHbd2VEC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUConditionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUConditionsData.html",
+          "hash": "l4xLXcIlUKX1De6yjq/HknsRthi2zLM4+zfDXOeifH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUConditionsDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUConditionsDataDrawer.html",
+          "hash": "ASJhHqfmlsgBjXko9xeLKRvJ9Rz9qCJck8sjAGkgxs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCustomEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCustomEventData.html",
+          "hash": "p1gXwAqJ7ct/jNosGOSZ2NsAyKf+LXCJ6Ynx32nq2as="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCustomEventDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCustomEventDataDrawer.html",
+          "hash": "CslWIZc6APOLTwSN/OAmu0+LADnusSKY76lNjYOoBGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCustomEventEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCustomEventEventData.html",
+          "hash": "ulfE8+WUYocakdVmdFpNhOF8WuyY9VyVI+0rOME0n2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCustomEventsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCustomEventsData.html",
+          "hash": "DXoS63ts9VkvLkFwmFsX6vJ6BZZVsBxB8mKPNpOcpK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUCustomEventsDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUCustomEventsDataDrawer.html",
+          "hash": "jYvIra+36sWGHV5dafrlMsFk3ODoO2bp1Ozci4v+aeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUDropdownBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUDropdownBehaviour.html",
+          "hash": "Uq3esWAJf3/ACks2gAhmTBOY2dsPtL+O3nF1F6gp2Ng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElement.DictEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElement.DictEvents.html",
+          "hash": "m9hg/TMAhGk+Iyfr/VHR0AGEuIc8kmMecQeK+wxvd48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElement.html",
+          "hash": "W18D+dYrekToVfgDxJmI8Og0ZN9kp8Ni5Qalp4NphD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElementData.StateCloseMode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElementData.StateCloseMode_ID.html",
+          "hash": "BBLzXebIWA8Psd1S+VsvOqJNtH/N9jGfiPYeXYf+rfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElementData.Type_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElementData.Type_ID.html",
+          "hash": "g1UkXjLOJazO+yzA9P0vAXNjwtoFJKt0q+o+7zbmifY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElementData.html",
+          "hash": "ziWMp6hZcDJ+MO9TA9rke9glaCo5JEgG9p69oApGoKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElementDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElementDataDrawer.html",
+          "hash": "uOc/s2n6RAn0or+Od59CUakbY4Tnr9z9KDvIOwOE5O4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUElementEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUElementEditor.html",
+          "hash": "HhqVDCLcA/bpmoOlxwQ6PW8JAwi1+jhlHAdKGI5OFUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUEvent.Type_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUEvent.Type_ID.html",
+          "hash": "UnRlUhuFrN+JZr/KkZp8ZbL028CpWwFl6oI3LgSg1rk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUEvent.html",
+          "hash": "2+rPxDAbQkQl5NuHFRbq4Ni7hvgWqnrU5cN8uFj55wI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUEventDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUEventDrawer.html",
+          "hash": "IOl9ZV9Cb+autJi1cHaB+rvrZGkiCmAL+fpHLJlUtS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUEventSystemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUEventSystemManager.html",
+          "hash": "2RFhgJABLVMr4GLfAHcHRc4iegaDvwdQFM67wVUhjYo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastConditionData.Type_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastConditionData.Type_ID.html",
+          "hash": "+BrEhq+F07O6PT1XF7FlJA3hp6vgobeJj+m1ZXQSvS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastConditionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastConditionData.html",
+          "hash": "vzmG+lOTLeia/wVxG/6gk+WMb6VcxuM2g/D5EyxIaPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastConditionDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastConditionDataDrawer.html",
+          "hash": "VAok3kPZGKJfG0ZqsmFB776Tk4jz3azsbbwXhFH3qWc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastConditionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastConditionsData.html",
+          "hash": "rsXhLQkEJnbKzRjpgCLbcoZKtMOOx39ogVis16bF7b0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastConditionsDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastConditionsDataDrawer.html",
+          "hash": "0h4jEEujkLznGLMELJvy3+5UWzCuBYCi+z3EG1ckg6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastReactionData.Type_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastReactionData.Type_ID.html",
+          "hash": "eIIxJ54BhYSTp6ffs4QulWqfWrbOhVd9Ab/o6AW4w6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastReactionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastReactionData.html",
+          "hash": "XkonuEAanOgl7aP/EKpSI7HBDUntq1eTsR8Hc3pb7jQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastReactionDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastReactionDataDrawer.html",
+          "hash": "FuPzH2esk/98ZOfTLhwrNO6tmttY2CjdhHlIHw/1Shg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastReactionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastReactionsData.html",
+          "hash": "cXa09ePU0aYStojVVyEEV2cwMs6Gql9CVLY1aH5s4fU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFastReactionsDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFastReactionsDataDrawer.html",
+          "hash": "OGsEh0SEJBir02ByLFAB+uAF2jbOYVwFeGjTDqgQLxc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUGroupStateUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUGroupStateUI.html",
+          "hash": "8WjFKxngw+0jD+1+CHYRQxaR72qO08CTl/Qk8lTkWsg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUGroupStateUIEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUGroupStateUIEditor.html",
+          "hash": "Z1EQieW9s5GUT69ZnrCH2aJhuttqlUeMMaY9DWCinB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUHierarchyMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUHierarchyMonitor.html",
+          "hash": "mYMdbfF3OPh4pCSP+f7dunImTld6BPtCCuXUwP1RXJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUIndicatorCamData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUIndicatorCamData.html",
+          "hash": "YTV7xhF7+hR+MrtAcJEJEhs7Gc/6/NOPhEhRMoQoOAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Surfer.SUIndicatorCamInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorCamInfo.html",
-          "hash": "tLRBCoT0i/DRLkR0ZKbpy4fG73UYEDfYccc+gMdn2Uc="
+          "hash": "ocZtPWCRb86TI3lZIodPhsDworS+ZjsTaJgwSMuGJ28="
         }
       },
       "is_incremental": false,
@@ -53,18 +977,6 @@
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorData.CameraType_ID.html",
           "hash": "4nRDZ6nUxWQzY/XQhMU4HHo8xh49sWzk+fVnzQh4wV8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Surfer.SUIndicatorData.SUIndicatorDistanceState_ID.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Surfer.SUIndicatorData.SUIndicatorDistanceState_ID.html",
-          "hash": "9UzAAAQ76l9dCpwupZS2pHgQQ/jK9eN/FG3bx8mOCRo="
         }
       },
       "is_incremental": false,
@@ -88,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorData.html",
-          "hash": "8cPSmRghaShBV9q7qZKenO8NucO/FJZ0mLFsQRJz+H4="
+          "hash": "TEO3ngpCLe9gvGmDN6vOISqgpHCDqXKr2FjVFJMg2PA="
         }
       },
       "is_incremental": false,
@@ -100,7 +1012,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorDataDrawer.html",
-          "hash": "kbwtZcWQVIEEeSKZtEu+pjnv45XQaH+YABMVPwuk4KU="
+          "hash": "7UwyHeW46JtEB56VCHcOp7tBBfPSkl2cH0peu6dFNgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUIndicatorDistanceEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUIndicatorDistanceEventData.html",
+          "hash": "4z+3IujKOwWUIBqzjAYN9DD7hTthPW6EGV6RTIWIC2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUIndicatorDistanceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUIndicatorDistanceInfo.html",
+          "hash": "Ovxj6DEkBExqi4YTi1jObmAIyqXMiAuQgXdy8ouQ36s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUIndicatorDistanceState_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUIndicatorDistanceState_ID.html",
+          "hash": "oST+3tzWdu0SAb90phZIiFESopNBtRsoGGcYaEVX06Q="
         }
       },
       "is_incremental": false,
@@ -124,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorInfo.html",
-          "hash": "jJ6B04sNGQSQqwPEN+pL8UW7+ttjcNFzFjsgjySAx18="
+          "hash": "BBoVyt4iPgTNIfIDrEPg8CBZ8M2BSoqcEJsEsQJh40g="
         }
       },
       "is_incremental": false,
@@ -136,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorLink.html",
-          "hash": "F52cqPUys6iVUtSTa5blTNYwrfxzkz7h4n9yuOJja2A="
+          "hash": "Vm9CEM1sm+vYvsjI1BMB0y3dvWwTiWEp1YXwfkrjVVw="
         }
       },
       "is_incremental": false,
@@ -160,7 +1108,775 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorsManager.html",
-          "hash": "4HSKW50GlPKVN++FptUsTL4sluC20NIWxxLuCU0wo9s="
+          "hash": "nedR9Wh5huhG7xQuCnOM1vfv5M7OgiWl/lxTvUmyYFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputBehaviour.html",
+          "hash": "W1sWJpaFPoGXIWbM/pfRkRswEUVNsy2mw6roD0MBgXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputFieldBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputFieldBehaviour.html",
+          "hash": "/fmENE89htKzNqSufotunum193zXWg4NiK0yUufI5Jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUJumpData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUJumpData.html",
+          "hash": "7wwXGpnz+Oh1YGj+1Us45WxUbeqtWZ9KPOQwVMqJGhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUJumpDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUJumpDataDrawer.html",
+          "hash": "nubs5DivS773VzpqVwxBuBqkkKUBo8LuSxecqyQZsTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SULastSelectionEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SULastSelectionEventData.html",
+          "hash": "y/+PoZ/8+gBR+jUrYi5Sswbo48C1NcJC4lW6A4Jlx1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SULoadingProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SULoadingProgress.html",
+          "hash": "7mL6tj/pOFVKOPfzKXhBV+lxuMBn5rwXNeMVQwKoaeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPositionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPositionData.html",
+          "hash": "Uar4ogEQ0KY3hCQ6HBCx+7OsbvW2dEeovPWgQcYofBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPreBuildManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPreBuildManager.html",
+          "hash": "+KvPe0j21vW7rfq/cYumW+S9xYB2VXovSk2pRtHnp9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPunchData.Mode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPunchData.Mode_ID.html",
+          "hash": "pFak4CFCgSsstLwzzN9DfAH1oLaV/DtJHBGnKrZYUvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPunchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPunchData.html",
+          "hash": "xBudLaSMrZezCvkLtO+/W4ZfgsN592sEu+jEnnYry8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPunchDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPunchDataDrawer.html",
+          "hash": "zivQDytFRXY124bIh6RD2kagEq2w5xOp4l4K+uYimUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUReactionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUReactionData.html",
+          "hash": "1FqkbwBcl23HmD2nH9lDx82JkRn0vxKO9QeA7CkiOwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUReactionDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUReactionDataDrawer.html",
+          "hash": "LsfiMbx+VzOJbR6AvN8b8/5rR1MbtH3sGtMOfL/Fq30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUReactionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUReactionsData.html",
+          "hash": "aLyHH1aDRGth/UY1rSMjNNqVoI+rul/FMStDbh6oxJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUReactionsDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUReactionsDataDrawer.html",
+          "hash": "YMAA3J8DNsfskeu9tu8mxpXjjTamOKkVn3ad7KY9nCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SURectSizeData.Mode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SURectSizeData.Mode_ID.html",
+          "hash": "UdK4zKjKIhF0uTwLqHBENk47INIzIGA1VQMrbleK6b4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SURectSizeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SURectSizeData.html",
+          "hash": "SJxfNYSmz0Ph0Npj2odeQeMDSvl0I2z5KScVf6Hwmpo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SURectSizeDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SURectSizeDataDrawer.html",
+          "hash": "KHMw6YneVssVM7UhDtCCVHLLr4wRrxR3odLLQxHEiwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SURotationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SURotationData.html",
+          "hash": "XYhK0agKhbC80a/e1uJEJa/F3q1SOrOQV2NgtGDp1uM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScaleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScaleData.html",
+          "hash": "UgOnCOCn5qbLmCIOIeNixETefD8K9nLpiuPF2iJ/jck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneActivatedEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneActivatedEventData.html",
+          "hash": "9Tr/xBynDC3le6p8G349BUjDcr8yk2u7VwwqGDhug5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneData.html",
+          "hash": "yDaru1PiMk6u8sWf4Gaano87eJAJSAqhzbnE6ABTASA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneDataDrawer.html",
+          "hash": "TstLxvi/iWuJuyi/Rqso0euPfTfkiXIxMkgVfgnLpB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneDeactivatedEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneDeactivatedEventData.html",
+          "hash": "oxhyJ9uvu4hXJO4e4oSD23l7gsvZy7lHz3f0TW11s2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneEvent.SUSceneEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneEvent.SUSceneEvent_ID.html",
+          "hash": "lyVIEIv7UqYd05FFQtB2lXBG6qZTVacpbj6UMdafRvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneEvent.html",
+          "hash": "lRfmudF/1VIBQTKINKwR8NyVw4nmIUGxv/JbJfpNEqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneEventEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneEventEditor.html",
+          "hash": "ktcPuzCDOF6OZ5UZT6SdMRm7bBTYrXPkTeE6DSE2P0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneLoadedEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneLoadedEventData.html",
+          "hash": "4rlNhgo0GWAnmHOFG40i0kD5y4dNoRkml/97bJDDqr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneLoadingEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneLoadingEventData.html",
+          "hash": "9jyOth90hso1ta8inW6ZjOwAjKs2Ia1ENbEi1lK5fac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneUnloadedEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneUnloadedEventData.html",
+          "hash": "M6qbtcyMTwb90XeWd2mNF04449wZPYTWH+zArrdec18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSceneUnloadingEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSceneUnloadingEventData.html",
+          "hash": "PbeLyCz6gun6B7Q7GvCydWcF8TG1fMHFIL9FfWpQxgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScenesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScenesData.html",
+          "hash": "lGJk/cXGaEfoK2IMKYFK7PxTEc4MKQjoTK6+kaIGcFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScenesDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScenesDataDrawer.html",
+          "hash": "hf+6fc8MATKwyA0nvxodVN0txkYdWpmdSnRv7a1Me94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScreenAnimationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScreenAnimationData.html",
+          "hash": "FH5mfMe9sykoNSl1pXly3nAaf7VrhehtP3FHbC2qH5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScreenAnimationDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScreenAnimationDataDrawer.html",
+          "hash": "Y2H8m6wtqE/3JoiOk+Q2J0FQTbLL9I5vFZChavCD4VE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUScrollBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUScrollBehaviour.html",
+          "hash": "Vxl4gxIGHtXyS4BFqQrSqvE9OpmqoooA/ULuUm8iJVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSettingsRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSettingsRegister.html",
+          "hash": "urNQmzDifbFioHtwkCiMIscZ9wYpBEoGnyeSQoTj+2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUShakeData.Mode_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUShakeData.Mode_ID.html",
+          "hash": "qxX6dqtJ+jRDwjx+/uxbhDQjvVfNe08WiLGlHikgfkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUShakeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUShakeData.html",
+          "hash": "4Gt+PU2ON24WjNQCBisbsfViMbtRjVwk7X/f5Yr4TXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUShakeDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUShakeDataDrawer.html",
+          "hash": "Y6wrQP0w+b2DPTL/uSCPjxMvvLXZ4FZEtFMBz0c4ZvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSliderBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSliderBehaviour.html",
+          "hash": "xGYLAS2OkBIg9Ro8AbRiLR+fwtYQjAHHrkumCC6ylLY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSliderEvent.SUSliderEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSliderEvent.SUSliderEvent_ID.html",
+          "hash": "SyA+fALo7tJg3p5Deo3/iPGBVewdiYT4O4QIRp26TWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUSliderEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUSliderEvent.html",
+          "hash": "/wyT66cy2lWb2CQOtZ57JDFCRc4HGUi8mqHmYfekW6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateData.html",
+          "hash": "6TYlKXzQiPmSqUKAS7VEOU94WPV3CGDSmvLT1DVHD+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateDataDrawer.html",
+          "hash": "0M0rC4pk8UNbQqGr5T7+UVcvwkF4dQTmhxpF2YRxXoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateEvent.SUStateEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateEvent.SUStateEvent_ID.html",
+          "hash": "1eFWKneiIF3ADgizf4c0RE92cCspxkpPOb2MQkGZJvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateEvent.html",
+          "hash": "HeAO+DBeQlymGymdgGO/O+UBTIOtmtPwESnPfVKIx6g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateEventData.html",
+          "hash": "qaA5LfBGWR8aEi5aFT2CoGhQP8PxQSzPD+sWg5f+2vM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateEventEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateEventEditor.html",
+          "hash": "FyIueeFPh9955vWOg6co7qQZ+kxs7Arrg8kfHA8btVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateInfo.html",
+          "hash": "7qknQJetU61xbuL32d0s5MRANYK2e7MVcir2/5UhlpA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateUI.html",
+          "hash": "sRQ1v+xQHsBWCOLmM5HIdC/vr79K8gHvnvUK4WcORPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStateUIEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStateUIEditor.html",
+          "hash": "A7GmVBW0GueDPI6B2d+Dv6B3uWOJNtb/ppPfXf1KsKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedAnimation.html",
+          "hash": "tW2mAsb9oC9VN3Vh/7HxcEz3a6fmN5HxphkrbYsZgjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedAnimationEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedAnimationEditor.html",
+          "hash": "9NWYCOpKKClMLY3FmMNUf8tmBmejSsIxG7AoGIIGlvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedFocus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedFocus.html",
+          "hash": "bHUtbGAw03PwY2kEPin3UgB3zY1j4GjZjANaz13Nh/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedInput.html",
+          "hash": "wTtbDFt6p3bMZesA1Qrcs8gZnMJgw5crgdkdmfRPB8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedReaction.html",
+          "hash": "OuaXD96/UZkeqwKksSNguafLbw5ixRBMYCBiKychfxM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedReactionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedReactionEditor.html",
+          "hash": "7f+rYDKswCjRc2qxjoDftCZV/WllOLbz/xg5LUFPziI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatedVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatedVisibility.html",
+          "hash": "0wJarz1Xkt6VsetaXVhZNiFFwzc3+PC4xAguNTL+9Ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatesData.html",
+          "hash": "5Q+EKeyKUE4k29RYW8T08XeQMSQyVmGY8I9TuHklTkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUStatesDataDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUStatesDataDrawer.html",
+          "hash": "TbCrIkqmjXEMiz923PN58DoluInTK/kWnkVNwOokGO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUToggleBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUToggleBehaviour.html",
+          "hash": "PZXmCTA/V5yO+YIzdSHpsG9lZs/gLOi3BDICweXAgRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUToggleEvent.SUToggleEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUToggleEvent.SUToggleEvent_ID.html",
+          "hash": "QCVoEPJAcIYSUZAqcLQKer8nsnfbLw6reHbDfAlRnBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUToggleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUToggleEvent.html",
+          "hash": "V/Dw//fUupCI0j2m6/HRA514952t7KoZCFSYVURH6Fg="
         }
       },
       "is_incremental": false,
@@ -172,7 +1888,139 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUToolsMenu.html",
-          "hash": "ddgt8hipyB4LG/0VKxhdaer/jgAiL2py8HLWzloqDzY="
+          "hash": "97bLH3rbiQgKw83WrrENOtTwAj789UpX/lLdbk5caII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUTriggerEvent.SUTriggerEvent_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUTriggerEvent.SUTriggerEvent_ID.html",
+          "hash": "OXdKdxOF0VtPz5RwfNRdIQsI6y1gZtH0u2IeQ3tOjsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUTriggerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUTriggerEvent.html",
+          "hash": "wFqvhoIC8aufE7xnGy6i+rNUQyglv/vza0t1uuPx4IU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUVersionBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUVersionBehaviour.html",
+          "hash": "gw1V8Q/3OsA8S/4KsVogHhLkM8pAUwAcC5XFI7hywNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ScenesDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ScenesDictionary.html",
+          "hash": "m6m1tcJ/aV/sc2QfWprEWN+MZ0huWoqPjs9K8yajk6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SerializableDictionary-2.html",
+          "hash": "QsLbM4q8zdIUeCJz3TdAialNvXeuTuw9QvKewi9yh0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SerializedPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SerializedPropertyExtensions.html",
+          "hash": "uDlqQb9dDDItdoEmdfVX5u8ktKOUlves0fG2wdNKAMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.StatesDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.StatesDictionary.html",
+          "hash": "qzojHSvIxzIu00kUTsTtUJ9Ta0WhtdKLLXPr6fj2WD0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SurferHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SurferHelper.html",
+          "hash": "iIFMQZOtky7qAPU+aRUKhpeuYItT+hCwBCRqutVyy0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SurferManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SurferManager.html",
+          "hash": "sJZX3Dmz9eBE6l6l5qzQIdLuykQs8VzkmL14Obih+1Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SurferSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SurferSO.html",
+          "hash": "lPBVDhFQg0GOi+2xaBC8Z4nSp5Wr3MFj0rVacAS2fPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.VersionsDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.VersionsDictionary.html",
+          "hash": "twOVqjHInLIJz0GTGJcSE6LNZlppo2b+BpAY7jtQ2Y4="
         }
       },
       "is_incremental": false,
@@ -184,7 +2032,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.html",
-          "hash": "K7Ussa/+bU4PzjxBduuIqPiTRzW4HmJVJ03ndzs9uGM="
+          "hash": "WnNQjdNxjjSMt9PT6fk1u2oRhDREhxkcC+CXk9ahy30="
         }
       },
       "is_incremental": false,
@@ -196,7 +2044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "QfeqXIQtMNMGS9tm7e7B3r0Rc+YtcgeTwPMOCJB3fxY="
+          "hash": "bjrQtMSgq/XWMcCgjjreeoGqKeSv5ucjR9RmBQUsxJA="
         }
       },
       "is_incremental": false,
@@ -1167,12 +3015,12 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 36,
-          "skipped_file_count": 32
+          "skipped_file_count": 36
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 168,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
