@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>On/Off Screen Indicators | Copyright &#169; 2021 ATStudio </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="On/Off Screen Indicators | Copyright &#169; 2021 ATStudio ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../myfavicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="onoff-screen-indicators">On/Off Screen Indicators</h1>
+
+<p>Let&#39;s see how to add an on/off screen indicator to an enemy/target both in the inspector/editor and at runtime.</p>
+<h2 id="inspectoreditor">Inspector/Editor</h2>
+<p>By using the classic way, the inspector/editor one, we must do as follows :</p>
+<ul>
+<li>Create a prefab of the 3D enemy/target</li>
+<li>Add a <code>SUIndicatorLink</code>component to the prefab</li>
+<li>In the <code>Data</code> section , drag in the <code>Target</code>field the Transform the Indicator should follow ( the enemy/prefab itself )</li>
+<li>In the <code>AllData</code>section list, add a new entry (add multiple entries if you are developing a split-screen game with multiple cameras)</li>
+<li>In the new entry, drag in the <code>Prefab</code> field the prefab <code>BasicOnScreen</code> that you can find in the Surfer folder under <code>Prefab/Indicators/</code></li>
+<li>Then, drag in the <code>Cam</code>field the camera where you want to see the UI healthBar shown , like the MainCamera ( if no Camera is added, the camera tagged with <code>MainCamera</code>will be used )</li>
+<li>Then, as <code>Type</code>, choose <code>OnScreen</code></li>
+<li>Finally, check <code>Start On Awake</code></li>
+</ul>
+<p>Now, in a scene, drag the enemy/target prefab and the <code>SUPersistentCanvas</code> prefab (found in the <code>Prefab/</code> folder) in it and hit play.</p>
+<p>The basic Indicator should now follow the target.</p>
+<h2 id="runtime">Runtime</h2>
+<p>To add an indicator at runtime instead, we must do as follows : </p>
+<ul>
+<li>Create a list of <code>SUIndicatorData</code> </li>
+<li>Add a new <code>SUIndicatorData</code> entry with the Indicator prefab, the Camera and the Type (add multiple entries if you are developing a split-screen game with multiple cameras)</li>
+<li>Then , create a <code>SUIndicatorLinkData</code> with the target Transform and the list of Data previously created </li>
+<li>Then, when you are ready to show your indicator on screen, call <code>StartFollow()</code>from the <code>SUIndicatorLinkData</code> previously created</li>
+</ul>
+<p>For example </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/ind1.png" alt="Image"></p>
+<h2 id="for-programmers">For Programmers</h2>
+<p>The ready-made prefab uses the <code>SUElement</code> component in order to get  all the Indicator events. </p>
+<p>These events are basically <code>Interfaces</code> that, if you are a programmer, you can use to create your custom script and handle them without using a <code>SUElement</code>component.</p>
+<p>Like below</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/ind2.png" alt="Image"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2021 ATStudio
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

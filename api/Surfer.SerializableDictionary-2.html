@@ -88,21 +88,19 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TValue&gt;</div>
-    <div class="level2"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
-      <div class="level3"><a class="xref" href="Surfer.EventsDictionary.html">EventsDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.ScenesDictionary.html">ScenesDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.StatesDictionary.html">StatesDictionary</a></div>
-      <div class="level3"><a class="xref" href="Surfer.SUElement.DictEvents.html">SUElement.DictEvents</a></div>
-      <div class="level3"><a class="xref" href="Surfer.VersionsDictionary.html">VersionsDictionary</a></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
+      <div class="level2"><a class="xref" href="Surfer.EventsDictionary.html">EventsDictionary</a></div>
+      <div class="level2"><a class="xref" href="Surfer.ScenesDictionary.html">ScenesDictionary</a></div>
+      <div class="level2"><a class="xref" href="Surfer.StatesDictionary.html">StatesDictionary</a></div>
+      <div class="level2"><a class="xref" href="Surfer.SUElement.DictEvents.html">SUElement.DictEvents</a></div>
+      <div class="level2"><a class="xref" href="Surfer.VersionsDictionary.html">VersionsDictionary</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Surfer_SerializableDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;, IDictionary&lt;TKey, TValue&gt;, ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;TKey, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback, ISerializationCallbackReceiver</code></pre>
+    <pre><code class="lang-csharp hljs">public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;, ISerializationCallbackReceiver</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -109,6 +109,51 @@ references:
   isSpec: "True"
   fullName: Surfer.CustomReactions.GetName
   nameWithType: CustomReactions.GetName
+- uid: Surfer.DictCamKey
+  name: DictCamKey
+  href: api/Surfer.DictCamKey.html
+  commentId: T:Surfer.DictCamKey
+  fullName: Surfer.DictCamKey
+  nameWithType: DictCamKey
+- uid: Surfer.DictCamKey.#ctor(RenderMode,Camera)
+  name: DictCamKey(RenderMode, Camera)
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey__ctor_RenderMode_Camera_
+  commentId: M:Surfer.DictCamKey.#ctor(RenderMode,Camera)
+  fullName: Surfer.DictCamKey.DictCamKey(RenderMode, Camera)
+  nameWithType: DictCamKey.DictCamKey(RenderMode, Camera)
+- uid: Surfer.DictCamKey.#ctor*
+  name: DictCamKey
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey__ctor_
+  commentId: Overload:Surfer.DictCamKey.#ctor
+  isSpec: "True"
+  fullName: Surfer.DictCamKey.DictCamKey
+  nameWithType: DictCamKey.DictCamKey
+- uid: Surfer.DictCamKey.Cam
+  name: Cam
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey_Cam
+  commentId: P:Surfer.DictCamKey.Cam
+  fullName: Surfer.DictCamKey.Cam
+  nameWithType: DictCamKey.Cam
+- uid: Surfer.DictCamKey.Cam*
+  name: Cam
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey_Cam_
+  commentId: Overload:Surfer.DictCamKey.Cam
+  isSpec: "True"
+  fullName: Surfer.DictCamKey.Cam
+  nameWithType: DictCamKey.Cam
+- uid: Surfer.DictCamKey.RenderMode
+  name: RenderMode
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey_RenderMode
+  commentId: P:Surfer.DictCamKey.RenderMode
+  fullName: Surfer.DictCamKey.RenderMode
+  nameWithType: DictCamKey.RenderMode
+- uid: Surfer.DictCamKey.RenderMode*
+  name: RenderMode
+  href: api/Surfer.DictCamKey.html#Surfer_DictCamKey_RenderMode_
+  commentId: Overload:Surfer.DictCamKey.RenderMode
+  isSpec: "True"
+  fullName: Surfer.DictCamKey.RenderMode
+  nameWithType: DictCamKey.RenderMode
 - uid: Surfer.EventsDictionary
   name: EventsDictionary
   href: api/Surfer.EventsDictionary.html
@@ -204,18 +249,75 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUCustomEventHandler.OnSUCustomEvent
   nameWithType: ISUCustomEventHandler.OnSUCustomEvent
+- uid: Surfer.ISUHealthBarHPStateHandler
+  name: ISUHealthBarHPStateHandler
+  href: api/Surfer.ISUHealthBarHPStateHandler.html
+  commentId: T:Surfer.ISUHealthBarHPStateHandler
+  fullName: Surfer.ISUHealthBarHPStateHandler
+  nameWithType: ISUHealthBarHPStateHandler
+- uid: Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  name: OnHealthBarHPStateUpdate(SUHealthBarEventData)
+  href: api/Surfer.ISUHealthBarHPStateHandler.html#Surfer_ISUHealthBarHPStateHandler_OnHealthBarHPStateUpdate_Surfer_SUHealthBarEventData_
+  commentId: M:Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  fullName: Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  nameWithType: ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate(SUHealthBarEventData)
+- uid: Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate*
+  name: OnHealthBarHPStateUpdate
+  href: api/Surfer.ISUHealthBarHPStateHandler.html#Surfer_ISUHealthBarHPStateHandler_OnHealthBarHPStateUpdate_
+  commentId: Overload:Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate
+  isSpec: "True"
+  fullName: Surfer.ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate
+  nameWithType: ISUHealthBarHPStateHandler.OnHealthBarHPStateUpdate
+- uid: Surfer.ISUHealthBarStateHandler
+  name: ISUHealthBarStateHandler
+  href: api/Surfer.ISUHealthBarStateHandler.html
+  commentId: T:Surfer.ISUHealthBarStateHandler
+  fullName: Surfer.ISUHealthBarStateHandler
+  nameWithType: ISUHealthBarStateHandler
+- uid: Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  name: OnHealthBarStateUpdate(SUHealthBarEventData)
+  href: api/Surfer.ISUHealthBarStateHandler.html#Surfer_ISUHealthBarStateHandler_OnHealthBarStateUpdate_Surfer_SUHealthBarEventData_
+  commentId: M:Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  fullName: Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  nameWithType: ISUHealthBarStateHandler.OnHealthBarStateUpdate(SUHealthBarEventData)
+- uid: Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate*
+  name: OnHealthBarStateUpdate
+  href: api/Surfer.ISUHealthBarStateHandler.html#Surfer_ISUHealthBarStateHandler_OnHealthBarStateUpdate_
+  commentId: Overload:Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate
+  isSpec: "True"
+  fullName: Surfer.ISUHealthBarStateHandler.OnHealthBarStateUpdate
+  nameWithType: ISUHealthBarStateHandler.OnHealthBarStateUpdate
+- uid: Surfer.ISUHealthBarVisualHandler
+  name: ISUHealthBarVisualHandler
+  href: api/Surfer.ISUHealthBarVisualHandler.html
+  commentId: T:Surfer.ISUHealthBarVisualHandler
+  fullName: Surfer.ISUHealthBarVisualHandler
+  nameWithType: ISUHealthBarVisualHandler
+- uid: Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp
+  name: OnHealthBarVisualSetUp()
+  href: api/Surfer.ISUHealthBarVisualHandler.html#Surfer_ISUHealthBarVisualHandler_OnHealthBarVisualSetUp
+  commentId: M:Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp
+  fullName: Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp()
+  nameWithType: ISUHealthBarVisualHandler.OnHealthBarVisualSetUp()
+- uid: Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp*
+  name: OnHealthBarVisualSetUp
+  href: api/Surfer.ISUHealthBarVisualHandler.html#Surfer_ISUHealthBarVisualHandler_OnHealthBarVisualSetUp_
+  commentId: Overload:Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp
+  isSpec: "True"
+  fullName: Surfer.ISUHealthBarVisualHandler.OnHealthBarVisualSetUp
+  nameWithType: ISUHealthBarVisualHandler.OnHealthBarVisualSetUp
 - uid: Surfer.ISUIndicatorDistanceHandler
   name: ISUIndicatorDistanceHandler
   href: api/Surfer.ISUIndicatorDistanceHandler.html
   commentId: T:Surfer.ISUIndicatorDistanceHandler
   fullName: Surfer.ISUIndicatorDistanceHandler
   nameWithType: ISUIndicatorDistanceHandler
-- uid: Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  name: OnIndicatorDistanceUpdate(SUIndicatorDistanceEventData)
-  href: api/Surfer.ISUIndicatorDistanceHandler.html#Surfer_ISUIndicatorDistanceHandler_OnIndicatorDistanceUpdate_Surfer_SUIndicatorDistanceEventData_
-  commentId: M:Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  fullName: Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  nameWithType: ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(SUIndicatorDistanceEventData)
+- uid: Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  name: OnIndicatorDistanceUpdate(SUIndicatorEventData)
+  href: api/Surfer.ISUIndicatorDistanceHandler.html#Surfer_ISUIndicatorDistanceHandler_OnIndicatorDistanceUpdate_Surfer_SUIndicatorEventData_
+  commentId: M:Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  fullName: Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  nameWithType: ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate(SUIndicatorEventData)
 - uid: Surfer.ISUIndicatorDistanceHandler.OnIndicatorDistanceUpdate*
   name: OnIndicatorDistanceUpdate
   href: api/Surfer.ISUIndicatorDistanceHandler.html#Surfer_ISUIndicatorDistanceHandler_OnIndicatorDistanceUpdate_
@@ -242,6 +344,25 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUIndicatorStateHandler.OnIndicatorStateUpdate
   nameWithType: ISUIndicatorStateHandler.OnIndicatorStateUpdate
+- uid: Surfer.ISUIndicatorVisualHandler
+  name: ISUIndicatorVisualHandler
+  href: api/Surfer.ISUIndicatorVisualHandler.html
+  commentId: T:Surfer.ISUIndicatorVisualHandler
+  fullName: Surfer.ISUIndicatorVisualHandler
+  nameWithType: ISUIndicatorVisualHandler
+- uid: Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
+  name: OnIndicatorVisualSetUp()
+  href: api/Surfer.ISUIndicatorVisualHandler.html#Surfer_ISUIndicatorVisualHandler_OnIndicatorVisualSetUp
+  commentId: M:Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
+  fullName: Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp()
+  nameWithType: ISUIndicatorVisualHandler.OnIndicatorVisualSetUp()
+- uid: Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp*
+  name: OnIndicatorVisualSetUp
+  href: api/Surfer.ISUIndicatorVisualHandler.html#Surfer_ISUIndicatorVisualHandler_OnIndicatorVisualSetUp_
+  commentId: Overload:Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
+  isSpec: "True"
+  fullName: Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
+  nameWithType: ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
 - uid: Surfer.ISUSceneActivatedHandler
   name: ISUSceneActivatedHandler
   href: api/Surfer.ISUSceneActivatedHandler.html
@@ -400,13 +521,13 @@ references:
   commentId: T:Surfer.PathAction
   fullName: Surfer.PathAction
   nameWithType: PathAction
-- uid: Surfer.PathAction.#ctor(System.String,System.Action{Surfer.FuncInput})
+- uid: Surfer.PathAction.#ctor(System.String,Action{Surfer.FuncInput})
   name: PathAction(String, Action<FuncInput>)
-  href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_System_String_System_Action_Surfer_FuncInput__
-  commentId: M:Surfer.PathAction.#ctor(System.String,System.Action{Surfer.FuncInput})
+  href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_System_String_Action_Surfer_FuncInput__
+  commentId: M:Surfer.PathAction.#ctor(System.String,Action{Surfer.FuncInput})
   name.vb: PathAction(String, Action(Of FuncInput))
-  fullName: Surfer.PathAction.PathAction(System.String, System.Action<Surfer.FuncInput>)
-  fullName.vb: Surfer.PathAction.PathAction(System.String, System.Action(Of Surfer.FuncInput))
+  fullName: Surfer.PathAction.PathAction(System.String, Action<Surfer.FuncInput>)
+  fullName.vb: Surfer.PathAction.PathAction(System.String, Action(Of Surfer.FuncInput))
   nameWithType: PathAction.PathAction(String, Action<FuncInput>)
   nameWithType.vb: PathAction.PathAction(String, Action(Of FuncInput))
 - uid: Surfer.PathAction.#ctor*
@@ -448,13 +569,13 @@ references:
   commentId: T:Surfer.PathFunc
   fullName: Surfer.PathFunc
   nameWithType: PathFunc
-- uid: Surfer.PathFunc.#ctor(System.String,System.Func{Surfer.FuncInput,System.Boolean})
+- uid: Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean})
   name: PathFunc(String, Func<FuncInput, Boolean>)
-  href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_System_String_System_Func_Surfer_FuncInput_System_Boolean__
-  commentId: M:Surfer.PathFunc.#ctor(System.String,System.Func{Surfer.FuncInput,System.Boolean})
+  href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_System_String_Func_Surfer_FuncInput_System_Boolean__
+  commentId: M:Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean})
   name.vb: PathFunc(String, Func(Of FuncInput, Boolean))
-  fullName: Surfer.PathFunc.PathFunc(System.String, System.Func<Surfer.FuncInput, System.Boolean>)
-  fullName.vb: Surfer.PathFunc.PathFunc(System.String, System.Func(Of Surfer.FuncInput, System.Boolean))
+  fullName: Surfer.PathFunc.PathFunc(System.String, Func<Surfer.FuncInput, System.Boolean>)
+  fullName.vb: Surfer.PathFunc.PathFunc(System.String, Func(Of Surfer.FuncInput, System.Boolean))
   nameWithType: PathFunc.PathFunc(String, Func<FuncInput, Boolean>)
   nameWithType.vb: PathFunc.PathFunc(String, Func(Of FuncInput, Boolean))
 - uid: Surfer.PathFunc.#ctor*
@@ -1843,6 +1964,171 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.RunWithParamsState
   nameWithType: SUBehavioursData.RunWithParamsState
+- uid: Surfer.SUCamData
+  name: SUCamData
+  href: api/Surfer.SUCamData.html
+  commentId: T:Surfer.SUCamData
+  fullName: Surfer.SUCamData
+  nameWithType: SUCamData
+- uid: Surfer.SUCamData.Cam
+  name: Cam
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_Cam
+  commentId: P:Surfer.SUCamData.Cam
+  fullName: Surfer.SUCamData.Cam
+  nameWithType: SUCamData.Cam
+- uid: Surfer.SUCamData.Cam*
+  name: Cam
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_Cam_
+  commentId: Overload:Surfer.SUCamData.Cam
+  isSpec: "True"
+  fullName: Surfer.SUCamData.Cam
+  nameWithType: SUCamData.Cam
+- uid: Surfer.SUCamData.CamCanvas
+  name: CamCanvas
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_CamCanvas
+  commentId: P:Surfer.SUCamData.CamCanvas
+  fullName: Surfer.SUCamData.CamCanvas
+  nameWithType: SUCamData.CamCanvas
+- uid: Surfer.SUCamData.CamCanvas*
+  name: CamCanvas
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_CamCanvas_
+  commentId: Overload:Surfer.SUCamData.CamCanvas
+  isSpec: "True"
+  fullName: Surfer.SUCamData.CamCanvas
+  nameWithType: SUCamData.CamCanvas
+- uid: Surfer.SUCamData.CamCanvasRect
+  name: CamCanvasRect
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_CamCanvasRect
+  commentId: P:Surfer.SUCamData.CamCanvasRect
+  fullName: Surfer.SUCamData.CamCanvasRect
+  nameWithType: SUCamData.CamCanvasRect
+- uid: Surfer.SUCamData.CamCanvasRect*
+  name: CamCanvasRect
+  href: api/Surfer.SUCamData.html#Surfer_SUCamData_CamCanvasRect_
+  commentId: Overload:Surfer.SUCamData.CamCanvasRect
+  isSpec: "True"
+  fullName: Surfer.SUCamData.CamCanvasRect
+  nameWithType: SUCamData.CamCanvasRect
+- uid: Surfer.SUCamItemsManager
+  name: SUCamItemsManager
+  href: api/Surfer.SUCamItemsManager.html
+  commentId: T:Surfer.SUCamItemsManager
+  fullName: Surfer.SUCamItemsManager
+  nameWithType: SUCamItemsManager
+- uid: Surfer.SUCamItemsManager._mainParent
+  name: _mainParent
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager__mainParent
+  commentId: F:Surfer.SUCamItemsManager._mainParent
+  fullName: Surfer.SUCamItemsManager._mainParent
+  nameWithType: SUCamItemsManager._mainParent
+- uid: Surfer.SUCamItemsManager._mustClean
+  name: _mustClean
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager__mustClean
+  commentId: F:Surfer.SUCamItemsManager._mustClean
+  fullName: Surfer.SUCamItemsManager._mustClean
+  nameWithType: SUCamItemsManager._mustClean
+- uid: Surfer.SUCamItemsManager._rendersList
+  name: _rendersList
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager__rendersList
+  commentId: F:Surfer.SUCamItemsManager._rendersList
+  fullName: Surfer.SUCamItemsManager._rendersList
+  nameWithType: SUCamItemsManager._rendersList
+- uid: Surfer.SUCamItemsManager._suPersistentCanvas
+  name: _suPersistentCanvas
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager__suPersistentCanvas
+  commentId: F:Surfer.SUCamItemsManager._suPersistentCanvas
+  fullName: Surfer.SUCamItemsManager._suPersistentCanvas
+  nameWithType: SUCamItemsManager._suPersistentCanvas
+- uid: Surfer.SUCamItemsManager._targetPos
+  name: _targetPos
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager__targetPos
+  commentId: F:Surfer.SUCamItemsManager._targetPos
+  fullName: Surfer.SUCamItemsManager._targetPos
+  nameWithType: SUCamItemsManager._targetPos
+- uid: Surfer.SUCamItemsManager.CreateCameKey(Camera,RenderMode)
+  name: CreateCameKey(Camera, RenderMode)
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_CreateCameKey_Camera_RenderMode_
+  commentId: M:Surfer.SUCamItemsManager.CreateCameKey(Camera,RenderMode)
+  fullName: Surfer.SUCamItemsManager.CreateCameKey(Camera, RenderMode)
+  nameWithType: SUCamItemsManager.CreateCameKey(Camera, RenderMode)
+- uid: Surfer.SUCamItemsManager.CreateCameKey*
+  name: CreateCameKey
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_CreateCameKey_
+  commentId: Overload:Surfer.SUCamItemsManager.CreateCameKey
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.CreateCameKey
+  nameWithType: SUCamItemsManager.CreateCameKey
+- uid: Surfer.SUCamItemsManager.GetPersistentCanvas
+  name: GetPersistentCanvas()
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_GetPersistentCanvas
+  commentId: M:Surfer.SUCamItemsManager.GetPersistentCanvas
+  fullName: Surfer.SUCamItemsManager.GetPersistentCanvas()
+  nameWithType: SUCamItemsManager.GetPersistentCanvas()
+- uid: Surfer.SUCamItemsManager.GetPersistentCanvas*
+  name: GetPersistentCanvas
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_GetPersistentCanvas_
+  commentId: Overload:Surfer.SUCamItemsManager.GetPersistentCanvas
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.GetPersistentCanvas
+  nameWithType: SUCamItemsManager.GetPersistentCanvas
+- uid: Surfer.SUCamItemsManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_MainLoop
+  commentId: M:Surfer.SUCamItemsManager.MainLoop
+  fullName: Surfer.SUCamItemsManager.MainLoop()
+  nameWithType: SUCamItemsManager.MainLoop()
+- uid: Surfer.SUCamItemsManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_MainLoop_
+  commentId: Overload:Surfer.SUCamItemsManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.MainLoop
+  nameWithType: SUCamItemsManager.MainLoop
+- uid: Surfer.SUCamItemsManager.MainParentName
+  name: MainParentName
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_MainParentName
+  commentId: P:Surfer.SUCamItemsManager.MainParentName
+  fullName: Surfer.SUCamItemsManager.MainParentName
+  nameWithType: SUCamItemsManager.MainParentName
+- uid: Surfer.SUCamItemsManager.MainParentName*
+  name: MainParentName
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_MainParentName_
+  commentId: Overload:Surfer.SUCamItemsManager.MainParentName
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.MainParentName
+  nameWithType: SUCamItemsManager.MainParentName
+- uid: Surfer.SUCamItemsManager.SortOrder
+  name: SortOrder
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_SortOrder
+  commentId: P:Surfer.SUCamItemsManager.SortOrder
+  fullName: Surfer.SUCamItemsManager.SortOrder
+  nameWithType: SUCamItemsManager.SortOrder
+- uid: Surfer.SUCamItemsManager.SortOrder*
+  name: SortOrder
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_SortOrder_
+  commentId: Overload:Surfer.SUCamItemsManager.SortOrder
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.SortOrder
+  nameWithType: SUCamItemsManager.SortOrder
+- uid: Surfer.SUCamItemsManager.StopFollow(Camera)
+  name: StopFollow(Camera)
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_StopFollow_Camera_
+  commentId: M:Surfer.SUCamItemsManager.StopFollow(Camera)
+  fullName: Surfer.SUCamItemsManager.StopFollow(Camera)
+  nameWithType: SUCamItemsManager.StopFollow(Camera)
+- uid: Surfer.SUCamItemsManager.StopFollow(System.String)
+  name: StopFollow(String)
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_StopFollow_System_String_
+  commentId: M:Surfer.SUCamItemsManager.StopFollow(System.String)
+  fullName: Surfer.SUCamItemsManager.StopFollow(System.String)
+  nameWithType: SUCamItemsManager.StopFollow(String)
+- uid: Surfer.SUCamItemsManager.StopFollow*
+  name: StopFollow
+  href: api/Surfer.SUCamItemsManager.html#Surfer_SUCamItemsManager_StopFollow_
+  commentId: Overload:Surfer.SUCamItemsManager.StopFollow
+  isSpec: "True"
+  fullName: Surfer.SUCamItemsManager.StopFollow
+  nameWithType: SUCamItemsManager.StopFollow
 - uid: Surfer.SUCGroupData
   name: SUCGroupData
   href: api/Surfer.SUCGroupData.html
@@ -2569,12 +2855,51 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnEndDrag
   nameWithType: SUElement.OnEndDrag
-- uid: Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  name: OnIndicatorDistanceUpdate(SUIndicatorDistanceEventData)
-  href: api/Surfer.SUElement.html#Surfer_SUElement_OnIndicatorDistanceUpdate_Surfer_SUIndicatorDistanceEventData_
-  commentId: M:Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  fullName: Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorDistanceEventData)
-  nameWithType: SUElement.OnIndicatorDistanceUpdate(SUIndicatorDistanceEventData)
+- uid: Surfer.SUElement.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  name: OnHealthBarHPStateUpdate(SUHealthBarEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarHPStateUpdate_Surfer_SUHealthBarEventData_
+  commentId: M:Surfer.SUElement.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  fullName: Surfer.SUElement.OnHealthBarHPStateUpdate(Surfer.SUHealthBarEventData)
+  nameWithType: SUElement.OnHealthBarHPStateUpdate(SUHealthBarEventData)
+- uid: Surfer.SUElement.OnHealthBarHPStateUpdate*
+  name: OnHealthBarHPStateUpdate
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarHPStateUpdate_
+  commentId: Overload:Surfer.SUElement.OnHealthBarHPStateUpdate
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnHealthBarHPStateUpdate
+  nameWithType: SUElement.OnHealthBarHPStateUpdate
+- uid: Surfer.SUElement.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  name: OnHealthBarStateUpdate(SUHealthBarEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarStateUpdate_Surfer_SUHealthBarEventData_
+  commentId: M:Surfer.SUElement.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  fullName: Surfer.SUElement.OnHealthBarStateUpdate(Surfer.SUHealthBarEventData)
+  nameWithType: SUElement.OnHealthBarStateUpdate(SUHealthBarEventData)
+- uid: Surfer.SUElement.OnHealthBarStateUpdate*
+  name: OnHealthBarStateUpdate
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarStateUpdate_
+  commentId: Overload:Surfer.SUElement.OnHealthBarStateUpdate
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnHealthBarStateUpdate
+  nameWithType: SUElement.OnHealthBarStateUpdate
+- uid: Surfer.SUElement.OnHealthBarVisualSetUp
+  name: OnHealthBarVisualSetUp()
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarVisualSetUp
+  commentId: M:Surfer.SUElement.OnHealthBarVisualSetUp
+  fullName: Surfer.SUElement.OnHealthBarVisualSetUp()
+  nameWithType: SUElement.OnHealthBarVisualSetUp()
+- uid: Surfer.SUElement.OnHealthBarVisualSetUp*
+  name: OnHealthBarVisualSetUp
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnHealthBarVisualSetUp_
+  commentId: Overload:Surfer.SUElement.OnHealthBarVisualSetUp
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnHealthBarVisualSetUp
+  nameWithType: SUElement.OnHealthBarVisualSetUp
+- uid: Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  name: OnIndicatorDistanceUpdate(SUIndicatorEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnIndicatorDistanceUpdate_Surfer_SUIndicatorEventData_
+  commentId: M:Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  fullName: Surfer.SUElement.OnIndicatorDistanceUpdate(Surfer.SUIndicatorEventData)
+  nameWithType: SUElement.OnIndicatorDistanceUpdate(SUIndicatorEventData)
 - uid: Surfer.SUElement.OnIndicatorDistanceUpdate*
   name: OnIndicatorDistanceUpdate
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnIndicatorDistanceUpdate_
@@ -2595,6 +2920,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnIndicatorStateUpdate
   nameWithType: SUElement.OnIndicatorStateUpdate
+- uid: Surfer.SUElement.OnIndicatorVisualSetUp
+  name: OnIndicatorVisualSetUp()
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnIndicatorVisualSetUp
+  commentId: M:Surfer.SUElement.OnIndicatorVisualSetUp
+  fullName: Surfer.SUElement.OnIndicatorVisualSetUp()
+  nameWithType: SUElement.OnIndicatorVisualSetUp()
+- uid: Surfer.SUElement.OnIndicatorVisualSetUp*
+  name: OnIndicatorVisualSetUp
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnIndicatorVisualSetUp_
+  commentId: Overload:Surfer.SUElement.OnIndicatorVisualSetUp
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnIndicatorVisualSetUp
+  nameWithType: SUElement.OnIndicatorVisualSetUp
 - uid: Surfer.SUElement.OnPointerClick(PointerEventData)
   name: OnPointerClick(PointerEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnPointerClick_PointerEventData_
@@ -2913,6 +3251,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.HandleOnDestroy
   nameWithType: SUElementData.HandleOnDestroy
+- uid: Surfer.SUElementData.HbVisualData
+  name: HbVisualData
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_HbVisualData
+  commentId: P:Surfer.SUElementData.HbVisualData
+  fullName: Surfer.SUElementData.HbVisualData
+  nameWithType: SUElementData.HbVisualData
+- uid: Surfer.SUElementData.HbVisualData*
+  name: HbVisualData
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_HbVisualData_
+  commentId: Overload:Surfer.SUElementData.HbVisualData
+  isSpec: "True"
+  fullName: Surfer.SUElementData.HbVisualData
+  nameWithType: SUElementData.HbVisualData
+- uid: Surfer.SUElementData.IndVisualData
+  name: IndVisualData
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IndVisualData
+  commentId: P:Surfer.SUElementData.IndVisualData
+  fullName: Surfer.SUElementData.IndVisualData
+  nameWithType: SUElementData.IndVisualData
+- uid: Surfer.SUElementData.IndVisualData*
+  name: IndVisualData
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IndVisualData_
+  commentId: Overload:Surfer.SUElementData.IndVisualData
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IndVisualData
+  nameWithType: SUElementData.IndVisualData
 - uid: Surfer.SUElementData.IsDrag
   name: IsDrag
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsDrag
@@ -3173,6 +3537,18 @@ references:
   commentId: F:Surfer.SUElementData.Type_ID.DragUp_State
   fullName: Surfer.SUElementData.Type_ID.DragUp_State
   nameWithType: SUElementData.Type_ID.DragUp_State
+- uid: Surfer.SUElementData.Type_ID.HealthBar
+  name: HealthBar
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_HealthBar
+  commentId: F:Surfer.SUElementData.Type_ID.HealthBar
+  fullName: Surfer.SUElementData.Type_ID.HealthBar
+  nameWithType: SUElementData.Type_ID.HealthBar
+- uid: Surfer.SUElementData.Type_ID.Indicator
+  name: Indicator
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Indicator
+  commentId: F:Surfer.SUElementData.Type_ID.Indicator
+  fullName: Surfer.SUElementData.Type_ID.Indicator
+  nameWithType: SUElementData.Type_ID.Indicator
 - uid: Surfer.SUElementData.Type_ID.Loading_Image
   name: Loading_Image
   href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_Loading_Image
@@ -3420,36 +3796,66 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.Dropdown_OnOptionSelected
   fullName: Surfer.SUEvent.Type_ID.Dropdown_OnOptionSelected
   nameWithType: SUEvent.Type_ID.Dropdown_OnOptionSelected
-- uid: Surfer.SUEvent.Type_ID.Indicator_OnObjectCloseToTarget
-  name: Indicator_OnObjectCloseToTarget
-  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnObjectCloseToTarget
-  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnObjectCloseToTarget
-  fullName: Surfer.SUEvent.Type_ID.Indicator_OnObjectCloseToTarget
-  nameWithType: SUEvent.Type_ID.Indicator_OnObjectCloseToTarget
-- uid: Surfer.SUEvent.Type_ID.Indicator_OnObjectFarFromTarget
-  name: Indicator_OnObjectFarFromTarget
-  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnObjectFarFromTarget
-  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnObjectFarFromTarget
-  fullName: Surfer.SUEvent.Type_ID.Indicator_OnObjectFarFromTarget
-  nameWithType: SUEvent.Type_ID.Indicator_OnObjectFarFromTarget
+- uid: Surfer.SUEvent.Type_ID.HealthBar_OnEmptyHp
+  name: HealthBar_OnEmptyHp
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_HealthBar_OnEmptyHp
+  commentId: F:Surfer.SUEvent.Type_ID.HealthBar_OnEmptyHp
+  fullName: Surfer.SUEvent.Type_ID.HealthBar_OnEmptyHp
+  nameWithType: SUEvent.Type_ID.HealthBar_OnEmptyHp
+- uid: Surfer.SUEvent.Type_ID.HealthBar_OnFullHp
+  name: HealthBar_OnFullHp
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_HealthBar_OnFullHp
+  commentId: F:Surfer.SUEvent.Type_ID.HealthBar_OnFullHp
+  fullName: Surfer.SUEvent.Type_ID.HealthBar_OnFullHp
+  nameWithType: SUEvent.Type_ID.HealthBar_OnFullHp
+- uid: Surfer.SUEvent.Type_ID.HealthBar_OnLessThanHalfHp
+  name: HealthBar_OnLessThanHalfHp
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_HealthBar_OnLessThanHalfHp
+  commentId: F:Surfer.SUEvent.Type_ID.HealthBar_OnLessThanHalfHp
+  fullName: Surfer.SUEvent.Type_ID.HealthBar_OnLessThanHalfHp
+  nameWithType: SUEvent.Type_ID.HealthBar_OnLessThanHalfHp
+- uid: Surfer.SUEvent.Type_ID.HealthBar_OnMoreThanHalfHp
+  name: HealthBar_OnMoreThanHalfHp
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_HealthBar_OnMoreThanHalfHp
+  commentId: F:Surfer.SUEvent.Type_ID.HealthBar_OnMoreThanHalfHp
+  fullName: Surfer.SUEvent.Type_ID.HealthBar_OnMoreThanHalfHp
+  nameWithType: SUEvent.Type_ID.HealthBar_OnMoreThanHalfHp
+- uid: Surfer.SUEvent.Type_ID.Indicator_OnClose
+  name: Indicator_OnClose
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnClose
+  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnClose
+  fullName: Surfer.SUEvent.Type_ID.Indicator_OnClose
+  nameWithType: SUEvent.Type_ID.Indicator_OnClose
+- uid: Surfer.SUEvent.Type_ID.Indicator_OnCloseAndCentered
+  name: Indicator_OnCloseAndCentered
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnCloseAndCentered
+  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnCloseAndCentered
+  fullName: Surfer.SUEvent.Type_ID.Indicator_OnCloseAndCentered
+  nameWithType: SUEvent.Type_ID.Indicator_OnCloseAndCentered
+- uid: Surfer.SUEvent.Type_ID.Indicator_OnFar
+  name: Indicator_OnFar
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnFar
+  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnFar
+  fullName: Surfer.SUEvent.Type_ID.Indicator_OnFar
+  nameWithType: SUEvent.Type_ID.Indicator_OnFar
 - uid: Surfer.SUEvent.Type_ID.Indicator_OnStandby
   name: Indicator_OnStandby
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnStandby
   commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnStandby
   fullName: Surfer.SUEvent.Type_ID.Indicator_OnStandby
   nameWithType: SUEvent.Type_ID.Indicator_OnStandby
-- uid: Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenFollowing
-  name: Indicator_OnStartOffScreenFollowing
-  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnStartOffScreenFollowing
-  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenFollowing
-  fullName: Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenFollowing
-  nameWithType: SUEvent.Type_ID.Indicator_OnStartOffScreenFollowing
-- uid: Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenFollowing
-  name: Indicator_OnStartOnScreenFollowing
-  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnStartOnScreenFollowing
-  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenFollowing
-  fullName: Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenFollowing
-  nameWithType: SUEvent.Type_ID.Indicator_OnStartOnScreenFollowing
+- uid: Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenMode
+  name: Indicator_OnStartOffScreenMode
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnStartOffScreenMode
+  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenMode
+  fullName: Surfer.SUEvent.Type_ID.Indicator_OnStartOffScreenMode
+  nameWithType: SUEvent.Type_ID.Indicator_OnStartOffScreenMode
+- uid: Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenMode
+  name: Indicator_OnStartOnScreenMode
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Indicator_OnStartOnScreenMode
+  commentId: F:Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenMode
+  fullName: Surfer.SUEvent.Type_ID.Indicator_OnStartOnScreenMode
+  nameWithType: SUEvent.Type_ID.Indicator_OnStartOnScreenMode
 - uid: Surfer.SUEvent.Type_ID.Input_NewInput_OnAction
   name: Input_NewInput_OnAction
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Input_NewInput_OnAction
@@ -3801,6 +4207,12 @@ references:
   commentId: M:Surfer.SUEventSystemManager.FocusOnObject(GameObject)
   fullName: Surfer.SUEventSystemManager.FocusOnObject(GameObject)
   nameWithType: SUEventSystemManager.FocusOnObject(GameObject)
+- uid: Surfer.SUEventSystemManager.FocusOnObject(GameObject,System.Int32)
+  name: FocusOnObject(GameObject, Int32)
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObject_GameObject_System_Int32_
+  commentId: M:Surfer.SUEventSystemManager.FocusOnObject(GameObject,System.Int32)
+  fullName: Surfer.SUEventSystemManager.FocusOnObject(GameObject, System.Int32)
+  nameWithType: SUEventSystemManager.FocusOnObject(GameObject, Int32)
 - uid: Surfer.SUEventSystemManager.FocusOnObject*
   name: FocusOnObject
   href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_FocusOnObject_
@@ -3821,19 +4233,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUEventSystemManager.FocusOnObjectOrLast
   nameWithType: SUEventSystemManager.FocusOnObjectOrLast
-- uid: Surfer.SUEventSystemManager.Follow(System.Int32,System.Boolean)
-  name: Follow(Int32, Boolean)
-  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_Follow_System_Int32_System_Boolean_
-  commentId: M:Surfer.SUEventSystemManager.Follow(System.Int32,System.Boolean)
-  fullName: Surfer.SUEventSystemManager.Follow(System.Int32, System.Boolean)
-  nameWithType: SUEventSystemManager.Follow(Int32, Boolean)
-- uid: Surfer.SUEventSystemManager.Follow*
-  name: Follow
-  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_Follow_
-  commentId: Overload:Surfer.SUEventSystemManager.Follow
-  isSpec: "True"
-  fullName: Surfer.SUEventSystemManager.Follow
-  nameWithType: SUEventSystemManager.Follow
 - uid: Surfer.SUEventSystemManager.GetAllEventSystems
   name: GetAllEventSystems()
   href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_GetAllEventSystems
@@ -3886,6 +4285,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUEventSystemManager.IsHistoryReceiver
   nameWithType: SUEventSystemManager.IsHistoryReceiver
+- uid: Surfer.SUEventSystemManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_MainLoop
+  commentId: M:Surfer.SUEventSystemManager.MainLoop
+  fullName: Surfer.SUEventSystemManager.MainLoop()
+  nameWithType: SUEventSystemManager.MainLoop()
+- uid: Surfer.SUEventSystemManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_MainLoop_
+  commentId: Overload:Surfer.SUEventSystemManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUEventSystemManager.MainLoop
+  nameWithType: SUEventSystemManager.MainLoop
 - uid: Surfer.SUEventSystemManager.RegisterSelectionIndicator(Surfer.SUElement)
   name: RegisterSelectionIndicator(SUElement)
   href: api/Surfer.SUEventSystemManager.html#Surfer_SUEventSystemManager_RegisterSelectionIndicator_Surfer_SUElement_
@@ -4925,6 +5337,689 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGroupStateUIEditor.OnInspectorGUI
   nameWithType: SUGroupStateUIEditor.OnInspectorGUI
+- uid: Surfer.SUHealthBarCamData
+  name: SUHealthBarCamData
+  href: api/Surfer.SUHealthBarCamData.html
+  commentId: T:Surfer.SUHealthBarCamData
+  fullName: Surfer.SUHealthBarCamData
+  nameWithType: SUHealthBarCamData
+- uid: Surfer.SUHealthBarCamData.AllHealthBars
+  name: AllHealthBars
+  href: api/Surfer.SUHealthBarCamData.html#Surfer_SUHealthBarCamData_AllHealthBars
+  commentId: P:Surfer.SUHealthBarCamData.AllHealthBars
+  fullName: Surfer.SUHealthBarCamData.AllHealthBars
+  nameWithType: SUHealthBarCamData.AllHealthBars
+- uid: Surfer.SUHealthBarCamData.AllHealthBars*
+  name: AllHealthBars
+  href: api/Surfer.SUHealthBarCamData.html#Surfer_SUHealthBarCamData_AllHealthBars_
+  commentId: Overload:Surfer.SUHealthBarCamData.AllHealthBars
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarCamData.AllHealthBars
+  nameWithType: SUHealthBarCamData.AllHealthBars
+- uid: Surfer.SUHealthBarData
+  name: SUHealthBarData
+  href: api/Surfer.SUHealthBarData.html
+  commentId: T:Surfer.SUHealthBarData
+  fullName: Surfer.SUHealthBarData
+  nameWithType: SUHealthBarData
+- uid: Surfer.SUHealthBarData.#ctor
+  name: SUHealthBarData()
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData__ctor
+  commentId: M:Surfer.SUHealthBarData.#ctor
+  fullName: Surfer.SUHealthBarData.SUHealthBarData()
+  nameWithType: SUHealthBarData.SUHealthBarData()
+- uid: Surfer.SUHealthBarData.#ctor(GameObject,Camera,RenderMode,System.String,Vector2)
+  name: SUHealthBarData(GameObject, Camera, RenderMode, String, Vector2)
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData__ctor_GameObject_Camera_RenderMode_System_String_Vector2_
+  commentId: M:Surfer.SUHealthBarData.#ctor(GameObject,Camera,RenderMode,System.String,Vector2)
+  fullName: Surfer.SUHealthBarData.SUHealthBarData(GameObject, Camera, RenderMode, System.String, Vector2)
+  nameWithType: SUHealthBarData.SUHealthBarData(GameObject, Camera, RenderMode, String, Vector2)
+- uid: Surfer.SUHealthBarData.#ctor*
+  name: SUHealthBarData
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData__ctor_
+  commentId: Overload:Surfer.SUHealthBarData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarData.SUHealthBarData
+  nameWithType: SUHealthBarData.SUHealthBarData
+- uid: Surfer.SUHealthBarData.HPState
+  name: HPState
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_HPState
+  commentId: P:Surfer.SUHealthBarData.HPState
+  fullName: Surfer.SUHealthBarData.HPState
+  nameWithType: SUHealthBarData.HPState
+- uid: Surfer.SUHealthBarData.HPState*
+  name: HPState
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_HPState_
+  commentId: Overload:Surfer.SUHealthBarData.HPState
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarData.HPState
+  nameWithType: SUHealthBarData.HPState
+- uid: Surfer.SUHealthBarData.State
+  name: State
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_State
+  commentId: P:Surfer.SUHealthBarData.State
+  fullName: Surfer.SUHealthBarData.State
+  nameWithType: SUHealthBarData.State
+- uid: Surfer.SUHealthBarData.State*
+  name: State
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_State_
+  commentId: Overload:Surfer.SUHealthBarData.State
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarData.State
+  nameWithType: SUHealthBarData.State
+- uid: Surfer.SUHealthBarData.VisualData
+  name: VisualData
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_VisualData
+  commentId: P:Surfer.SUHealthBarData.VisualData
+  fullName: Surfer.SUHealthBarData.VisualData
+  nameWithType: SUHealthBarData.VisualData
+- uid: Surfer.SUHealthBarData.VisualData*
+  name: VisualData
+  href: api/Surfer.SUHealthBarData.html#Surfer_SUHealthBarData_VisualData_
+  commentId: Overload:Surfer.SUHealthBarData.VisualData
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarData.VisualData
+  nameWithType: SUHealthBarData.VisualData
+- uid: Surfer.SUHealthBarDataExtensions
+  name: SUHealthBarDataExtensions
+  href: api/Surfer.SUHealthBarDataExtensions.html
+  commentId: T:Surfer.SUHealthBarDataExtensions
+  fullName: Surfer.SUHealthBarDataExtensions
+  nameWithType: SUHealthBarDataExtensions
+- uid: Surfer.SUHealthBarDataExtensions.CallHPStateUpdate(Surfer.SUHealthBarData,Surfer.SUHealthBarHPState_ID)
+  name: CallHPStateUpdate(SUHealthBarData, SUHealthBarHPState_ID)
+  href: api/Surfer.SUHealthBarDataExtensions.html#Surfer_SUHealthBarDataExtensions_CallHPStateUpdate_Surfer_SUHealthBarData_Surfer_SUHealthBarHPState_ID_
+  commentId: M:Surfer.SUHealthBarDataExtensions.CallHPStateUpdate(Surfer.SUHealthBarData,Surfer.SUHealthBarHPState_ID)
+  fullName: Surfer.SUHealthBarDataExtensions.CallHPStateUpdate(Surfer.SUHealthBarData, Surfer.SUHealthBarHPState_ID)
+  nameWithType: SUHealthBarDataExtensions.CallHPStateUpdate(SUHealthBarData, SUHealthBarHPState_ID)
+- uid: Surfer.SUHealthBarDataExtensions.CallHPStateUpdate*
+  name: CallHPStateUpdate
+  href: api/Surfer.SUHealthBarDataExtensions.html#Surfer_SUHealthBarDataExtensions_CallHPStateUpdate_
+  commentId: Overload:Surfer.SUHealthBarDataExtensions.CallHPStateUpdate
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarDataExtensions.CallHPStateUpdate
+  nameWithType: SUHealthBarDataExtensions.CallHPStateUpdate
+- uid: Surfer.SUHealthBarDataExtensions.CallStateUpdate(Surfer.SUHealthBarData,Surfer.SUHealthBarState_ID)
+  name: CallStateUpdate(SUHealthBarData, SUHealthBarState_ID)
+  href: api/Surfer.SUHealthBarDataExtensions.html#Surfer_SUHealthBarDataExtensions_CallStateUpdate_Surfer_SUHealthBarData_Surfer_SUHealthBarState_ID_
+  commentId: M:Surfer.SUHealthBarDataExtensions.CallStateUpdate(Surfer.SUHealthBarData,Surfer.SUHealthBarState_ID)
+  fullName: Surfer.SUHealthBarDataExtensions.CallStateUpdate(Surfer.SUHealthBarData, Surfer.SUHealthBarState_ID)
+  nameWithType: SUHealthBarDataExtensions.CallStateUpdate(SUHealthBarData, SUHealthBarState_ID)
+- uid: Surfer.SUHealthBarDataExtensions.CallStateUpdate*
+  name: CallStateUpdate
+  href: api/Surfer.SUHealthBarDataExtensions.html#Surfer_SUHealthBarDataExtensions_CallStateUpdate_
+  commentId: Overload:Surfer.SUHealthBarDataExtensions.CallStateUpdate
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarDataExtensions.CallStateUpdate
+  nameWithType: SUHealthBarDataExtensions.CallStateUpdate
+- uid: Surfer.SUHealthBarEventData
+  name: SUHealthBarEventData
+  href: api/Surfer.SUHealthBarEventData.html
+  commentId: T:Surfer.SUHealthBarEventData
+  fullName: Surfer.SUHealthBarEventData
+  nameWithType: SUHealthBarEventData
+- uid: Surfer.SUHealthBarEventData.#ctor(Surfer.SUHealthBarData)
+  name: SUHealthBarEventData(SUHealthBarData)
+  href: api/Surfer.SUHealthBarEventData.html#Surfer_SUHealthBarEventData__ctor_Surfer_SUHealthBarData_
+  commentId: M:Surfer.SUHealthBarEventData.#ctor(Surfer.SUHealthBarData)
+  fullName: Surfer.SUHealthBarEventData.SUHealthBarEventData(Surfer.SUHealthBarData)
+  nameWithType: SUHealthBarEventData.SUHealthBarEventData(SUHealthBarData)
+- uid: Surfer.SUHealthBarEventData.#ctor*
+  name: SUHealthBarEventData
+  href: api/Surfer.SUHealthBarEventData.html#Surfer_SUHealthBarEventData__ctor_
+  commentId: Overload:Surfer.SUHealthBarEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarEventData.SUHealthBarEventData
+  nameWithType: SUHealthBarEventData.SUHealthBarEventData
+- uid: Surfer.SUHealthBarEventData.Data
+  name: Data
+  href: api/Surfer.SUHealthBarEventData.html#Surfer_SUHealthBarEventData_Data
+  commentId: F:Surfer.SUHealthBarEventData.Data
+  fullName: Surfer.SUHealthBarEventData.Data
+  nameWithType: SUHealthBarEventData.Data
+- uid: Surfer.SUHealthBarHPState_ID
+  name: SUHealthBarHPState_ID
+  href: api/Surfer.SUHealthBarHPState_ID.html
+  commentId: T:Surfer.SUHealthBarHPState_ID
+  fullName: Surfer.SUHealthBarHPState_ID
+  nameWithType: SUHealthBarHPState_ID
+- uid: Surfer.SUHealthBarHPState_ID.Empty
+  name: Empty
+  href: api/Surfer.SUHealthBarHPState_ID.html#Surfer_SUHealthBarHPState_ID_Empty
+  commentId: F:Surfer.SUHealthBarHPState_ID.Empty
+  fullName: Surfer.SUHealthBarHPState_ID.Empty
+  nameWithType: SUHealthBarHPState_ID.Empty
+- uid: Surfer.SUHealthBarHPState_ID.Full
+  name: Full
+  href: api/Surfer.SUHealthBarHPState_ID.html#Surfer_SUHealthBarHPState_ID_Full
+  commentId: F:Surfer.SUHealthBarHPState_ID.Full
+  fullName: Surfer.SUHealthBarHPState_ID.Full
+  nameWithType: SUHealthBarHPState_ID.Full
+- uid: Surfer.SUHealthBarHPState_ID.LessThanHalf
+  name: LessThanHalf
+  href: api/Surfer.SUHealthBarHPState_ID.html#Surfer_SUHealthBarHPState_ID_LessThanHalf
+  commentId: F:Surfer.SUHealthBarHPState_ID.LessThanHalf
+  fullName: Surfer.SUHealthBarHPState_ID.LessThanHalf
+  nameWithType: SUHealthBarHPState_ID.LessThanHalf
+- uid: Surfer.SUHealthBarHPState_ID.MoreThanHalf
+  name: MoreThanHalf
+  href: api/Surfer.SUHealthBarHPState_ID.html#Surfer_SUHealthBarHPState_ID_MoreThanHalf
+  commentId: F:Surfer.SUHealthBarHPState_ID.MoreThanHalf
+  fullName: Surfer.SUHealthBarHPState_ID.MoreThanHalf
+  nameWithType: SUHealthBarHPState_ID.MoreThanHalf
+- uid: Surfer.SUHealthBarHPState_ID.None
+  name: None
+  href: api/Surfer.SUHealthBarHPState_ID.html#Surfer_SUHealthBarHPState_ID_None
+  commentId: F:Surfer.SUHealthBarHPState_ID.None
+  fullName: Surfer.SUHealthBarHPState_ID.None
+  nameWithType: SUHealthBarHPState_ID.None
+- uid: Surfer.SUHealthBarLink
+  name: SUHealthBarLink
+  href: api/Surfer.SUHealthBarLink.html
+  commentId: T:Surfer.SUHealthBarLink
+  fullName: Surfer.SUHealthBarLink
+  nameWithType: SUHealthBarLink
+- uid: Surfer.SUHealthBarLink.Data
+  name: Data
+  href: api/Surfer.SUHealthBarLink.html#Surfer_SUHealthBarLink_Data
+  commentId: P:Surfer.SUHealthBarLink.Data
+  fullName: Surfer.SUHealthBarLink.Data
+  nameWithType: SUHealthBarLink.Data
+- uid: Surfer.SUHealthBarLink.Data*
+  name: Data
+  href: api/Surfer.SUHealthBarLink.html#Surfer_SUHealthBarLink_Data_
+  commentId: Overload:Surfer.SUHealthBarLink.Data
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLink.Data
+  nameWithType: SUHealthBarLink.Data
+- uid: Surfer.SUHealthBarLinkData
+  name: SUHealthBarLinkData
+  href: api/Surfer.SUHealthBarLinkData.html
+  commentId: T:Surfer.SUHealthBarLinkData
+  fullName: Surfer.SUHealthBarLinkData
+  nameWithType: SUHealthBarLinkData
+- uid: Surfer.SUHealthBarLinkData.#ctor
+  name: SUHealthBarLinkData()
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData__ctor
+  commentId: M:Surfer.SUHealthBarLinkData.#ctor
+  fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData()
+  nameWithType: SUHealthBarLinkData.SUHealthBarLinkData()
+- uid: Surfer.SUHealthBarLinkData.#ctor(Transform,List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: SUHealthBarLinkData(Transform, List<SUHealthBarData>, Single, Single, Single, Single, Single, Single, Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData__ctor_Transform_List_Surfer_SUHealthBarData__System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.#ctor(Transform,List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name.vb: SUHealthBarLinkData(Transform, List(Of SUHealthBarData), Single, Single, Single, Single, Single, Single, Single)
+  fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, List<Surfer.SUHealthBarData>, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  fullName.vb: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, List(Of Surfer.SUHealthBarData), System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: SUHealthBarLinkData.SUHealthBarLinkData(Transform, List<SUHealthBarData>, Single, Single, Single, Single, Single, Single, Single)
+  nameWithType.vb: SUHealthBarLinkData.SUHealthBarLinkData(Transform, List(Of SUHealthBarData), Single, Single, Single, Single, Single, Single, Single)
+- uid: Surfer.SUHealthBarLinkData.#ctor*
+  name: SUHealthBarLinkData
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData__ctor_
+  commentId: Overload:Surfer.SUHealthBarLinkData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData
+  nameWithType: SUHealthBarLinkData.SUHealthBarLinkData
+- uid: Surfer.SUHealthBarLinkData.AddHp(System.Single)
+  name: AddHp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AddHp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.AddHp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.AddHp(System.Single)
+  nameWithType: SUHealthBarLinkData.AddHp(Single)
+- uid: Surfer.SUHealthBarLinkData.AddHp*
+  name: AddHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AddHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.AddHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.AddHp
+  nameWithType: SUHealthBarLinkData.AddHp
+- uid: Surfer.SUHealthBarLinkData.AddMp(System.Single)
+  name: AddMp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AddMp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.AddMp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.AddMp(System.Single)
+  nameWithType: SUHealthBarLinkData.AddMp(Single)
+- uid: Surfer.SUHealthBarLinkData.AddMp*
+  name: AddMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AddMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.AddMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.AddMp
+  nameWithType: SUHealthBarLinkData.AddMp
+- uid: Surfer.SUHealthBarLinkData.AllData
+  name: AllData
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AllData
+  commentId: P:Surfer.SUHealthBarLinkData.AllData
+  fullName: Surfer.SUHealthBarLinkData.AllData
+  nameWithType: SUHealthBarLinkData.AllData
+- uid: Surfer.SUHealthBarLinkData.AllData*
+  name: AllData
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_AllData_
+  commentId: Overload:Surfer.SUHealthBarLinkData.AllData
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.AllData
+  nameWithType: SUHealthBarLinkData.AllData
+- uid: Surfer.SUHealthBarLinkData.CurrentHp
+  name: CurrentHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_CurrentHp
+  commentId: P:Surfer.SUHealthBarLinkData.CurrentHp
+  fullName: Surfer.SUHealthBarLinkData.CurrentHp
+  nameWithType: SUHealthBarLinkData.CurrentHp
+- uid: Surfer.SUHealthBarLinkData.CurrentHp*
+  name: CurrentHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_CurrentHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.CurrentHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.CurrentHp
+  nameWithType: SUHealthBarLinkData.CurrentHp
+- uid: Surfer.SUHealthBarLinkData.CurrentMp
+  name: CurrentMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_CurrentMp
+  commentId: P:Surfer.SUHealthBarLinkData.CurrentMp
+  fullName: Surfer.SUHealthBarLinkData.CurrentMp
+  nameWithType: SUHealthBarLinkData.CurrentMp
+- uid: Surfer.SUHealthBarLinkData.CurrentMp*
+  name: CurrentMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_CurrentMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.CurrentMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.CurrentMp
+  nameWithType: SUHealthBarLinkData.CurrentMp
+- uid: Surfer.SUHealthBarLinkData.DamageHp(System.Single)
+  name: DamageHp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_DamageHp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.DamageHp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.DamageHp(System.Single)
+  nameWithType: SUHealthBarLinkData.DamageHp(Single)
+- uid: Surfer.SUHealthBarLinkData.DamageHp*
+  name: DamageHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_DamageHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.DamageHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.DamageHp
+  nameWithType: SUHealthBarLinkData.DamageHp
+- uid: Surfer.SUHealthBarLinkData.HasEnoughMp(System.Single)
+  name: HasEnoughMp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasEnoughMp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.HasEnoughMp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.HasEnoughMp(System.Single)
+  nameWithType: SUHealthBarLinkData.HasEnoughMp(Single)
+- uid: Surfer.SUHealthBarLinkData.HasEnoughMp*
+  name: HasEnoughMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasEnoughMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HasEnoughMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HasEnoughMp
+  nameWithType: SUHealthBarLinkData.HasEnoughMp
+- uid: Surfer.SUHealthBarLinkData.HasFullHp
+  name: HasFullHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasFullHp
+  commentId: P:Surfer.SUHealthBarLinkData.HasFullHp
+  fullName: Surfer.SUHealthBarLinkData.HasFullHp
+  nameWithType: SUHealthBarLinkData.HasFullHp
+- uid: Surfer.SUHealthBarLinkData.HasFullHp*
+  name: HasFullHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasFullHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HasFullHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HasFullHp
+  nameWithType: SUHealthBarLinkData.HasFullHp
+- uid: Surfer.SUHealthBarLinkData.HasFullMp
+  name: HasFullMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasFullMp
+  commentId: P:Surfer.SUHealthBarLinkData.HasFullMp
+  fullName: Surfer.SUHealthBarLinkData.HasFullMp
+  nameWithType: SUHealthBarLinkData.HasFullMp
+- uid: Surfer.SUHealthBarLinkData.HasFullMp*
+  name: HasFullMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasFullMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HasFullMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HasFullMp
+  nameWithType: SUHealthBarLinkData.HasFullMp
+- uid: Surfer.SUHealthBarLinkData.HasNoHp
+  name: HasNoHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasNoHp
+  commentId: P:Surfer.SUHealthBarLinkData.HasNoHp
+  fullName: Surfer.SUHealthBarLinkData.HasNoHp
+  nameWithType: SUHealthBarLinkData.HasNoHp
+- uid: Surfer.SUHealthBarLinkData.HasNoHp*
+  name: HasNoHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasNoHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HasNoHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HasNoHp
+  nameWithType: SUHealthBarLinkData.HasNoHp
+- uid: Surfer.SUHealthBarLinkData.HasNoMp
+  name: HasNoMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasNoMp
+  commentId: P:Surfer.SUHealthBarLinkData.HasNoMp
+  fullName: Surfer.SUHealthBarLinkData.HasNoMp
+  nameWithType: SUHealthBarLinkData.HasNoMp
+- uid: Surfer.SUHealthBarLinkData.HasNoMp*
+  name: HasNoMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HasNoMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HasNoMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HasNoMp
+  nameWithType: SUHealthBarLinkData.HasNoMp
+- uid: Surfer.SUHealthBarLinkData.HealHp(System.Single)
+  name: HealHp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HealHp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.HealHp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.HealHp(System.Single)
+  nameWithType: SUHealthBarLinkData.HealHp(Single)
+- uid: Surfer.SUHealthBarLinkData.HealHp*
+  name: HealHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_HealHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.HealHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.HealHp
+  nameWithType: SUHealthBarLinkData.HealHp
+- uid: Surfer.SUHealthBarLinkData.IsEmpty
+  name: IsEmpty
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_IsEmpty
+  commentId: P:Surfer.SUHealthBarLinkData.IsEmpty
+  fullName: Surfer.SUHealthBarLinkData.IsEmpty
+  nameWithType: SUHealthBarLinkData.IsEmpty
+- uid: Surfer.SUHealthBarLinkData.IsEmpty*
+  name: IsEmpty
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_IsEmpty_
+  commentId: Overload:Surfer.SUHealthBarLinkData.IsEmpty
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.IsEmpty
+  nameWithType: SUHealthBarLinkData.IsEmpty
+- uid: Surfer.SUHealthBarLinkData.RemoveHp(System.Single)
+  name: RemoveHp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_RemoveHp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.RemoveHp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.RemoveHp(System.Single)
+  nameWithType: SUHealthBarLinkData.RemoveHp(Single)
+- uid: Surfer.SUHealthBarLinkData.RemoveHp*
+  name: RemoveHp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_RemoveHp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.RemoveHp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.RemoveHp
+  nameWithType: SUHealthBarLinkData.RemoveHp
+- uid: Surfer.SUHealthBarLinkData.RemoveMp(System.Single)
+  name: RemoveMp(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_RemoveMp_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.RemoveMp(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.RemoveMp(System.Single)
+  nameWithType: SUHealthBarLinkData.RemoveMp(Single)
+- uid: Surfer.SUHealthBarLinkData.RemoveMp*
+  name: RemoveMp
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_RemoveMp_
+  commentId: Overload:Surfer.SUHealthBarLinkData.RemoveMp
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.RemoveMp
+  nameWithType: SUHealthBarLinkData.RemoveMp
+- uid: Surfer.SUHealthBarLinkData.Restart
+  name: Restart()
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_Restart
+  commentId: M:Surfer.SUHealthBarLinkData.Restart
+  fullName: Surfer.SUHealthBarLinkData.Restart()
+  nameWithType: SUHealthBarLinkData.Restart()
+- uid: Surfer.SUHealthBarLinkData.Restart*
+  name: Restart
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_Restart_
+  commentId: Overload:Surfer.SUHealthBarLinkData.Restart
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.Restart
+  nameWithType: SUHealthBarLinkData.Restart
+- uid: Surfer.SUHealthBarLinkData.StartFollow
+  name: StartFollow()
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_StartFollow
+  commentId: M:Surfer.SUHealthBarLinkData.StartFollow
+  fullName: Surfer.SUHealthBarLinkData.StartFollow()
+  nameWithType: SUHealthBarLinkData.StartFollow()
+- uid: Surfer.SUHealthBarLinkData.StartFollow*
+  name: StartFollow
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_StartFollow_
+  commentId: Overload:Surfer.SUHealthBarLinkData.StartFollow
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.StartFollow
+  nameWithType: SUHealthBarLinkData.StartFollow
+- uid: Surfer.SUHealthBarLinkData.StopFollow
+  name: StopFollow()
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_StopFollow
+  commentId: M:Surfer.SUHealthBarLinkData.StopFollow
+  fullName: Surfer.SUHealthBarLinkData.StopFollow()
+  nameWithType: SUHealthBarLinkData.StopFollow()
+- uid: Surfer.SUHealthBarLinkData.StopFollow*
+  name: StopFollow
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_StopFollow_
+  commentId: Overload:Surfer.SUHealthBarLinkData.StopFollow
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.StopFollow
+  nameWithType: SUHealthBarLinkData.StopFollow
+- uid: Surfer.SUHealthBarLinkData.UseMP(System.Single)
+  name: UseMP(Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_UseMP_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.UseMP(System.Single)
+  fullName: Surfer.SUHealthBarLinkData.UseMP(System.Single)
+  nameWithType: SUHealthBarLinkData.UseMP(Single)
+- uid: Surfer.SUHealthBarLinkData.UseMP*
+  name: UseMP
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData_UseMP_
+  commentId: Overload:Surfer.SUHealthBarLinkData.UseMP
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarLinkData.UseMP
+  nameWithType: SUHealthBarLinkData.UseMP
+- uid: Surfer.SUHealthBarsManager
+  name: SUHealthBarsManager
+  href: api/Surfer.SUHealthBarsManager.html
+  commentId: T:Surfer.SUHealthBarsManager
+  fullName: Surfer.SUHealthBarsManager
+  nameWithType: SUHealthBarsManager
+- uid: Surfer.SUHealthBarsManager.GetAllByCustomTag(System.String,System.Action{Surfer.SUHealthBarData})
+  name: GetAllByCustomTag(String, Action<SUHealthBarData>)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_GetAllByCustomTag_System_String_System_Action_Surfer_SUHealthBarData__
+  commentId: M:Surfer.SUHealthBarsManager.GetAllByCustomTag(System.String,System.Action{Surfer.SUHealthBarData})
+  name.vb: GetAllByCustomTag(String, Action(Of SUHealthBarData))
+  fullName: Surfer.SUHealthBarsManager.GetAllByCustomTag(System.String, System.Action<Surfer.SUHealthBarData>)
+  fullName.vb: Surfer.SUHealthBarsManager.GetAllByCustomTag(System.String, System.Action(Of Surfer.SUHealthBarData))
+  nameWithType: SUHealthBarsManager.GetAllByCustomTag(String, Action<SUHealthBarData>)
+  nameWithType.vb: SUHealthBarsManager.GetAllByCustomTag(String, Action(Of SUHealthBarData))
+- uid: Surfer.SUHealthBarsManager.GetAllByCustomTag*
+  name: GetAllByCustomTag
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_GetAllByCustomTag_
+  commentId: Overload:Surfer.SUHealthBarsManager.GetAllByCustomTag
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.GetAllByCustomTag
+  nameWithType: SUHealthBarsManager.GetAllByCustomTag
+- uid: Surfer.SUHealthBarsManager.I
+  name: I
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_I
+  commentId: P:Surfer.SUHealthBarsManager.I
+  fullName: Surfer.SUHealthBarsManager.I
+  nameWithType: SUHealthBarsManager.I
+- uid: Surfer.SUHealthBarsManager.I*
+  name: I
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_I_
+  commentId: Overload:Surfer.SUHealthBarsManager.I
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.I
+  nameWithType: SUHealthBarsManager.I
+- uid: Surfer.SUHealthBarsManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_MainLoop
+  commentId: M:Surfer.SUHealthBarsManager.MainLoop
+  fullName: Surfer.SUHealthBarsManager.MainLoop()
+  nameWithType: SUHealthBarsManager.MainLoop()
+- uid: Surfer.SUHealthBarsManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_MainLoop_
+  commentId: Overload:Surfer.SUHealthBarsManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.MainLoop
+  nameWithType: SUHealthBarsManager.MainLoop
+- uid: Surfer.SUHealthBarsManager.MainParentName
+  name: MainParentName
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_MainParentName
+  commentId: P:Surfer.SUHealthBarsManager.MainParentName
+  fullName: Surfer.SUHealthBarsManager.MainParentName
+  nameWithType: SUHealthBarsManager.MainParentName
+- uid: Surfer.SUHealthBarsManager.MainParentName*
+  name: MainParentName
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_MainParentName_
+  commentId: Overload:Surfer.SUHealthBarsManager.MainParentName
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.MainParentName
+  nameWithType: SUHealthBarsManager.MainParentName
+- uid: Surfer.SUHealthBarsManager.SortOrder
+  name: SortOrder
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_SortOrder
+  commentId: P:Surfer.SUHealthBarsManager.SortOrder
+  fullName: Surfer.SUHealthBarsManager.SortOrder
+  nameWithType: SUHealthBarsManager.SortOrder
+- uid: Surfer.SUHealthBarsManager.SortOrder*
+  name: SortOrder
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_SortOrder_
+  commentId: Overload:Surfer.SUHealthBarsManager.SortOrder
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.SortOrder
+  nameWithType: SUHealthBarsManager.SortOrder
+- uid: Surfer.SUHealthBarsManager.StartFollow(Surfer.SUHealthBarLinkData)
+  name: StartFollow(SUHealthBarLinkData)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartFollow_Surfer_SUHealthBarLinkData_
+  commentId: M:Surfer.SUHealthBarsManager.StartFollow(Surfer.SUHealthBarLinkData)
+  fullName: Surfer.SUHealthBarsManager.StartFollow(Surfer.SUHealthBarLinkData)
+  nameWithType: SUHealthBarsManager.StartFollow(SUHealthBarLinkData)
+- uid: Surfer.SUHealthBarsManager.StartFollow*
+  name: StartFollow
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartFollow_
+  commentId: Overload:Surfer.SUHealthBarsManager.StartFollow
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.StartFollow
+  nameWithType: SUHealthBarsManager.StartFollow
+- uid: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,IEnumerator)
+  name: StartMPRoutine(SUHealthBarLinkData, IEnumerator)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartMPRoutine_Surfer_SUHealthBarLinkData_IEnumerator_
+  commentId: M:Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,IEnumerator)
+  fullName: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData, IEnumerator)
+  nameWithType: SUHealthBarsManager.StartMPRoutine(SUHealthBarLinkData, IEnumerator)
+- uid: Surfer.SUHealthBarsManager.StartMPRoutine*
+  name: StartMPRoutine
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartMPRoutine_
+  commentId: Overload:Surfer.SUHealthBarsManager.StartMPRoutine
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.StartMPRoutine
+  nameWithType: SUHealthBarsManager.StartMPRoutine
+- uid: Surfer.SUHealthBarsManager.StopFollow(Camera)
+  name: StopFollow(Camera)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StopFollow_Camera_
+  commentId: M:Surfer.SUHealthBarsManager.StopFollow(Camera)
+  fullName: Surfer.SUHealthBarsManager.StopFollow(Camera)
+  nameWithType: SUHealthBarsManager.StopFollow(Camera)
+- uid: Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarData)
+  name: StopFollow(SUHealthBarData)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StopFollow_Surfer_SUHealthBarData_
+  commentId: M:Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarData)
+  fullName: Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarData)
+  nameWithType: SUHealthBarsManager.StopFollow(SUHealthBarData)
+- uid: Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarLinkData)
+  name: StopFollow(SUHealthBarLinkData)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StopFollow_Surfer_SUHealthBarLinkData_
+  commentId: M:Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarLinkData)
+  fullName: Surfer.SUHealthBarsManager.StopFollow(Surfer.SUHealthBarLinkData)
+  nameWithType: SUHealthBarsManager.StopFollow(SUHealthBarLinkData)
+- uid: Surfer.SUHealthBarsManager.StopFollow(System.String)
+  name: StopFollow(String)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StopFollow_System_String_
+  commentId: M:Surfer.SUHealthBarsManager.StopFollow(System.String)
+  fullName: Surfer.SUHealthBarsManager.StopFollow(System.String)
+  nameWithType: SUHealthBarsManager.StopFollow(String)
+- uid: Surfer.SUHealthBarsManager.StopFollow*
+  name: StopFollow
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StopFollow_
+  commentId: Overload:Surfer.SUHealthBarsManager.StopFollow
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarsManager.StopFollow
+  nameWithType: SUHealthBarsManager.StopFollow
+- uid: Surfer.SUHealthBarState_ID
+  name: SUHealthBarState_ID
+  href: api/Surfer.SUHealthBarState_ID.html
+  commentId: T:Surfer.SUHealthBarState_ID
+  fullName: Surfer.SUHealthBarState_ID
+  nameWithType: SUHealthBarState_ID
+- uid: Surfer.SUHealthBarState_ID.None
+  name: None
+  href: api/Surfer.SUHealthBarState_ID.html#Surfer_SUHealthBarState_ID_None
+  commentId: F:Surfer.SUHealthBarState_ID.None
+  fullName: Surfer.SUHealthBarState_ID.None
+  nameWithType: SUHealthBarState_ID.None
+- uid: Surfer.SUHealthBarState_ID.Started
+  name: Started
+  href: api/Surfer.SUHealthBarState_ID.html#Surfer_SUHealthBarState_ID_Started
+  commentId: F:Surfer.SUHealthBarState_ID.Started
+  fullName: Surfer.SUHealthBarState_ID.Started
+  nameWithType: SUHealthBarState_ID.Started
+- uid: Surfer.SUHealthBarState_ID.Stopped
+  name: Stopped
+  href: api/Surfer.SUHealthBarState_ID.html#Surfer_SUHealthBarState_ID_Stopped
+  commentId: F:Surfer.SUHealthBarState_ID.Stopped
+  fullName: Surfer.SUHealthBarState_ID.Stopped
+  nameWithType: SUHealthBarState_ID.Stopped
+- uid: Surfer.SUHealthBarVisualData
+  name: SUHealthBarVisualData
+  href: api/Surfer.SUHealthBarVisualData.html
+  commentId: T:Surfer.SUHealthBarVisualData
+  fullName: Surfer.SUHealthBarVisualData
+  nameWithType: SUHealthBarVisualData
+- uid: Surfer.SUHealthBarVisualData.HpBar
+  name: HpBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_HpBar
+  commentId: P:Surfer.SUHealthBarVisualData.HpBar
+  fullName: Surfer.SUHealthBarVisualData.HpBar
+  nameWithType: SUHealthBarVisualData.HpBar
+- uid: Surfer.SUHealthBarVisualData.HpBar*
+  name: HpBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_HpBar_
+  commentId: Overload:Surfer.SUHealthBarVisualData.HpBar
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarVisualData.HpBar
+  nameWithType: SUHealthBarVisualData.HpBar
+- uid: Surfer.SUHealthBarVisualData.HpDamageBar
+  name: HpDamageBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_HpDamageBar
+  commentId: P:Surfer.SUHealthBarVisualData.HpDamageBar
+  fullName: Surfer.SUHealthBarVisualData.HpDamageBar
+  nameWithType: SUHealthBarVisualData.HpDamageBar
+- uid: Surfer.SUHealthBarVisualData.HpDamageBar*
+  name: HpDamageBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_HpDamageBar_
+  commentId: Overload:Surfer.SUHealthBarVisualData.HpDamageBar
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarVisualData.HpDamageBar
+  nameWithType: SUHealthBarVisualData.HpDamageBar
+- uid: Surfer.SUHealthBarVisualData.LinesImage
+  name: LinesImage
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_LinesImage
+  commentId: P:Surfer.SUHealthBarVisualData.LinesImage
+  fullName: Surfer.SUHealthBarVisualData.LinesImage
+  nameWithType: SUHealthBarVisualData.LinesImage
+- uid: Surfer.SUHealthBarVisualData.LinesImage*
+  name: LinesImage
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_LinesImage_
+  commentId: Overload:Surfer.SUHealthBarVisualData.LinesImage
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarVisualData.LinesImage
+  nameWithType: SUHealthBarVisualData.LinesImage
+- uid: Surfer.SUHealthBarVisualData.MpBar
+  name: MpBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_MpBar
+  commentId: P:Surfer.SUHealthBarVisualData.MpBar
+  fullName: Surfer.SUHealthBarVisualData.MpBar
+  nameWithType: SUHealthBarVisualData.MpBar
+- uid: Surfer.SUHealthBarVisualData.MpBar*
+  name: MpBar
+  href: api/Surfer.SUHealthBarVisualData.html#Surfer_SUHealthBarVisualData_MpBar_
+  commentId: Overload:Surfer.SUHealthBarVisualData.MpBar
+  isSpec: "True"
+  fullName: Surfer.SUHealthBarVisualData.MpBar
+  nameWithType: SUHealthBarVisualData.MpBar
 - uid: Surfer.SUHierarchyMonitor
   name: SUHierarchyMonitor
   href: api/Surfer.SUHierarchyMonitor.html
@@ -4937,107 +6032,57 @@ references:
   commentId: T:Surfer.SUIndicatorCamData
   fullName: Surfer.SUIndicatorCamData
   nameWithType: SUIndicatorCamData
-- uid: Surfer.SUIndicatorCamInfo
-  name: SUIndicatorCamInfo
-  href: api/Surfer.SUIndicatorCamInfo.html
-  commentId: T:Surfer.SUIndicatorCamInfo
-  fullName: Surfer.SUIndicatorCamInfo
-  nameWithType: SUIndicatorCamInfo
-- uid: Surfer.SUIndicatorCamInfo.Cam
-  name: Cam
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_Cam
-  commentId: P:Surfer.SUIndicatorCamInfo.Cam
-  fullName: Surfer.SUIndicatorCamInfo.Cam
-  nameWithType: SUIndicatorCamInfo.Cam
-- uid: Surfer.SUIndicatorCamInfo.Cam*
-  name: Cam
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_Cam_
-  commentId: Overload:Surfer.SUIndicatorCamInfo.Cam
+- uid: Surfer.SUIndicatorCamData.AllIndicators
+  name: AllIndicators
+  href: api/Surfer.SUIndicatorCamData.html#Surfer_SUIndicatorCamData_AllIndicators
+  commentId: P:Surfer.SUIndicatorCamData.AllIndicators
+  fullName: Surfer.SUIndicatorCamData.AllIndicators
+  nameWithType: SUIndicatorCamData.AllIndicators
+- uid: Surfer.SUIndicatorCamData.AllIndicators*
+  name: AllIndicators
+  href: api/Surfer.SUIndicatorCamData.html#Surfer_SUIndicatorCamData_AllIndicators_
+  commentId: Overload:Surfer.SUIndicatorCamData.AllIndicators
   isSpec: "True"
-  fullName: Surfer.SUIndicatorCamInfo.Cam
-  nameWithType: SUIndicatorCamInfo.Cam
-- uid: Surfer.SUIndicatorCamInfo.CamCanvas
-  name: CamCanvas
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_CamCanvas
-  commentId: P:Surfer.SUIndicatorCamInfo.CamCanvas
-  fullName: Surfer.SUIndicatorCamInfo.CamCanvas
-  nameWithType: SUIndicatorCamInfo.CamCanvas
-- uid: Surfer.SUIndicatorCamInfo.CamCanvas*
-  name: CamCanvas
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_CamCanvas_
-  commentId: Overload:Surfer.SUIndicatorCamInfo.CamCanvas
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorCamInfo.CamCanvas
-  nameWithType: SUIndicatorCamInfo.CamCanvas
-- uid: Surfer.SUIndicatorCamInfo.CamCanvasRect
-  name: CamCanvasRect
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_CamCanvasRect
-  commentId: P:Surfer.SUIndicatorCamInfo.CamCanvasRect
-  fullName: Surfer.SUIndicatorCamInfo.CamCanvasRect
-  nameWithType: SUIndicatorCamInfo.CamCanvasRect
-- uid: Surfer.SUIndicatorCamInfo.CamCanvasRect*
-  name: CamCanvasRect
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_CamCanvasRect_
-  commentId: Overload:Surfer.SUIndicatorCamInfo.CamCanvasRect
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorCamInfo.CamCanvasRect
-  nameWithType: SUIndicatorCamInfo.CamCanvasRect
-- uid: Surfer.SUIndicatorCamInfo.Objects
-  name: Objects
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_Objects
-  commentId: P:Surfer.SUIndicatorCamInfo.Objects
-  fullName: Surfer.SUIndicatorCamInfo.Objects
-  nameWithType: SUIndicatorCamInfo.Objects
-- uid: Surfer.SUIndicatorCamInfo.Objects*
-  name: Objects
-  href: api/Surfer.SUIndicatorCamInfo.html#Surfer_SUIndicatorCamInfo_Objects_
-  commentId: Overload:Surfer.SUIndicatorCamInfo.Objects
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorCamInfo.Objects
-  nameWithType: SUIndicatorCamInfo.Objects
+  fullName: Surfer.SUIndicatorCamData.AllIndicators
+  nameWithType: SUIndicatorCamData.AllIndicators
 - uid: Surfer.SUIndicatorData
   name: SUIndicatorData
   href: api/Surfer.SUIndicatorData.html
   commentId: T:Surfer.SUIndicatorData
   fullName: Surfer.SUIndicatorData
   nameWithType: SUIndicatorData
-- uid: Surfer.SUIndicatorData.AngleOffset
-  name: AngleOffset
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_AngleOffset
-  commentId: P:Surfer.SUIndicatorData.AngleOffset
-  fullName: Surfer.SUIndicatorData.AngleOffset
-  nameWithType: SUIndicatorData.AngleOffset
-- uid: Surfer.SUIndicatorData.AngleOffset*
-  name: AngleOffset
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_AngleOffset_
-  commentId: Overload:Surfer.SUIndicatorData.AngleOffset
+- uid: Surfer.SUIndicatorData.#ctor
+  name: SUIndicatorData()
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData__ctor
+  commentId: M:Surfer.SUIndicatorData.#ctor
+  fullName: Surfer.SUIndicatorData.SUIndicatorData()
+  nameWithType: SUIndicatorData.SUIndicatorData()
+- uid: Surfer.SUIndicatorData.#ctor(GameObject,Camera,Surfer.SUIndicatorData.Type_ID,RenderMode,System.String,Vector2,Transform,System.Single)
+  name: SUIndicatorData(GameObject, Camera, SUIndicatorData.Type_ID, RenderMode, String, Vector2, Transform, Single)
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData__ctor_GameObject_Camera_Surfer_SUIndicatorData_Type_ID_RenderMode_System_String_Vector2_Transform_System_Single_
+  commentId: M:Surfer.SUIndicatorData.#ctor(GameObject,Camera,Surfer.SUIndicatorData.Type_ID,RenderMode,System.String,Vector2,Transform,System.Single)
+  fullName: Surfer.SUIndicatorData.SUIndicatorData(GameObject, Camera, Surfer.SUIndicatorData.Type_ID, RenderMode, System.String, Vector2, Transform, System.Single)
+  nameWithType: SUIndicatorData.SUIndicatorData(GameObject, Camera, SUIndicatorData.Type_ID, RenderMode, String, Vector2, Transform, Single)
+- uid: Surfer.SUIndicatorData.#ctor*
+  name: SUIndicatorData
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData__ctor_
+  commentId: Overload:Surfer.SUIndicatorData.#ctor
   isSpec: "True"
-  fullName: Surfer.SUIndicatorData.AngleOffset
-  nameWithType: SUIndicatorData.AngleOffset
-- uid: Surfer.SUIndicatorData.CameraType_ID
-  name: SUIndicatorData.CameraType_ID
-  href: api/Surfer.SUIndicatorData.CameraType_ID.html
-  commentId: T:Surfer.SUIndicatorData.CameraType_ID
-  fullName: Surfer.SUIndicatorData.CameraType_ID
-  nameWithType: SUIndicatorData.CameraType_ID
-- uid: Surfer.SUIndicatorData.CameraType_ID.Custom
-  name: Custom
-  href: api/Surfer.SUIndicatorData.CameraType_ID.html#Surfer_SUIndicatorData_CameraType_ID_Custom
-  commentId: F:Surfer.SUIndicatorData.CameraType_ID.Custom
-  fullName: Surfer.SUIndicatorData.CameraType_ID.Custom
-  nameWithType: SUIndicatorData.CameraType_ID.Custom
-- uid: Surfer.SUIndicatorData.CameraType_ID.ExceptMain
-  name: ExceptMain
-  href: api/Surfer.SUIndicatorData.CameraType_ID.html#Surfer_SUIndicatorData_CameraType_ID_ExceptMain
-  commentId: F:Surfer.SUIndicatorData.CameraType_ID.ExceptMain
-  fullName: Surfer.SUIndicatorData.CameraType_ID.ExceptMain
-  nameWithType: SUIndicatorData.CameraType_ID.ExceptMain
-- uid: Surfer.SUIndicatorData.CameraType_ID.Main
-  name: Main
-  href: api/Surfer.SUIndicatorData.CameraType_ID.html#Surfer_SUIndicatorData_CameraType_ID_Main
-  commentId: F:Surfer.SUIndicatorData.CameraType_ID.Main
-  fullName: Surfer.SUIndicatorData.CameraType_ID.Main
-  nameWithType: SUIndicatorData.CameraType_ID.Main
+  fullName: Surfer.SUIndicatorData.SUIndicatorData
+  nameWithType: SUIndicatorData.SUIndicatorData
+- uid: Surfer.SUIndicatorData.DistanceState
+  name: DistanceState
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_DistanceState
+  commentId: P:Surfer.SUIndicatorData.DistanceState
+  fullName: Surfer.SUIndicatorData.DistanceState
+  nameWithType: SUIndicatorData.DistanceState
+- uid: Surfer.SUIndicatorData.DistanceState*
+  name: DistanceState
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_DistanceState_
+  commentId: Overload:Surfer.SUIndicatorData.DistanceState
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorData.DistanceState
+  nameWithType: SUIndicatorData.DistanceState
 - uid: Surfer.SUIndicatorData.IsOffScreenType
   name: IsOffScreenType
   href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_IsOffScreenType
@@ -5064,64 +6109,58 @@ references:
   isSpec: "True"
   fullName: Surfer.SUIndicatorData.IsOnScreenType
   nameWithType: SUIndicatorData.IsOnScreenType
-- uid: Surfer.SUIndicatorData.Prefab
-  name: Prefab
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Prefab
-  commentId: P:Surfer.SUIndicatorData.Prefab
-  fullName: Surfer.SUIndicatorData.Prefab
-  nameWithType: SUIndicatorData.Prefab
-- uid: Surfer.SUIndicatorData.Prefab*
-  name: Prefab
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Prefab_
-  commentId: Overload:Surfer.SUIndicatorData.Prefab
+- uid: Surfer.SUIndicatorData.LinkID
+  name: LinkID
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_LinkID
+  commentId: P:Surfer.SUIndicatorData.LinkID
+  fullName: Surfer.SUIndicatorData.LinkID
+  nameWithType: SUIndicatorData.LinkID
+- uid: Surfer.SUIndicatorData.LinkID*
+  name: LinkID
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_LinkID_
+  commentId: Overload:Surfer.SUIndicatorData.LinkID
   isSpec: "True"
-  fullName: Surfer.SUIndicatorData.Prefab
-  nameWithType: SUIndicatorData.Prefab
-- uid: Surfer.SUIndicatorData.StartFollow
-  name: StartFollow()
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_StartFollow
-  commentId: M:Surfer.SUIndicatorData.StartFollow
-  fullName: Surfer.SUIndicatorData.StartFollow()
-  nameWithType: SUIndicatorData.StartFollow()
-- uid: Surfer.SUIndicatorData.StartFollow*
-  name: StartFollow
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_StartFollow_
-  commentId: Overload:Surfer.SUIndicatorData.StartFollow
+  fullName: Surfer.SUIndicatorData.LinkID
+  nameWithType: SUIndicatorData.LinkID
+- uid: Surfer.SUIndicatorData.PlayerObj
+  name: PlayerObj
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_PlayerObj
+  commentId: P:Surfer.SUIndicatorData.PlayerObj
+  fullName: Surfer.SUIndicatorData.PlayerObj
+  nameWithType: SUIndicatorData.PlayerObj
+- uid: Surfer.SUIndicatorData.PlayerObj*
+  name: PlayerObj
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_PlayerObj_
+  commentId: Overload:Surfer.SUIndicatorData.PlayerObj
   isSpec: "True"
-  fullName: Surfer.SUIndicatorData.StartFollow
-  nameWithType: SUIndicatorData.StartFollow
-- uid: Surfer.SUIndicatorData.StopFollow
-  name: StopFollow()
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_StopFollow
-  commentId: M:Surfer.SUIndicatorData.StopFollow
-  fullName: Surfer.SUIndicatorData.StopFollow()
-  nameWithType: SUIndicatorData.StopFollow()
-- uid: Surfer.SUIndicatorData.StopFollow(Camera)
-  name: StopFollow(Camera)
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_StopFollow_Camera_
-  commentId: M:Surfer.SUIndicatorData.StopFollow(Camera)
-  fullName: Surfer.SUIndicatorData.StopFollow(Camera)
-  nameWithType: SUIndicatorData.StopFollow(Camera)
-- uid: Surfer.SUIndicatorData.StopFollow*
-  name: StopFollow
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_StopFollow_
-  commentId: Overload:Surfer.SUIndicatorData.StopFollow
+  fullName: Surfer.SUIndicatorData.PlayerObj
+  nameWithType: SUIndicatorData.PlayerObj
+- uid: Surfer.SUIndicatorData.Radius
+  name: Radius
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Radius
+  commentId: P:Surfer.SUIndicatorData.Radius
+  fullName: Surfer.SUIndicatorData.Radius
+  nameWithType: SUIndicatorData.Radius
+- uid: Surfer.SUIndicatorData.Radius*
+  name: Radius
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Radius_
+  commentId: Overload:Surfer.SUIndicatorData.Radius
   isSpec: "True"
-  fullName: Surfer.SUIndicatorData.StopFollow
-  nameWithType: SUIndicatorData.StopFollow
-- uid: Surfer.SUIndicatorData.Target
-  name: Target
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Target
-  commentId: P:Surfer.SUIndicatorData.Target
-  fullName: Surfer.SUIndicatorData.Target
-  nameWithType: SUIndicatorData.Target
-- uid: Surfer.SUIndicatorData.Target*
-  name: Target
-  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Target_
-  commentId: Overload:Surfer.SUIndicatorData.Target
+  fullName: Surfer.SUIndicatorData.Radius
+  nameWithType: SUIndicatorData.Radius
+- uid: Surfer.SUIndicatorData.State
+  name: State
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_State
+  commentId: P:Surfer.SUIndicatorData.State
+  fullName: Surfer.SUIndicatorData.State
+  nameWithType: SUIndicatorData.State
+- uid: Surfer.SUIndicatorData.State*
+  name: State
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_State_
+  commentId: Overload:Surfer.SUIndicatorData.State
   isSpec: "True"
-  fullName: Surfer.SUIndicatorData.Target
-  nameWithType: SUIndicatorData.Target
+  fullName: Surfer.SUIndicatorData.State
+  nameWithType: SUIndicatorData.State
 - uid: Surfer.SUIndicatorData.Type
   name: Type
   href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_Type
@@ -5147,18 +6186,31 @@ references:
   commentId: F:Surfer.SUIndicatorData.Type_ID.Both
   fullName: Surfer.SUIndicatorData.Type_ID.Both
   nameWithType: SUIndicatorData.Type_ID.Both
-- uid: Surfer.SUIndicatorData.Type_ID.Off
-  name: Off
-  href: api/Surfer.SUIndicatorData.Type_ID.html#Surfer_SUIndicatorData_Type_ID_Off
-  commentId: F:Surfer.SUIndicatorData.Type_ID.Off
-  fullName: Surfer.SUIndicatorData.Type_ID.Off
-  nameWithType: SUIndicatorData.Type_ID.Off
-- uid: Surfer.SUIndicatorData.Type_ID.On
-  name: On
-  href: api/Surfer.SUIndicatorData.Type_ID.html#Surfer_SUIndicatorData_Type_ID_On
-  commentId: F:Surfer.SUIndicatorData.Type_ID.On
-  fullName: Surfer.SUIndicatorData.Type_ID.On
-  nameWithType: SUIndicatorData.Type_ID.On
+- uid: Surfer.SUIndicatorData.Type_ID.OffScreen
+  name: OffScreen
+  href: api/Surfer.SUIndicatorData.Type_ID.html#Surfer_SUIndicatorData_Type_ID_OffScreen
+  commentId: F:Surfer.SUIndicatorData.Type_ID.OffScreen
+  fullName: Surfer.SUIndicatorData.Type_ID.OffScreen
+  nameWithType: SUIndicatorData.Type_ID.OffScreen
+- uid: Surfer.SUIndicatorData.Type_ID.OnScreen
+  name: OnScreen
+  href: api/Surfer.SUIndicatorData.Type_ID.html#Surfer_SUIndicatorData_Type_ID_OnScreen
+  commentId: F:Surfer.SUIndicatorData.Type_ID.OnScreen
+  fullName: Surfer.SUIndicatorData.Type_ID.OnScreen
+  nameWithType: SUIndicatorData.Type_ID.OnScreen
+- uid: Surfer.SUIndicatorData.VisualData
+  name: VisualData
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_VisualData
+  commentId: P:Surfer.SUIndicatorData.VisualData
+  fullName: Surfer.SUIndicatorData.VisualData
+  nameWithType: SUIndicatorData.VisualData
+- uid: Surfer.SUIndicatorData.VisualData*
+  name: VisualData
+  href: api/Surfer.SUIndicatorData.html#Surfer_SUIndicatorData_VisualData_
+  commentId: Overload:Surfer.SUIndicatorData.VisualData
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorData.VisualData
+  nameWithType: SUIndicatorData.VisualData
 - uid: Surfer.SUIndicatorDataDrawer
   name: SUIndicatorDataDrawer
   href: api/Surfer.SUIndicatorDataDrawer.html
@@ -5191,109 +6243,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUIndicatorDataDrawer.OnGUI
   nameWithType: SUIndicatorDataDrawer.OnGUI
-- uid: Surfer.SUIndicatorDistanceEventData
-  name: SUIndicatorDistanceEventData
-  href: api/Surfer.SUIndicatorDistanceEventData.html
-  commentId: T:Surfer.SUIndicatorDistanceEventData
-  fullName: Surfer.SUIndicatorDistanceEventData
-  nameWithType: SUIndicatorDistanceEventData
-- uid: Surfer.SUIndicatorDistanceEventData.#ctor(Surfer.SUIndicatorDistanceInfo,Surfer.SUIndicatorData)
-  name: SUIndicatorDistanceEventData(SUIndicatorDistanceInfo, SUIndicatorData)
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData__ctor_Surfer_SUIndicatorDistanceInfo_Surfer_SUIndicatorData_
-  commentId: M:Surfer.SUIndicatorDistanceEventData.#ctor(Surfer.SUIndicatorDistanceInfo,Surfer.SUIndicatorData)
-  fullName: Surfer.SUIndicatorDistanceEventData.SUIndicatorDistanceEventData(Surfer.SUIndicatorDistanceInfo, Surfer.SUIndicatorData)
-  nameWithType: SUIndicatorDistanceEventData.SUIndicatorDistanceEventData(SUIndicatorDistanceInfo, SUIndicatorData)
-- uid: Surfer.SUIndicatorDistanceEventData.#ctor*
-  name: SUIndicatorDistanceEventData
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData__ctor_
-  commentId: Overload:Surfer.SUIndicatorDistanceEventData.#ctor
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceEventData.SUIndicatorDistanceEventData
-  nameWithType: SUIndicatorDistanceEventData.SUIndicatorDistanceEventData
-- uid: Surfer.SUIndicatorDistanceEventData.Data
-  name: Data
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData_Data
-  commentId: P:Surfer.SUIndicatorDistanceEventData.Data
-  fullName: Surfer.SUIndicatorDistanceEventData.Data
-  nameWithType: SUIndicatorDistanceEventData.Data
-- uid: Surfer.SUIndicatorDistanceEventData.Data*
-  name: Data
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData_Data_
-  commentId: Overload:Surfer.SUIndicatorDistanceEventData.Data
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceEventData.Data
-  nameWithType: SUIndicatorDistanceEventData.Data
-- uid: Surfer.SUIndicatorDistanceEventData.Info
-  name: Info
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData_Info
-  commentId: P:Surfer.SUIndicatorDistanceEventData.Info
-  fullName: Surfer.SUIndicatorDistanceEventData.Info
-  nameWithType: SUIndicatorDistanceEventData.Info
-- uid: Surfer.SUIndicatorDistanceEventData.Info*
-  name: Info
-  href: api/Surfer.SUIndicatorDistanceEventData.html#Surfer_SUIndicatorDistanceEventData_Info_
-  commentId: Overload:Surfer.SUIndicatorDistanceEventData.Info
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceEventData.Info
-  nameWithType: SUIndicatorDistanceEventData.Info
-- uid: Surfer.SUIndicatorDistanceInfo
-  name: SUIndicatorDistanceInfo
-  href: api/Surfer.SUIndicatorDistanceInfo.html
-  commentId: T:Surfer.SUIndicatorDistanceInfo
-  fullName: Surfer.SUIndicatorDistanceInfo
-  nameWithType: SUIndicatorDistanceInfo
-- uid: Surfer.SUIndicatorDistanceInfo.#ctor(Transform)
-  name: SUIndicatorDistanceInfo(Transform)
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo__ctor_Transform_
-  commentId: M:Surfer.SUIndicatorDistanceInfo.#ctor(Transform)
-  fullName: Surfer.SUIndicatorDistanceInfo.SUIndicatorDistanceInfo(Transform)
-  nameWithType: SUIndicatorDistanceInfo.SUIndicatorDistanceInfo(Transform)
-- uid: Surfer.SUIndicatorDistanceInfo.#ctor*
-  name: SUIndicatorDistanceInfo
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo__ctor_
-  commentId: Overload:Surfer.SUIndicatorDistanceInfo.#ctor
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceInfo.SUIndicatorDistanceInfo
-  nameWithType: SUIndicatorDistanceInfo.SUIndicatorDistanceInfo
-- uid: Surfer.SUIndicatorDistanceInfo.Distance
-  name: Distance
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_Distance
-  commentId: P:Surfer.SUIndicatorDistanceInfo.Distance
-  fullName: Surfer.SUIndicatorDistanceInfo.Distance
-  nameWithType: SUIndicatorDistanceInfo.Distance
-- uid: Surfer.SUIndicatorDistanceInfo.Distance*
-  name: Distance
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_Distance_
-  commentId: Overload:Surfer.SUIndicatorDistanceInfo.Distance
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceInfo.Distance
-  nameWithType: SUIndicatorDistanceInfo.Distance
-- uid: Surfer.SUIndicatorDistanceInfo.Object
-  name: Object
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_Object
-  commentId: P:Surfer.SUIndicatorDistanceInfo.Object
-  fullName: Surfer.SUIndicatorDistanceInfo.Object
-  nameWithType: SUIndicatorDistanceInfo.Object
-- uid: Surfer.SUIndicatorDistanceInfo.Object*
-  name: Object
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_Object_
-  commentId: Overload:Surfer.SUIndicatorDistanceInfo.Object
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceInfo.Object
-  nameWithType: SUIndicatorDistanceInfo.Object
-- uid: Surfer.SUIndicatorDistanceInfo.State
-  name: State
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_State
-  commentId: P:Surfer.SUIndicatorDistanceInfo.State
-  fullName: Surfer.SUIndicatorDistanceInfo.State
-  nameWithType: SUIndicatorDistanceInfo.State
-- uid: Surfer.SUIndicatorDistanceInfo.State*
-  name: State
-  href: api/Surfer.SUIndicatorDistanceInfo.html#Surfer_SUIndicatorDistanceInfo_State_
-  commentId: Overload:Surfer.SUIndicatorDistanceInfo.State
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorDistanceInfo.State
-  nameWithType: SUIndicatorDistanceInfo.State
 - uid: Surfer.SUIndicatorDistanceState_ID
   name: SUIndicatorDistanceState_ID
   href: api/Surfer.SUIndicatorDistanceState_ID.html
@@ -5306,24 +6255,36 @@ references:
   commentId: F:Surfer.SUIndicatorDistanceState_ID.Close
   fullName: Surfer.SUIndicatorDistanceState_ID.Close
   nameWithType: SUIndicatorDistanceState_ID.Close
+- uid: Surfer.SUIndicatorDistanceState_ID.CloseAndCentered
+  name: CloseAndCentered
+  href: api/Surfer.SUIndicatorDistanceState_ID.html#Surfer_SUIndicatorDistanceState_ID_CloseAndCentered
+  commentId: F:Surfer.SUIndicatorDistanceState_ID.CloseAndCentered
+  fullName: Surfer.SUIndicatorDistanceState_ID.CloseAndCentered
+  nameWithType: SUIndicatorDistanceState_ID.CloseAndCentered
 - uid: Surfer.SUIndicatorDistanceState_ID.Far
   name: Far
   href: api/Surfer.SUIndicatorDistanceState_ID.html#Surfer_SUIndicatorDistanceState_ID_Far
   commentId: F:Surfer.SUIndicatorDistanceState_ID.Far
   fullName: Surfer.SUIndicatorDistanceState_ID.Far
   nameWithType: SUIndicatorDistanceState_ID.Far
+- uid: Surfer.SUIndicatorDistanceState_ID.None
+  name: None
+  href: api/Surfer.SUIndicatorDistanceState_ID.html#Surfer_SUIndicatorDistanceState_ID_None
+  commentId: F:Surfer.SUIndicatorDistanceState_ID.None
+  fullName: Surfer.SUIndicatorDistanceState_ID.None
+  nameWithType: SUIndicatorDistanceState_ID.None
 - uid: Surfer.SUIndicatorEventData
   name: SUIndicatorEventData
   href: api/Surfer.SUIndicatorEventData.html
   commentId: T:Surfer.SUIndicatorEventData
   fullName: Surfer.SUIndicatorEventData
   nameWithType: SUIndicatorEventData
-- uid: Surfer.SUIndicatorEventData.#ctor(Surfer.SUIndicatorInfo,Surfer.SUIndicatorCamInfo)
-  name: SUIndicatorEventData(SUIndicatorInfo, SUIndicatorCamInfo)
-  href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData__ctor_Surfer_SUIndicatorInfo_Surfer_SUIndicatorCamInfo_
-  commentId: M:Surfer.SUIndicatorEventData.#ctor(Surfer.SUIndicatorInfo,Surfer.SUIndicatorCamInfo)
-  fullName: Surfer.SUIndicatorEventData.SUIndicatorEventData(Surfer.SUIndicatorInfo, Surfer.SUIndicatorCamInfo)
-  nameWithType: SUIndicatorEventData.SUIndicatorEventData(SUIndicatorInfo, SUIndicatorCamInfo)
+- uid: Surfer.SUIndicatorEventData.#ctor(Surfer.SUIndicatorData)
+  name: SUIndicatorEventData(SUIndicatorData)
+  href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData__ctor_Surfer_SUIndicatorData_
+  commentId: M:Surfer.SUIndicatorEventData.#ctor(Surfer.SUIndicatorData)
+  fullName: Surfer.SUIndicatorEventData.SUIndicatorEventData(Surfer.SUIndicatorData)
+  nameWithType: SUIndicatorEventData.SUIndicatorEventData(SUIndicatorData)
 - uid: Surfer.SUIndicatorEventData.#ctor*
   name: SUIndicatorEventData
   href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData__ctor_
@@ -5331,88 +6292,133 @@ references:
   isSpec: "True"
   fullName: Surfer.SUIndicatorEventData.SUIndicatorEventData
   nameWithType: SUIndicatorEventData.SUIndicatorEventData
-- uid: Surfer.SUIndicatorEventData.CamInfo
-  name: CamInfo
-  href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData_CamInfo
-  commentId: F:Surfer.SUIndicatorEventData.CamInfo
-  fullName: Surfer.SUIndicatorEventData.CamInfo
-  nameWithType: SUIndicatorEventData.CamInfo
-- uid: Surfer.SUIndicatorEventData.Info
-  name: Info
-  href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData_Info
-  commentId: F:Surfer.SUIndicatorEventData.Info
-  fullName: Surfer.SUIndicatorEventData.Info
-  nameWithType: SUIndicatorEventData.Info
-- uid: Surfer.SUIndicatorInfo
-  name: SUIndicatorInfo
-  href: api/Surfer.SUIndicatorInfo.html
-  commentId: T:Surfer.SUIndicatorInfo
-  fullName: Surfer.SUIndicatorInfo
-  nameWithType: SUIndicatorInfo
-- uid: Surfer.SUIndicatorInfo.#ctor(Surfer.SUIndicatorState_ID,Surfer.SUIndicatorData,RectTransform)
-  name: SUIndicatorInfo(SUIndicatorState_ID, SUIndicatorData, RectTransform)
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo__ctor_Surfer_SUIndicatorState_ID_Surfer_SUIndicatorData_RectTransform_
-  commentId: M:Surfer.SUIndicatorInfo.#ctor(Surfer.SUIndicatorState_ID,Surfer.SUIndicatorData,RectTransform)
-  fullName: Surfer.SUIndicatorInfo.SUIndicatorInfo(Surfer.SUIndicatorState_ID, Surfer.SUIndicatorData, RectTransform)
-  nameWithType: SUIndicatorInfo.SUIndicatorInfo(SUIndicatorState_ID, SUIndicatorData, RectTransform)
-- uid: Surfer.SUIndicatorInfo.#ctor*
-  name: SUIndicatorInfo
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo__ctor_
-  commentId: Overload:Surfer.SUIndicatorInfo.#ctor
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorInfo.SUIndicatorInfo
-  nameWithType: SUIndicatorInfo.SUIndicatorInfo
-- uid: Surfer.SUIndicatorInfo.Data
+- uid: Surfer.SUIndicatorEventData.Data
   name: Data
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_Data
-  commentId: P:Surfer.SUIndicatorInfo.Data
-  fullName: Surfer.SUIndicatorInfo.Data
-  nameWithType: SUIndicatorInfo.Data
-- uid: Surfer.SUIndicatorInfo.Data*
-  name: Data
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_Data_
-  commentId: Overload:Surfer.SUIndicatorInfo.Data
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorInfo.Data
-  nameWithType: SUIndicatorInfo.Data
-- uid: Surfer.SUIndicatorInfo.Object
-  name: Object
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_Object
-  commentId: P:Surfer.SUIndicatorInfo.Object
-  fullName: Surfer.SUIndicatorInfo.Object
-  nameWithType: SUIndicatorInfo.Object
-- uid: Surfer.SUIndicatorInfo.Object*
-  name: Object
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_Object_
-  commentId: Overload:Surfer.SUIndicatorInfo.Object
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorInfo.Object
-  nameWithType: SUIndicatorInfo.Object
-- uid: Surfer.SUIndicatorInfo.State
-  name: State
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_State
-  commentId: P:Surfer.SUIndicatorInfo.State
-  fullName: Surfer.SUIndicatorInfo.State
-  nameWithType: SUIndicatorInfo.State
-- uid: Surfer.SUIndicatorInfo.State*
-  name: State
-  href: api/Surfer.SUIndicatorInfo.html#Surfer_SUIndicatorInfo_State_
-  commentId: Overload:Surfer.SUIndicatorInfo.State
-  isSpec: "True"
-  fullName: Surfer.SUIndicatorInfo.State
-  nameWithType: SUIndicatorInfo.State
+  href: api/Surfer.SUIndicatorEventData.html#Surfer_SUIndicatorEventData_Data
+  commentId: F:Surfer.SUIndicatorEventData.Data
+  fullName: Surfer.SUIndicatorEventData.Data
+  nameWithType: SUIndicatorEventData.Data
 - uid: Surfer.SUIndicatorLink
   name: SUIndicatorLink
   href: api/Surfer.SUIndicatorLink.html
   commentId: T:Surfer.SUIndicatorLink
   fullName: Surfer.SUIndicatorLink
   nameWithType: SUIndicatorLink
+- uid: Surfer.SUIndicatorLink.Data
+  name: Data
+  href: api/Surfer.SUIndicatorLink.html#Surfer_SUIndicatorLink_Data
+  commentId: P:Surfer.SUIndicatorLink.Data
+  fullName: Surfer.SUIndicatorLink.Data
+  nameWithType: SUIndicatorLink.Data
+- uid: Surfer.SUIndicatorLink.Data*
+  name: Data
+  href: api/Surfer.SUIndicatorLink.html#Surfer_SUIndicatorLink_Data_
+  commentId: Overload:Surfer.SUIndicatorLink.Data
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorLink.Data
+  nameWithType: SUIndicatorLink.Data
+- uid: Surfer.SUIndicatorLinkData
+  name: SUIndicatorLinkData
+  href: api/Surfer.SUIndicatorLinkData.html
+  commentId: T:Surfer.SUIndicatorLinkData
+  fullName: Surfer.SUIndicatorLinkData
+  nameWithType: SUIndicatorLinkData
+- uid: Surfer.SUIndicatorLinkData.#ctor
+  name: SUIndicatorLinkData()
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData__ctor
+  commentId: M:Surfer.SUIndicatorLinkData.#ctor
+  fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData()
+  nameWithType: SUIndicatorLinkData.SUIndicatorLinkData()
+- uid: Surfer.SUIndicatorLinkData.#ctor(Transform,List{Surfer.SUIndicatorData})
+  name: SUIndicatorLinkData(Transform, List<SUIndicatorData>)
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData__ctor_Transform_List_Surfer_SUIndicatorData__
+  commentId: M:Surfer.SUIndicatorLinkData.#ctor(Transform,List{Surfer.SUIndicatorData})
+  name.vb: SUIndicatorLinkData(Transform, List(Of SUIndicatorData))
+  fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, List<Surfer.SUIndicatorData>)
+  fullName.vb: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, List(Of Surfer.SUIndicatorData))
+  nameWithType: SUIndicatorLinkData.SUIndicatorLinkData(Transform, List<SUIndicatorData>)
+  nameWithType.vb: SUIndicatorLinkData.SUIndicatorLinkData(Transform, List(Of SUIndicatorData))
+- uid: Surfer.SUIndicatorLinkData.#ctor*
+  name: SUIndicatorLinkData
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData__ctor_
+  commentId: Overload:Surfer.SUIndicatorLinkData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData
+  nameWithType: SUIndicatorLinkData.SUIndicatorLinkData
+- uid: Surfer.SUIndicatorLinkData.AllData
+  name: AllData
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_AllData
+  commentId: P:Surfer.SUIndicatorLinkData.AllData
+  fullName: Surfer.SUIndicatorLinkData.AllData
+  nameWithType: SUIndicatorLinkData.AllData
+- uid: Surfer.SUIndicatorLinkData.AllData*
+  name: AllData
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_AllData_
+  commentId: Overload:Surfer.SUIndicatorLinkData.AllData
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorLinkData.AllData
+  nameWithType: SUIndicatorLinkData.AllData
+- uid: Surfer.SUIndicatorLinkData.StartFollow
+  name: StartFollow()
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_StartFollow
+  commentId: M:Surfer.SUIndicatorLinkData.StartFollow
+  fullName: Surfer.SUIndicatorLinkData.StartFollow()
+  nameWithType: SUIndicatorLinkData.StartFollow()
+- uid: Surfer.SUIndicatorLinkData.StartFollow*
+  name: StartFollow
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_StartFollow_
+  commentId: Overload:Surfer.SUIndicatorLinkData.StartFollow
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorLinkData.StartFollow
+  nameWithType: SUIndicatorLinkData.StartFollow
+- uid: Surfer.SUIndicatorLinkData.StopFollow
+  name: StopFollow()
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_StopFollow
+  commentId: M:Surfer.SUIndicatorLinkData.StopFollow
+  fullName: Surfer.SUIndicatorLinkData.StopFollow()
+  nameWithType: SUIndicatorLinkData.StopFollow()
+- uid: Surfer.SUIndicatorLinkData.StopFollow*
+  name: StopFollow
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData_StopFollow_
+  commentId: Overload:Surfer.SUIndicatorLinkData.StopFollow
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorLinkData.StopFollow
+  nameWithType: SUIndicatorLinkData.StopFollow
 - uid: Surfer.SUIndicatorsManager
   name: SUIndicatorsManager
   href: api/Surfer.SUIndicatorsManager.html
   commentId: T:Surfer.SUIndicatorsManager
   fullName: Surfer.SUIndicatorsManager
   nameWithType: SUIndicatorsManager
+- uid: Surfer.SUIndicatorsManager.GetAliases(Surfer.SUIndicatorData,System.Boolean)
+  name: GetAliases(SUIndicatorData, Boolean)
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_GetAliases_Surfer_SUIndicatorData_System_Boolean_
+  commentId: M:Surfer.SUIndicatorsManager.GetAliases(Surfer.SUIndicatorData,System.Boolean)
+  fullName: Surfer.SUIndicatorsManager.GetAliases(Surfer.SUIndicatorData, System.Boolean)
+  nameWithType: SUIndicatorsManager.GetAliases(SUIndicatorData, Boolean)
+- uid: Surfer.SUIndicatorsManager.GetAliases*
+  name: GetAliases
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_GetAliases_
+  commentId: Overload:Surfer.SUIndicatorsManager.GetAliases
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorsManager.GetAliases
+  nameWithType: SUIndicatorsManager.GetAliases
+- uid: Surfer.SUIndicatorsManager.GetAllByCustomTag(System.String,System.Action{Surfer.SUIndicatorData})
+  name: GetAllByCustomTag(String, Action<SUIndicatorData>)
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_GetAllByCustomTag_System_String_System_Action_Surfer_SUIndicatorData__
+  commentId: M:Surfer.SUIndicatorsManager.GetAllByCustomTag(System.String,System.Action{Surfer.SUIndicatorData})
+  name.vb: GetAllByCustomTag(String, Action(Of SUIndicatorData))
+  fullName: Surfer.SUIndicatorsManager.GetAllByCustomTag(System.String, System.Action<Surfer.SUIndicatorData>)
+  fullName.vb: Surfer.SUIndicatorsManager.GetAllByCustomTag(System.String, System.Action(Of Surfer.SUIndicatorData))
+  nameWithType: SUIndicatorsManager.GetAllByCustomTag(String, Action<SUIndicatorData>)
+  nameWithType.vb: SUIndicatorsManager.GetAllByCustomTag(String, Action(Of SUIndicatorData))
+- uid: Surfer.SUIndicatorsManager.GetAllByCustomTag*
+  name: GetAllByCustomTag
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_GetAllByCustomTag_
+  commentId: Overload:Surfer.SUIndicatorsManager.GetAllByCustomTag
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorsManager.GetAllByCustomTag
+  nameWithType: SUIndicatorsManager.GetAllByCustomTag
 - uid: Surfer.SUIndicatorsManager.I
   name: I
   href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_I
@@ -5426,12 +6432,51 @@ references:
   isSpec: "True"
   fullName: Surfer.SUIndicatorsManager.I
   nameWithType: SUIndicatorsManager.I
-- uid: Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorData)
-  name: StartFollow(SUIndicatorData)
-  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StartFollow_Surfer_SUIndicatorData_
-  commentId: M:Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorData)
-  fullName: Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorData)
-  nameWithType: SUIndicatorsManager.StartFollow(SUIndicatorData)
+- uid: Surfer.SUIndicatorsManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_MainLoop
+  commentId: M:Surfer.SUIndicatorsManager.MainLoop
+  fullName: Surfer.SUIndicatorsManager.MainLoop()
+  nameWithType: SUIndicatorsManager.MainLoop()
+- uid: Surfer.SUIndicatorsManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_MainLoop_
+  commentId: Overload:Surfer.SUIndicatorsManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorsManager.MainLoop
+  nameWithType: SUIndicatorsManager.MainLoop
+- uid: Surfer.SUIndicatorsManager.MainParentName
+  name: MainParentName
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_MainParentName
+  commentId: P:Surfer.SUIndicatorsManager.MainParentName
+  fullName: Surfer.SUIndicatorsManager.MainParentName
+  nameWithType: SUIndicatorsManager.MainParentName
+- uid: Surfer.SUIndicatorsManager.MainParentName*
+  name: MainParentName
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_MainParentName_
+  commentId: Overload:Surfer.SUIndicatorsManager.MainParentName
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorsManager.MainParentName
+  nameWithType: SUIndicatorsManager.MainParentName
+- uid: Surfer.SUIndicatorsManager.SortOrder
+  name: SortOrder
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_SortOrder
+  commentId: P:Surfer.SUIndicatorsManager.SortOrder
+  fullName: Surfer.SUIndicatorsManager.SortOrder
+  nameWithType: SUIndicatorsManager.SortOrder
+- uid: Surfer.SUIndicatorsManager.SortOrder*
+  name: SortOrder
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_SortOrder_
+  commentId: Overload:Surfer.SUIndicatorsManager.SortOrder
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorsManager.SortOrder
+  nameWithType: SUIndicatorsManager.SortOrder
+- uid: Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorLinkData)
+  name: StartFollow(SUIndicatorLinkData)
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StartFollow_Surfer_SUIndicatorLinkData_
+  commentId: M:Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorLinkData)
+  fullName: Surfer.SUIndicatorsManager.StartFollow(Surfer.SUIndicatorLinkData)
+  nameWithType: SUIndicatorsManager.StartFollow(SUIndicatorLinkData)
 - uid: Surfer.SUIndicatorsManager.StartFollow*
   name: StartFollow
   href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StartFollow_
@@ -5451,12 +6496,18 @@ references:
   commentId: M:Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorData)
   fullName: Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorData)
   nameWithType: SUIndicatorsManager.StopFollow(SUIndicatorData)
-- uid: Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorData,Camera)
-  name: StopFollow(SUIndicatorData, Camera)
-  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StopFollow_Surfer_SUIndicatorData_Camera_
-  commentId: M:Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorData,Camera)
-  fullName: Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorData, Camera)
-  nameWithType: SUIndicatorsManager.StopFollow(SUIndicatorData, Camera)
+- uid: Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorLinkData)
+  name: StopFollow(SUIndicatorLinkData)
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StopFollow_Surfer_SUIndicatorLinkData_
+  commentId: M:Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorLinkData)
+  fullName: Surfer.SUIndicatorsManager.StopFollow(Surfer.SUIndicatorLinkData)
+  nameWithType: SUIndicatorsManager.StopFollow(SUIndicatorLinkData)
+- uid: Surfer.SUIndicatorsManager.StopFollow(System.String)
+  name: StopFollow(String)
+  href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StopFollow_System_String_
+  commentId: M:Surfer.SUIndicatorsManager.StopFollow(System.String)
+  fullName: Surfer.SUIndicatorsManager.StopFollow(System.String)
+  nameWithType: SUIndicatorsManager.StopFollow(String)
 - uid: Surfer.SUIndicatorsManager.StopFollow*
   name: StopFollow
   href: api/Surfer.SUIndicatorsManager.html#Surfer_SUIndicatorsManager_StopFollow_
@@ -5482,12 +6533,76 @@ references:
   commentId: F:Surfer.SUIndicatorState_ID.FollowingOnScreen
   fullName: Surfer.SUIndicatorState_ID.FollowingOnScreen
   nameWithType: SUIndicatorState_ID.FollowingOnScreen
+- uid: Surfer.SUIndicatorState_ID.None
+  name: None
+  href: api/Surfer.SUIndicatorState_ID.html#Surfer_SUIndicatorState_ID_None
+  commentId: F:Surfer.SUIndicatorState_ID.None
+  fullName: Surfer.SUIndicatorState_ID.None
+  nameWithType: SUIndicatorState_ID.None
 - uid: Surfer.SUIndicatorState_ID.Standby
   name: Standby
   href: api/Surfer.SUIndicatorState_ID.html#Surfer_SUIndicatorState_ID_Standby
   commentId: F:Surfer.SUIndicatorState_ID.Standby
   fullName: Surfer.SUIndicatorState_ID.Standby
   nameWithType: SUIndicatorState_ID.Standby
+- uid: Surfer.SUIndicatorVisualData
+  name: SUIndicatorVisualData
+  href: api/Surfer.SUIndicatorVisualData.html
+  commentId: T:Surfer.SUIndicatorVisualData
+  fullName: Surfer.SUIndicatorVisualData
+  nameWithType: SUIndicatorVisualData
+- uid: Surfer.SUIndicatorVisualData.AngleOffset
+  name: AngleOffset
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_AngleOffset
+  commentId: P:Surfer.SUIndicatorVisualData.AngleOffset
+  fullName: Surfer.SUIndicatorVisualData.AngleOffset
+  nameWithType: SUIndicatorVisualData.AngleOffset
+- uid: Surfer.SUIndicatorVisualData.AngleOffset*
+  name: AngleOffset
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_AngleOffset_
+  commentId: Overload:Surfer.SUIndicatorVisualData.AngleOffset
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorVisualData.AngleOffset
+  nameWithType: SUIndicatorVisualData.AngleOffset
+- uid: Surfer.SUIndicatorVisualData.DistanceText
+  name: DistanceText
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_DistanceText
+  commentId: P:Surfer.SUIndicatorVisualData.DistanceText
+  fullName: Surfer.SUIndicatorVisualData.DistanceText
+  nameWithType: SUIndicatorVisualData.DistanceText
+- uid: Surfer.SUIndicatorVisualData.DistanceText*
+  name: DistanceText
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_DistanceText_
+  commentId: Overload:Surfer.SUIndicatorVisualData.DistanceText
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorVisualData.DistanceText
+  nameWithType: SUIndicatorVisualData.DistanceText
+- uid: Surfer.SUIndicatorVisualData.RotationObj
+  name: RotationObj
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_RotationObj
+  commentId: P:Surfer.SUIndicatorVisualData.RotationObj
+  fullName: Surfer.SUIndicatorVisualData.RotationObj
+  nameWithType: SUIndicatorVisualData.RotationObj
+- uid: Surfer.SUIndicatorVisualData.RotationObj*
+  name: RotationObj
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_RotationObj_
+  commentId: Overload:Surfer.SUIndicatorVisualData.RotationObj
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorVisualData.RotationObj
+  nameWithType: SUIndicatorVisualData.RotationObj
+- uid: Surfer.SUIndicatorVisualData.Suffix
+  name: Suffix
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_Suffix
+  commentId: P:Surfer.SUIndicatorVisualData.Suffix
+  fullName: Surfer.SUIndicatorVisualData.Suffix
+  nameWithType: SUIndicatorVisualData.Suffix
+- uid: Surfer.SUIndicatorVisualData.Suffix*
+  name: Suffix
+  href: api/Surfer.SUIndicatorVisualData.html#Surfer_SUIndicatorVisualData_Suffix_
+  commentId: Overload:Surfer.SUIndicatorVisualData.Suffix
+  isSpec: "True"
+  fullName: Surfer.SUIndicatorVisualData.Suffix
+  nameWithType: SUIndicatorVisualData.Suffix
 - uid: Surfer.SUInputBehaviour
   name: SUInputBehaviour
   href: api/Surfer.SUInputBehaviour.html
@@ -5565,6 +6680,133 @@ references:
   isSpec: "True"
   fullName: Surfer.SUInputFieldBehaviour.HandleDestroy
   nameWithType: SUInputFieldBehaviour.HandleDestroy
+- uid: Surfer.SUItemLinkData
+  name: SUItemLinkData
+  href: api/Surfer.SUItemLinkData.html
+  commentId: T:Surfer.SUItemLinkData
+  fullName: Surfer.SUItemLinkData
+  nameWithType: SUItemLinkData
+- uid: Surfer.SUItemLinkData._cam
+  name: _cam
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData__cam
+  commentId: F:Surfer.SUItemLinkData._cam
+  fullName: Surfer.SUItemLinkData._cam
+  nameWithType: SUItemLinkData._cam
+- uid: Surfer.SUItemLinkData._customTag
+  name: _customTag
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData__customTag
+  commentId: F:Surfer.SUItemLinkData._customTag
+  fullName: Surfer.SUItemLinkData._customTag
+  nameWithType: SUItemLinkData._customTag
+- uid: Surfer.SUItemLinkData._onScreenOffset
+  name: _onScreenOffset
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData__onScreenOffset
+  commentId: F:Surfer.SUItemLinkData._onScreenOffset
+  fullName: Surfer.SUItemLinkData._onScreenOffset
+  nameWithType: SUItemLinkData._onScreenOffset
+- uid: Surfer.SUItemLinkData._prefab
+  name: _prefab
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData__prefab
+  commentId: F:Surfer.SUItemLinkData._prefab
+  fullName: Surfer.SUItemLinkData._prefab
+  nameWithType: SUItemLinkData._prefab
+- uid: Surfer.SUItemLinkData._renderMode
+  name: _renderMode
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData__renderMode
+  commentId: F:Surfer.SUItemLinkData._renderMode
+  fullName: Surfer.SUItemLinkData._renderMode
+  nameWithType: SUItemLinkData._renderMode
+- uid: Surfer.SUItemLinkData.Cam
+  name: Cam
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Cam
+  commentId: P:Surfer.SUItemLinkData.Cam
+  fullName: Surfer.SUItemLinkData.Cam
+  nameWithType: SUItemLinkData.Cam
+- uid: Surfer.SUItemLinkData.Cam*
+  name: Cam
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Cam_
+  commentId: Overload:Surfer.SUItemLinkData.Cam
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.Cam
+  nameWithType: SUItemLinkData.Cam
+- uid: Surfer.SUItemLinkData.CustomTag
+  name: CustomTag
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_CustomTag
+  commentId: P:Surfer.SUItemLinkData.CustomTag
+  fullName: Surfer.SUItemLinkData.CustomTag
+  nameWithType: SUItemLinkData.CustomTag
+- uid: Surfer.SUItemLinkData.CustomTag*
+  name: CustomTag
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_CustomTag_
+  commentId: Overload:Surfer.SUItemLinkData.CustomTag
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.CustomTag
+  nameWithType: SUItemLinkData.CustomTag
+- uid: Surfer.SUItemLinkData.OnScreenOffset
+  name: OnScreenOffset
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_OnScreenOffset
+  commentId: P:Surfer.SUItemLinkData.OnScreenOffset
+  fullName: Surfer.SUItemLinkData.OnScreenOffset
+  nameWithType: SUItemLinkData.OnScreenOffset
+- uid: Surfer.SUItemLinkData.OnScreenOffset*
+  name: OnScreenOffset
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_OnScreenOffset_
+  commentId: Overload:Surfer.SUItemLinkData.OnScreenOffset
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.OnScreenOffset
+  nameWithType: SUItemLinkData.OnScreenOffset
+- uid: Surfer.SUItemLinkData.Prefab
+  name: Prefab
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Prefab
+  commentId: P:Surfer.SUItemLinkData.Prefab
+  fullName: Surfer.SUItemLinkData.Prefab
+  nameWithType: SUItemLinkData.Prefab
+- uid: Surfer.SUItemLinkData.Prefab*
+  name: Prefab
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Prefab_
+  commentId: Overload:Surfer.SUItemLinkData.Prefab
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.Prefab
+  nameWithType: SUItemLinkData.Prefab
+- uid: Surfer.SUItemLinkData.RectT
+  name: RectT
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_RectT
+  commentId: P:Surfer.SUItemLinkData.RectT
+  fullName: Surfer.SUItemLinkData.RectT
+  nameWithType: SUItemLinkData.RectT
+- uid: Surfer.SUItemLinkData.RectT*
+  name: RectT
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_RectT_
+  commentId: Overload:Surfer.SUItemLinkData.RectT
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.RectT
+  nameWithType: SUItemLinkData.RectT
+- uid: Surfer.SUItemLinkData.RenderMode
+  name: RenderMode
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_RenderMode
+  commentId: P:Surfer.SUItemLinkData.RenderMode
+  fullName: Surfer.SUItemLinkData.RenderMode
+  nameWithType: SUItemLinkData.RenderMode
+- uid: Surfer.SUItemLinkData.RenderMode*
+  name: RenderMode
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_RenderMode_
+  commentId: Overload:Surfer.SUItemLinkData.RenderMode
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.RenderMode
+  nameWithType: SUItemLinkData.RenderMode
+- uid: Surfer.SUItemLinkData.Target
+  name: Target
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Target
+  commentId: P:Surfer.SUItemLinkData.Target
+  fullName: Surfer.SUItemLinkData.Target
+  nameWithType: SUItemLinkData.Target
+- uid: Surfer.SUItemLinkData.Target*
+  name: Target
+  href: api/Surfer.SUItemLinkData.html#Surfer_SUItemLinkData_Target_
+  commentId: Overload:Surfer.SUItemLinkData.Target
+  isSpec: "True"
+  fullName: Surfer.SUItemLinkData.Target
+  nameWithType: SUItemLinkData.Target
 - uid: Surfer.SUJumpData
   name: SUJumpData
   href: api/Surfer.SUJumpData.html
@@ -5651,6 +6893,31 @@ references:
   isSpec: "True"
   fullName: Surfer.SULastSelectionEventData.StateName
   nameWithType: SULastSelectionEventData.StateName
+- uid: Surfer.SULinkData
+  name: SULinkData
+  href: api/Surfer.SULinkData.html
+  commentId: T:Surfer.SULinkData
+  fullName: Surfer.SULinkData
+  nameWithType: SULinkData
+- uid: Surfer.SULinkData._target
+  name: _target
+  href: api/Surfer.SULinkData.html#Surfer_SULinkData__target
+  commentId: F:Surfer.SULinkData._target
+  fullName: Surfer.SULinkData._target
+  nameWithType: SULinkData._target
+- uid: Surfer.SULinkData.Target
+  name: Target
+  href: api/Surfer.SULinkData.html#Surfer_SULinkData_Target
+  commentId: P:Surfer.SULinkData.Target
+  fullName: Surfer.SULinkData.Target
+  nameWithType: SULinkData.Target
+- uid: Surfer.SULinkData.Target*
+  name: Target
+  href: api/Surfer.SULinkData.html#Surfer_SULinkData_Target_
+  commentId: Overload:Surfer.SULinkData.Target
+  isSpec: "True"
+  fullName: Surfer.SULinkData.Target
+  nameWithType: SULinkData.Target
 - uid: Surfer.SULoadingProgress
   name: SULoadingProgress
   href: api/Surfer.SULoadingProgress.html
@@ -6690,13 +7957,13 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.PlayReaction
   nameWithType: SurferManager.PlayReaction
-- uid: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+- uid: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,List{Surfer.SUStateInfo}@)
   name: RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,List{Surfer.SUStateInfo}@)
   name.vb: RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ref List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ByRef List(Of Surfer.SUStateInfo))
   nameWithType: SurferManager.RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
   nameWithType.vb: SurferManager.RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
 - uid: Surfer.SurferManager.RecursiveGetChildStatesUI*
@@ -6706,13 +7973,13 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.RecursiveGetChildStatesUI
   nameWithType: SurferManager.RecursiveGetChildStatesUI
-- uid: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+- uid: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,List{Surfer.SUStateInfo}@)
   name: RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,List{Surfer.SUStateInfo}@)
   name.vb: RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ref List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ByRef List(Of Surfer.SUStateInfo))
   nameWithType: SurferManager.RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
   nameWithType.vb: SurferManager.RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
 - uid: Surfer.SurferManager.RecursiveGetParentStatesUI*
