@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct PathAction
+    <title>Class CustomReactionsExtensions
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct PathAction
+    <meta name="title" content="Class CustomReactionsExtensions
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,31 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.PathAction">
+            <article class="content wrap" id="_content" data-uid="Surfer.CustomReactionsExtensions">
   
   
-  <h1 id="Surfer_PathAction" data-uid="Surfer.PathAction" class="text-break">Struct PathAction
+  <h1 id="Surfer_CustomReactionsExtensions" data-uid="Surfer.CustomReactionsExtensions" class="text-break">Class CustomReactionsExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Data to store reaction name/path and runtime logic</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CustomReactionsExtensions</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_PathAction_syntax">Syntax</h5>
+  <h5 id="Surfer_CustomReactionsExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct PathAction</code></pre>
+    <pre><code class="lang-csharp hljs">public static class CustomReactionsExtensions</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Surfer_PathAction__ctor_" data-uid="Surfer.PathAction.#ctor*"></a>
-  <h4 id="Surfer_PathAction__ctor_System_String_Action_Surfer_FuncInput__" data-uid="Surfer.PathAction.#ctor(System.String,Action{Surfer.FuncInput})">PathAction(String, Action&lt;FuncInput&gt;)</h4>
+  <a id="Surfer_CustomReactionsExtensions_GetFieldsList_" data-uid="Surfer.CustomReactionsExtensions.GetFieldsList*"></a>
+  <h4 id="Surfer_CustomReactionsExtensions_GetFieldsList_System_String_" data-uid="Surfer.CustomReactionsExtensions.GetFieldsList(System.String)">GetFieldsList(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PathAction(string path, Action&lt;FuncInput&gt; act)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;PathField&gt; GetFieldsList(string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,91 +120,12 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">path</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="Surfer.FuncInput.html">FuncInput</a>&gt;</td>
-        <td><span class="parametername">act</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Surfer_PathAction__ctor_" data-uid="Surfer.PathAction.#ctor*"></a>
-  <h4 id="Surfer_PathAction__ctor_System_String_System_Collections_Generic_List_Surfer_PathField__Action_Surfer_FuncInput__" data-uid="Surfer.PathAction.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Action{Surfer.FuncInput})">PathAction(String, List&lt;PathField&gt;, Action&lt;FuncInput&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PathAction(string path, List&lt;PathField&gt; fields, Action&lt;FuncInput&gt; act)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">path</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Surfer.PathField.html">PathField</a>&gt;</td>
-        <td><span class="parametername">fields</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="Surfer.FuncInput.html">FuncInput</a>&gt;</td>
-        <td><span class="parametername">act</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Surfer_PathAction_Action_" data-uid="Surfer.PathAction.Action*"></a>
-  <h4 id="Surfer_PathAction_Action" data-uid="Surfer.PathAction.Action">Action</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;FuncInput&gt; Action { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="Surfer.FuncInput.html">FuncInput</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_PathAction_Fields_" data-uid="Surfer.PathAction.Fields*"></a>
-  <h4 id="Surfer_PathAction_Fields" data-uid="Surfer.PathAction.Fields">Fields</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;PathField&gt; Fields { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -211,31 +136,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Surfer.PathField.html">PathField</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_PathAction_Path_" data-uid="Surfer.PathAction.Path*"></a>
-  <h4 id="Surfer_PathAction_Path" data-uid="Surfer.PathAction.Path">Path</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Path { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>

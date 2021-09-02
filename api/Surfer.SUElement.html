@@ -113,7 +113,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Surfer_SUElement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUChildrenMonitorHandler, ISUOrientationHandler</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -242,6 +242,33 @@
       <tr>
         <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnChildrenChanged_" data-uid="Surfer.SUElement.OnChildrenChanged*"></a>
+  <h4 id="Surfer_SUElement_OnChildrenChanged_SUChildrenMonitorData_" data-uid="Surfer.SUElement.OnChildrenChanged(SUChildrenMonitorData)">OnChildrenChanged(SUChildrenMonitorData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnChildrenChanged(SUChildrenMonitorData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SUChildrenMonitorData</span></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -481,6 +508,33 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Surfer.SUIndicatorVisualData.html">SUIndicatorVisualData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_OnOrientationChanged_" data-uid="Surfer.SUElement.OnOrientationChanged*"></a>
+  <h4 id="Surfer_SUElement_OnOrientationChanged_SUOrientationInfo_" data-uid="Surfer.SUElement.OnOrientationChanged(SUOrientationInfo)">OnOrientationChanged(SUOrientationInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnOrientationChanged(SUOrientationInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SUOrientationInfo</span></td>
+        <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
     </tbody>

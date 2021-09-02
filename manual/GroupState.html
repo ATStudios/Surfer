@@ -79,10 +79,31 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="group-states">Group States</h1>
 
-<p>The <code>SUGroupStateUI</code>component is responsible for automatically moving in and moving out ( with an animation ) all its children states , by centering the one currently open .</p>
-<p>So, assuming we have a group object with two children states , like in this image...</p>
+<p>GroupStates are an easy way to handle multiple Surfer logics in just one click.</p>
+<p>For example, we would like to build a Tab Menu System where we have 4 tab screens and 4 buttons.</p>
+<p>In a normal Surfer scenario, we would add a SUElement to all the 4 tab screens and make them <code>States</code>. Then we would add a SUElement to all the 4 buttons and add the Surfer Action <code>OpenState</code>to all of them in order to open each screen.</p>
+<p>With GroupStates we can simplify all of this in two simple steps :</p>
+<ul>
+<li><p>create a parent object that will contain all the states</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/group1.png" alt="Image"></p>
-<p>... when calling <code>OpenState</code> Menu, the group will slowly move the Menu panel at the center and when calling <code>OpenState</code> Settings , it will do the opposite.</p>
+</li>
+<li><p>add a <code>SUElement</code>to the parent and set the type to <code>GroupStates_OnOff</code> and then in the <code>States</code>list choose the name of the two states</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/group2.png" alt="Image"></p>
+</li>
+<li><p>create a parent object that will contain all the buttons that will open the states</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/group3.png" alt="Image"></p>
+</li>
+<li><p>add a <code>SUElement</code>to the parent and set the type to <code>GroupButtons</code> and then in the <code>States</code>list set the name of the two states</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/group4.png" alt="Image"></p>
+</li>
+</ul>
+<p>The children buttons of the GroupButtons object will now perform (on click) the action <code>OpenState</code> and open the relative state based on the States list.</p>
+<p>Therefore the children states of the GroupStates object will now open or close  based on the relative state of the States list ( in this case <code>GroupStates_OnOff</code> will activate and deactivate the State objects; instead, <code>GroupStates_InOut</code> will move the position of the State objects at the center and out of screen)</p>
+<p>(In the case of the images shown : State1 == ButtonState1 == Announcement, State2 == ButtonState2 == Clan )</p>
+<h2 id="skipping-objects">Skipping objects</h2>
+<p>Sometimes, a UI object, has the background as first child and then all the menu panels as 2,3 and 4 child. So, in order to use GroupStates and skip the &quot;group logic&quot; for the first children , we must set the variable <code>Skip</code>: to 1 if we want to skip just one object , 2 to skip the first two and so on...</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/group5.png" alt="Image"></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/group6.png" alt="Image"></p>
 </article>
           </div>
           

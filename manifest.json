@@ -40,7 +40,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.ConditionChecks.html",
-          "hash": "bBZPhraBoOe1FKNDaSB8FdLxOYUoy1xRBlYqd/8L8OA="
+          "hash": "X34hTktbwW929uVEVbyeqVC2utGBFR4s4meT15cHJJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.ConditionChecksExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.ConditionChecksExtensions.html",
+          "hash": "BI1SZIqb9XghOEDm3n6Brp7ALPOiW3G6rzgH/hp6i8c="
         }
       },
       "is_incremental": false,
@@ -52,7 +64,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.CustomReactions.html",
-          "hash": "ZNSARFp9WDrbjfU+AFcdK/LZbYzKGZaDBaYL/ijd9Ik="
+          "hash": "J01DHWEXOrQNUy5HXAklHpYO15+fWfeDwnU/5ikPuIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.CustomReactionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.CustomReactionsExtensions.html",
+          "hash": "UDMvLETT+5VkxxOLsjceTde7dRpo78H3cZE7VhqTjWU="
         }
       },
       "is_incremental": false,
@@ -76,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.EventsDictionary.html",
-          "hash": "yAcily1lbbYkU3cMmD1FgtbvWGD8Yk3EJRN/Wq0E6kg="
+          "hash": "57b8aHVRKc03m3rOdFST/TEo1xOzNf79+Q8cei5wf7s="
         }
       },
       "is_incremental": false,
@@ -88,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.FuncInput.html",
-          "hash": "MaR0Pj0dw0B23u3fbR+u2Q/M5smyMZl7b9FvIfNmHL4="
+          "hash": "2CEQ2XiMeFUmLDaXBz8Gg2dLp9LPVQx4Cy9dqAusVFw="
         }
       },
       "is_incremental": false,
@@ -304,7 +328,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.PathAction.html",
-          "hash": "ValxiRgIQFisDzP3N0Byc+Dx8GgULD8AWa0F3um1p5o="
+          "hash": "qbKQy0zX01FbrKG7dZvYv+9zebTFWmNdk9kWH89HtR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.PathField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.PathField.html",
+          "hash": "63hoTzcwylr5Yc+1SnCDp/NoGyl6rc6pYNFw+hvBk2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.PathFieldType_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.PathFieldType_ID.html",
+          "hash": "ZG7x5AaETrpZW/4MKEU2nsMkTaZqtnwPpN5fRgdiCDA="
         }
       },
       "is_incremental": false,
@@ -316,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.PathFunc.html",
-          "hash": "QB3r7tQA69RVe8RT5sno/+gNJnuzT6coTuNVzD7KeX0="
+          "hash": "LbRC4eY4R4TKObiuvQu4GmudBo6FqtU9nMIfljE3mKY="
         }
       },
       "is_incremental": false,
@@ -448,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUAnimationData.html",
-          "hash": "FlCxJvmoFg/qXF9NBEv2h1k4pQcPc8FewKfTxBMPXuM="
+          "hash": "55WMbA3Jg/6bWHkLNdIsBv6G09yIAgH++cxY8bTqD+Y="
         }
       },
       "is_incremental": false,
@@ -532,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUBehaviourData.html",
-          "hash": "pTufoNtGCEBE6TTZis2eKPnrspeP9MkdBjiTbi+MCw0="
+          "hash": "v9D6eRiwbrI9BXdtdo6EkDMe9lYoxv2BQu+3suggKh4="
         }
       },
       "is_incremental": false,
@@ -544,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUBehavioursData.html",
-          "hash": "elAYM8GeirzrwXRilCE2E75L57HDzoYYcZw5z+ZW1qA="
+          "hash": "ukQHLqelh5nMteBwVy1YYaW9bMUD6/UtAUgYgCuzhVE="
         }
       },
       "is_incremental": false,
@@ -580,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUCamItemsManager.html",
-          "hash": "nswnZEvrmhTF5r64Hn49n7XejJ6nv/C/v89iPBaqqDs="
+          "hash": "0cGaQt7B74zTe66hW+ggweKsoRmIZCwb+NR7iHMs08A="
         }
       },
       "is_incremental": false,
@@ -724,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUCustomEventsData.html",
-          "hash": "HTF7Dyk89sV6LcCTGqCpkHdj8HTRr2QGVdCQ7EpF8gU="
+          "hash": "IFv5t4FE7bRCniXaYdHMeRWg6gWiekl4/dNZvSTpuOU="
         }
       },
       "is_incremental": false,
@@ -760,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUElement.DictEvents.html",
-          "hash": "MH8Mj1MSWYb8HahBchHtoT/N/N1O8kOKeodf5bIx+IQ="
+          "hash": "i3/zB+OeGDzxJWDa3BSDz1cCaartaHuUHxw1q7BFQzs="
         }
       },
       "is_incremental": false,
@@ -772,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUElement.html",
-          "hash": "DYIGg640TM4ecvU91m44D4yV3TLt33r7lWbxnWPPjB4="
+          "hash": "yfcpJTl9S3Qzhi/JZzG7d5mIQs78EgK5eg7JUWR/4d0="
         }
       },
       "is_incremental": false,
@@ -796,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUElementData.Type_ID.html",
-          "hash": "t7LwfYakoeLsx15WP/enn7O8ThQGgzEp6eKRr/k69h4="
+          "hash": "iwUNsUGpohKAx77ZL3jRj8afbFKoZU45ve+7SGhvfwc="
         }
       },
       "is_incremental": false,
@@ -808,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUElementData.html",
-          "hash": "H2MVkruJ4A/7NAQ4mkOPO7sUpSUhIpsmpDVPNdJ3GGA="
+          "hash": "qmT3ZJTCxwUbQL/F5nodWydCAK2fIQIYXFpigQf6fgg="
         }
       },
       "is_incremental": false,
@@ -844,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUEvent.Type_ID.html",
-          "hash": "lAF5GunEKKDvCrfXM4gaJqfTOV2Vjt+9fVE0niHoxCI="
+          "hash": "9RfJ33T6mkzgyHKH3YBz6zYYEPF5CQ1LD2HpdAbbVjo="
         }
       },
       "is_incremental": false,
@@ -952,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUFastReactionData.Type_ID.html",
-          "hash": "eIIxJ54BhYSTp6ffs4QulWqfWrbOhVd9Ab/o6AW4w6o="
+          "hash": "m4smXqIliDUZP/r1fRYmhpOWdRuH0jaxdCFK60AS54I="
         }
       },
       "is_incremental": false,
@@ -1008,6 +1056,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUFieldValuesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUFieldValuesData.html",
+          "hash": "eLbqtTFwnqrsxCXn0ONiybtm/TOv/rfo+88p0yb3z/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Surfer.SUGroupStateUI.yml",
       "output": {
         ".html": {
@@ -1032,11 +1092,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUGroupsBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUGroupsBehaviour.html",
+          "hash": "lPXB0CtuGHDwHoAz40cfTeTxs7SK2uW697rPjdaZCzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Surfer.SUHealthBarCamData.yml",
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUHealthBarCamData.html",
-          "hash": "fmbhKztNagG63Tc3swe3K718zE7xcXURLeEeYQhLWGY="
+          "hash": "6k3G/pKy8U9bxGwsUgZjZAFlX/QUtkCYPExibo0WbwI="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUHealthBarLinkData.html",
-          "hash": "5fs9ZHG9LgbYxapcblBct5g6fbuDp0Qadhyk5swhfMY="
+          "hash": "NrpJQ+IJz28RHSsCqYn4D8Vl7+jTvQZXmejP0qC2jAI="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUHealthBarsManager.html",
-          "hash": "VTa/8Tp6bavHJ25rGIZAbxEM5A86zbIX8SUwJ2ALboE="
+          "hash": "den1K9/sle5NN4W+JNGkXo0996MzjOvR0aad6EnJAs4="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorCamData.html",
-          "hash": "XxXAfe90z8/r3cYgqQ+edP7XL//gIYhB76YaJu744YU="
+          "hash": "SRDZUUHUCPwM6+TQT8URONjnrg4njVVItfvOR8+0AuA="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1324,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorLinkData.html",
-          "hash": "XUpZ9Rr2kpLvNnzS35UrlRQl9sCBOe5qtnR2z8wYNTU="
+          "hash": "/lWXqvPnECkH0jjMfGfXCHNtDowChUwM8B1sIqAGep0="
         }
       },
       "is_incremental": false,
@@ -1288,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUIndicatorsManager.html",
-          "hash": "AOrA8nPM1s2qM7HDnFQaLxSHlkMSdrk6x1GmftqFmRU="
+          "hash": "RE/mPsONq/e/yDvxbgW7MVG0HXTnAoH9XbFZYAuxSA0="
         }
       },
       "is_incremental": false,
@@ -1696,7 +1768,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUScenesData.html",
-          "hash": "9nwnvIAuUy77Gf8QkT3pU40n5FF/MAE++yQr7x02f7o="
+          "hash": "K5XyAmP6zJGEwt5ZlaJrrpil6E7K1guPSWBzgfDI5DU="
         }
       },
       "is_incremental": false,
@@ -1924,7 +1996,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUStateUI.html",
-          "hash": "QIVAlAGovuUbahKu9jXhCQPaatWqLFZl15clTJSMfkQ="
+          "hash": "HpjcVe43FVqwK46ONO5lxqft6Yphj8Fu95q01NeKIgM="
         }
       },
       "is_incremental": false,
@@ -1996,7 +2068,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUStatedReaction.html",
-          "hash": "fLgVE2MxbBrfRq0mRO3QXcIhbNx6X+QJHWFzDhE15Pg="
+          "hash": "JVZQAjThRWiXFP2tTkmSznkhRjPVD4YCr2CzOE4fgN4="
         }
       },
       "is_incremental": false,
@@ -2032,7 +2104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUStatesData.html",
-          "hash": "22DW6Bz2l2gU91kYHFcmFIgmEWRL1EQo4jKwd+5on6w="
+          "hash": "QvA/W4VUd53k1fLwOYNGtmHW4C5h4PNBXryUjEvV7jc="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.ScenesDictionary.html",
-          "hash": "q835tdHktW1cdliVOfM2AomFJf0xXwZJr63i2A5/xwE="
+          "hash": "mOvI4eHRvYQfnESQoIPhY4iX2kL5L4NsfTkb1wd5UHg="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SerializableDictionary-2.html",
-          "hash": "RFt+1zMcKkOvuCgE8+Sos+/g1Dg5QWxK+IOlwF/qyCQ="
+          "hash": "yMImomJOSr+LBzwdgN7/4YxPAlcSVMQRd3gi/i8jNHY="
         }
       },
       "is_incremental": false,
@@ -2164,7 +2236,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SerializedPropertyExtensions.html",
-          "hash": "wmVClCbGz94R3ueh3PkuVfHP0KZhb3X9X0QdKCiINIM="
+          "hash": "EVFX1bKYLsYaQKmSGKousnCL3LL5uLWEXYmUgjPI+u4="
         }
       },
       "is_incremental": false,
@@ -2176,7 +2248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.StatesDictionary.html",
-          "hash": "RT+bgGOA/jJQD0hfosz5QUPCU7jCXaucHqyg2KVe++Y="
+          "hash": "0cjpUaWnzatWLzuUXM73N4XJ0zI6kcXflFBKvq0yuYs="
         }
       },
       "is_incremental": false,
@@ -2188,7 +2260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SurferHelper.html",
-          "hash": "p9XcA5bN4jJLesKYAu6v3q8/+k/4lVJTiTBsPJjL1bk="
+          "hash": "18fo9gco9smBcXxH3eQp7rOB2v/AFeYJilBVypWATXA="
         }
       },
       "is_incremental": false,
@@ -2200,7 +2272,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SurferManager.html",
-          "hash": "oPZwLLw2kK7SG3qjdbxrJKWV/xjKvi25wveTyrGq2S4="
+          "hash": "W81GXVc0mi/gJMPfkW4zjDbUILwhgj8jeSCSc62bCmw="
         }
       },
       "is_incremental": false,
@@ -2224,7 +2296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.VersionsDictionary.html",
-          "hash": "/MwmC/nuFhFW5R9SDlQ1cTAm93rqSGEjwvJnbCor4l8="
+          "hash": "N5OBjIVt6wv/qJEj9ZKH0w4FHVqtvqRsuv5uuE9TrTo="
         }
       },
       "is_incremental": false,
@@ -2236,7 +2308,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.html",
-          "hash": "syZbYYT2fBAXncJgpE3WxZ3Gff0pGa6/j8DbCU/zQ3U="
+          "hash": "uoJcUN1072xU+Uhs1iXlq3wJGV/VzQwSdvcWbUD+5IY="
         }
       },
       "is_incremental": false,
@@ -2248,7 +2320,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MSkw0c0540JSxhQIqzouo/uqInUZLXYe498jL9bbZ8E="
+          "hash": "apPHDd/qlaW5maoUUXU1UkOkdTJ0D9eobDXAKqjjyNQ="
         }
       },
       "is_incremental": false,
@@ -2260,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "Dnmb2dFCJJTWqr8KfJgrUIO//hngYNKh+Vg0CPlq8eY="
+          "hash": "hBsA73WkKInLLpRvTeywXjQeju5tj/QIwey3mvxCggk="
         }
       },
       "is_incremental": false,
@@ -2296,7 +2368,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Bolt.html",
-          "hash": "CEgLApd3Z7/txKG1gdpBicrz19qizdweheIKsnr5Nbc="
+          "hash": "INwZcfqO/tUh4gQ6B3CGz7atWbSszos8cqS5QOBy32s="
         }
       },
       "is_incremental": false,
@@ -2344,7 +2416,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Custom Conditions.html",
-          "hash": "znWzHlSpqxNOh12aWan8BhD5lRWmUdMjgU14EGsPVnk="
+          "hash": "Tx9caxmDLIZoEbqnBm5bftdVVlkZkPegr2QeLq4y6kw="
         }
       },
       "is_incremental": false,
@@ -2368,7 +2440,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Custom Reactions.html",
-          "hash": "7YqEpFrQ5i6RZEAZ5V8OolQXYuB9OhSi4PPO6HpTGaQ="
+          "hash": "heuMTCQgdPxxkfUdIiJr+4iHl/HkaS37kSZNSdjsQh0="
         }
       },
       "is_incremental": false,
@@ -2440,7 +2512,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/GroupState.html",
-          "hash": "YDAI+BnfqPXCQLO6sdArCorI+14mNBdM2WMwE6tYCeQ="
+          "hash": "UFQxMigFlp9IFXMnXLxBUWbPiNtBLcSVK2HKw2R3SJI="
         }
       },
       "is_incremental": false,
@@ -2889,6 +2961,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/customr3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customr3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/customr4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/customr4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/edit1.png",
       "output": {
         "resource": {
@@ -2981,6 +3075,61 @@
       "output": {
         "resource": {
           "relative_path": "resources/group1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/group6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/group6.png"
         }
       },
       "is_incremental": false,
@@ -3287,13 +3436,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 39,
-          "skipped_file_count": 38
+          "skipped_file_count": 39
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 184,
-          "skipped_file_count": 184
+          "total_file_count": 190,
+          "skipped_file_count": 190
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -58,6 +58,25 @@ references:
   isSpec: "True"
   fullName: Surfer.ConditionChecks.GetName
   nameWithType: ConditionChecks.GetName
+- uid: Surfer.ConditionChecksExtensions
+  name: ConditionChecksExtensions
+  href: api/Surfer.ConditionChecksExtensions.html
+  commentId: T:Surfer.ConditionChecksExtensions
+  fullName: Surfer.ConditionChecksExtensions
+  nameWithType: ConditionChecksExtensions
+- uid: Surfer.ConditionChecksExtensions.GetFieldsList(System.String)
+  name: GetFieldsList(String)
+  href: api/Surfer.ConditionChecksExtensions.html#Surfer_ConditionChecksExtensions_GetFieldsList_System_String_
+  commentId: M:Surfer.ConditionChecksExtensions.GetFieldsList(System.String)
+  fullName: Surfer.ConditionChecksExtensions.GetFieldsList(System.String)
+  nameWithType: ConditionChecksExtensions.GetFieldsList(String)
+- uid: Surfer.ConditionChecksExtensions.GetFieldsList*
+  name: GetFieldsList
+  href: api/Surfer.ConditionChecksExtensions.html#Surfer_ConditionChecksExtensions_GetFieldsList_
+  commentId: Overload:Surfer.ConditionChecksExtensions.GetFieldsList
+  isSpec: "True"
+  fullName: Surfer.ConditionChecksExtensions.GetFieldsList
+  nameWithType: ConditionChecksExtensions.GetFieldsList
 - uid: Surfer.CustomReactions
   name: CustomReactions
   href: api/Surfer.CustomReactions.html
@@ -109,6 +128,25 @@ references:
   isSpec: "True"
   fullName: Surfer.CustomReactions.GetName
   nameWithType: CustomReactions.GetName
+- uid: Surfer.CustomReactionsExtensions
+  name: CustomReactionsExtensions
+  href: api/Surfer.CustomReactionsExtensions.html
+  commentId: T:Surfer.CustomReactionsExtensions
+  fullName: Surfer.CustomReactionsExtensions
+  nameWithType: CustomReactionsExtensions
+- uid: Surfer.CustomReactionsExtensions.GetFieldsList(System.String)
+  name: GetFieldsList(String)
+  href: api/Surfer.CustomReactionsExtensions.html#Surfer_CustomReactionsExtensions_GetFieldsList_System_String_
+  commentId: M:Surfer.CustomReactionsExtensions.GetFieldsList(System.String)
+  fullName: Surfer.CustomReactionsExtensions.GetFieldsList(System.String)
+  nameWithType: CustomReactionsExtensions.GetFieldsList(String)
+- uid: Surfer.CustomReactionsExtensions.GetFieldsList*
+  name: GetFieldsList
+  href: api/Surfer.CustomReactionsExtensions.html#Surfer_CustomReactionsExtensions_GetFieldsList_
+  commentId: Overload:Surfer.CustomReactionsExtensions.GetFieldsList
+  isSpec: "True"
+  fullName: Surfer.CustomReactionsExtensions.GetFieldsList
+  nameWithType: CustomReactionsExtensions.GetFieldsList
 - uid: Surfer.DictCamKey
   name: DictCamKey
   href: api/Surfer.DictCamKey.html
@@ -166,12 +204,12 @@ references:
   commentId: T:Surfer.FuncInput
   fullName: Surfer.FuncInput
   nameWithType: FuncInput
-- uid: Surfer.FuncInput.#ctor(GameObject)
-  name: FuncInput(GameObject)
-  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_
-  commentId: M:Surfer.FuncInput.#ctor(GameObject)
-  fullName: Surfer.FuncInput.FuncInput(GameObject)
-  nameWithType: FuncInput.FuncInput(GameObject)
+- uid: Surfer.FuncInput.#ctor(GameObject,Surfer.SUFieldValuesData)
+  name: FuncInput(GameObject, SUFieldValuesData)
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_Surfer_SUFieldValuesData_
+  commentId: M:Surfer.FuncInput.#ctor(GameObject,Surfer.SUFieldValuesData)
+  fullName: Surfer.FuncInput.FuncInput(GameObject, Surfer.SUFieldValuesData)
+  nameWithType: FuncInput.FuncInput(GameObject, SUFieldValuesData)
 - uid: Surfer.FuncInput.#ctor*
   name: FuncInput
   href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_
@@ -179,6 +217,19 @@ references:
   isSpec: "True"
   fullName: Surfer.FuncInput.FuncInput
   nameWithType: FuncInput.FuncInput
+- uid: Surfer.FuncInput.fieldsValues
+  name: fieldsValues
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput_fieldsValues
+  commentId: P:Surfer.FuncInput.fieldsValues
+  fullName: Surfer.FuncInput.fieldsValues
+  nameWithType: FuncInput.fieldsValues
+- uid: Surfer.FuncInput.fieldsValues*
+  name: fieldsValues
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput_fieldsValues_
+  commentId: Overload:Surfer.FuncInput.fieldsValues
+  isSpec: "True"
+  fullName: Surfer.FuncInput.fieldsValues
+  nameWithType: FuncInput.fieldsValues
 - uid: Surfer.FuncInput.gameObj
   name: gameObj
   href: api/Surfer.FuncInput.html#Surfer_FuncInput_gameObj
@@ -530,6 +581,15 @@ references:
   fullName.vb: Surfer.PathAction.PathAction(System.String, Action(Of Surfer.FuncInput))
   nameWithType: PathAction.PathAction(String, Action<FuncInput>)
   nameWithType.vb: PathAction.PathAction(String, Action(Of FuncInput))
+- uid: Surfer.PathAction.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Action{Surfer.FuncInput})
+  name: PathAction(String, List<PathField>, Action<FuncInput>)
+  href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_System_String_System_Collections_Generic_List_Surfer_PathField__Action_Surfer_FuncInput__
+  commentId: M:Surfer.PathAction.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Action{Surfer.FuncInput})
+  name.vb: PathAction(String, List(Of PathField), Action(Of FuncInput))
+  fullName: Surfer.PathAction.PathAction(System.String, System.Collections.Generic.List<Surfer.PathField>, Action<Surfer.FuncInput>)
+  fullName.vb: Surfer.PathAction.PathAction(System.String, System.Collections.Generic.List(Of Surfer.PathField), Action(Of Surfer.FuncInput))
+  nameWithType: PathAction.PathAction(String, List<PathField>, Action<FuncInput>)
+  nameWithType.vb: PathAction.PathAction(String, List(Of PathField), Action(Of FuncInput))
 - uid: Surfer.PathAction.#ctor*
   name: PathAction
   href: api/Surfer.PathAction.html#Surfer_PathAction__ctor_
@@ -550,6 +610,19 @@ references:
   isSpec: "True"
   fullName: Surfer.PathAction.Action
   nameWithType: PathAction.Action
+- uid: Surfer.PathAction.Fields
+  name: Fields
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Fields
+  commentId: P:Surfer.PathAction.Fields
+  fullName: Surfer.PathAction.Fields
+  nameWithType: PathAction.Fields
+- uid: Surfer.PathAction.Fields*
+  name: Fields
+  href: api/Surfer.PathAction.html#Surfer_PathAction_Fields_
+  commentId: Overload:Surfer.PathAction.Fields
+  isSpec: "True"
+  fullName: Surfer.PathAction.Fields
+  nameWithType: PathAction.Fields
 - uid: Surfer.PathAction.Path
   name: Path
   href: api/Surfer.PathAction.html#Surfer_PathAction_Path
@@ -563,6 +636,220 @@ references:
   isSpec: "True"
   fullName: Surfer.PathAction.Path
   nameWithType: PathAction.Path
+- uid: Surfer.PathField
+  name: PathField
+  href: api/Surfer.PathField.html
+  commentId: T:Surfer.PathField
+  fullName: Surfer.PathField
+  nameWithType: PathField
+- uid: Surfer.PathField.#ctor(System.String,Surfer.PathFieldType_ID)
+  name: PathField(String, PathFieldType_ID)
+  href: api/Surfer.PathField.html#Surfer_PathField__ctor_System_String_Surfer_PathFieldType_ID_
+  commentId: M:Surfer.PathField.#ctor(System.String,Surfer.PathFieldType_ID)
+  fullName: Surfer.PathField.PathField(System.String, Surfer.PathFieldType_ID)
+  nameWithType: PathField.PathField(String, PathFieldType_ID)
+- uid: Surfer.PathField.#ctor(System.String,Surfer.PathFieldType_ID,System.Type)
+  name: PathField(String, PathFieldType_ID, Type)
+  href: api/Surfer.PathField.html#Surfer_PathField__ctor_System_String_Surfer_PathFieldType_ID_System_Type_
+  commentId: M:Surfer.PathField.#ctor(System.String,Surfer.PathFieldType_ID,System.Type)
+  fullName: Surfer.PathField.PathField(System.String, Surfer.PathFieldType_ID, System.Type)
+  nameWithType: PathField.PathField(String, PathFieldType_ID, Type)
+- uid: Surfer.PathField.#ctor*
+  name: PathField
+  href: api/Surfer.PathField.html#Surfer_PathField__ctor_
+  commentId: Overload:Surfer.PathField.#ctor
+  isSpec: "True"
+  fullName: Surfer.PathField.PathField
+  nameWithType: PathField.PathField
+- uid: Surfer.PathField.Field_ID
+  name: Field_ID
+  href: api/Surfer.PathField.html#Surfer_PathField_Field_ID
+  commentId: P:Surfer.PathField.Field_ID
+  fullName: Surfer.PathField.Field_ID
+  nameWithType: PathField.Field_ID
+- uid: Surfer.PathField.Field_ID*
+  name: Field_ID
+  href: api/Surfer.PathField.html#Surfer_PathField_Field_ID_
+  commentId: Overload:Surfer.PathField.Field_ID
+  isSpec: "True"
+  fullName: Surfer.PathField.Field_ID
+  nameWithType: PathField.Field_ID
+- uid: Surfer.PathField.Name
+  name: Name
+  href: api/Surfer.PathField.html#Surfer_PathField_Name
+  commentId: P:Surfer.PathField.Name
+  fullName: Surfer.PathField.Name
+  nameWithType: PathField.Name
+- uid: Surfer.PathField.Name*
+  name: Name
+  href: api/Surfer.PathField.html#Surfer_PathField_Name_
+  commentId: Overload:Surfer.PathField.Name
+  isSpec: "True"
+  fullName: Surfer.PathField.Name
+  nameWithType: PathField.Name
+- uid: Surfer.PathField.Type
+  name: Type
+  href: api/Surfer.PathField.html#Surfer_PathField_Type
+  commentId: P:Surfer.PathField.Type
+  fullName: Surfer.PathField.Type
+  nameWithType: PathField.Type
+- uid: Surfer.PathField.Type*
+  name: Type
+  href: api/Surfer.PathField.html#Surfer_PathField_Type_
+  commentId: Overload:Surfer.PathField.Type
+  isSpec: "True"
+  fullName: Surfer.PathField.Type
+  nameWithType: PathField.Type
+- uid: Surfer.PathFieldType_ID
+  name: PathFieldType_ID
+  href: api/Surfer.PathFieldType_ID.html
+  commentId: T:Surfer.PathFieldType_ID
+  fullName: Surfer.PathFieldType_ID
+  nameWithType: PathFieldType_ID
+- uid: Surfer.PathFieldType_ID.Bool_1
+  name: Bool_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Bool_1
+  commentId: F:Surfer.PathFieldType_ID.Bool_1
+  fullName: Surfer.PathFieldType_ID.Bool_1
+  nameWithType: PathFieldType_ID.Bool_1
+- uid: Surfer.PathFieldType_ID.Bool_2
+  name: Bool_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Bool_2
+  commentId: F:Surfer.PathFieldType_ID.Bool_2
+  fullName: Surfer.PathFieldType_ID.Bool_2
+  nameWithType: PathFieldType_ID.Bool_2
+- uid: Surfer.PathFieldType_ID.Bool_3
+  name: Bool_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Bool_3
+  commentId: F:Surfer.PathFieldType_ID.Bool_3
+  fullName: Surfer.PathFieldType_ID.Bool_3
+  nameWithType: PathFieldType_ID.Bool_3
+- uid: Surfer.PathFieldType_ID.Color_1
+  name: Color_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Color_1
+  commentId: F:Surfer.PathFieldType_ID.Color_1
+  fullName: Surfer.PathFieldType_ID.Color_1
+  nameWithType: PathFieldType_ID.Color_1
+- uid: Surfer.PathFieldType_ID.Color_2
+  name: Color_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Color_2
+  commentId: F:Surfer.PathFieldType_ID.Color_2
+  fullName: Surfer.PathFieldType_ID.Color_2
+  nameWithType: PathFieldType_ID.Color_2
+- uid: Surfer.PathFieldType_ID.Color_3
+  name: Color_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Color_3
+  commentId: F:Surfer.PathFieldType_ID.Color_3
+  fullName: Surfer.PathFieldType_ID.Color_3
+  nameWithType: PathFieldType_ID.Color_3
+- uid: Surfer.PathFieldType_ID.Enum_1
+  name: Enum_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Enum_1
+  commentId: F:Surfer.PathFieldType_ID.Enum_1
+  fullName: Surfer.PathFieldType_ID.Enum_1
+  nameWithType: PathFieldType_ID.Enum_1
+- uid: Surfer.PathFieldType_ID.Enum_2
+  name: Enum_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Enum_2
+  commentId: F:Surfer.PathFieldType_ID.Enum_2
+  fullName: Surfer.PathFieldType_ID.Enum_2
+  nameWithType: PathFieldType_ID.Enum_2
+- uid: Surfer.PathFieldType_ID.Enum_3
+  name: Enum_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Enum_3
+  commentId: F:Surfer.PathFieldType_ID.Enum_3
+  fullName: Surfer.PathFieldType_ID.Enum_3
+  nameWithType: PathFieldType_ID.Enum_3
+- uid: Surfer.PathFieldType_ID.Float_1
+  name: Float_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Float_1
+  commentId: F:Surfer.PathFieldType_ID.Float_1
+  fullName: Surfer.PathFieldType_ID.Float_1
+  nameWithType: PathFieldType_ID.Float_1
+- uid: Surfer.PathFieldType_ID.Float_2
+  name: Float_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Float_2
+  commentId: F:Surfer.PathFieldType_ID.Float_2
+  fullName: Surfer.PathFieldType_ID.Float_2
+  nameWithType: PathFieldType_ID.Float_2
+- uid: Surfer.PathFieldType_ID.Float_3
+  name: Float_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Float_3
+  commentId: F:Surfer.PathFieldType_ID.Float_3
+  fullName: Surfer.PathFieldType_ID.Float_3
+  nameWithType: PathFieldType_ID.Float_3
+- uid: Surfer.PathFieldType_ID.Int_1
+  name: Int_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Int_1
+  commentId: F:Surfer.PathFieldType_ID.Int_1
+  fullName: Surfer.PathFieldType_ID.Int_1
+  nameWithType: PathFieldType_ID.Int_1
+- uid: Surfer.PathFieldType_ID.Int_2
+  name: Int_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Int_2
+  commentId: F:Surfer.PathFieldType_ID.Int_2
+  fullName: Surfer.PathFieldType_ID.Int_2
+  nameWithType: PathFieldType_ID.Int_2
+- uid: Surfer.PathFieldType_ID.Int_3
+  name: Int_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Int_3
+  commentId: F:Surfer.PathFieldType_ID.Int_3
+  fullName: Surfer.PathFieldType_ID.Int_3
+  nameWithType: PathFieldType_ID.Int_3
+- uid: Surfer.PathFieldType_ID.None
+  name: None
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_None
+  commentId: F:Surfer.PathFieldType_ID.None
+  fullName: Surfer.PathFieldType_ID.None
+  nameWithType: PathFieldType_ID.None
+- uid: Surfer.PathFieldType_ID.Object_1
+  name: Object_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Object_1
+  commentId: F:Surfer.PathFieldType_ID.Object_1
+  fullName: Surfer.PathFieldType_ID.Object_1
+  nameWithType: PathFieldType_ID.Object_1
+- uid: Surfer.PathFieldType_ID.Object_2
+  name: Object_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Object_2
+  commentId: F:Surfer.PathFieldType_ID.Object_2
+  fullName: Surfer.PathFieldType_ID.Object_2
+  nameWithType: PathFieldType_ID.Object_2
+- uid: Surfer.PathFieldType_ID.Object_3
+  name: Object_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Object_3
+  commentId: F:Surfer.PathFieldType_ID.Object_3
+  fullName: Surfer.PathFieldType_ID.Object_3
+  nameWithType: PathFieldType_ID.Object_3
+- uid: Surfer.PathFieldType_ID.Object_4
+  name: Object_4
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Object_4
+  commentId: F:Surfer.PathFieldType_ID.Object_4
+  fullName: Surfer.PathFieldType_ID.Object_4
+  nameWithType: PathFieldType_ID.Object_4
+- uid: Surfer.PathFieldType_ID.Object_5
+  name: Object_5
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_Object_5
+  commentId: F:Surfer.PathFieldType_ID.Object_5
+  fullName: Surfer.PathFieldType_ID.Object_5
+  nameWithType: PathFieldType_ID.Object_5
+- uid: Surfer.PathFieldType_ID.String_1
+  name: String_1
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_String_1
+  commentId: F:Surfer.PathFieldType_ID.String_1
+  fullName: Surfer.PathFieldType_ID.String_1
+  nameWithType: PathFieldType_ID.String_1
+- uid: Surfer.PathFieldType_ID.String_2
+  name: String_2
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_String_2
+  commentId: F:Surfer.PathFieldType_ID.String_2
+  fullName: Surfer.PathFieldType_ID.String_2
+  nameWithType: PathFieldType_ID.String_2
+- uid: Surfer.PathFieldType_ID.String_3
+  name: String_3
+  href: api/Surfer.PathFieldType_ID.html#Surfer_PathFieldType_ID_String_3
+  commentId: F:Surfer.PathFieldType_ID.String_3
+  fullName: Surfer.PathFieldType_ID.String_3
+  nameWithType: PathFieldType_ID.String_3
 - uid: Surfer.PathFunc
   name: PathFunc
   href: api/Surfer.PathFunc.html
@@ -578,6 +865,15 @@ references:
   fullName.vb: Surfer.PathFunc.PathFunc(System.String, Func(Of Surfer.FuncInput, System.Boolean))
   nameWithType: PathFunc.PathFunc(String, Func<FuncInput, Boolean>)
   nameWithType.vb: PathFunc.PathFunc(String, Func(Of FuncInput, Boolean))
+- uid: Surfer.PathFunc.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Func{Surfer.FuncInput,System.Boolean})
+  name: PathFunc(String, List<PathField>, Func<FuncInput, Boolean>)
+  href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_System_String_System_Collections_Generic_List_Surfer_PathField__Func_Surfer_FuncInput_System_Boolean__
+  commentId: M:Surfer.PathFunc.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Func{Surfer.FuncInput,System.Boolean})
+  name.vb: PathFunc(String, List(Of PathField), Func(Of FuncInput, Boolean))
+  fullName: Surfer.PathFunc.PathFunc(System.String, System.Collections.Generic.List<Surfer.PathField>, Func<Surfer.FuncInput, System.Boolean>)
+  fullName.vb: Surfer.PathFunc.PathFunc(System.String, System.Collections.Generic.List(Of Surfer.PathField), Func(Of Surfer.FuncInput, System.Boolean))
+  nameWithType: PathFunc.PathFunc(String, List<PathField>, Func<FuncInput, Boolean>)
+  nameWithType.vb: PathFunc.PathFunc(String, List(Of PathField), Func(Of FuncInput, Boolean))
 - uid: Surfer.PathFunc.#ctor*
   name: PathFunc
   href: api/Surfer.PathFunc.html#Surfer_PathFunc__ctor_
@@ -585,6 +881,19 @@ references:
   isSpec: "True"
   fullName: Surfer.PathFunc.PathFunc
   nameWithType: PathFunc.PathFunc
+- uid: Surfer.PathFunc.Fields
+  name: Fields
+  href: api/Surfer.PathFunc.html#Surfer_PathFunc_Fields
+  commentId: P:Surfer.PathFunc.Fields
+  fullName: Surfer.PathFunc.Fields
+  nameWithType: PathFunc.Fields
+- uid: Surfer.PathFunc.Fields*
+  name: Fields
+  href: api/Surfer.PathFunc.html#Surfer_PathFunc_Fields_
+  commentId: Overload:Surfer.PathFunc.Fields
+  isSpec: "True"
+  fullName: Surfer.PathFunc.Fields
+  nameWithType: PathFunc.Fields
 - uid: Surfer.PathFunc.Function
   name: Function
   href: api/Surfer.PathFunc.html#Surfer_PathFunc_Function
@@ -666,6 +975,22 @@ references:
   commentId: T:Surfer.SerializedPropertyExtensions
   fullName: Surfer.SerializedPropertyExtensions
   nameWithType: SerializedPropertyExtensions
+- uid: Surfer.SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty,Rect@,System.Collections.Generic.List{Surfer.PathField},SerializedProperty@)
+  name: AddCustomUserFields(SerializedProperty, ref Rect, List<PathField>, ref SerializedProperty)
+  href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddCustomUserFields_SerializedProperty_Rect__System_Collections_Generic_List_Surfer_PathField__SerializedProperty__
+  commentId: M:Surfer.SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty,Rect@,System.Collections.Generic.List{Surfer.PathField},SerializedProperty@)
+  name.vb: AddCustomUserFields(SerializedProperty, ByRef Rect, List(Of PathField), ByRef SerializedProperty)
+  fullName: Surfer.SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty, ref Rect, System.Collections.Generic.List<Surfer.PathField>, ref SerializedProperty)
+  fullName.vb: Surfer.SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty, ByRef Rect, System.Collections.Generic.List(Of Surfer.PathField), ByRef SerializedProperty)
+  nameWithType: SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty, ref Rect, List<PathField>, ref SerializedProperty)
+  nameWithType.vb: SerializedPropertyExtensions.AddCustomUserFields(SerializedProperty, ByRef Rect, List(Of PathField), ByRef SerializedProperty)
+- uid: Surfer.SerializedPropertyExtensions.AddCustomUserFields*
+  name: AddCustomUserFields
+  href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddCustomUserFields_
+  commentId: Overload:Surfer.SerializedPropertyExtensions.AddCustomUserFields
+  isSpec: "True"
+  fullName: Surfer.SerializedPropertyExtensions.AddCustomUserFields
+  nameWithType: SerializedPropertyExtensions.AddCustomUserFields
 - uid: Surfer.SerializedPropertyExtensions.AddField*
   name: AddField
   href: api/Surfer.SerializedPropertyExtensions.html#Surfer_SerializedPropertyExtensions_AddField_
@@ -1873,6 +2198,12 @@ references:
   commentId: M:Surfer.SUBehaviourData.Run(GameObject)
   fullName: Surfer.SUBehaviourData.Run(GameObject)
   nameWithType: SUBehaviourData.Run(GameObject)
+- uid: Surfer.SUBehaviourData.Run(GameObject,System.String)
+  name: Run(GameObject, String)
+  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_GameObject_System_String_
+  commentId: M:Surfer.SUBehaviourData.Run(GameObject,System.String)
+  fullName: Surfer.SUBehaviourData.Run(GameObject, System.String)
+  nameWithType: SUBehaviourData.Run(GameObject, String)
 - uid: Surfer.SUBehaviourData.Run*
   name: Run
   href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_
@@ -2816,6 +3147,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnBeginDrag
   nameWithType: SUElement.OnBeginDrag
+- uid: Surfer.SUElement.OnChildrenChanged(SUChildrenMonitorData)
+  name: OnChildrenChanged(SUChildrenMonitorData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnChildrenChanged_SUChildrenMonitorData_
+  commentId: M:Surfer.SUElement.OnChildrenChanged(SUChildrenMonitorData)
+  fullName: Surfer.SUElement.OnChildrenChanged(SUChildrenMonitorData)
+  nameWithType: SUElement.OnChildrenChanged(SUChildrenMonitorData)
+- uid: Surfer.SUElement.OnChildrenChanged*
+  name: OnChildrenChanged
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnChildrenChanged_
+  commentId: Overload:Surfer.SUElement.OnChildrenChanged
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnChildrenChanged
+  nameWithType: SUElement.OnChildrenChanged
 - uid: Surfer.SUElement.OnDeselect(BaseEventData)
   name: OnDeselect(BaseEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnDeselect_BaseEventData_
@@ -2933,6 +3277,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnIndicatorVisualSetUp
   nameWithType: SUElement.OnIndicatorVisualSetUp
+- uid: Surfer.SUElement.OnOrientationChanged(SUOrientationInfo)
+  name: OnOrientationChanged(SUOrientationInfo)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnOrientationChanged_SUOrientationInfo_
+  commentId: M:Surfer.SUElement.OnOrientationChanged(SUOrientationInfo)
+  fullName: Surfer.SUElement.OnOrientationChanged(SUOrientationInfo)
+  nameWithType: SUElement.OnOrientationChanged(SUOrientationInfo)
+- uid: Surfer.SUElement.OnOrientationChanged*
+  name: OnOrientationChanged
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnOrientationChanged_
+  commentId: Overload:Surfer.SUElement.OnOrientationChanged
+  isSpec: "True"
+  fullName: Surfer.SUElement.OnOrientationChanged
+  nameWithType: SUElement.OnOrientationChanged
 - uid: Surfer.SUElement.OnPointerClick(PointerEventData)
   name: OnPointerClick(PointerEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnPointerClick_PointerEventData_
@@ -3238,6 +3595,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.CloseDelay
   nameWithType: SUElementData.CloseDelay
+- uid: Surfer.SUElementData.GroupStates
+  name: GroupStates
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GroupStates
+  commentId: P:Surfer.SUElementData.GroupStates
+  fullName: Surfer.SUElementData.GroupStates
+  nameWithType: SUElementData.GroupStates
+- uid: Surfer.SUElementData.GroupStates*
+  name: GroupStates
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GroupStates_
+  commentId: Overload:Surfer.SUElementData.GroupStates
+  isSpec: "True"
+  fullName: Surfer.SUElementData.GroupStates
+  nameWithType: SUElementData.GroupStates
 - uid: Surfer.SUElementData.HandleOnDestroy
   name: HandleOnDestroy()
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_HandleOnDestroy
@@ -3277,6 +3647,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.IndVisualData
   nameWithType: SUElementData.IndVisualData
+- uid: Surfer.SUElementData.IntVal
+  name: IntVal
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IntVal
+  commentId: P:Surfer.SUElementData.IntVal
+  fullName: Surfer.SUElementData.IntVal
+  nameWithType: SUElementData.IntVal
+- uid: Surfer.SUElementData.IntVal*
+  name: IntVal
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IntVal_
+  commentId: Overload:Surfer.SUElementData.IntVal
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IntVal
+  nameWithType: SUElementData.IntVal
 - uid: Surfer.SUElementData.IsDrag
   name: IsDrag
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsDrag
@@ -3290,6 +3673,45 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.IsDrag
   nameWithType: SUElementData.IsDrag
+- uid: Surfer.SUElementData.IsGroup
+  name: IsGroup
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroup
+  commentId: P:Surfer.SUElementData.IsGroup
+  fullName: Surfer.SUElementData.IsGroup
+  nameWithType: SUElementData.IsGroup
+- uid: Surfer.SUElementData.IsGroup*
+  name: IsGroup
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroup_
+  commentId: Overload:Surfer.SUElementData.IsGroup
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsGroup
+  nameWithType: SUElementData.IsGroup
+- uid: Surfer.SUElementData.IsGroupButtons
+  name: IsGroupButtons
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroupButtons
+  commentId: P:Surfer.SUElementData.IsGroupButtons
+  fullName: Surfer.SUElementData.IsGroupButtons
+  nameWithType: SUElementData.IsGroupButtons
+- uid: Surfer.SUElementData.IsGroupButtons*
+  name: IsGroupButtons
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroupButtons_
+  commentId: Overload:Surfer.SUElementData.IsGroupButtons
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsGroupButtons
+  nameWithType: SUElementData.IsGroupButtons
+- uid: Surfer.SUElementData.IsGroupStates
+  name: IsGroupStates
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroupStates
+  commentId: P:Surfer.SUElementData.IsGroupStates
+  fullName: Surfer.SUElementData.IsGroupStates
+  nameWithType: SUElementData.IsGroupStates
+- uid: Surfer.SUElementData.IsGroupStates*
+  name: IsGroupStates
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsGroupStates_
+  commentId: Overload:Surfer.SUElementData.IsGroupStates
+  isSpec: "True"
+  fullName: Surfer.SUElementData.IsGroupStates
+  nameWithType: SUElementData.IsGroupStates
 - uid: Surfer.SUElementData.IsLoading
   name: IsLoading
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_IsLoading
@@ -3537,6 +3959,30 @@ references:
   commentId: F:Surfer.SUElementData.Type_ID.DragUp_State
   fullName: Surfer.SUElementData.Type_ID.DragUp_State
   nameWithType: SUElementData.Type_ID.DragUp_State
+- uid: Surfer.SUElementData.Type_ID.GroupButtons
+  name: GroupButtons
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_GroupButtons
+  commentId: F:Surfer.SUElementData.Type_ID.GroupButtons
+  fullName: Surfer.SUElementData.Type_ID.GroupButtons
+  nameWithType: SUElementData.Type_ID.GroupButtons
+- uid: Surfer.SUElementData.Type_ID.GroupStates_InOut
+  name: GroupStates_InOut
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_GroupStates_InOut
+  commentId: F:Surfer.SUElementData.Type_ID.GroupStates_InOut
+  fullName: Surfer.SUElementData.Type_ID.GroupStates_InOut
+  nameWithType: SUElementData.Type_ID.GroupStates_InOut
+- uid: Surfer.SUElementData.Type_ID.GroupStates_OnOff
+  name: GroupStates_OnOff
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_GroupStates_OnOff
+  commentId: F:Surfer.SUElementData.Type_ID.GroupStates_OnOff
+  fullName: Surfer.SUElementData.Type_ID.GroupStates_OnOff
+  nameWithType: SUElementData.Type_ID.GroupStates_OnOff
+- uid: Surfer.SUElementData.Type_ID.GroupStates_OnOffAndInOut
+  name: GroupStates_OnOffAndInOut
+  href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_GroupStates_OnOffAndInOut
+  commentId: F:Surfer.SUElementData.Type_ID.GroupStates_OnOffAndInOut
+  fullName: Surfer.SUElementData.Type_ID.GroupStates_OnOffAndInOut
+  nameWithType: SUElementData.Type_ID.GroupStates_OnOffAndInOut
 - uid: Surfer.SUElementData.Type_ID.HealthBar
   name: HealthBar
   href: api/Surfer.SUElementData.Type_ID.html#Surfer_SUElementData_Type_ID_HealthBar
@@ -3922,6 +4368,30 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.MyCustomEvent
   fullName: Surfer.SUEvent.Type_ID.MyCustomEvent
   nameWithType: SUEvent.Type_ID.MyCustomEvent
+- uid: Surfer.SUEvent.Type_ID.Orientation_ToLandscapeLeft
+  name: Orientation_ToLandscapeLeft
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Orientation_ToLandscapeLeft
+  commentId: F:Surfer.SUEvent.Type_ID.Orientation_ToLandscapeLeft
+  fullName: Surfer.SUEvent.Type_ID.Orientation_ToLandscapeLeft
+  nameWithType: SUEvent.Type_ID.Orientation_ToLandscapeLeft
+- uid: Surfer.SUEvent.Type_ID.Orientation_ToLandscapeRight
+  name: Orientation_ToLandscapeRight
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Orientation_ToLandscapeRight
+  commentId: F:Surfer.SUEvent.Type_ID.Orientation_ToLandscapeRight
+  fullName: Surfer.SUEvent.Type_ID.Orientation_ToLandscapeRight
+  nameWithType: SUEvent.Type_ID.Orientation_ToLandscapeRight
+- uid: Surfer.SUEvent.Type_ID.Orientation_ToPortrait
+  name: Orientation_ToPortrait
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Orientation_ToPortrait
+  commentId: F:Surfer.SUEvent.Type_ID.Orientation_ToPortrait
+  fullName: Surfer.SUEvent.Type_ID.Orientation_ToPortrait
+  nameWithType: SUEvent.Type_ID.Orientation_ToPortrait
+- uid: Surfer.SUEvent.Type_ID.Orientation_ToPortraitUpsideDown
+  name: Orientation_ToPortraitUpsideDown
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Orientation_ToPortraitUpsideDown
+  commentId: F:Surfer.SUEvent.Type_ID.Orientation_ToPortraitUpsideDown
+  fullName: Surfer.SUEvent.Type_ID.Orientation_ToPortraitUpsideDown
+  nameWithType: SUEvent.Type_ID.Orientation_ToPortraitUpsideDown
 - uid: Surfer.SUEvent.Type_ID.Scene_Activated
   name: Scene_Activated
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Scene_Activated
@@ -4084,6 +4554,36 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.Toggle_OnTrue
   fullName: Surfer.SUEvent.Type_ID.Toggle_OnTrue
   nameWithType: SUEvent.Type_ID.Toggle_OnTrue
+- uid: Surfer.SUEvent.Type_ID.Transform_OnChildAdded
+  name: Transform_OnChildAdded
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Transform_OnChildAdded
+  commentId: F:Surfer.SUEvent.Type_ID.Transform_OnChildAdded
+  fullName: Surfer.SUEvent.Type_ID.Transform_OnChildAdded
+  nameWithType: SUEvent.Type_ID.Transform_OnChildAdded
+- uid: Surfer.SUEvent.Type_ID.Transform_OnChildRemoved
+  name: Transform_OnChildRemoved
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Transform_OnChildRemoved
+  commentId: F:Surfer.SUEvent.Type_ID.Transform_OnChildRemoved
+  fullName: Surfer.SUEvent.Type_ID.Transform_OnChildRemoved
+  nameWithType: SUEvent.Type_ID.Transform_OnChildRemoved
+- uid: Surfer.SUEvent.Type_ID.Transform_OnChildrenCountChanged
+  name: Transform_OnChildrenCountChanged
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Transform_OnChildrenCountChanged
+  commentId: F:Surfer.SUEvent.Type_ID.Transform_OnChildrenCountChanged
+  fullName: Surfer.SUEvent.Type_ID.Transform_OnChildrenCountChanged
+  nameWithType: SUEvent.Type_ID.Transform_OnChildrenCountChanged
+- uid: Surfer.SUEvent.Type_ID.Transform_OnParentChanged
+  name: Transform_OnParentChanged
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Transform_OnParentChanged
+  commentId: F:Surfer.SUEvent.Type_ID.Transform_OnParentChanged
+  fullName: Surfer.SUEvent.Type_ID.Transform_OnParentChanged
+  nameWithType: SUEvent.Type_ID.Transform_OnParentChanged
+- uid: Surfer.SUEvent.Type_ID.Transform_OnParentLost
+  name: Transform_OnParentLost
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Transform_OnParentLost
+  commentId: F:Surfer.SUEvent.Type_ID.Transform_OnParentLost
+  fullName: Surfer.SUEvent.Type_ID.Transform_OnParentLost
+  nameWithType: SUEvent.Type_ID.Transform_OnParentLost
 - uid: Surfer.SUEvent.Type_ID.UIGeneric_OnBecomeLastStateSelection
   name: UIGeneric_OnBecomeLastStateSelection
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_UIGeneric_OnBecomeLastStateSelection
@@ -5136,6 +5636,18 @@ references:
   commentId: F:Surfer.SUFastReactionData.Type_ID.Toggle_True
   fullName: Surfer.SUFastReactionData.Type_ID.Toggle_True
   nameWithType: SUFastReactionData.Type_ID.Toggle_True
+- uid: Surfer.SUFastReactionData.Type_ID.Transform_JustMoveIn
+  name: Transform_JustMoveIn
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Transform_JustMoveIn
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Transform_JustMoveIn
+  fullName: Surfer.SUFastReactionData.Type_ID.Transform_JustMoveIn
+  nameWithType: SUFastReactionData.Type_ID.Transform_JustMoveIn
+- uid: Surfer.SUFastReactionData.Type_ID.Transform_JustMoveOut
+  name: Transform_JustMoveOut
+  href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Transform_JustMoveOut
+  commentId: F:Surfer.SUFastReactionData.Type_ID.Transform_JustMoveOut
+  fullName: Surfer.SUFastReactionData.Type_ID.Transform_JustMoveOut
+  nameWithType: SUFastReactionData.Type_ID.Transform_JustMoveOut
 - uid: Surfer.SUFastReactionData.Type_ID.Transform_SetAnchoredPosition
   name: Transform_SetAnchoredPosition
   href: api/Surfer.SUFastReactionData.Type_ID.html#Surfer_SUFastReactionData_Type_ID_Transform_SetAnchoredPosition
@@ -5273,6 +5785,208 @@ references:
   isSpec: "True"
   fullName: Surfer.SUFastReactionsDataDrawer.OnGUI
   nameWithType: SUFastReactionsDataDrawer.OnGUI
+- uid: Surfer.SUFieldValuesData
+  name: SUFieldValuesData
+  href: api/Surfer.SUFieldValuesData.html
+  commentId: T:Surfer.SUFieldValuesData
+  fullName: Surfer.SUFieldValuesData
+  nameWithType: SUFieldValuesData
+- uid: Surfer.SUFieldValuesData.Bool_1
+  name: Bool_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Bool_1
+  commentId: F:Surfer.SUFieldValuesData.Bool_1
+  fullName: Surfer.SUFieldValuesData.Bool_1
+  nameWithType: SUFieldValuesData.Bool_1
+- uid: Surfer.SUFieldValuesData.Bool_2
+  name: Bool_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Bool_2
+  commentId: F:Surfer.SUFieldValuesData.Bool_2
+  fullName: Surfer.SUFieldValuesData.Bool_2
+  nameWithType: SUFieldValuesData.Bool_2
+- uid: Surfer.SUFieldValuesData.Bool_3
+  name: Bool_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Bool_3
+  commentId: F:Surfer.SUFieldValuesData.Bool_3
+  fullName: Surfer.SUFieldValuesData.Bool_3
+  nameWithType: SUFieldValuesData.Bool_3
+- uid: Surfer.SUFieldValuesData.Color_1
+  name: Color_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Color_1
+  commentId: F:Surfer.SUFieldValuesData.Color_1
+  fullName: Surfer.SUFieldValuesData.Color_1
+  nameWithType: SUFieldValuesData.Color_1
+- uid: Surfer.SUFieldValuesData.Color_2
+  name: Color_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Color_2
+  commentId: F:Surfer.SUFieldValuesData.Color_2
+  fullName: Surfer.SUFieldValuesData.Color_2
+  nameWithType: SUFieldValuesData.Color_2
+- uid: Surfer.SUFieldValuesData.Color_3
+  name: Color_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Color_3
+  commentId: F:Surfer.SUFieldValuesData.Color_3
+  fullName: Surfer.SUFieldValuesData.Color_3
+  nameWithType: SUFieldValuesData.Color_3
+- uid: Surfer.SUFieldValuesData.Enum_1
+  name: Enum_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Enum_1
+  commentId: F:Surfer.SUFieldValuesData.Enum_1
+  fullName: Surfer.SUFieldValuesData.Enum_1
+  nameWithType: SUFieldValuesData.Enum_1
+- uid: Surfer.SUFieldValuesData.Enum_2
+  name: Enum_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Enum_2
+  commentId: F:Surfer.SUFieldValuesData.Enum_2
+  fullName: Surfer.SUFieldValuesData.Enum_2
+  nameWithType: SUFieldValuesData.Enum_2
+- uid: Surfer.SUFieldValuesData.Enum_3
+  name: Enum_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Enum_3
+  commentId: F:Surfer.SUFieldValuesData.Enum_3
+  fullName: Surfer.SUFieldValuesData.Enum_3
+  nameWithType: SUFieldValuesData.Enum_3
+- uid: Surfer.SUFieldValuesData.Float_1
+  name: Float_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Float_1
+  commentId: F:Surfer.SUFieldValuesData.Float_1
+  fullName: Surfer.SUFieldValuesData.Float_1
+  nameWithType: SUFieldValuesData.Float_1
+- uid: Surfer.SUFieldValuesData.Float_2
+  name: Float_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Float_2
+  commentId: F:Surfer.SUFieldValuesData.Float_2
+  fullName: Surfer.SUFieldValuesData.Float_2
+  nameWithType: SUFieldValuesData.Float_2
+- uid: Surfer.SUFieldValuesData.Float_3
+  name: Float_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Float_3
+  commentId: F:Surfer.SUFieldValuesData.Float_3
+  fullName: Surfer.SUFieldValuesData.Float_3
+  nameWithType: SUFieldValuesData.Float_3
+- uid: Surfer.SUFieldValuesData.Int_1
+  name: Int_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Int_1
+  commentId: F:Surfer.SUFieldValuesData.Int_1
+  fullName: Surfer.SUFieldValuesData.Int_1
+  nameWithType: SUFieldValuesData.Int_1
+- uid: Surfer.SUFieldValuesData.Int_2
+  name: Int_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Int_2
+  commentId: F:Surfer.SUFieldValuesData.Int_2
+  fullName: Surfer.SUFieldValuesData.Int_2
+  nameWithType: SUFieldValuesData.Int_2
+- uid: Surfer.SUFieldValuesData.Int_3
+  name: Int_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Int_3
+  commentId: F:Surfer.SUFieldValuesData.Int_3
+  fullName: Surfer.SUFieldValuesData.Int_3
+  nameWithType: SUFieldValuesData.Int_3
+- uid: Surfer.SUFieldValuesData.Object_1
+  name: Object_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Object_1
+  commentId: F:Surfer.SUFieldValuesData.Object_1
+  fullName: Surfer.SUFieldValuesData.Object_1
+  nameWithType: SUFieldValuesData.Object_1
+- uid: Surfer.SUFieldValuesData.Object_2
+  name: Object_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Object_2
+  commentId: F:Surfer.SUFieldValuesData.Object_2
+  fullName: Surfer.SUFieldValuesData.Object_2
+  nameWithType: SUFieldValuesData.Object_2
+- uid: Surfer.SUFieldValuesData.Object_3
+  name: Object_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Object_3
+  commentId: F:Surfer.SUFieldValuesData.Object_3
+  fullName: Surfer.SUFieldValuesData.Object_3
+  nameWithType: SUFieldValuesData.Object_3
+- uid: Surfer.SUFieldValuesData.Object_4
+  name: Object_4
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Object_4
+  commentId: F:Surfer.SUFieldValuesData.Object_4
+  fullName: Surfer.SUFieldValuesData.Object_4
+  nameWithType: SUFieldValuesData.Object_4
+- uid: Surfer.SUFieldValuesData.Object_5
+  name: Object_5
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_Object_5
+  commentId: F:Surfer.SUFieldValuesData.Object_5
+  fullName: Surfer.SUFieldValuesData.Object_5
+  nameWithType: SUFieldValuesData.Object_5
+- uid: Surfer.SUFieldValuesData.String_1
+  name: String_1
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_String_1
+  commentId: F:Surfer.SUFieldValuesData.String_1
+  fullName: Surfer.SUFieldValuesData.String_1
+  nameWithType: SUFieldValuesData.String_1
+- uid: Surfer.SUFieldValuesData.String_2
+  name: String_2
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_String_2
+  commentId: F:Surfer.SUFieldValuesData.String_2
+  fullName: Surfer.SUFieldValuesData.String_2
+  nameWithType: SUFieldValuesData.String_2
+- uid: Surfer.SUFieldValuesData.String_3
+  name: String_3
+  href: api/Surfer.SUFieldValuesData.html#Surfer_SUFieldValuesData_String_3
+  commentId: F:Surfer.SUFieldValuesData.String_3
+  fullName: Surfer.SUFieldValuesData.String_3
+  nameWithType: SUFieldValuesData.String_3
+- uid: Surfer.SUGroupsBehaviour
+  name: SUGroupsBehaviour
+  href: api/Surfer.SUGroupsBehaviour.html
+  commentId: T:Surfer.SUGroupsBehaviour
+  fullName: Surfer.SUGroupsBehaviour
+  nameWithType: SUGroupsBehaviour
+- uid: Surfer.SUGroupsBehaviour.#ctor(GameObject,Surfer.SUElement)
+  name: SUGroupsBehaviour(GameObject, SUElement)
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour__ctor_GameObject_Surfer_SUElement_
+  commentId: M:Surfer.SUGroupsBehaviour.#ctor(GameObject,Surfer.SUElement)
+  fullName: Surfer.SUGroupsBehaviour.SUGroupsBehaviour(GameObject, Surfer.SUElement)
+  nameWithType: SUGroupsBehaviour.SUGroupsBehaviour(GameObject, SUElement)
+- uid: Surfer.SUGroupsBehaviour.#ctor*
+  name: SUGroupsBehaviour
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour__ctor_
+  commentId: Overload:Surfer.SUGroupsBehaviour.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGroupsBehaviour.SUGroupsBehaviour
+  nameWithType: SUGroupsBehaviour.SUGroupsBehaviour
+- uid: Surfer.SUGroupsBehaviour.HandleDestroy
+  name: HandleDestroy()
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleDestroy
+  commentId: M:Surfer.SUGroupsBehaviour.HandleDestroy
+  fullName: Surfer.SUGroupsBehaviour.HandleDestroy()
+  nameWithType: SUGroupsBehaviour.HandleDestroy()
+- uid: Surfer.SUGroupsBehaviour.HandleDestroy*
+  name: HandleDestroy
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleDestroy_
+  commentId: Overload:Surfer.SUGroupsBehaviour.HandleDestroy
+  isSpec: "True"
+  fullName: Surfer.SUGroupsBehaviour.HandleDestroy
+  nameWithType: SUGroupsBehaviour.HandleDestroy
+- uid: Surfer.SUGroupsBehaviour.HandleEnterState(System.String)
+  name: HandleEnterState(String)
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleEnterState_System_String_
+  commentId: M:Surfer.SUGroupsBehaviour.HandleEnterState(System.String)
+  fullName: Surfer.SUGroupsBehaviour.HandleEnterState(System.String)
+  nameWithType: SUGroupsBehaviour.HandleEnterState(String)
+- uid: Surfer.SUGroupsBehaviour.HandleEnterState*
+  name: HandleEnterState
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleEnterState_
+  commentId: Overload:Surfer.SUGroupsBehaviour.HandleEnterState
+  isSpec: "True"
+  fullName: Surfer.SUGroupsBehaviour.HandleEnterState
+  nameWithType: SUGroupsBehaviour.HandleEnterState
+- uid: Surfer.SUGroupsBehaviour.HandleExitState(System.String)
+  name: HandleExitState(String)
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleExitState_System_String_
+  commentId: M:Surfer.SUGroupsBehaviour.HandleExitState(System.String)
+  fullName: Surfer.SUGroupsBehaviour.HandleExitState(System.String)
+  nameWithType: SUGroupsBehaviour.HandleExitState(String)
+- uid: Surfer.SUGroupsBehaviour.HandleExitState*
+  name: HandleExitState
+  href: api/Surfer.SUGroupsBehaviour.html#Surfer_SUGroupsBehaviour_HandleExitState_
+  commentId: Overload:Surfer.SUGroupsBehaviour.HandleExitState
+  isSpec: "True"
+  fullName: Surfer.SUGroupsBehaviour.HandleExitState
+  nameWithType: SUGroupsBehaviour.HandleExitState
 - uid: Surfer.SUGroupStateUI
   name: SUGroupStateUI
   href: api/Surfer.SUGroupStateUI.html
@@ -5544,13 +6258,13 @@ references:
   commentId: M:Surfer.SUHealthBarLinkData.#ctor
   fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData()
   nameWithType: SUHealthBarLinkData.SUHealthBarLinkData()
-- uid: Surfer.SUHealthBarLinkData.#ctor(Transform,List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+- uid: Surfer.SUHealthBarLinkData.#ctor(Transform,System.Collections.Generic.List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
   name: SUHealthBarLinkData(Transform, List<SUHealthBarData>, Single, Single, Single, Single, Single, Single, Single)
-  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData__ctor_Transform_List_Surfer_SUHealthBarData__System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
-  commentId: M:Surfer.SUHealthBarLinkData.#ctor(Transform,List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  href: api/Surfer.SUHealthBarLinkData.html#Surfer_SUHealthBarLinkData__ctor_Transform_System_Collections_Generic_List_Surfer_SUHealthBarData__System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Surfer.SUHealthBarLinkData.#ctor(Transform,System.Collections.Generic.List{Surfer.SUHealthBarData},System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
   name.vb: SUHealthBarLinkData(Transform, List(Of SUHealthBarData), Single, Single, Single, Single, Single, Single, Single)
-  fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, List<Surfer.SUHealthBarData>, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
-  fullName.vb: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, List(Of Surfer.SUHealthBarData), System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  fullName: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, System.Collections.Generic.List<Surfer.SUHealthBarData>, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  fullName.vb: Surfer.SUHealthBarLinkData.SUHealthBarLinkData(Transform, System.Collections.Generic.List(Of Surfer.SUHealthBarData), System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
   nameWithType: SUHealthBarLinkData.SUHealthBarLinkData(Transform, List<SUHealthBarData>, Single, Single, Single, Single, Single, Single, Single)
   nameWithType.vb: SUHealthBarLinkData.SUHealthBarLinkData(Transform, List(Of SUHealthBarData), Single, Single, Single, Single, Single, Single, Single)
 - uid: Surfer.SUHealthBarLinkData.#ctor*
@@ -5894,11 +6608,11 @@ references:
   isSpec: "True"
   fullName: Surfer.SUHealthBarsManager.StartFollow
   nameWithType: SUHealthBarsManager.StartFollow
-- uid: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,IEnumerator)
+- uid: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,System.Collections.IEnumerator)
   name: StartMPRoutine(SUHealthBarLinkData, IEnumerator)
-  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartMPRoutine_Surfer_SUHealthBarLinkData_IEnumerator_
-  commentId: M:Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,IEnumerator)
-  fullName: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData, IEnumerator)
+  href: api/Surfer.SUHealthBarsManager.html#Surfer_SUHealthBarsManager_StartMPRoutine_Surfer_SUHealthBarLinkData_System_Collections_IEnumerator_
+  commentId: M:Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData,System.Collections.IEnumerator)
+  fullName: Surfer.SUHealthBarsManager.StartMPRoutine(Surfer.SUHealthBarLinkData, System.Collections.IEnumerator)
   nameWithType: SUHealthBarsManager.StartMPRoutine(SUHealthBarLinkData, IEnumerator)
 - uid: Surfer.SUHealthBarsManager.StartMPRoutine*
   name: StartMPRoutine
@@ -6329,13 +7043,13 @@ references:
   commentId: M:Surfer.SUIndicatorLinkData.#ctor
   fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData()
   nameWithType: SUIndicatorLinkData.SUIndicatorLinkData()
-- uid: Surfer.SUIndicatorLinkData.#ctor(Transform,List{Surfer.SUIndicatorData})
+- uid: Surfer.SUIndicatorLinkData.#ctor(Transform,System.Collections.Generic.List{Surfer.SUIndicatorData})
   name: SUIndicatorLinkData(Transform, List<SUIndicatorData>)
-  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData__ctor_Transform_List_Surfer_SUIndicatorData__
-  commentId: M:Surfer.SUIndicatorLinkData.#ctor(Transform,List{Surfer.SUIndicatorData})
+  href: api/Surfer.SUIndicatorLinkData.html#Surfer_SUIndicatorLinkData__ctor_Transform_System_Collections_Generic_List_Surfer_SUIndicatorData__
+  commentId: M:Surfer.SUIndicatorLinkData.#ctor(Transform,System.Collections.Generic.List{Surfer.SUIndicatorData})
   name.vb: SUIndicatorLinkData(Transform, List(Of SUIndicatorData))
-  fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, List<Surfer.SUIndicatorData>)
-  fullName.vb: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, List(Of Surfer.SUIndicatorData))
+  fullName: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, System.Collections.Generic.List<Surfer.SUIndicatorData>)
+  fullName.vb: Surfer.SUIndicatorLinkData.SUIndicatorLinkData(Transform, System.Collections.Generic.List(Of Surfer.SUIndicatorData))
   nameWithType: SUIndicatorLinkData.SUIndicatorLinkData(Transform, List<SUIndicatorData>)
   nameWithType.vb: SUIndicatorLinkData.SUIndicatorLinkData(Transform, List(Of SUIndicatorData))
 - uid: Surfer.SUIndicatorLinkData.#ctor*
@@ -7425,6 +8139,12 @@ references:
   commentId: T:Surfer.SurferHelper
   fullName: Surfer.SurferHelper
   nameWithType: SurferHelper
+- uid: Surfer.SurferHelper.BoltSymbol
+  name: BoltSymbol
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_BoltSymbol
+  commentId: F:Surfer.SurferHelper.BoltSymbol
+  fullName: Surfer.SurferHelper.BoltSymbol
+  nameWithType: SurferHelper.BoltSymbol
 - uid: Surfer.SurferHelper.BuildVPrefix
   name: BuildVPrefix
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_BuildVPrefix
@@ -7756,12 +8476,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.IsOpen
   nameWithType: SurferManager.IsOpen
-- uid: Surfer.SurferManager.IsSatisfied(System.String,GameObject)
-  name: IsSatisfied(String, GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsSatisfied_System_String_GameObject_
-  commentId: M:Surfer.SurferManager.IsSatisfied(System.String,GameObject)
-  fullName: Surfer.SurferManager.IsSatisfied(System.String, GameObject)
-  nameWithType: SurferManager.IsSatisfied(String, GameObject)
+- uid: Surfer.SurferManager.IsSatisfied(System.String,GameObject,Surfer.SUFieldValuesData)
+  name: IsSatisfied(String, GameObject, SUFieldValuesData)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsSatisfied_System_String_GameObject_Surfer_SUFieldValuesData_
+  commentId: M:Surfer.SurferManager.IsSatisfied(System.String,GameObject,Surfer.SUFieldValuesData)
+  fullName: Surfer.SurferManager.IsSatisfied(System.String, GameObject, Surfer.SUFieldValuesData)
+  nameWithType: SurferManager.IsSatisfied(String, GameObject, SUFieldValuesData)
 - uid: Surfer.SurferManager.IsSatisfied*
   name: IsSatisfied
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_IsSatisfied_
@@ -7944,12 +8664,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.OpenState
   nameWithType: SurferManager.OpenState
-- uid: Surfer.SurferManager.PlayReaction(System.String,GameObject)
-  name: PlayReaction(String, GameObject)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_PlayReaction_System_String_GameObject_
-  commentId: M:Surfer.SurferManager.PlayReaction(System.String,GameObject)
-  fullName: Surfer.SurferManager.PlayReaction(System.String, GameObject)
-  nameWithType: SurferManager.PlayReaction(String, GameObject)
+- uid: Surfer.SurferManager.PlayReaction(System.String,GameObject,Surfer.SUFieldValuesData)
+  name: PlayReaction(String, GameObject, SUFieldValuesData)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_PlayReaction_System_String_GameObject_Surfer_SUFieldValuesData_
+  commentId: M:Surfer.SurferManager.PlayReaction(System.String,GameObject,Surfer.SUFieldValuesData)
+  fullName: Surfer.SurferManager.PlayReaction(System.String, GameObject, Surfer.SUFieldValuesData)
+  nameWithType: SurferManager.PlayReaction(String, GameObject, SUFieldValuesData)
 - uid: Surfer.SurferManager.PlayReaction*
   name: PlayReaction
   href: api/Surfer.SurferManager.html#Surfer_SurferManager_PlayReaction_
@@ -7957,13 +8677,13 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.PlayReaction
   nameWithType: SurferManager.PlayReaction
-- uid: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,List{Surfer.SUStateInfo}@)
+- uid: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
   name: RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,List{Surfer.SUStateInfo}@)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
   name.vb: RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ref List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ByRef List(Of Surfer.SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetChildStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
   nameWithType: SurferManager.RecursiveGetChildStatesUI(Transform, ref List<SUStateInfo>)
   nameWithType.vb: SurferManager.RecursiveGetChildStatesUI(Transform, ByRef List(Of SUStateInfo))
 - uid: Surfer.SurferManager.RecursiveGetChildStatesUI*
@@ -7973,13 +8693,13 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferManager.RecursiveGetChildStatesUI
   nameWithType: SurferManager.RecursiveGetChildStatesUI
-- uid: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,List{Surfer.SUStateInfo}@)
+- uid: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
   name: RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
-  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,List{Surfer.SUStateInfo}@)
+  href: api/Surfer.SurferManager.html#Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)
   name.vb: RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ref List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ByRef List(Of Surfer.SUStateInfo))
+  fullName: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SurferManager.RecursiveGetParentStatesUI(Transform, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
   nameWithType: SurferManager.RecursiveGetParentStatesUI(Transform, ref List<SUStateInfo>)
   nameWithType.vb: SurferManager.RecursiveGetParentStatesUI(Transform, ByRef List(Of SUStateInfo))
 - uid: Surfer.SurferManager.RecursiveGetParentStatesUI*

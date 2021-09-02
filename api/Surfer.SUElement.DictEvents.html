@@ -88,8 +88,9 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Surfer.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a>, <a class="xref" href="Surfer.SUBehavioursData.html">SUBehavioursData</a>&gt;</div>
-    <div class="level2"><span class="xref">SUElement.DictEvents</span></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a>, <a class="xref" href="Surfer.SUBehavioursData.html">SUBehavioursData</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Surfer.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a>, <a class="xref" href="Surfer.SUBehavioursData.html">SUBehavioursData</a>&gt;</div>
+    <div class="level3"><span class="xref">SUElement.DictEvents</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,7 +106,7 @@
   <h5 id="Surfer_SUElement_DictEvents_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class DictEvents : SerializableDictionary&lt;SUEvent.Type_ID, SUBehavioursData&gt;, ISerializationCallbackReceiver</code></pre>
+public class DictEvents : SerializableDictionary&lt;SUEvent.Type_ID, SUBehavioursData&gt;, IDictionary&lt;SUEvent.Type_ID, SUBehavioursData&gt;, ICollection&lt;KeyValuePair&lt;SUEvent.Type_ID, SUBehavioursData&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;SUEvent.Type_ID, SUBehavioursData&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;SUEvent.Type_ID, SUBehavioursData&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;SUEvent.Type_ID, SUBehavioursData&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback, ISerializationCallbackReceiver</code></pre>
   </div>
 </article>
           </div>
