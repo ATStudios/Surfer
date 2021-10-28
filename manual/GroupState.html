@@ -81,19 +81,19 @@
 
 <p>GroupStates are an easy way to handle multiple Surfer logics in just one click.</p>
 <p>For example, we would like to build a Tab Menu System where we have 4 tab screens and 4 buttons.</p>
-<p>In a normal Surfer scenario, we would add a SUElement to all the 4 tab screens and make them <code>States</code>. Then we would add a SUElement to all the 4 buttons and add the Surfer Action <code>OpenState</code>to all of them in order to open each screen.</p>
+<p>In a normal Surfer scenario, we would add a SUElementCanvas to all the 4 tab screens and make them <code>States</code>. Then we would add a SUElementCanvas to all the 4 buttons and add the Surfer Action <code>OpenState</code>to all of them in order to open each screen.</p>
 <p>With GroupStates we can simplify all of this in two simple steps :</p>
 <ul>
 <li><p>create a parent object that will contain all the states</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/group1.png" alt="Image"></p>
 </li>
-<li><p>add a <code>SUElement</code>to the parent and set the type to <code>GroupStates_OnOff</code> and then in the <code>States</code>list choose the name of the two states</p>
+<li><p>add a <code>SUElementCanvas</code>to the parent and set the type to <code>GroupStates_OnOff</code> and then in the <code>States</code>list choose the name of the two states</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/group2.png" alt="Image"></p>
 </li>
 <li><p>create a parent object that will contain all the buttons that will open the states</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/group3.png" alt="Image"></p>
 </li>
-<li><p>add a <code>SUElement</code>to the parent and set the type to <code>GroupButtons</code> and then in the <code>States</code>list set the name of the two states</p>
+<li><p>add a <code>SUElementCanvas</code>to the parent and set the type to <code>GroupButtons</code> and then in the <code>States</code>list set the name of the two states</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/group4.png" alt="Image"></p>
 </li>
 </ul>

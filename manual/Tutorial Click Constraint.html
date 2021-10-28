@@ -79,13 +79,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="tutorial-click-constraint">Tutorial Click Constraint</h1>
 
-<p>In order to create a Tutorial panel where only a specific button can be clicked , we must simply choose the fast reaction <code>UIGenerics/EnableClickConstraint</code> .</p>
+<p>In order to create a Tutorial panel where only a specific button can be clicked , we must simply choose the reaction <code>UIGenerics/EnableClickConstraint</code> .</p>
 <p>Basically :</p>
 <ul>
 <li>we call <code>OpenState</code> for a state panel <code>Tutorial</code></li>
-<li>on the <code>MyStateEnter</code> event of the same panel, we choose <code>UIGenerics/EnableClickConstraint</code> as fast reaction and we drag the button we want to enable the constraint on</li>
+<li>on the <code>MyStateEnter</code> event of the same panel, we choose <code>UIGenerics/EnableClickConstraint</code> as reaction and we drag the button we want to enable the constraint on</li>
 </ul>
-<p>To disable the constraint and allow click on the entire panel, the fast reaction <code>UIGenerics/EnableClickConstraint</code> should be used.</p>
+<p>To disable the constraint and allow click on the entire panel, the reaction <code>UIGenerics/EnableClickConstraint</code> should be used.</p>
 <blockquote><p><strong>INFO</strong> : This fast reaction uses <code>CanvasGroup</code>components in order to work. So , if the expected constraint is not working, it is probably due to a conflict of the components with your current UI logic.</p>
 </blockquote>
 <h2 id="ideal-use">Ideal Use</h2>

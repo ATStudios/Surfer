@@ -88,14 +88,14 @@
 <p><img src="https://atstudios.github.io/Surfer/resources/bolt1.png" alt="Image"></p>
 <h2 id="event-listener">Event Listener</h2>
 <p>First of all, go to Unity-&gt;Preferences-&gt;Surfer and select Bolt under the section <code>Integrations</code>.</p>
-<p>In order to receive a SUElement Event in Bolt we must do as follows :</p>
+<p>In order to receive a SUElementCanvas Event in Bolt we must do as follows :</p>
 <ul>
-<li>add <code>SUElement</code> to a scene object and then create a new event</li>
+<li>add <code>SUElementCanvas</code> to a scene object and then create a new event</li>
 <li>then, in the graph of the object, add a <code>CustomEvent</code> unit , insert the name related the event you want to listen to and run the logic you want</li>
 <li>as parameter, you have 1 Boolean that tells you if the event was run <code>OnSuccess</code>or <code>OnFail</code></li>
 </ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/bolt2.png" alt="Image"></p>
-<p>The name of the event must be equal to the name of the SUElement event without the words before the first <code>_</code> , for example :</p>
+<p>The name of the event must be equal to the name of the SUElementCanvas event without the words before the first <code>_</code> , for example :</p>
 <ul>
 <li>if the event is <code>State-&gt;MyStateEnter</code>, in the CustomEvent unit you must write <code>MyStateEnter</code></li>
 <li>if the event is <code>Input-&gt;NewInput-&gt;OnAction</code>, in the CustomEvent unit you must write <code>NewInputOnAction</code></li>

@@ -87,33 +87,36 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">SUElement</span></div>
+      <div class="level2"><a class="xref" href="Surfer.SUElementCanvas.html">SUElementCanvas</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></div>
+    <div><a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></div>
     <div><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></div>
-    <div><a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a></div>
-    <div><a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUChildrenMonitorHandler.html">ISUChildrenMonitorHandler</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Surfer_SUElement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUElement : MonoBehaviour, ISUStateEnterHandler, ISUStateExitHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUChildrenMonitorHandler, ISUOrientationHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUElement : IPointerClickHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUOrientationHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, ISUStateEnterHandler, ISUStateExitHandler, ISUChildrenMonitorHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -212,13 +215,145 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_ParentState_" data-uid="Surfer.SUElement.ParentState*"></a>
+  <h4 id="Surfer_SUElement_ParentState" data-uid="Surfer.SUElement.ParentState">ParentState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUElement ParentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElement.html">SUElement</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Surfer_SUElement_Awake_" data-uid="Surfer.SUElement.Awake*"></a>
+  <h4 id="Surfer_SUElement_Awake" data-uid="Surfer.SUElement.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_CheckInput_" data-uid="Surfer.SUElement.CheckInput*"></a>
+  <h4 id="Surfer_SUElement_CheckInput" data-uid="Surfer.SUElement.CheckInput">CheckInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckInput()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_CheckInputField_" data-uid="Surfer.SUElement.CheckInputField*"></a>
+  <h4 id="Surfer_SUElement_CheckInputField" data-uid="Surfer.SUElement.CheckInputField">CheckInputField()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckInputField()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_CheckOldInput_" data-uid="Surfer.SUElement.CheckOldInput*"></a>
+  <h4 id="Surfer_SUElement_CheckOldInput" data-uid="Surfer.SUElement.CheckOldInput">CheckOldInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckOldInput()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_CheckScroll_" data-uid="Surfer.SUElement.CheckScroll*"></a>
+  <h4 id="Surfer_SUElement_CheckScroll" data-uid="Surfer.SUElement.CheckScroll">CheckScroll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckScroll()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_Initialize_" data-uid="Surfer.SUElement.Initialize*"></a>
+  <h4 id="Surfer_SUElement_Initialize" data-uid="Surfer.SUElement.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_InjectNormalElementData_" data-uid="Surfer.SUElement.InjectNormalElementData*"></a>
+  <h4 id="Surfer_SUElement_InjectNormalElementData" data-uid="Surfer.SUElement.InjectNormalElementData">InjectNormalElementData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InjectNormalElementData()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_InjectStateElementData_" data-uid="Surfer.SUElement.InjectStateElementData*"></a>
+  <h4 id="Surfer_SUElement_InjectStateElementData_System_String_System_Int32_Surfer_SUElementData_StateCloseMode_ID_" data-uid="Surfer.SUElement.InjectStateElementData(System.String,System.Int32,Surfer.SUElementData.StateCloseMode_ID)">InjectStateElementData(String, Int32, SUElementData.StateCloseMode_ID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InjectStateElementData(string stateName, int playerID, SUElementData.StateCloseMode_ID closeModeID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">stateName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElementData.StateCloseMode_ID.html">SUElementData.StateCloseMode_ID</a></td>
+        <td><span class="parametername">closeModeID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Surfer_SUElement_OnBeginDrag_" data-uid="Surfer.SUElement.OnBeginDrag*"></a>
@@ -249,7 +384,7 @@
   
   
   <a id="Surfer_SUElement_OnChildrenChanged_" data-uid="Surfer.SUElement.OnChildrenChanged*"></a>
-  <h4 id="Surfer_SUElement_OnChildrenChanged_SUChildrenMonitorData_" data-uid="Surfer.SUElement.OnChildrenChanged(SUChildrenMonitorData)">OnChildrenChanged(SUChildrenMonitorData)</h4>
+  <h4 id="Surfer_SUElement_OnChildrenChanged_Surfer_SUChildrenMonitorData_" data-uid="Surfer.SUElement.OnChildrenChanged(Surfer.SUChildrenMonitorData)">OnChildrenChanged(SUChildrenMonitorData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -267,7 +402,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SUChildrenMonitorData</span></td>
+        <td><a class="xref" href="Surfer.SUChildrenMonitorData.html">SUChildrenMonitorData</a></td>
         <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
@@ -515,7 +650,7 @@
   
   
   <a id="Surfer_SUElement_OnOrientationChanged_" data-uid="Surfer.SUElement.OnOrientationChanged*"></a>
-  <h4 id="Surfer_SUElement_OnOrientationChanged_SUOrientationInfo_" data-uid="Surfer.SUElement.OnOrientationChanged(SUOrientationInfo)">OnOrientationChanged(SUOrientationInfo)</h4>
+  <h4 id="Surfer_SUElement_OnOrientationChanged_Surfer_SUOrientationInfo_" data-uid="Surfer.SUElement.OnOrientationChanged(Surfer.SUOrientationInfo)">OnOrientationChanged(SUOrientationInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -533,7 +668,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SUOrientationInfo</span></td>
+        <td><a class="xref" href="Surfer.SUOrientationInfo.html">SUOrientationInfo</a></td>
         <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
@@ -983,6 +1118,66 @@
   </table>
   
   
+  <a id="Surfer_SUElement_ResetDropdown_" data-uid="Surfer.SUElement.ResetDropdown*"></a>
+  <h4 id="Surfer_SUElement_ResetDropdown" data-uid="Surfer.SUElement.ResetDropdown">ResetDropdown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetDropdown()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_ResetInput_" data-uid="Surfer.SUElement.ResetInput*"></a>
+  <h4 id="Surfer_SUElement_ResetInput" data-uid="Surfer.SUElement.ResetInput">ResetInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetInput()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_ResetInputField_" data-uid="Surfer.SUElement.ResetInputField*"></a>
+  <h4 id="Surfer_SUElement_ResetInputField" data-uid="Surfer.SUElement.ResetInputField">ResetInputField()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetInputField()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_ResetScroll_" data-uid="Surfer.SUElement.ResetScroll*"></a>
+  <h4 id="Surfer_SUElement_ResetScroll" data-uid="Surfer.SUElement.ResetScroll">ResetScroll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetScroll()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_ResetSlider_" data-uid="Surfer.SUElement.ResetSlider*"></a>
+  <h4 id="Surfer_SUElement_ResetSlider" data-uid="Surfer.SUElement.ResetSlider">ResetSlider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetSlider()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUElement_ResetToggle_" data-uid="Surfer.SUElement.ResetToggle*"></a>
+  <h4 id="Surfer_SUElement_ResetToggle" data-uid="Surfer.SUElement.ResetToggle">ResetToggle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetToggle()</code></pre>
+  </div>
+  
+  
   <a id="Surfer_SUElement_RunCustomEventBehaviour_" data-uid="Surfer.SUElement.RunCustomEventBehaviour*"></a>
   <h4 id="Surfer_SUElement_RunCustomEventBehaviour_System_String_" data-uid="Surfer.SUElement.RunCustomEventBehaviour(System.String)">RunCustomEventBehaviour(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -1002,7 +1197,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">eventName</span></td>
         <td></td>
       </tr>
@@ -1061,7 +1256,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">stringVal</span></td>
         <td></td>
       </tr>
@@ -1069,10 +1264,31 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a>
+      <a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a>
   </div>
   <div>
-      <a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a>
+      <a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a>
   </div>
   <div>
       <a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a>
@@ -1093,28 +1309,13 @@
       <a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a>
   </div>
   <div>
-      <a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a>
+      <a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a>
   </div>
   <div>
-      <a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a>
+      <a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a>
   </div>
   <div>
-      <a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a>
+      <a class="xref" href="Surfer.ISUChildrenMonitorHandler.html">ISUChildrenMonitorHandler</a>
   </div>
 </article>
           </div>

@@ -81,20 +81,18 @@
 
 <p>Let&#39;s see how to trigger the opening of a panel when a Scene is loaded. </p>
 <h2 id="setup">Setup</h2>
-<p>Assuming we have a scene with a Canvas and a Camera, let’s add the component <code>SUElement</code> to the Camera.</p>
+<p>Assuming we have a scene with a Canvas and a Camera, let’s add the component <code>SUElementCanvas</code> to the Camera.</p>
 <p>Now, click <code>+</code> to add a new 
 event and in the <code>WHEN…</code>
 section select 
 <code>Scene/MySceneLoaded</code>
 as event.</p>
 <p>Next, in order to open a panel (UI State), we must create a <code>Surfer Action</code>.</p>
-<p>Basically, in the <code>If Conditions True</code> tab of the <code>DO…</code> section , let’s add a new item to the Surfer’s Actions list and as <code>Mode</code> let’s select <code>OpenState</code> and as state let’s select <code>Menu</code>. </p>
+<p>Basically, in the <code>If Conditions True</code> tab of the <code>DO…</code> section , let’s add a new reaction <code>Surfer/OpenState</code> and as state let’s select <code>Menu</code>. </p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef1.png" alt="Image"></p>
-<blockquote><p>When editing a list of actions, sometimes you could see some strange behaviours to the inspector list items. So, fold all the actions you are not editing and edit only the one you want to</p>
-</blockquote>
-<p>Now, in our scene Canvas, let&#39;s create a UI Panel, let’s add the component <code>SUElement</code> to it , set the Type to <code>State</code> and set the State to <code>Menu</code></p>
+<p>Now, in our scene Canvas, let&#39;s create a UI Panel, let’s add the component <code>SUElementCanvas</code> to it , set the Type to <code>State</code> and set the State to <code>Menu</code></p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef2.png" alt="Image"></p>
-<p>Then, add a <code>State/MyStateEnter</code> event and in the <code>DO…</code> section let’s add a fast reaction called <code>SetAnchoredPosition</code> and set the values to 0 ( this reaction is not mandatory , it&#39;s only for example purposes, you can choose the one it&#39;s better for you )</p>
+<p>Then, add a <code>State/MyStateEnter</code> event and in the <code>DO…</code> section let’s add the reaction <code>Transform/SetAnchoredPosition</code> and set the values to 0 ( this reaction is not mandatory , it&#39;s only for example purposes, you can choose the one it&#39;s better for you )</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef3.png" alt="Image"></p>
 <p>As last thing, move your UI Panel out of Camera view, hit play and what you will see is the same panel being shown directly in front of the Camera!</p>
 </article>

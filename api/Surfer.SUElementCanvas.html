@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SUElementCanvas
+   | Copyright &#169; 2021 ATStudio </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SUElementCanvas
+   | Copyright &#169; 2021 ATStudio ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../myfavicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Surfer.SUElementCanvas">
+  
+  
+  <h1 id="Surfer_SUElementCanvas" data-uid="Surfer.SUElementCanvas" class="text-break">Class SUElementCanvas
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Surfer.SUElement.html">SUElement</a></div>
+    <div class="level2"><span class="xref">SUElementCanvas</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a></div>
+    <div><a class="xref" href="Surfer.ISUChildrenMonitorHandler.html">ISUChildrenMonitorHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_Behaviours">SUElement.Behaviours</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ElementData">SUElement.ElementData</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_IsState">SUElement.IsState</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_Events">SUElement.Events</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ParentState">SUElement.ParentState</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_Initialize">SUElement.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_InjectStateElementData_System_String_System_Int32_Surfer_SUElementData_StateCloseMode_ID_">SUElement.InjectStateElementData(String, Int32, SUElementData.StateCloseMode_ID)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_InjectNormalElementData">SUElement.InjectNormalElementData()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_">SUElement.RunEventBehaviour(SUEvent.Type_ID)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_">SUElement.RunEventBehaviourParams(SUEvent.Type_ID, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_System_String_">SUElement.RunCustomEventBehaviour(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetDropdown">SUElement.ResetDropdown()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnHealthBarVisualSetUp">SUElement.OnHealthBarVisualSetUp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnHealthBarHPStateUpdate_Surfer_SUHealthBarEventData_">SUElement.OnHealthBarHPStateUpdate(SUHealthBarEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnHealthBarStateUpdate_Surfer_SUHealthBarEventData_">SUElement.OnHealthBarStateUpdate(SUHealthBarEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnIndicatorStateUpdate_Surfer_SUIndicatorEventData_">SUElement.OnIndicatorStateUpdate(SUIndicatorEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnIndicatorDistanceUpdate_Surfer_SUIndicatorEventData_">SUElement.OnIndicatorDistanceUpdate(SUIndicatorEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnIndicatorVisualSetUp">SUElement.OnIndicatorVisualSetUp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_CheckInput">SUElement.CheckInput()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_CheckOldInput">SUElement.CheckOldInput()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetInput">SUElement.ResetInput()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_CheckInputField">SUElement.CheckInputField()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetInputField">SUElement.ResetInputField()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnOrientationChanged_Surfer_SUOrientationInfo_">SUElement.OnOrientationChanged(SUOrientationInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneActivated_Surfer_SUSceneActivatedEventData_">SUElement.OnSUSceneActivated(SUSceneActivatedEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneUnloaded_Surfer_SUSceneUnloadedEventData_">SUElement.OnSUSceneUnloaded(SUSceneUnloadedEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneLoaded_Surfer_SUSceneLoadedEventData_">SUElement.OnSUSceneLoaded(SUSceneLoadedEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneLoading_Surfer_SUSceneLoadingEventData_">SUElement.OnSUSceneLoading(SUSceneLoadingEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneUnloading_Surfer_SUSceneUnloadingEventData_">SUElement.OnSUSceneUnloading(SUSceneUnloadingEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUSceneDeactivated_Surfer_SUSceneDeactivatedEventData_">SUElement.OnSUSceneDeactivated(SUSceneDeactivatedEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_CheckScroll">SUElement.CheckScroll()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetScroll">SUElement.ResetScroll()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetSlider">SUElement.ResetSlider()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUCustomEvent_Surfer_SUCustomEventEventData_">SUElement.OnSUCustomEvent(SUCustomEventEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUStateEnter_Surfer_SUStateEventData_">SUElement.OnSUStateEnter(SUStateEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSUStateExit_Surfer_SUStateEventData_">SUElement.OnSUStateExit(SUStateEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_ResetToggle">SUElement.ResetToggle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnChildrenChanged_Surfer_SUChildrenMonitorData_">SUElement.OnChildrenChanged(SUChildrenMonitorData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnPointerClick_PointerEventData_">SUElement.OnPointerClick(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnDeselect_BaseEventData_">SUElement.OnDeselect(BaseEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSelect_BaseEventData_">SUElement.OnSelect(BaseEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnPointerEnter_PointerEventData_">SUElement.OnPointerEnter(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnPointerDown_PointerEventData_">SUElement.OnPointerDown(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnPointerUp_PointerEventData_">SUElement.OnPointerUp(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnPointerExit_PointerEventData_">SUElement.OnPointerExit(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnSubmit_BaseEventData_">SUElement.OnSubmit(BaseEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnResetLastStateSelection">SUElement.OnResetLastStateSelection()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnBeginDrag_PointerEventData_">SUElement.OnBeginDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnDrag_PointerEventData_">SUElement.OnDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_OnEndDrag_PointerEventData_">SUElement.OnEndDrag(PointerEventData)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Surfer_SUElementCanvas_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SUElementCanvas : SUElement, IResetLastStateSelectionHandler, ISUCustomEventHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUOrientationHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, ISUStateEnterHandler, ISUStateExitHandler, ISUChildrenMonitorHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Surfer_SUElementCanvas_Awake_" data-uid="Surfer.SUElementCanvas.Awake*"></a>
+  <h4 id="Surfer_SUElementCanvas_Awake" data-uid="Surfer.SUElementCanvas.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Surfer.SUElement.html#Surfer_SUElement_Awake">SUElement.Awake()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Surfer.IResetLastStateSelectionHandler.html">IResetLastStateSelectionHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUCustomEventHandler.html">ISUCustomEventHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarVisualHandler.html">ISUHealthBarVisualHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarHPStateHandler.html">ISUHealthBarHPStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUHealthBarStateHandler.html">ISUHealthBarStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorDistanceHandler.html">ISUIndicatorDistanceHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorStateHandler.html">ISUIndicatorStateHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUIndicatorVisualHandler.html">ISUIndicatorVisualHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneActivatedHandler.html">ISUSceneActivatedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneLoadedHandler.html">ISUSceneLoadedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneUnloadedHandler.html">ISUSceneUnloadedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneUnloadingHandler.html">ISUSceneUnloadingHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneDeactivatedHandler.html">ISUSceneDeactivatedHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUSceneLoadingHandler.html">ISUSceneLoadingHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUStateEnterHandler.html">ISUStateEnterHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUStateExitHandler.html">ISUStateExitHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Surfer.ISUChildrenMonitorHandler.html">ISUChildrenMonitorHandler</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2021 ATStudio
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

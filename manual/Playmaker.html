@@ -88,8 +88,9 @@
 <h2 id="event-listener">Event Listener</h2>
 <p>To receive a State or Scene Event we must :</p>
 <ul>
-<li>add the component <code>SUStateEvent</code> or <code>SUSceneEvent</code> to the scene object that should receive it</li>
-<li>send a PlayMaker Event directly from their UnityEvents in the inspector</li>
+<li>add the component <code>SUElementCanvas</code> to the scene object that should receive it</li>
+<li>setup a State or Scene event</li>
+<li>send a PlayMaker Event directly from the UnityEvents (OnSuccess or OnFail) in the <code>DO...</code>section of the inspector</li>
 </ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/playm3.png" alt="Image"></p>
 <p>Then, in our PlayMaker window , we register to the event as usual</p>

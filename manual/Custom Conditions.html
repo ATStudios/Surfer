@@ -79,7 +79,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="custom-conditions">Custom Conditions</h1>
 
-<p>Let’s see how we can add <code>Custom</code> conditions to the inspector list of the <code>SUElement</code>.</p>
+<p>Let’s see how we can add <code>Custom</code> conditions to the inspector list of the <code>SUElementCanvas</code>.</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/customc1.png" alt="Image"></p>
 <p>What we have to do is to open the script ConditionChecks that we can find in the Condition folder.</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/customc2.png" alt="Image"></p>
@@ -97,6 +97,13 @@ that called the condition so that you can perform some check even related to the
 <p>If you want to add custom fields to the conditions, you just have to add a list of <code>PathField</code> the moment you create the condition, like this :</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/customr3.png" alt="Image"></p>
 <p><img src="https://atstudios.github.io/Surfer/resources/customr4.png" alt="Image"></p>
+<h2 id="even-more-custom-fields">...even more Custom Fields</h2>
+<p>If we want to add a serialized field without using built-in fields like above, we must open the file <code>CustomSerializedConditionFields</code>and add our public serialized field, like below</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/customc4.png" alt="Image"></p>
+<p>Then, when adding a new condition, we just add a PathField with the name of the field added before; this field will also be accessible by using <code>input.conditionData...</code> like below</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/customc5.png" alt="Image"></p>
+<p>Here&#39;s the inspector of our condition</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/customc6.png" alt="Image"></p>
 </article>
           </div>
           
