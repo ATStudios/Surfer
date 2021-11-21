@@ -103,12 +103,12 @@ references:
   isSpec: "True"
   fullName: Surfer.ConditionChecksExtensions.GetNameFromUnion
   nameWithType: ConditionChecksExtensions.GetNameFromUnion
-- uid: Surfer.ConditionChecksExtensions.IsSatisfied(System.String,GameObject,Surfer.SUConditionData)
-  name: IsSatisfied(String, GameObject, SUConditionData)
-  href: api/Surfer.ConditionChecksExtensions.html#Surfer_ConditionChecksExtensions_IsSatisfied_System_String_GameObject_Surfer_SUConditionData_
-  commentId: M:Surfer.ConditionChecksExtensions.IsSatisfied(System.String,GameObject,Surfer.SUConditionData)
-  fullName: Surfer.ConditionChecksExtensions.IsSatisfied(System.String, GameObject, Surfer.SUConditionData)
-  nameWithType: ConditionChecksExtensions.IsSatisfied(String, GameObject, SUConditionData)
+- uid: Surfer.ConditionChecksExtensions.IsSatisfied(System.String,GameObject,Surfer.SUConditionData,System.Object)
+  name: IsSatisfied(String, GameObject, SUConditionData, Object)
+  href: api/Surfer.ConditionChecksExtensions.html#Surfer_ConditionChecksExtensions_IsSatisfied_System_String_GameObject_Surfer_SUConditionData_System_Object_
+  commentId: M:Surfer.ConditionChecksExtensions.IsSatisfied(System.String,GameObject,Surfer.SUConditionData,System.Object)
+  fullName: Surfer.ConditionChecksExtensions.IsSatisfied(System.String, GameObject, Surfer.SUConditionData, System.Object)
+  nameWithType: ConditionChecksExtensions.IsSatisfied(String, GameObject, SUConditionData, Object)
 - uid: Surfer.ConditionChecksExtensions.IsSatisfied*
   name: IsSatisfied
   href: api/Surfer.ConditionChecksExtensions.html#Surfer_ConditionChecksExtensions_IsSatisfied_
@@ -212,12 +212,12 @@ references:
   isSpec: "True"
   fullName: Surfer.CustomReactionsExtensions.GetNameFromUnion
   nameWithType: CustomReactionsExtensions.GetNameFromUnion
-- uid: Surfer.CustomReactionsExtensions.PlayReaction(System.String,GameObject,Surfer.SUReactionData)
-  name: PlayReaction(String, GameObject, SUReactionData)
-  href: api/Surfer.CustomReactionsExtensions.html#Surfer_CustomReactionsExtensions_PlayReaction_System_String_GameObject_Surfer_SUReactionData_
-  commentId: M:Surfer.CustomReactionsExtensions.PlayReaction(System.String,GameObject,Surfer.SUReactionData)
-  fullName: Surfer.CustomReactionsExtensions.PlayReaction(System.String, GameObject, Surfer.SUReactionData)
-  nameWithType: CustomReactionsExtensions.PlayReaction(String, GameObject, SUReactionData)
+- uid: Surfer.CustomReactionsExtensions.PlayReaction(System.String,GameObject,Surfer.SUReactionData,System.Object)
+  name: PlayReaction(String, GameObject, SUReactionData, Object)
+  href: api/Surfer.CustomReactionsExtensions.html#Surfer_CustomReactionsExtensions_PlayReaction_System_String_GameObject_Surfer_SUReactionData_System_Object_
+  commentId: M:Surfer.CustomReactionsExtensions.PlayReaction(System.String,GameObject,Surfer.SUReactionData,System.Object)
+  fullName: Surfer.CustomReactionsExtensions.PlayReaction(System.String, GameObject, Surfer.SUReactionData, System.Object)
+  nameWithType: CustomReactionsExtensions.PlayReaction(String, GameObject, SUReactionData, Object)
 - uid: Surfer.CustomReactionsExtensions.PlayReaction*
   name: PlayReaction
   href: api/Surfer.CustomReactionsExtensions.html#Surfer_CustomReactionsExtensions_PlayReaction_
@@ -434,18 +434,18 @@ references:
   commentId: T:Surfer.FuncInput
   fullName: Surfer.FuncInput
   nameWithType: FuncInput
-- uid: Surfer.FuncInput.#ctor(GameObject,Surfer.SUConditionData)
-  name: FuncInput(GameObject, SUConditionData)
-  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_Surfer_SUConditionData_
-  commentId: M:Surfer.FuncInput.#ctor(GameObject,Surfer.SUConditionData)
-  fullName: Surfer.FuncInput.FuncInput(GameObject, Surfer.SUConditionData)
-  nameWithType: FuncInput.FuncInput(GameObject, SUConditionData)
-- uid: Surfer.FuncInput.#ctor(GameObject,Surfer.SUReactionData)
-  name: FuncInput(GameObject, SUReactionData)
-  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_Surfer_SUReactionData_
-  commentId: M:Surfer.FuncInput.#ctor(GameObject,Surfer.SUReactionData)
-  fullName: Surfer.FuncInput.FuncInput(GameObject, Surfer.SUReactionData)
-  nameWithType: FuncInput.FuncInput(GameObject, SUReactionData)
+- uid: Surfer.FuncInput.#ctor(GameObject,Surfer.SUConditionData,System.Object)
+  name: FuncInput(GameObject, SUConditionData, Object)
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_Surfer_SUConditionData_System_Object_
+  commentId: M:Surfer.FuncInput.#ctor(GameObject,Surfer.SUConditionData,System.Object)
+  fullName: Surfer.FuncInput.FuncInput(GameObject, Surfer.SUConditionData, System.Object)
+  nameWithType: FuncInput.FuncInput(GameObject, SUConditionData, Object)
+- uid: Surfer.FuncInput.#ctor(GameObject,Surfer.SUReactionData,System.Object)
+  name: FuncInput(GameObject, SUReactionData, Object)
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_GameObject_Surfer_SUReactionData_System_Object_
+  commentId: M:Surfer.FuncInput.#ctor(GameObject,Surfer.SUReactionData,System.Object)
+  fullName: Surfer.FuncInput.FuncInput(GameObject, Surfer.SUReactionData, System.Object)
+  nameWithType: FuncInput.FuncInput(GameObject, SUReactionData, Object)
 - uid: Surfer.FuncInput.#ctor*
   name: FuncInput
   href: api/Surfer.FuncInput.html#Surfer_FuncInput__ctor_
@@ -466,6 +466,19 @@ references:
   isSpec: "True"
   fullName: Surfer.FuncInput.conditionData
   nameWithType: FuncInput.conditionData
+- uid: Surfer.FuncInput.eventData
+  name: eventData
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput_eventData
+  commentId: P:Surfer.FuncInput.eventData
+  fullName: Surfer.FuncInput.eventData
+  nameWithType: FuncInput.eventData
+- uid: Surfer.FuncInput.eventData*
+  name: eventData
+  href: api/Surfer.FuncInput.html#Surfer_FuncInput_eventData_
+  commentId: Overload:Surfer.FuncInput.eventData
+  isSpec: "True"
+  fullName: Surfer.FuncInput.eventData
+  nameWithType: FuncInput.eventData
 - uid: Surfer.FuncInput.fieldsValues
   name: fieldsValues
   href: api/Surfer.FuncInput.html#Surfer_FuncInput_fieldsValues
@@ -1782,6 +1795,12 @@ references:
   commentId: F:Surfer.SUAnimationData._tween
   fullName: Surfer.SUAnimationData._tween
   nameWithType: SUAnimationData._tween
+- uid: Surfer.SUAnimationData._useUnscaledTime
+  name: _useUnscaledTime
+  href: api/Surfer.SUAnimationData.html#Surfer_SUAnimationData__useUnscaledTime
+  commentId: F:Surfer.SUAnimationData._useUnscaledTime
+  fullName: Surfer.SUAnimationData._useUnscaledTime
+  nameWithType: SUAnimationData._useUnscaledTime
 - uid: Surfer.SUAnimationData.AllPlaying
   name: AllPlaying
   href: api/Surfer.SUAnimationData.html#Surfer_SUAnimationData_AllPlaying
@@ -2139,6 +2158,12 @@ references:
   commentId: F:Surfer.SUAnimationDataDrawer._startMode
   fullName: Surfer.SUAnimationDataDrawer._startMode
   nameWithType: SUAnimationDataDrawer._startMode
+- uid: Surfer.SUAnimationDataDrawer._useUnscaledTime
+  name: _useUnscaledTime
+  href: api/Surfer.SUAnimationDataDrawer.html#Surfer_SUAnimationDataDrawer__useUnscaledTime
+  commentId: F:Surfer.SUAnimationDataDrawer._useUnscaledTime
+  fullName: Surfer.SUAnimationDataDrawer._useUnscaledTime
+  nameWithType: SUAnimationDataDrawer._useUnscaledTime
 - uid: Surfer.SUAnimationDataDrawer.GetHeightCommonFields
   name: GetHeightCommonFields()
   href: api/Surfer.SUAnimationDataDrawer.html#Surfer_SUAnimationDataDrawer_GetHeightCommonFields
@@ -2410,18 +2435,18 @@ references:
   commentId: F:Surfer.SUBehaviourData.OnSuccess
   fullName: Surfer.SUBehaviourData.OnSuccess
   nameWithType: SUBehaviourData.OnSuccess
-- uid: Surfer.SUBehaviourData.Run(GameObject)
-  name: Run(GameObject)
-  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_GameObject_
-  commentId: M:Surfer.SUBehaviourData.Run(GameObject)
-  fullName: Surfer.SUBehaviourData.Run(GameObject)
-  nameWithType: SUBehaviourData.Run(GameObject)
-- uid: Surfer.SUBehaviourData.Run(GameObject,System.String)
-  name: Run(GameObject, String)
-  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_GameObject_System_String_
-  commentId: M:Surfer.SUBehaviourData.Run(GameObject,System.String)
-  fullName: Surfer.SUBehaviourData.Run(GameObject, System.String)
-  nameWithType: SUBehaviourData.Run(GameObject, String)
+- uid: Surfer.SUBehaviourData.Run(GameObject,System.Object)
+  name: Run(GameObject, Object)
+  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_GameObject_System_Object_
+  commentId: M:Surfer.SUBehaviourData.Run(GameObject,System.Object)
+  fullName: Surfer.SUBehaviourData.Run(GameObject, System.Object)
+  nameWithType: SUBehaviourData.Run(GameObject, Object)
+- uid: Surfer.SUBehaviourData.Run(GameObject,System.String,System.Object)
+  name: Run(GameObject, String, Object)
+  href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_GameObject_System_String_System_Object_
+  commentId: M:Surfer.SUBehaviourData.Run(GameObject,System.String,System.Object)
+  fullName: Surfer.SUBehaviourData.Run(GameObject, System.String, System.Object)
+  nameWithType: SUBehaviourData.Run(GameObject, String, Object)
 - uid: Surfer.SUBehaviourData.Run*
   name: Run
   href: api/Surfer.SUBehaviourData.html#Surfer_SUBehaviourData_Run_
@@ -2474,12 +2499,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.Behaviours
   nameWithType: SUBehavioursData.Behaviours
-- uid: Surfer.SUBehavioursData.Run(GameObject)
-  name: Run(GameObject)
-  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_Run_GameObject_
-  commentId: M:Surfer.SUBehavioursData.Run(GameObject)
-  fullName: Surfer.SUBehavioursData.Run(GameObject)
-  nameWithType: SUBehavioursData.Run(GameObject)
+- uid: Surfer.SUBehavioursData.Run(GameObject,System.Object)
+  name: Run(GameObject, Object)
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_Run_GameObject_System_Object_
+  commentId: M:Surfer.SUBehavioursData.Run(GameObject,System.Object)
+  fullName: Surfer.SUBehavioursData.Run(GameObject, System.Object)
+  nameWithType: SUBehavioursData.Run(GameObject, Object)
 - uid: Surfer.SUBehavioursData.Run*
   name: Run
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_Run_
@@ -2500,12 +2525,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.RunWithParams
   nameWithType: SUBehavioursData.RunWithParams
-- uid: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,System.String)
-  name: RunWithParamsCustomEvent(GameObject, String)
-  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsCustomEvent_GameObject_System_String_
-  commentId: M:Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,System.String)
-  fullName: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject, System.String)
-  nameWithType: SUBehavioursData.RunWithParamsCustomEvent(GameObject, String)
+- uid: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,Surfer.SUCustomEventEventData)
+  name: RunWithParamsCustomEvent(GameObject, SUCustomEventEventData)
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsCustomEvent_GameObject_Surfer_SUCustomEventEventData_
+  commentId: M:Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,Surfer.SUCustomEventEventData)
+  fullName: Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject, Surfer.SUCustomEventEventData)
+  nameWithType: SUBehavioursData.RunWithParamsCustomEvent(GameObject, SUCustomEventEventData)
 - uid: Surfer.SUBehavioursData.RunWithParamsCustomEvent*
   name: RunWithParamsCustomEvent
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsCustomEvent_
@@ -2513,12 +2538,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.RunWithParamsCustomEvent
   nameWithType: SUBehavioursData.RunWithParamsCustomEvent
-- uid: Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String)
-  name: RunWithParamsScene(GameObject, String)
-  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsScene_GameObject_System_String_
-  commentId: M:Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String)
-  fullName: Surfer.SUBehavioursData.RunWithParamsScene(GameObject, System.String)
-  nameWithType: SUBehavioursData.RunWithParamsScene(GameObject, String)
+- uid: Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String,System.Object)
+  name: RunWithParamsScene(GameObject, String, Object)
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsScene_GameObject_System_String_System_Object_
+  commentId: M:Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String,System.Object)
+  fullName: Surfer.SUBehavioursData.RunWithParamsScene(GameObject, System.String, System.Object)
+  nameWithType: SUBehavioursData.RunWithParamsScene(GameObject, String, Object)
 - uid: Surfer.SUBehavioursData.RunWithParamsScene*
   name: RunWithParamsScene
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParamsScene_
@@ -3137,12 +3162,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUConditionData.FieldsValues
   nameWithType: SUConditionData.FieldsValues
-- uid: Surfer.SUConditionData.IsSatisfied(GameObject)
-  name: IsSatisfied(GameObject)
-  href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_IsSatisfied_GameObject_
-  commentId: M:Surfer.SUConditionData.IsSatisfied(GameObject)
-  fullName: Surfer.SUConditionData.IsSatisfied(GameObject)
-  nameWithType: SUConditionData.IsSatisfied(GameObject)
+- uid: Surfer.SUConditionData.IsSatisfied(GameObject,System.Object)
+  name: IsSatisfied(GameObject, Object)
+  href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_IsSatisfied_GameObject_System_Object_
+  commentId: M:Surfer.SUConditionData.IsSatisfied(GameObject,System.Object)
+  fullName: Surfer.SUConditionData.IsSatisfied(GameObject, System.Object)
+  nameWithType: SUConditionData.IsSatisfied(GameObject, Object)
 - uid: Surfer.SUConditionData.IsSatisfied*
   name: IsSatisfied
   href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_IsSatisfied_
@@ -3163,19 +3188,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUConditionData.Key
   nameWithType: SUConditionData.Key
-- uid: Surfer.SUConditionData.MyField
-  name: MyField
-  href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_MyField
-  commentId: P:Surfer.SUConditionData.MyField
-  fullName: Surfer.SUConditionData.MyField
-  nameWithType: SUConditionData.MyField
-- uid: Surfer.SUConditionData.MyField*
-  name: MyField
-  href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_MyField_
-  commentId: Overload:Surfer.SUConditionData.MyField
-  isSpec: "True"
-  fullName: Surfer.SUConditionData.MyField
-  nameWithType: SUConditionData.MyField
 - uid: Surfer.SUConditionData.Name
   name: Name
   href: api/Surfer.SUConditionData.html#Surfer_SUConditionData_Name
@@ -3253,12 +3265,12 @@ references:
   commentId: T:Surfer.SUConditionsData
   fullName: Surfer.SUConditionsData
   nameWithType: SUConditionsData
-- uid: Surfer.SUConditionsData.AreAllSatisfied(GameObject)
-  name: AreAllSatisfied(GameObject)
-  href: api/Surfer.SUConditionsData.html#Surfer_SUConditionsData_AreAllSatisfied_GameObject_
-  commentId: M:Surfer.SUConditionsData.AreAllSatisfied(GameObject)
-  fullName: Surfer.SUConditionsData.AreAllSatisfied(GameObject)
-  nameWithType: SUConditionsData.AreAllSatisfied(GameObject)
+- uid: Surfer.SUConditionsData.AreAllSatisfied(GameObject,System.Object)
+  name: AreAllSatisfied(GameObject, Object)
+  href: api/Surfer.SUConditionsData.html#Surfer_SUConditionsData_AreAllSatisfied_GameObject_System_Object_
+  commentId: M:Surfer.SUConditionsData.AreAllSatisfied(GameObject,System.Object)
+  fullName: Surfer.SUConditionsData.AreAllSatisfied(GameObject, System.Object)
+  nameWithType: SUConditionsData.AreAllSatisfied(GameObject, Object)
 - uid: Surfer.SUConditionsData.AreAllSatisfied*
   name: AreAllSatisfied
   href: api/Surfer.SUConditionsData.html#Surfer_SUConditionsData_AreAllSatisfied_
@@ -4123,12 +4135,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.ResetToggle
   nameWithType: SUElement.ResetToggle
-- uid: Surfer.SUElement.RunCustomEventBehaviour(System.String)
-  name: RunCustomEventBehaviour(String)
-  href: api/Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_System_String_
-  commentId: M:Surfer.SUElement.RunCustomEventBehaviour(System.String)
-  fullName: Surfer.SUElement.RunCustomEventBehaviour(System.String)
-  nameWithType: SUElement.RunCustomEventBehaviour(String)
+- uid: Surfer.SUElement.RunCustomEventBehaviour(Surfer.SUCustomEventEventData)
+  name: RunCustomEventBehaviour(SUCustomEventEventData)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_Surfer_SUCustomEventEventData_
+  commentId: M:Surfer.SUElement.RunCustomEventBehaviour(Surfer.SUCustomEventEventData)
+  fullName: Surfer.SUElement.RunCustomEventBehaviour(Surfer.SUCustomEventEventData)
+  nameWithType: SUElement.RunCustomEventBehaviour(SUCustomEventEventData)
 - uid: Surfer.SUElement.RunCustomEventBehaviour*
   name: RunCustomEventBehaviour
   href: api/Surfer.SUElement.html#Surfer_SUElement_RunCustomEventBehaviour_
@@ -4136,12 +4148,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.RunCustomEventBehaviour
   nameWithType: SUElement.RunCustomEventBehaviour
-- uid: Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)
-  name: RunEventBehaviour(SUEvent.Type_ID)
-  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_
-  commentId: M:Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)
-  fullName: Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)
-  nameWithType: SUElement.RunEventBehaviour(SUEvent.Type_ID)
+- uid: Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID,System.Object)
+  name: RunEventBehaviour(SUEvent.Type_ID, Object)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_System_Object_
+  commentId: M:Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID,System.Object)
+  fullName: Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID, System.Object)
+  nameWithType: SUElement.RunEventBehaviour(SUEvent.Type_ID, Object)
 - uid: Surfer.SUElement.RunEventBehaviour*
   name: RunEventBehaviour
   href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviour_
@@ -4149,19 +4161,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.RunEventBehaviour
   nameWithType: SUElement.RunEventBehaviour
-- uid: Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)
-  name: RunEventBehaviourParams(SUEvent.Type_ID, String)
-  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_
-  commentId: M:Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)
-  fullName: Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID, System.String)
-  nameWithType: SUElement.RunEventBehaviourParams(SUEvent.Type_ID, String)
-- uid: Surfer.SUElement.RunEventBehaviourParams*
-  name: RunEventBehaviourParams
-  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviourParams_
-  commentId: Overload:Surfer.SUElement.RunEventBehaviourParams
-  isSpec: "True"
-  fullName: Surfer.SUElement.RunEventBehaviourParams
-  nameWithType: SUElement.RunEventBehaviourParams
 - uid: Surfer.SUElementCanvas
   name: SUElementCanvas
   href: api/Surfer.SUElementCanvas.html
@@ -8663,19 +8662,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUReactionData.KillAnimations
   nameWithType: SUReactionData.KillAnimations
-- uid: Surfer.SUReactionData.MyField
-  name: MyField
-  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_MyField
-  commentId: P:Surfer.SUReactionData.MyField
-  fullName: Surfer.SUReactionData.MyField
-  nameWithType: SUReactionData.MyField
-- uid: Surfer.SUReactionData.MyField*
-  name: MyField
-  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_MyField_
-  commentId: Overload:Surfer.SUReactionData.MyField
-  isSpec: "True"
-  fullName: Surfer.SUReactionData.MyField
-  nameWithType: SUReactionData.MyField
 - uid: Surfer.SUReactionData.Name
   name: Name
   href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Name
@@ -8689,12 +8675,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUReactionData.Name
   nameWithType: SUReactionData.Name
-- uid: Surfer.SUReactionData.Play(GameObject)
-  name: Play(GameObject)
-  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Play_GameObject_
-  commentId: M:Surfer.SUReactionData.Play(GameObject)
-  fullName: Surfer.SUReactionData.Play(GameObject)
-  nameWithType: SUReactionData.Play(GameObject)
+- uid: Surfer.SUReactionData.Play(GameObject,System.Object)
+  name: Play(GameObject, Object)
+  href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Play_GameObject_System_Object_
+  commentId: M:Surfer.SUReactionData.Play(GameObject,System.Object)
+  fullName: Surfer.SUReactionData.Play(GameObject, System.Object)
+  nameWithType: SUReactionData.Play(GameObject, Object)
 - uid: Surfer.SUReactionData.Play*
   name: Play
   href: api/Surfer.SUReactionData.html#Surfer_SUReactionData_Play_
@@ -8870,12 +8856,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUReactionsData.KillAnimations
   nameWithType: SUReactionsData.KillAnimations
-- uid: Surfer.SUReactionsData.Play(GameObject)
-  name: Play(GameObject)
-  href: api/Surfer.SUReactionsData.html#Surfer_SUReactionsData_Play_GameObject_
-  commentId: M:Surfer.SUReactionsData.Play(GameObject)
-  fullName: Surfer.SUReactionsData.Play(GameObject)
-  nameWithType: SUReactionsData.Play(GameObject)
+- uid: Surfer.SUReactionsData.Play(GameObject,System.Object)
+  name: Play(GameObject, Object)
+  href: api/Surfer.SUReactionsData.html#Surfer_SUReactionsData_Play_GameObject_System_Object_
+  commentId: M:Surfer.SUReactionsData.Play(GameObject,System.Object)
+  fullName: Surfer.SUReactionsData.Play(GameObject, System.Object)
+  nameWithType: SUReactionsData.Play(GameObject, Object)
 - uid: Surfer.SUReactionsData.Play*
   name: Play
   href: api/Surfer.SUReactionsData.html#Surfer_SUReactionsData_Play_
@@ -9100,12 +9086,6 @@ references:
   commentId: F:Surfer.SurferHelper.CharTweenerSymbol
   fullName: Surfer.SurferHelper.CharTweenerSymbol
   nameWithType: SurferHelper.CharTweenerSymbol
-- uid: Surfer.SurferHelper.fieldWidth
-  name: fieldWidth
-  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_fieldWidth
-  commentId: F:Surfer.SurferHelper.fieldWidth
-  fullName: Surfer.SurferHelper.fieldWidth
-  nameWithType: SurferHelper.fieldWidth
 - uid: Surfer.SurferHelper.GetParentRect(Transform)
   name: GetParentRect(Transform)
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_GetParentRect_Transform_
@@ -9132,6 +9112,18 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferHelper.GetVersion
   nameWithType: SurferHelper.GetVersion
+- uid: Surfer.SurferHelper.kDefaultPlayerID
+  name: kDefaultPlayerID
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kDefaultPlayerID
+  commentId: F:Surfer.SurferHelper.kDefaultPlayerID
+  fullName: Surfer.SurferHelper.kDefaultPlayerID
+  nameWithType: SurferHelper.kDefaultPlayerID
+- uid: Surfer.SurferHelper.kNestedPlayerID
+  name: kNestedPlayerID
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kNestedPlayerID
+  commentId: F:Surfer.SurferHelper.kNestedPlayerID
+  fullName: Surfer.SurferHelper.kNestedPlayerID
+  nameWithType: SurferHelper.kNestedPlayerID
 - uid: Surfer.SurferHelper.kNoFoldout
   name: kNoFoldout
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kNoFoldout
@@ -9144,6 +9136,18 @@ references:
   commentId: F:Surfer.SurferHelper.kOverallVolume
   fullName: Surfer.SurferHelper.kOverallVolume
   nameWithType: SurferHelper.kOverallVolume
+- uid: Surfer.SurferHelper.kPlayerIDFallback
+  name: kPlayerIDFallback
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kPlayerIDFallback
+  commentId: F:Surfer.SurferHelper.kPlayerIDFallback
+  fullName: Surfer.SurferHelper.kPlayerIDFallback
+  nameWithType: SurferHelper.kPlayerIDFallback
+- uid: Surfer.SurferHelper.kWhateverVersion
+  name: kWhateverVersion
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_kWhateverVersion
+  commentId: F:Surfer.SurferHelper.kWhateverVersion
+  fullName: Surfer.SurferHelper.kWhateverVersion
+  nameWithType: SurferHelper.kWhateverVersion
 - uid: Surfer.SurferHelper.lineHeight
   name: lineHeight
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_lineHeight
@@ -9200,24 +9204,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferHelper.SO
   nameWithType: SurferHelper.SO
-- uid: Surfer.SurferHelper.textColor
-  name: textColor
-  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_textColor
-  commentId: F:Surfer.SurferHelper.textColor
-  fullName: Surfer.SurferHelper.textColor
-  nameWithType: SurferHelper.textColor
 - uid: Surfer.SurferHelper.Unset
   name: Unset
   href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_Unset
   commentId: F:Surfer.SurferHelper.Unset
   fullName: Surfer.SurferHelper.Unset
   nameWithType: SurferHelper.Unset
-- uid: Surfer.SurferHelper.Version
-  name: Version
-  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_Version
-  commentId: F:Surfer.SurferHelper.Version
-  fullName: Surfer.SurferHelper.Version
-  nameWithType: SurferHelper.Version
 - uid: Surfer.SurferManager
   name: SurferManager
   href: api/Surfer.SurferManager.html

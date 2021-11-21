@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">SUElement</span></div>
       <div class="level2"><a class="xref" href="Surfer.SUElementCanvas.html">SUElementCanvas</a></div>
   </div>
@@ -215,7 +215,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -338,12 +338,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">stateName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">playerID</span></td>
         <td></td>
       </tr>
@@ -1179,12 +1179,12 @@
   
   
   <a id="Surfer_SUElement_RunCustomEventBehaviour_" data-uid="Surfer.SUElement.RunCustomEventBehaviour*"></a>
-  <h4 id="Surfer_SUElement_RunCustomEventBehaviour_System_String_" data-uid="Surfer.SUElement.RunCustomEventBehaviour(System.String)">RunCustomEventBehaviour(String)</h4>
+  <h4 id="Surfer_SUElement_RunCustomEventBehaviour_Surfer_SUCustomEventEventData_" data-uid="Surfer.SUElement.RunCustomEventBehaviour(Surfer.SUCustomEventEventData)">RunCustomEventBehaviour(SUCustomEventEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunCustomEventBehaviour(string eventName)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunCustomEventBehaviour(SUCustomEventEventData cEvent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1197,8 +1197,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
+        <td><a class="xref" href="Surfer.SUCustomEventEventData.html">SUCustomEventEventData</a></td>
+        <td><span class="parametername">cEvent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1206,39 +1206,12 @@
   
   
   <a id="Surfer_SUElement_RunEventBehaviour_" data-uid="Surfer.SUElement.RunEventBehaviour*"></a>
-  <h4 id="Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_" data-uid="Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID)">RunEventBehaviour(SUEvent.Type_ID)</h4>
+  <h4 id="Surfer_SUElement_RunEventBehaviour_Surfer_SUEvent_Type_ID_System_Object_" data-uid="Surfer.SUElement.RunEventBehaviour(Surfer.SUEvent.Type_ID,System.Object)">RunEventBehaviour(SUEvent.Type_ID, Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunEventBehaviour(SUEvent.Type_ID eventID)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a></td>
-        <td><span class="parametername">eventID</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SUElement_RunEventBehaviourParams_" data-uid="Surfer.SUElement.RunEventBehaviourParams*"></a>
-  <h4 id="Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_" data-uid="Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)">RunEventBehaviourParams(SUEvent.Type_ID, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunEventBehaviourParams(SUEvent.Type_ID eventID, string stringVal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunEventBehaviour(SUEvent.Type_ID eventID, object evtData = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1256,8 +1229,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">stringVal</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">evtData</span></td>
         <td></td>
       </tr>
     </tbody>
