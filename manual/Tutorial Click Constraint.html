@@ -79,24 +79,33 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="tutorial-click-constraint">Tutorial Click Constraint</h1>
 
-<p>In order to create a Tutorial panel where only a specific button can be clicked , we must simply choose the reaction <code>UIGenerics/EnableClickConstraint</code> .</p>
-<p>Basically :</p>
+<p>In order to create a UI panel where only a specific button can be clicked (like if the user must follow a tutorial and therefore is obliged to click ONLY that button), we must simply choose the reaction <code>UIGenerics/EnableClickConstraint</code> .</p>
+<p>Here&#39;s a simple example :</p>
 <ul>
-<li>we call <code>OpenState</code> for a state panel <code>Tutorial</code></li>
-<li>on the <code>MyStateEnter</code> event of the same panel, we choose <code>UIGenerics/EnableClickConstraint</code> as reaction and we drag the button we want to enable the constraint on</li>
+<li><p>Create a simple Menu with 3 buttons</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial1.png" alt="Image"></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial2.png" alt="Image"></p>
+</li>
+<li><p>Then, on the Menu gameObject, add the component SUElementCanvas and set it up as a state with the name “Menu&quot;</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial3.png" alt="Image"></p>
+</li>
+<li><p>Now we decide that this Menu State will have two behaviors : NORMAL behavior with all buttons working (State Version = 2) and TUTORIAL behavior with only the play button working so that the player is forced to click only that button (State Version = 1)</p>
+</li>
+<li><p>So, in the same component as above, we will add two events : MyStateEnter (Version : 1) with EnableClickConstraint as reaction and Play button as object of the reaction; and MyStateEnter (Version : 2) with DisableClickConstraint as reaction and Play button as object of the reaction</p>
+</li>
 </ul>
-<p>To disable the constraint and allow click on the entire panel, the reaction <code>UIGenerics/EnableClickConstraint</code> should be used.</p>
-<blockquote><p><strong>INFO</strong> : This fast reaction uses <code>CanvasGroup</code>components in order to work. So , if the expected constraint is not working, it is probably due to a conflict of the components with your current UI logic.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial4.png" alt="Image"></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial5.png" alt="Image"></p>
+<ul>
+<li>Then , create an empty object and add a SUElementCanvas component to it and setup the opening of the Menu State on the MySceneLoaded event : after 0 seconds you will load the version 1 (only play button clickable) and then after 4 seconds you will open version 2 (all buttons clickable). In this way you pass from a Menu where you oblige the player to click only the play button to a normal Menu where everything is usable</li>
+</ul>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial6.png" alt="Image"></p>
+<p>Now, hit play. After 0 seconds you will see only the Play button clickable : </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial7.png" alt="Image"></p>
+<p>And after 4 seconds, you will now see the Menu panel with all the buttons clickable , because it exited from its &quot;Tutorial&quot; behavior</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/tutorial1.png" alt="Image"></p>
+<blockquote><p><strong>INFO</strong> : This reactions use <code>CanvasGroup</code>components in order to work. So , if the expected constraint is not working, it is probably due to a conflict of the components with your current UI logic.</p>
 </blockquote>
-<h2 id="ideal-use">Ideal Use</h2>
-<p>In a normal ideal UI flow, the constraint click won&#39;t be used directly in a <code>Tutorial</code>state panel but directly on game panel like Menu or Settings because of the fact that the button will probably be part of these UI states.</p>
-<p>Basically, let&#39;s say for example that we have a <code>Menu</code>state panel and that, at first app launch ever, we want the user to click on the first button of this state ; what we will do is :</p>
-<ul>
-<li>call <code>OpenState</code> for the state <code>Menu</code>, using a specific version like 5</li>
-<li>the <code>Menu</code> state will handle the <code>MyStateEnter</code> event with version 5 and will enable the constrain on the first button</li>
-<li>the users clicks on that button and we call <code>OpenState</code> for the state <code>Menu</code>, using version 1</li>
-<li>now, the <code>Menu</code> state will handle the <code>MyStateEnter</code> event with version 1 and will disable all the constraints . Therefore the tutorial has ended and the Menu &quot;will act normally&quot; </li>
-</ul>
 </article>
           </div>
           

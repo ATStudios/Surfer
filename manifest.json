@@ -2512,7 +2512,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Tutorial Click Constraint.html",
-          "hash": "zI4ltDUrc/vfV/0Sy1fIsmizAWRwfsbbWx8ntGaKH5Y="
+          "hash": "8nOrSY9gn5c5rC8PHhkyMLvAeT+qSBllB0Bp1xugG1s="
         }
       },
       "is_incremental": false,
@@ -3219,6 +3219,83 @@
       "output": {
         "resource": {
           "relative_path": "resources/spritem1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/tutorial7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/tutorial7.png"
         }
       },
       "is_incremental": false,
