@@ -80,28 +80,46 @@
 <h1 id="tutorial-click-constraint">Tutorial Click Constraint</h1>
 
 <p>In order to create a UI panel where only a specific button can be clicked (like if the user must follow a tutorial and therefore is obliged to click ONLY that button), we must simply choose the reaction <code>UIGenerics/EnableClickConstraint</code> .</p>
+<p><br></p>
 <p>Here&#39;s a simple example :</p>
 <ul>
 <li><p>Create a simple Menu with 3 buttons</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial1.png" alt="Image"></p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial2.png" alt="Image"></p>
+<p><br></p>
+<p><br></p>
 </li>
 <li><p>Then, on the Menu gameObject, add the component SUElementCanvas and set it up as a state with the name “Menu&quot;</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial3.png" alt="Image"></p>
 </li>
-<li><p>Now we decide that this Menu State will have two behaviors : NORMAL behavior with all buttons working (State Version = 2) and TUTORIAL behavior with only the play button working so that the player is forced to click only that button (State Version = 1)</p>
-</li>
-<li><p>So, in the same component as above, we will add two events : MyStateEnter (Version : 1) with EnableClickConstraint as reaction and Play button as object of the reaction; and MyStateEnter (Version : 2) with DisableClickConstraint as reaction and Play button as object of the reaction</p>
-</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<ul>
+<li>Now we decide that this Menu State will have two behaviors : NORMAL behavior with all buttons working (State Version = 2) and TUTORIAL behavior with only the play button working so that the player is forced to click only that button (State Version = 1)</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<ul>
+<li>So, in the same component as above, we will add two events : MyStateEnter (Version : 1) with EnableClickConstraint as reaction and Play button as object of the reaction; and MyStateEnter (Version : 2) with DisableClickConstraint as reaction and Play button as object of the reaction</li>
 </ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial4.png" alt="Image"></p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial5.png" alt="Image"></p>
+<p><br></p>
+<p><br></p>
 <ul>
 <li>Then , create an empty object and add a SUElementCanvas component to it and setup the opening of the Menu State on the MySceneLoaded event : after 0 seconds you will load the version 1 (only play button clickable) and then after 4 seconds you will open version 2 (all buttons clickable). In this way you pass from a Menu where you oblige the player to click only the play button to a normal Menu where everything is usable</li>
 </ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial6.png" alt="Image"></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
 <p>Now, hit play. After 0 seconds you will see only the Play button clickable : </p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial7.png" alt="Image"></p>
+<p><br></p>
+<p><br></p>
 <p>And after 4 seconds, you will now see the Menu panel with all the buttons clickable , because it exited from its &quot;Tutorial&quot; behavior</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/tutorial1.png" alt="Image"></p>
 <blockquote><p><strong>INFO</strong> : This reactions use <code>CanvasGroup</code>components in order to work. So , if the expected constraint is not working, it is probably due to a conflict of the components with your current UI logic.</p>
