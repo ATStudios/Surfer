@@ -708,6 +708,101 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
   nameWithType: ISUIndicatorVisualHandler.OnIndicatorVisualSetUp
+- uid: Surfer.ISUNewInputActionHandler
+  name: ISUNewInputActionHandler
+  href: api/Surfer.ISUNewInputActionHandler.html
+  commentId: T:Surfer.ISUNewInputActionHandler
+  fullName: Surfer.ISUNewInputActionHandler
+  nameWithType: ISUNewInputActionHandler
+- uid: Surfer.ISUNewInputActionHandler.OnNewInputAction(Surfer.SUNewInputActionEventData)
+  name: OnNewInputAction(SUNewInputActionEventData)
+  href: api/Surfer.ISUNewInputActionHandler.html#Surfer_ISUNewInputActionHandler_OnNewInputAction_Surfer_SUNewInputActionEventData_
+  commentId: M:Surfer.ISUNewInputActionHandler.OnNewInputAction(Surfer.SUNewInputActionEventData)
+  fullName: Surfer.ISUNewInputActionHandler.OnNewInputAction(Surfer.SUNewInputActionEventData)
+  nameWithType: ISUNewInputActionHandler.OnNewInputAction(SUNewInputActionEventData)
+- uid: Surfer.ISUNewInputActionHandler.OnNewInputAction*
+  name: OnNewInputAction
+  href: api/Surfer.ISUNewInputActionHandler.html#Surfer_ISUNewInputActionHandler_OnNewInputAction_
+  commentId: Overload:Surfer.ISUNewInputActionHandler.OnNewInputAction
+  isSpec: "True"
+  fullName: Surfer.ISUNewInputActionHandler.OnNewInputAction
+  nameWithType: ISUNewInputActionHandler.OnNewInputAction
+- uid: Surfer.ISUNewInputAnyHandler
+  name: ISUNewInputAnyHandler
+  href: api/Surfer.ISUNewInputAnyHandler.html
+  commentId: T:Surfer.ISUNewInputAnyHandler
+  fullName: Surfer.ISUNewInputAnyHandler
+  nameWithType: ISUNewInputAnyHandler
+- uid: Surfer.ISUNewInputAnyHandler.OnNewInputAny
+  name: OnNewInputAny()
+  href: api/Surfer.ISUNewInputAnyHandler.html#Surfer_ISUNewInputAnyHandler_OnNewInputAny
+  commentId: M:Surfer.ISUNewInputAnyHandler.OnNewInputAny
+  fullName: Surfer.ISUNewInputAnyHandler.OnNewInputAny()
+  nameWithType: ISUNewInputAnyHandler.OnNewInputAny()
+- uid: Surfer.ISUNewInputAnyHandler.OnNewInputAny*
+  name: OnNewInputAny
+  href: api/Surfer.ISUNewInputAnyHandler.html#Surfer_ISUNewInputAnyHandler_OnNewInputAny_
+  commentId: Overload:Surfer.ISUNewInputAnyHandler.OnNewInputAny
+  isSpec: "True"
+  fullName: Surfer.ISUNewInputAnyHandler.OnNewInputAny
+  nameWithType: ISUNewInputAnyHandler.OnNewInputAny
+- uid: Surfer.ISUOldInputActionHandler
+  name: ISUOldInputActionHandler
+  href: api/Surfer.ISUOldInputActionHandler.html
+  commentId: T:Surfer.ISUOldInputActionHandler
+  fullName: Surfer.ISUOldInputActionHandler
+  nameWithType: ISUOldInputActionHandler
+- uid: Surfer.ISUOldInputActionHandler.OnOldInputAction(Surfer.SUOldInputActionEventData)
+  name: OnOldInputAction(SUOldInputActionEventData)
+  href: api/Surfer.ISUOldInputActionHandler.html#Surfer_ISUOldInputActionHandler_OnOldInputAction_Surfer_SUOldInputActionEventData_
+  commentId: M:Surfer.ISUOldInputActionHandler.OnOldInputAction(Surfer.SUOldInputActionEventData)
+  fullName: Surfer.ISUOldInputActionHandler.OnOldInputAction(Surfer.SUOldInputActionEventData)
+  nameWithType: ISUOldInputActionHandler.OnOldInputAction(SUOldInputActionEventData)
+- uid: Surfer.ISUOldInputActionHandler.OnOldInputAction*
+  name: OnOldInputAction
+  href: api/Surfer.ISUOldInputActionHandler.html#Surfer_ISUOldInputActionHandler_OnOldInputAction_
+  commentId: Overload:Surfer.ISUOldInputActionHandler.OnOldInputAction
+  isSpec: "True"
+  fullName: Surfer.ISUOldInputActionHandler.OnOldInputAction
+  nameWithType: ISUOldInputActionHandler.OnOldInputAction
+- uid: Surfer.ISUOldInputAnyKeyHandler
+  name: ISUOldInputAnyKeyHandler
+  href: api/Surfer.ISUOldInputAnyKeyHandler.html
+  commentId: T:Surfer.ISUOldInputAnyKeyHandler
+  fullName: Surfer.ISUOldInputAnyKeyHandler
+  nameWithType: ISUOldInputAnyKeyHandler
+- uid: Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey
+  name: OnOldInputAnyKey()
+  href: api/Surfer.ISUOldInputAnyKeyHandler.html#Surfer_ISUOldInputAnyKeyHandler_OnOldInputAnyKey
+  commentId: M:Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey
+  fullName: Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey()
+  nameWithType: ISUOldInputAnyKeyHandler.OnOldInputAnyKey()
+- uid: Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey*
+  name: OnOldInputAnyKey
+  href: api/Surfer.ISUOldInputAnyKeyHandler.html#Surfer_ISUOldInputAnyKeyHandler_OnOldInputAnyKey_
+  commentId: Overload:Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey
+  isSpec: "True"
+  fullName: Surfer.ISUOldInputAnyKeyHandler.OnOldInputAnyKey
+  nameWithType: ISUOldInputAnyKeyHandler.OnOldInputAnyKey
+- uid: Surfer.ISUOldInputKeyHandler
+  name: ISUOldInputKeyHandler
+  href: api/Surfer.ISUOldInputKeyHandler.html
+  commentId: T:Surfer.ISUOldInputKeyHandler
+  fullName: Surfer.ISUOldInputKeyHandler
+  nameWithType: ISUOldInputKeyHandler
+- uid: Surfer.ISUOldInputKeyHandler.OnOldInputKey(Surfer.SUOldInputKeyEventData)
+  name: OnOldInputKey(SUOldInputKeyEventData)
+  href: api/Surfer.ISUOldInputKeyHandler.html#Surfer_ISUOldInputKeyHandler_OnOldInputKey_Surfer_SUOldInputKeyEventData_
+  commentId: M:Surfer.ISUOldInputKeyHandler.OnOldInputKey(Surfer.SUOldInputKeyEventData)
+  fullName: Surfer.ISUOldInputKeyHandler.OnOldInputKey(Surfer.SUOldInputKeyEventData)
+  nameWithType: ISUOldInputKeyHandler.OnOldInputKey(SUOldInputKeyEventData)
+- uid: Surfer.ISUOldInputKeyHandler.OnOldInputKey*
+  name: OnOldInputKey
+  href: api/Surfer.ISUOldInputKeyHandler.html#Surfer_ISUOldInputKeyHandler_OnOldInputKey_
+  commentId: Overload:Surfer.ISUOldInputKeyHandler.OnOldInputKey
+  isSpec: "True"
+  fullName: Surfer.ISUOldInputKeyHandler.OnOldInputKey
+  nameWithType: ISUOldInputKeyHandler.OnOldInputKey
 - uid: Surfer.ISUOrientationHandler
   name: ISUOrientationHandler
   href: api/Surfer.ISUOrientationHandler.html
@@ -727,6 +822,44 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUOrientationHandler.OnOrientationChanged
   nameWithType: ISUOrientationHandler.OnOrientationChanged
+- uid: Surfer.ISURewiredActionHandler
+  name: ISURewiredActionHandler
+  href: api/Surfer.ISURewiredActionHandler.html
+  commentId: T:Surfer.ISURewiredActionHandler
+  fullName: Surfer.ISURewiredActionHandler
+  nameWithType: ISURewiredActionHandler
+- uid: Surfer.ISURewiredActionHandler.OnRewiredAction(Surfer.SURewiredActionEventData)
+  name: OnRewiredAction(SURewiredActionEventData)
+  href: api/Surfer.ISURewiredActionHandler.html#Surfer_ISURewiredActionHandler_OnRewiredAction_Surfer_SURewiredActionEventData_
+  commentId: M:Surfer.ISURewiredActionHandler.OnRewiredAction(Surfer.SURewiredActionEventData)
+  fullName: Surfer.ISURewiredActionHandler.OnRewiredAction(Surfer.SURewiredActionEventData)
+  nameWithType: ISURewiredActionHandler.OnRewiredAction(SURewiredActionEventData)
+- uid: Surfer.ISURewiredActionHandler.OnRewiredAction*
+  name: OnRewiredAction
+  href: api/Surfer.ISURewiredActionHandler.html#Surfer_ISURewiredActionHandler_OnRewiredAction_
+  commentId: Overload:Surfer.ISURewiredActionHandler.OnRewiredAction
+  isSpec: "True"
+  fullName: Surfer.ISURewiredActionHandler.OnRewiredAction
+  nameWithType: ISURewiredActionHandler.OnRewiredAction
+- uid: Surfer.ISURewiredAnyHandler
+  name: ISURewiredAnyHandler
+  href: api/Surfer.ISURewiredAnyHandler.html
+  commentId: T:Surfer.ISURewiredAnyHandler
+  fullName: Surfer.ISURewiredAnyHandler
+  nameWithType: ISURewiredAnyHandler
+- uid: Surfer.ISURewiredAnyHandler.OnRewiredAny(Surfer.SURewiredActionEventData)
+  name: OnRewiredAny(SURewiredActionEventData)
+  href: api/Surfer.ISURewiredAnyHandler.html#Surfer_ISURewiredAnyHandler_OnRewiredAny_Surfer_SURewiredActionEventData_
+  commentId: M:Surfer.ISURewiredAnyHandler.OnRewiredAny(Surfer.SURewiredActionEventData)
+  fullName: Surfer.ISURewiredAnyHandler.OnRewiredAny(Surfer.SURewiredActionEventData)
+  nameWithType: ISURewiredAnyHandler.OnRewiredAny(SURewiredActionEventData)
+- uid: Surfer.ISURewiredAnyHandler.OnRewiredAny*
+  name: OnRewiredAny
+  href: api/Surfer.ISURewiredAnyHandler.html#Surfer_ISURewiredAnyHandler_OnRewiredAny_
+  commentId: Overload:Surfer.ISURewiredAnyHandler.OnRewiredAny
+  isSpec: "True"
+  fullName: Surfer.ISURewiredAnyHandler.OnRewiredAny
+  nameWithType: ISURewiredAnyHandler.OnRewiredAny
 - uid: Surfer.ISUSceneActivatedHandler
   name: ISUSceneActivatedHandler
   href: api/Surfer.ISUSceneActivatedHandler.html
@@ -3557,19 +3690,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.CheckInputField
   nameWithType: SUElement.CheckInputField
-- uid: Surfer.SUElement.CheckOldInput
-  name: CheckOldInput()
-  href: api/Surfer.SUElement.html#Surfer_SUElement_CheckOldInput
-  commentId: M:Surfer.SUElement.CheckOldInput
-  fullName: Surfer.SUElement.CheckOldInput()
-  nameWithType: SUElement.CheckOldInput()
-- uid: Surfer.SUElement.CheckOldInput*
-  name: CheckOldInput
-  href: api/Surfer.SUElement.html#Surfer_SUElement_CheckOldInput_
-  commentId: Overload:Surfer.SUElement.CheckOldInput
-  isSpec: "True"
-  fullName: Surfer.SUElement.CheckOldInput
-  nameWithType: SUElement.CheckOldInput
 - uid: Surfer.SUElement.CheckScroll
   name: CheckScroll()
   href: api/Surfer.SUElement.html#Surfer_SUElement_CheckScroll
@@ -4070,19 +4190,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.ResetDropdown
   nameWithType: SUElement.ResetDropdown
-- uid: Surfer.SUElement.ResetInput
-  name: ResetInput()
-  href: api/Surfer.SUElement.html#Surfer_SUElement_ResetInput
-  commentId: M:Surfer.SUElement.ResetInput
-  fullName: Surfer.SUElement.ResetInput()
-  nameWithType: SUElement.ResetInput()
-- uid: Surfer.SUElement.ResetInput*
-  name: ResetInput
-  href: api/Surfer.SUElement.html#Surfer_SUElement_ResetInput_
-  commentId: Overload:Surfer.SUElement.ResetInput
-  isSpec: "True"
-  fullName: Surfer.SUElement.ResetInput
-  nameWithType: SUElement.ResetInput
 - uid: Surfer.SUElement.ResetInputField
   name: ResetInputField()
   href: api/Surfer.SUElement.html#Surfer_SUElement_ResetInputField
@@ -4161,6 +4268,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.RunEventBehaviour
   nameWithType: SUElement.RunEventBehaviour
+- uid: Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)
+  name: RunEventBehaviourParams(SUEvent.Type_ID, String)
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_
+  commentId: M:Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)
+  fullName: Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID, System.String)
+  nameWithType: SUElement.RunEventBehaviourParams(SUEvent.Type_ID, String)
+- uid: Surfer.SUElement.RunEventBehaviourParams*
+  name: RunEventBehaviourParams
+  href: api/Surfer.SUElement.html#Surfer_SUElement_RunEventBehaviourParams_
+  commentId: Overload:Surfer.SUElement.RunEventBehaviourParams
+  isSpec: "True"
+  fullName: Surfer.SUElement.RunEventBehaviourParams
+  nameWithType: SUElement.RunEventBehaviourParams
 - uid: Surfer.SUElementCanvas
   name: SUElementCanvas
   href: api/Surfer.SUElementCanvas.html
@@ -5051,6 +5171,18 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.Input_NewInput_OnAction
   fullName: Surfer.SUEvent.Type_ID.Input_NewInput_OnAction
   nameWithType: SUEvent.Type_ID.Input_NewInput_OnAction
+- uid: Surfer.SUEvent.Type_ID.Input_NewInput_OnAnyButtonPressed
+  name: Input_NewInput_OnAnyButtonPressed
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Input_NewInput_OnAnyButtonPressed
+  commentId: F:Surfer.SUEvent.Type_ID.Input_NewInput_OnAnyButtonPressed
+  fullName: Surfer.SUEvent.Type_ID.Input_NewInput_OnAnyButtonPressed
+  nameWithType: SUEvent.Type_ID.Input_NewInput_OnAnyButtonPressed
+- uid: Surfer.SUEvent.Type_ID.Input_OldInput_OnAnyKeyDown
+  name: Input_OldInput_OnAnyKeyDown
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Input_OldInput_OnAnyKeyDown
+  commentId: F:Surfer.SUEvent.Type_ID.Input_OldInput_OnAnyKeyDown
+  fullName: Surfer.SUEvent.Type_ID.Input_OldInput_OnAnyKeyDown
+  nameWithType: SUEvent.Type_ID.Input_OldInput_OnAnyKeyDown
 - uid: Surfer.SUEvent.Type_ID.Input_OldInput_OnButtonDown
   name: Input_OldInput_OnButtonDown
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_Input_OldInput_OnButtonDown
@@ -5081,6 +5213,30 @@ references:
   commentId: F:Surfer.SUEvent.Type_ID.InputField_OnValueChanged
   fullName: Surfer.SUEvent.Type_ID.InputField_OnValueChanged
   nameWithType: SUEvent.Type_ID.InputField_OnValueChanged
+- uid: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationGainFocus
+  name: MonoBehaviour_OnApplicationGainFocus
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MonoBehaviour_OnApplicationGainFocus
+  commentId: F:Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationGainFocus
+  fullName: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationGainFocus
+  nameWithType: SUEvent.Type_ID.MonoBehaviour_OnApplicationGainFocus
+- uid: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationLoseFocus
+  name: MonoBehaviour_OnApplicationLoseFocus
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MonoBehaviour_OnApplicationLoseFocus
+  commentId: F:Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationLoseFocus
+  fullName: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationLoseFocus
+  nameWithType: SUEvent.Type_ID.MonoBehaviour_OnApplicationLoseFocus
+- uid: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationPaused
+  name: MonoBehaviour_OnApplicationPaused
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MonoBehaviour_OnApplicationPaused
+  commentId: F:Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationPaused
+  fullName: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationPaused
+  nameWithType: SUEvent.Type_ID.MonoBehaviour_OnApplicationPaused
+- uid: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationUnpaused
+  name: MonoBehaviour_OnApplicationUnpaused
+  href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MonoBehaviour_OnApplicationUnpaused
+  commentId: F:Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationUnpaused
+  fullName: Surfer.SUEvent.Type_ID.MonoBehaviour_OnApplicationUnpaused
+  nameWithType: SUEvent.Type_ID.MonoBehaviour_OnApplicationUnpaused
 - uid: Surfer.SUEvent.Type_ID.MonoBehaviour_OnAwake
   name: MonoBehaviour_OnAwake
   href: api/Surfer.SUEvent.Type_ID.html#Surfer_SUEvent_Type_ID_MonoBehaviour_OnAwake
@@ -7992,6 +8148,90 @@ references:
   isSpec: "True"
   fullName: Surfer.SUIndicatorVisualData.Suffix
   nameWithType: SUIndicatorVisualData.Suffix
+- uid: Surfer.SUInputManager
+  name: SUInputManager
+  href: api/Surfer.SUInputManager.html
+  commentId: T:Surfer.SUInputManager
+  fullName: Surfer.SUInputManager
+  nameWithType: SUInputManager
+- uid: Surfer.SUInputManager.I
+  name: I
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_I
+  commentId: P:Surfer.SUInputManager.I
+  fullName: Surfer.SUInputManager.I
+  nameWithType: SUInputManager.I
+- uid: Surfer.SUInputManager.I*
+  name: I
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_I_
+  commentId: Overload:Surfer.SUInputManager.I
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.I
+  nameWithType: SUInputManager.I
+- uid: Surfer.SUInputManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_MainLoop
+  commentId: M:Surfer.SUInputManager.MainLoop
+  fullName: Surfer.SUInputManager.MainLoop()
+  nameWithType: SUInputManager.MainLoop()
+- uid: Surfer.SUInputManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_MainLoop_
+  commentId: Overload:Surfer.SUInputManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.MainLoop
+  nameWithType: SUInputManager.MainLoop
+- uid: Surfer.SUInputManager.RegisterOldInputAction(System.String,Surfer.ISUOldInputActionHandler)
+  name: RegisterOldInputAction(String, ISUOldInputActionHandler)
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputAction_System_String_Surfer_ISUOldInputActionHandler_
+  commentId: M:Surfer.SUInputManager.RegisterOldInputAction(System.String,Surfer.ISUOldInputActionHandler)
+  fullName: Surfer.SUInputManager.RegisterOldInputAction(System.String, Surfer.ISUOldInputActionHandler)
+  nameWithType: SUInputManager.RegisterOldInputAction(String, ISUOldInputActionHandler)
+- uid: Surfer.SUInputManager.RegisterOldInputAction*
+  name: RegisterOldInputAction
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputAction_
+  commentId: Overload:Surfer.SUInputManager.RegisterOldInputAction
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.RegisterOldInputAction
+  nameWithType: SUInputManager.RegisterOldInputAction
+- uid: Surfer.SUInputManager.RegisterOldInputAnyKey(Surfer.ISUOldInputAnyKeyHandler)
+  name: RegisterOldInputAnyKey(ISUOldInputAnyKeyHandler)
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputAnyKey_Surfer_ISUOldInputAnyKeyHandler_
+  commentId: M:Surfer.SUInputManager.RegisterOldInputAnyKey(Surfer.ISUOldInputAnyKeyHandler)
+  fullName: Surfer.SUInputManager.RegisterOldInputAnyKey(Surfer.ISUOldInputAnyKeyHandler)
+  nameWithType: SUInputManager.RegisterOldInputAnyKey(ISUOldInputAnyKeyHandler)
+- uid: Surfer.SUInputManager.RegisterOldInputAnyKey*
+  name: RegisterOldInputAnyKey
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputAnyKey_
+  commentId: Overload:Surfer.SUInputManager.RegisterOldInputAnyKey
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.RegisterOldInputAnyKey
+  nameWithType: SUInputManager.RegisterOldInputAnyKey
+- uid: Surfer.SUInputManager.RegisterOldInputKey(KeyCode,Surfer.ISUOldInputKeyHandler)
+  name: RegisterOldInputKey(KeyCode, ISUOldInputKeyHandler)
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputKey_KeyCode_Surfer_ISUOldInputKeyHandler_
+  commentId: M:Surfer.SUInputManager.RegisterOldInputKey(KeyCode,Surfer.ISUOldInputKeyHandler)
+  fullName: Surfer.SUInputManager.RegisterOldInputKey(KeyCode, Surfer.ISUOldInputKeyHandler)
+  nameWithType: SUInputManager.RegisterOldInputKey(KeyCode, ISUOldInputKeyHandler)
+- uid: Surfer.SUInputManager.RegisterOldInputKey*
+  name: RegisterOldInputKey
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_RegisterOldInputKey_
+  commentId: Overload:Surfer.SUInputManager.RegisterOldInputKey
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.RegisterOldInputKey
+  nameWithType: SUInputManager.RegisterOldInputKey
+- uid: Surfer.SUInputManager.ResetInput
+  name: ResetInput()
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_ResetInput
+  commentId: M:Surfer.SUInputManager.ResetInput
+  fullName: Surfer.SUInputManager.ResetInput()
+  nameWithType: SUInputManager.ResetInput()
+- uid: Surfer.SUInputManager.ResetInput*
+  name: ResetInput
+  href: api/Surfer.SUInputManager.html#Surfer_SUInputManager_ResetInput_
+  commentId: Overload:Surfer.SUInputManager.ResetInput
+  isSpec: "True"
+  fullName: Surfer.SUInputManager.ResetInput
+  nameWithType: SUInputManager.ResetInput
 - uid: Surfer.SUItemLinkData
   name: SUItemLinkData
   href: api/Surfer.SUItemLinkData.html
@@ -8230,6 +8470,102 @@ references:
   isSpec: "True"
   fullName: Surfer.SULinkData.Target
   nameWithType: SULinkData.Target
+- uid: Surfer.SUNewInputActionEventData
+  name: SUNewInputActionEventData
+  href: api/Surfer.SUNewInputActionEventData.html
+  commentId: T:Surfer.SUNewInputActionEventData
+  fullName: Surfer.SUNewInputActionEventData
+  nameWithType: SUNewInputActionEventData
+- uid: Surfer.SUNewInputActionEventData.#ctor(System.String)
+  name: SUNewInputActionEventData(String)
+  href: api/Surfer.SUNewInputActionEventData.html#Surfer_SUNewInputActionEventData__ctor_System_String_
+  commentId: M:Surfer.SUNewInputActionEventData.#ctor(System.String)
+  fullName: Surfer.SUNewInputActionEventData.SUNewInputActionEventData(System.String)
+  nameWithType: SUNewInputActionEventData.SUNewInputActionEventData(String)
+- uid: Surfer.SUNewInputActionEventData.#ctor*
+  name: SUNewInputActionEventData
+  href: api/Surfer.SUNewInputActionEventData.html#Surfer_SUNewInputActionEventData__ctor_
+  commentId: Overload:Surfer.SUNewInputActionEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUNewInputActionEventData.SUNewInputActionEventData
+  nameWithType: SUNewInputActionEventData.SUNewInputActionEventData
+- uid: Surfer.SUNewInputActionEventData.ActionName
+  name: ActionName
+  href: api/Surfer.SUNewInputActionEventData.html#Surfer_SUNewInputActionEventData_ActionName
+  commentId: P:Surfer.SUNewInputActionEventData.ActionName
+  fullName: Surfer.SUNewInputActionEventData.ActionName
+  nameWithType: SUNewInputActionEventData.ActionName
+- uid: Surfer.SUNewInputActionEventData.ActionName*
+  name: ActionName
+  href: api/Surfer.SUNewInputActionEventData.html#Surfer_SUNewInputActionEventData_ActionName_
+  commentId: Overload:Surfer.SUNewInputActionEventData.ActionName
+  isSpec: "True"
+  fullName: Surfer.SUNewInputActionEventData.ActionName
+  nameWithType: SUNewInputActionEventData.ActionName
+- uid: Surfer.SUOldInputActionEventData
+  name: SUOldInputActionEventData
+  href: api/Surfer.SUOldInputActionEventData.html
+  commentId: T:Surfer.SUOldInputActionEventData
+  fullName: Surfer.SUOldInputActionEventData
+  nameWithType: SUOldInputActionEventData
+- uid: Surfer.SUOldInputActionEventData.#ctor(System.String)
+  name: SUOldInputActionEventData(String)
+  href: api/Surfer.SUOldInputActionEventData.html#Surfer_SUOldInputActionEventData__ctor_System_String_
+  commentId: M:Surfer.SUOldInputActionEventData.#ctor(System.String)
+  fullName: Surfer.SUOldInputActionEventData.SUOldInputActionEventData(System.String)
+  nameWithType: SUOldInputActionEventData.SUOldInputActionEventData(String)
+- uid: Surfer.SUOldInputActionEventData.#ctor*
+  name: SUOldInputActionEventData
+  href: api/Surfer.SUOldInputActionEventData.html#Surfer_SUOldInputActionEventData__ctor_
+  commentId: Overload:Surfer.SUOldInputActionEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUOldInputActionEventData.SUOldInputActionEventData
+  nameWithType: SUOldInputActionEventData.SUOldInputActionEventData
+- uid: Surfer.SUOldInputActionEventData.ActionName
+  name: ActionName
+  href: api/Surfer.SUOldInputActionEventData.html#Surfer_SUOldInputActionEventData_ActionName
+  commentId: P:Surfer.SUOldInputActionEventData.ActionName
+  fullName: Surfer.SUOldInputActionEventData.ActionName
+  nameWithType: SUOldInputActionEventData.ActionName
+- uid: Surfer.SUOldInputActionEventData.ActionName*
+  name: ActionName
+  href: api/Surfer.SUOldInputActionEventData.html#Surfer_SUOldInputActionEventData_ActionName_
+  commentId: Overload:Surfer.SUOldInputActionEventData.ActionName
+  isSpec: "True"
+  fullName: Surfer.SUOldInputActionEventData.ActionName
+  nameWithType: SUOldInputActionEventData.ActionName
+- uid: Surfer.SUOldInputKeyEventData
+  name: SUOldInputKeyEventData
+  href: api/Surfer.SUOldInputKeyEventData.html
+  commentId: T:Surfer.SUOldInputKeyEventData
+  fullName: Surfer.SUOldInputKeyEventData
+  nameWithType: SUOldInputKeyEventData
+- uid: Surfer.SUOldInputKeyEventData.#ctor(KeyCode)
+  name: SUOldInputKeyEventData(KeyCode)
+  href: api/Surfer.SUOldInputKeyEventData.html#Surfer_SUOldInputKeyEventData__ctor_KeyCode_
+  commentId: M:Surfer.SUOldInputKeyEventData.#ctor(KeyCode)
+  fullName: Surfer.SUOldInputKeyEventData.SUOldInputKeyEventData(KeyCode)
+  nameWithType: SUOldInputKeyEventData.SUOldInputKeyEventData(KeyCode)
+- uid: Surfer.SUOldInputKeyEventData.#ctor*
+  name: SUOldInputKeyEventData
+  href: api/Surfer.SUOldInputKeyEventData.html#Surfer_SUOldInputKeyEventData__ctor_
+  commentId: Overload:Surfer.SUOldInputKeyEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUOldInputKeyEventData.SUOldInputKeyEventData
+  nameWithType: SUOldInputKeyEventData.SUOldInputKeyEventData
+- uid: Surfer.SUOldInputKeyEventData.Key
+  name: Key
+  href: api/Surfer.SUOldInputKeyEventData.html#Surfer_SUOldInputKeyEventData_Key
+  commentId: P:Surfer.SUOldInputKeyEventData.Key
+  fullName: Surfer.SUOldInputKeyEventData.Key
+  nameWithType: SUOldInputKeyEventData.Key
+- uid: Surfer.SUOldInputKeyEventData.Key*
+  name: Key
+  href: api/Surfer.SUOldInputKeyEventData.html#Surfer_SUOldInputKeyEventData_Key_
+  commentId: Overload:Surfer.SUOldInputKeyEventData.Key
+  isSpec: "True"
+  fullName: Surfer.SUOldInputKeyEventData.Key
+  nameWithType: SUOldInputKeyEventData.Key
 - uid: Surfer.SUOrientationInfo
   name: SUOrientationInfo
   href: api/Surfer.SUOrientationInfo.html
@@ -9055,6 +9391,18 @@ references:
   isSpec: "True"
   fullName: Surfer.SURectSizeDataDrawer.OnCanUseDefaultModes
   nameWithType: SURectSizeDataDrawer.OnCanUseDefaultModes
+- uid: Surfer.SURewiredActionEventData
+  name: SURewiredActionEventData
+  href: api/Surfer.SURewiredActionEventData.html
+  commentId: T:Surfer.SURewiredActionEventData
+  fullName: Surfer.SURewiredActionEventData
+  nameWithType: SURewiredActionEventData
+- uid: Surfer.SURewiredAnyEventData
+  name: SURewiredAnyEventData
+  href: api/Surfer.SURewiredAnyEventData.html
+  commentId: T:Surfer.SURewiredAnyEventData
+  fullName: Surfer.SURewiredAnyEventData
+  nameWithType: SURewiredAnyEventData
 - uid: Surfer.SurferHelper
   name: SurferHelper
   href: api/Surfer.SurferHelper.html

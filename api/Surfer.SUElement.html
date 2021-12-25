@@ -116,7 +116,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Surfer_SUElement_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUElement : IPointerClickHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, ISUOrientationHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, ISUStateEnterHandler, ISUStateExitHandler, ISUChildrenMonitorHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUElement : IPointerClickHandler, IResetLastStateSelectionHandler, ISUCustomEventHandler, ISUHealthBarVisualHandler, ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUIndicatorDistanceHandler, ISUIndicatorStateHandler, ISUIndicatorVisualHandler, MonoBehaviour, ISUOrientationHandler, ISUSceneActivatedHandler, ISUSceneLoadedHandler, ISUSceneUnloadedHandler, ISUSceneUnloadingHandler, ISUSceneDeactivatedHandler, ISUSceneLoadingHandler, ISUStateEnterHandler, ISUStateExitHandler, ISUChildrenMonitorHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, ISubmitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -276,16 +276,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CheckInputField()</code></pre>
-  </div>
-  
-  
-  <a id="Surfer_SUElement_CheckOldInput_" data-uid="Surfer.SUElement.CheckOldInput*"></a>
-  <h4 id="Surfer_SUElement_CheckOldInput" data-uid="Surfer.SUElement.CheckOldInput">CheckOldInput()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CheckOldInput()</code></pre>
   </div>
   
   
@@ -1128,16 +1118,6 @@
   </div>
   
   
-  <a id="Surfer_SUElement_ResetInput_" data-uid="Surfer.SUElement.ResetInput*"></a>
-  <h4 id="Surfer_SUElement_ResetInput" data-uid="Surfer.SUElement.ResetInput">ResetInput()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetInput()</code></pre>
-  </div>
-  
-  
   <a id="Surfer_SUElement_ResetInputField_" data-uid="Surfer.SUElement.ResetInputField*"></a>
   <h4 id="Surfer_SUElement_ResetInputField" data-uid="Surfer.SUElement.ResetInputField">ResetInputField()</h4>
   <div class="markdown level1 summary"></div>
@@ -1231,6 +1211,38 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
         <td><span class="parametername">evtData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElement_RunEventBehaviourParams_" data-uid="Surfer.SUElement.RunEventBehaviourParams*"></a>
+  <h4 id="Surfer_SUElement_RunEventBehaviourParams_Surfer_SUEvent_Type_ID_System_String_" data-uid="Surfer.SUElement.RunEventBehaviourParams(Surfer.SUEvent.Type_ID,System.String)">RunEventBehaviourParams(SUEvent.Type_ID, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunEventBehaviourParams(SUEvent.Type_ID eventID, string stringVal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUEvent.Type_ID.html">SUEvent.Type_ID</a></td>
+        <td><span class="parametername">eventID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">stringVal</span></td>
         <td></td>
       </tr>
     </tbody>
