@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting Started | Copyright &#169; 2021 ATStudio </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting Started | Copyright &#169; 2021 ATStudio ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../myfavicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>Let&#39;s see the basic concepts, the Canvas and UIToolkit components and an overall explanation on how to get the most out of Surfer.</p>
+<p><br>
+<br>
+<br></p>
+<h2 id="basics">Basics</h2>
+<p>Surfer lets you easily prototype and develop the entire app flow directly from the Inspector : with Canvas (UGUI) we will use the <code>SUElementCanvas</code> component, 
+with the UIToolkit <code>SUElementsToolkit</code> instead.</p>
+<p>These components are divided in sections : WHO (only for UIToolkit), WHEN, IF , DO.</p>
+<p><br></p>
+<h3 id="who">WHO</h3>
+<p>The section that defines who will receive the events and run the logic after them. The component <code>SUElementCanvas</code> doesn&#39;t have this section because &quot;WHO&quot; is simply the game object where we add the component on, while <code>SUElementsToolkit</code> has it because &quot;WHO&quot; is related to the chosen VisualElement of a specific UIDocument.</p>
+<p>For the <code>SUElementsToolkit</code> component , here are important things to understand :</p>
+<ul>
+<li>First , we must always add a UIDocument entry to the required field</li>
+<li>Then, to create a new element Data to handle , we must click the <code>+</code> button</li>
+<li>Below it , we can see an <code>Element</code> dropdown field list that allow us to choose the <code>Visual Element</code> that we want to handle ; here are the elements that we can find in the list : <ul>
+<li>the <code>&lt;Root&gt;</code> element (rootVisualElement of the UIDocument)</li>
+<li>all the elements available in the UXML of the chosen UIDocument (shown by name)</li>
+<li>the <code>&lt;Specify Name&gt;</code> choice : if the element we want to handle is not already available in the UIDocument (i.e. a ListItem that we will add in the future), this is the option to select ; then we must also add below it the name of the &quot;future element&quot; as well.</li>
+</ul>
+</li>
+</ul>
+<p>(<strong>IMPORTANT:</strong> in order to make this component recognize <code>VisualElements</code> , instead of using at runtime <code>Add</code> or <code>Remove</code> to add or remove visual elements from a hierarchy, we must use the Surfer extensions <code>SUAdd</code> or <code>SURemove</code> because this two methods will send the right events to the component)</p>
+<p>Example</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/getstart2.png" alt="Image"></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/getstart3.png" alt="Image"></p>
+<p><br></p>
+<h3 id="when">WHEN</h3>
+<p>The section where we can simply choose the event (built-in or custom) that the object/element must receive.</p>
+<h3 id="if">IF</h3>
+<p>The section where we can choose the conditions (built-in or custom) that will allow the logic to run or not.</p>
+<h3 id="do">DO</h3>
+<p>The section where we can choose the reactions (built-in or custom) that we&#39;d like to run, with the all the inspector fields that we want to use.</p>
+<p>(90% of Surfer logic can also be run by code without using the Inspector; every Surfer guide explains and shows this whenever possible)</p>
+<p><br>
+<br>
+<br></p>
+<h2 id="element-types">Element Types</h2>
+<p>Any object that can receive events (&quot;WHO&quot;) it can be setup with some built-in behaviour logic that will run automatically without setting up any event, condition or reaction :
+this can be achieved by choosing an <a href="https://atstudios.github.io/Surfer/api/Surfer.SUElementData.Type_ID.html">Element Type</a> for the related object.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/getstart1.png" alt="Image"></p>
+<p><br></p>
+<p>For example : any Element Type that has the word &quot;State&quot; in it , will automatically setup that object to become a UI State, namely a UI panel that can be shown or hidden and that can trigger events like
+<code>StateEnter</code> or <code>StateExit</code>.</p>
+<p>Or , if we choose <code>Loading_Text</code> as type and the object is a Label (UGUI or UIToolkit) then that label will automatically show the loading percentage of the scene that is currently in &quot;loading state&quot;, without setting up any event, just a click.</p>
+<p>If the object should not have any built-in/automatic behaviour given by Surfer, then we can leave <code>Normal</code> as type.</p>
+<p><br>
+<br>
+<br></p>
+<h2 id="custom-events">Custom Events</h2>
+<p>Surfer has more than 50 built-in events (global events like Scene or Orientation and local ones like Slider or Toggle) that can be used to trigger logic directly in the Inspector; but, we can also add our custom ones by sending a Surfer Custom Event with a specific name chosen by us, like this <a href="https://atstudios.github.io/Surfer/manual/Custom%20Events.html">Guide</a> explains.</p>
+<h2 id="custom-conditions">Custom Conditions</h2>
+<p>Inspector conditions can also be built-in or custom ; this <a href="https://atstudios.github.io/Surfer/manual/Custom%20Conditions.html">Guide</a> explains all.</p>
+<h2 id="custom-reactions">Custom Reactions</h2>
+<p>Inspector reactions can also be built-in or custom ; this <a href="https://atstudios.github.io/Surfer/manual/Custom%20Reactions.html">Guide</a> explains all.</p>
+<p><br>
+<br>
+<br></p>
+<h2 id="edit-statesevents-and-integrations--surfer-settings">Edit States,Events and Integrations : Surfer Settings</h2>
+<p>To rename/add/delete a state name or a custom event name , or to enable or disable an integration with another framework,
+To edit all the available Surfer Settings, we have to go to <code>Unity-&gt;Preferences</code> and select <code>Surfer</code>.</p>
+<p>Here we will be able to : </p>
+<ul>
+<li>Rename/Add/Delete a UI State name</li>
+<li>Rename/Add/Delete a Custom Event name</li>
+<li>Enable/Disable an Integration with another framework</li>
+<li>Generate , as constants, the names of the UI States and Custom Events names</li>
+<li>Edit the delay/time interval related to the Double Click event available in the Inspector (only for UIToolkit/<code>SUElementsToolkit</code>)</li>
+<li>Delete the PlayerPrefs Key of the Element Type <code>Slider_OverallVolume</code></li>
+</ul>
+<p><img src="https://atstudios.github.io/Surfer/resources/edit1.png" alt="Image"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2021 ATStudio
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

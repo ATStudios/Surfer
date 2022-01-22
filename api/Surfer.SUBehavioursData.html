@@ -160,13 +160,13 @@ public class SUBehavioursData</code></pre>
   </table>
   
   
-  <a id="Surfer_SUBehavioursData_Run_" data-uid="Surfer.SUBehavioursData.Run*"></a>
-  <h4 id="Surfer_SUBehavioursData_Run_GameObject_System_Object_" data-uid="Surfer.SUBehavioursData.Run(GameObject,System.Object)">Run(GameObject, Object)</h4>
+  <a id="Surfer_SUBehavioursData_ForEachBeh_" data-uid="Surfer.SUBehavioursData.ForEachBeh*"></a>
+  <h4 id="Surfer_SUBehavioursData_ForEachBeh_System_Action_Surfer_SUBehaviourData__" data-uid="Surfer.SUBehavioursData.ForEachBeh(System.Action{Surfer.SUBehaviourData})">ForEachBeh(Action&lt;SUBehaviourData&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Run(GameObject go, object evtData = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ForEachBeh(Action&lt;SUBehaviourData&gt; OnBehaviour)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,8 +179,35 @@ public class SUBehavioursData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUBehaviourData.html">SUBehaviourData</a>&gt;</td>
+        <td><span class="parametername">OnBehaviour</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUBehavioursData_Run_" data-uid="Surfer.SUBehavioursData.Run*"></a>
+  <h4 id="Surfer_SUBehavioursData_Run_Surfer_SUElementData_System_Object_" data-uid="Surfer.SUBehavioursData.Run(Surfer.SUElementData,System.Object)">Run(SUElementData, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Run(SUElementData data, object evtData = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
@@ -193,12 +220,12 @@ public class SUBehavioursData</code></pre>
   
   
   <a id="Surfer_SUBehavioursData_RunWithParams_" data-uid="Surfer.SUBehavioursData.RunWithParams*"></a>
-  <h4 id="Surfer_SUBehavioursData_RunWithParams_GameObject_System_String_" data-uid="Surfer.SUBehavioursData.RunWithParams(GameObject,System.String)">RunWithParams(GameObject, String)</h4>
+  <h4 id="Surfer_SUBehavioursData_RunWithParams_Surfer_SUElementData_System_String_" data-uid="Surfer.SUBehavioursData.RunWithParams(Surfer.SUElementData,System.String)">RunWithParams(SUElementData, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunWithParams(GameObject go, string stringVal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunWithParams(SUElementData data, string stringVal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,8 +238,8 @@ public class SUBehavioursData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
@@ -225,12 +252,12 @@ public class SUBehavioursData</code></pre>
   
   
   <a id="Surfer_SUBehavioursData_RunWithParamsCustomEvent_" data-uid="Surfer.SUBehavioursData.RunWithParamsCustomEvent*"></a>
-  <h4 id="Surfer_SUBehavioursData_RunWithParamsCustomEvent_GameObject_Surfer_SUCustomEventEventData_" data-uid="Surfer.SUBehavioursData.RunWithParamsCustomEvent(GameObject,Surfer.SUCustomEventEventData)">RunWithParamsCustomEvent(GameObject, SUCustomEventEventData)</h4>
+  <h4 id="Surfer_SUBehavioursData_RunWithParamsCustomEvent_Surfer_SUElementData_Surfer_SUCustomEventEventData_" data-uid="Surfer.SUBehavioursData.RunWithParamsCustomEvent(Surfer.SUElementData,Surfer.SUCustomEventEventData)">RunWithParamsCustomEvent(SUElementData, SUCustomEventEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunWithParamsCustomEvent(GameObject go, SUCustomEventEventData cEvent)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunWithParamsCustomEvent(SUElementData data, SUCustomEventEventData cEvent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,8 +270,8 @@ public class SUBehavioursData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
@@ -257,12 +284,12 @@ public class SUBehavioursData</code></pre>
   
   
   <a id="Surfer_SUBehavioursData_RunWithParamsScene_" data-uid="Surfer.SUBehavioursData.RunWithParamsScene*"></a>
-  <h4 id="Surfer_SUBehavioursData_RunWithParamsScene_GameObject_System_String_System_Object_" data-uid="Surfer.SUBehavioursData.RunWithParamsScene(GameObject,System.String,System.Object)">RunWithParamsScene(GameObject, String, Object)</h4>
+  <h4 id="Surfer_SUBehavioursData_RunWithParamsScene_Surfer_SUElementData_System_String_System_Object_" data-uid="Surfer.SUBehavioursData.RunWithParamsScene(Surfer.SUElementData,System.String,System.Object)">RunWithParamsScene(SUElementData, String, Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunWithParamsScene(GameObject go, string stringVal, object evtData = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunWithParamsScene(SUElementData data, string stringVal, object evtData = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -275,8 +302,8 @@ public class SUBehavioursData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
@@ -294,12 +321,12 @@ public class SUBehavioursData</code></pre>
   
   
   <a id="Surfer_SUBehavioursData_RunWithParamsState_" data-uid="Surfer.SUBehavioursData.RunWithParamsState*"></a>
-  <h4 id="Surfer_SUBehavioursData_RunWithParamsState_GameObject_Surfer_SUStateEventData_System_Boolean_" data-uid="Surfer.SUBehavioursData.RunWithParamsState(GameObject,Surfer.SUStateEventData,System.Boolean)">RunWithParamsState(GameObject, SUStateEventData, Boolean)</h4>
+  <h4 id="Surfer_SUBehavioursData_RunWithParamsState_Surfer_SUElementData_Surfer_SUStateEventData_System_Boolean_" data-uid="Surfer.SUBehavioursData.RunWithParamsState(Surfer.SUElementData,Surfer.SUStateEventData,System.Boolean)">RunWithParamsState(SUElementData, SUStateEventData, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunWithParamsState(GameObject go, SUStateEventData eventData, bool onlyVersionCheck = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RunWithParamsState(SUElementData data, SUStateEventData eventData, bool onlyVersionCheck = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,8 +339,8 @@ public class SUBehavioursData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>

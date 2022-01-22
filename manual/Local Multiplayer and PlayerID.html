@@ -79,18 +79,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="local-multiplayer-and-playerid">Local Multiplayer and PlayerID</h1>
 
+<p>(PlayerID is available for Canvas/UGUI and UIToolkit, while split-screen support currently only for Canvas/UGUI)</p>
+<p><br>
+<br></p>
 <p>If we&#39;re dealing with a local multiplayer game , then we can use a really handy Surfer feature that will help us managing states and panel of different players as well as their EventSystem.</p>
 <p>This feature is the <code>PlayerID</code>.</p>
-<p>Basically, when we setup a state in our <code>SUElementCanvas</code>component we can see a field called <code>Player ID</code>: this value is accountable for handling multiple independent player UI states for a local multiplayer game.</p>
-<p>For example , if we have a 2P Local Multiplayer game with two equal state panels called <code>Menu</code> and two EventSystems ( or MultiplayerEventSystems ) in the scene :</p>
-<ul>
-<li><p>we set the<code>PlayerID</code> of the first Menu to 1 and the <code>PlayerID</code> of the second Menu to 2</p>
-</li>
-<li><p>we add to the name of an EventSystem the word <code>1P</code>and to the name of the other one <code>2P</code> </p>
-<p><img src="https://atstudios.github.io/Surfer/resources/player1.png" alt="Image"></p>
-</li>
-</ul>
-<p>In this way Surfer will be able to link every player state to its corresponding EventSystem.</p>
+<p>Basically, when we setup a state in our <code>SUElementCanvas</code>/<code>SUElementsToolkit</code> component we can see a field called <code>Player ID</code>: this value is accountable for handling multiple independent player UI states for a local multiplayer game.</p>
+<p>For example , if we have a 2P Local Multiplayer game with two equal state panels called <code>Menu</code>, we can set the <code>PlayerID</code> of the first Menu to 1 and the <code>PlayerID</code> of the second Menu to 2 , so that when we call an <code>Open State</code> we can decide with the PlayerID value, which <code>Menu</code> of which Player to open. </p>
 <p>The value of the player id field has a special meaning when set to -1 , like the table shows :</p>
 <table>
 <thead>
@@ -110,9 +105,21 @@
 </tr>
 </tbody>
 </table>
-<h2 id="eventsystem-runtime">EventSystem Runtime</h2>
-<p>By default, when we manually select by code an UI object we normally use  <code>EventSystem.current.SetSelectedGameObject(myObject)</code> .</p>
-<p>Instead , we must let Surfer do the job and use the <code>SurferManager.I.FocusOnObject</code> call that will automatically check the playerID of the UI object and handle everything.</p>
+<h2 id="eventsystem">EventSystem</h2>
+<p>(This feature and guide are currently only available for Canvas/UGUI)
+<br>
+<br></p>
+<p>To link every player state to its corresponding EventSystem, we must :</p>
+<ul>
+<li>add two EventSystems ( or MultiplayerEventSystems ) in the scene</li>
+<li><p>add to the name of an EventSystem the word <code>1P</code> and to the name of the other one <code>2P</code> </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/player1.png" alt="Image"></p>
+</li>
+</ul>
+<p><br>
+<br></p>
+<p>At runtime, by default, when we manually select by code an UI object we normally use <code>EventSystem.current.SetSelectedGameObject(myObject)</code> .
+Instead , we must let Surfer do the job and use the <code>SurferManager.I.FocusOnObject</code> call that will automatically check the playerID of the UI object and handle everything.</p>
 </article>
           </div>
           

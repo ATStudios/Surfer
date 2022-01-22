@@ -79,17 +79,20 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="healthbars">HealthBars</h1>
 
+<p>(This feature and guide are currently only available for Canvas/UGUI)
+<br>
+<br></p>
 <p>Let&#39;s see how to add an health bar to an enemy/target both in the inspector/editor and at runtime.</p>
 <h2 id="inspectoreditor">Inspector/Editor</h2>
 <p>By using the classic way, the inspector/editor one, we must do as follows :</p>
 <ul>
 <li>Create a prefab of the 3D enemy/target</li>
-<li>Add a <code>SUHealthBarLink</code>component to the prefab</li>
-<li>In the <code>Data</code> section , drag in the <code>Target</code>field the Transform the HealthBar should follow ( the enemy/prefab itself )</li>
-<li>Then, setup all the values like <code>TotalHp</code>and <code>TotalMp</code>as you like</li>
-<li>In the <code>AllData</code>section list, add a new entry (add multiple entries if you are developing a split-screen game with multiple cameras)</li>
+<li>Add a <code>SUHealthBarLink</code> component to the prefab</li>
+<li>In the <code>Data</code> section , drag in the <code>Target</code> field the Transform the HealthBar should follow ( the enemy/prefab itself )</li>
+<li>Then, setup all the values like <code>TotalHp</code>and <code>TotalMp</code> as you like</li>
+<li>In the <code>AllData</code> section list, add a new entry (add multiple entries if you are developing a split-screen game with multiple cameras)</li>
 <li>In the new entry, drag in the <code>Prefab</code> field the prefab <code>BasicSquaredHB</code> that you can find in the Surfer folder under <code>Prefab/HealthBars/</code></li>
-<li>Then, drag in the <code>Cam</code>field the camera where you want to see the UI healthBar shown , like the MainCamera ( if no Camera is added, the camera tagged with <code>MainCamera</code>will be used )</li>
+<li>Then, drag in the <code>Cam</code> field the camera where you want to see the UI healthBar shown , like the MainCamera ( if no Camera is added, the camera tagged with <code>MainCamera</code> will be used )</li>
 <li>Then, set an offset like X=0 and Y=100 to put it above the target</li>
 <li>Finally, check <code>Start On Awake</code></li>
 </ul>
@@ -106,13 +109,56 @@
 </ul>
 <p>Always remember to have the <code>SUPersistentCanvas</code> prefab in the scene.</p>
 <p>For example </p>
-<p><img src="https://atstudios.github.io/Surfer/resources/hb1.png" alt="Image"></p>
-<h2 id="for-programmers">For Programmers</h2>
+<pre><code>[SerializeField]
+Transform _target = default;
+[SerializeField]
+GameObject _hbPrefab = default;
+
+private void Awake()
+{
+
+    List&lt;SUHealthBarData&gt; _allData = new List&lt;SUHealthBarData&gt;();
+    _allData.Add(new SUHealthBarData(_hbPrefab,Camera.main));
+
+    //add another health bar data for another camera, if it&#39;s a split screen game
+    _allData.Add(new SUHealthBarData(_hbPrefab,_mySecondCamera));
+
+
+    //set the object target of the health bar, and choose values like hp
+    SUHealthBarLinkData _linkData = new SUHealthBarLinkData(_target,_allData,300);
+    _linkData.StartFollow();
+}
+</code></pre><p><br>
+<br>
+<br></p>
+<h2 id="runtime-events">Runtime Events</h2>
 <p>The ready-made prefab uses the <code>SUElementCanvas</code> component in order to get  HealthBar events like <code>OnFullHp</code> or <code>OnEmptyHp</code>, and also to set up the visual Data of the HB itself. </p>
-<p>These events are basically <code>Interfaces</code> that, if you are a programmer, you can use to create your custom script and handle them without using a <code>SUElementCanvas</code>component.</p>
+<p>These events are basically <code>Interfaces</code> that you can also access at runtime to create your custom script and handle them without using the inspector.</p>
 <p>Like below</p>
-<p><img src="https://atstudios.github.io/Surfer/resources/hb2.png" alt="Image"></p>
-</article>
+<pre><code>public class MyScript : MonoBehaviour,
+ISUHealthBarHPStateHandler, ISUHealthBarStateHandler, ISUHealthBarVisualHandler
+{
+
+    [SerializeField]
+    SUHealthBarVisualData _visualData = default;
+
+    public void OnHealthBarHPStateUpdate(SUHealthBarEventData eventData)
+    {
+        Debug.Log(eventData.Data.HPState);
+    }
+
+    public void OnHealthBarStateUpdate(SUHealthBarEventData eventData)
+    {
+        Debug.Log(eventData.Data.State);
+    }
+
+    public SUHealthBarVisualData OnHealthBarVisualSetUp()
+    {
+        return _visualData;
+    }
+
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

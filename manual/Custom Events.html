@@ -79,7 +79,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="custom-events">Custom Events</h1>
 
-<p>For all the events not handled natively in Surfer, we can use <code>CustomEvents</code> : events that we send to Surfer in order to let <code>SUElementCanvas</code>handle them.</p>
+<p>For all the events not handled natively in Surfer, we can use <code>CustomEvents</code> : events that we send to Surfer in order to let <code>SUElementCanvas</code>/<code>SUElementsToolkit</code> handle them.</p>
 <h2 id="animator">Animator</h2>
 <p>An example of custom events can be done with the <code>Animator</code>.</p>
 <p>Basically :</p>
@@ -91,7 +91,7 @@
 <li><p>create an action <code>SendCustomEvent</code> and choose an event from the dropdown list </p>
 <p><img src="https://atstudios.github.io/Surfer/resources/custome1.png" alt="Image"></p>
 </li>
-<li><p>add <code>SUElementCanvas</code>to whatever scene object and , as event , select <code>MyCustomEvent</code> and then choose the event name chosen in the step above</p>
+<li><p>add <code>SUElementCanvas</code> to whatever scene object (for UIToolkit setup a <code>SUElementsToolkit</code> component and add a new element data) and , as event , select <code>MyCustomEvent</code> and then choose the event name chosen in the step above</p>
 </li>
 </ul>
 <p>Now , you can react to an Animator State Enter or Exit event as you wish.</p>
@@ -105,7 +105,7 @@
 </ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/custome2.png" alt="Image"></p>
 <ul>
-<li>add <code>SUElementCanvas</code>to whatever scene object and , as event , select <code>MyCustomEvent</code>and then choose the event name chosen in the step 2</li>
+<li>add <code>SUElementCanvas</code> to whatever scene object (for UIToolkit setup a <code>SUElementsToolkit</code> component and add a new element data) and , as event , select <code>MyCustomEvent</code> and then choose the event name chosen in the step 2</li>
 </ul>
 <p>Now , you can react to a LeanTouch event as you wish.</p>
 </article>

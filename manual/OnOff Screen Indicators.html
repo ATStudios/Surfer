@@ -79,6 +79,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="onoff-screen-indicators">On/Off Screen Indicators</h1>
 
+<p>(This feature and guide are currently only available for Canvas/UGUI)
+<br>
+<br></p>
 <p>Let&#39;s see how to add an on/off screen indicator to an enemy/target both in the inspector/editor and at runtime.</p>
 <h2 id="inspectoreditor">Inspector/Editor</h2>
 <p>By using the classic way, the inspector/editor one, we must do as follows :</p>
@@ -103,13 +106,55 @@
 <li>Then, when you are ready to show your indicator on screen, call <code>StartFollow()</code>from the <code>SUIndicatorLinkData</code> previously created</li>
 </ul>
 <p>For example </p>
-<p><img src="https://atstudios.github.io/Surfer/resources/ind1.png" alt="Image"></p>
-<h2 id="for-programmers">For Programmers</h2>
+<pre><code>[SerializeField]
+Transform _target = default;
+[SerializeField]
+GameObject _indPrefab = default;
+
+private void Awake()
+{
+
+    List&lt;SUIndicatorData&gt; _allData = new List&lt;SUIndicatorData&gt;();
+    _allData.Add(new SUIndicatorData(_indPrefab,Camera.main,SUIndicatorData.Type_ID.OnScreen));
+
+    //add another indicator data for another camera, if it&#39;s a split screen game
+    _allData.Add(new SUIndicatorData(_indPrefab,_mySecondCam_,SUIndicatorData.Type_ID.OnScreen));
+
+
+    //set the object target of the indicator
+    SUIndicatorLinkData _linkData = new SUIndicatorLinkData(_target,_allData);
+    _linkData.StartFollow();
+}
+</code></pre><h2 id="runtime-events">Runtime Events</h2>
 <p>The ready-made prefab uses the <code>SUElementCanvas</code> component in order to get  all the Indicator events. </p>
-<p>These events are basically <code>Interfaces</code> that, if you are a programmer, you can use to create your custom script and handle them without using a <code>SUElementCanvas</code>component.</p>
+<p>These events are basically <code>Interfaces</code> that you can also access at runtime to create your custom script and handle them without using the inspector.</p>
 <p>Like below</p>
-<p><img src="https://atstudios.github.io/Surfer/resources/ind2.png" alt="Image"></p>
-</article>
+<pre><code>public class MyScript : MonoBehaviour,
+ISUIndicatorDistanceHandler, 
+ISUIndicatorStateHandler, 
+ISUIndicatorVisualHandler
+{
+
+    [SerializeField]
+    SUIndicatorVisualData _visualData = default;
+
+    public void OnIndicatorDistanceUpdate(SUIndicatorEventData eventData)
+    {
+        Debug.Log(eventData.Data.DistanceState);
+    }
+
+    public void OnIndicatorStateUpdate(SUIndicatorEventData eventData)
+    {
+        Debug.Log(eventData.Data.State);
+    }
+
+    public SUIndicatorVisualData OnIndicatorVisualSetUp()
+    {
+        return _visualData;
+    }
+
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

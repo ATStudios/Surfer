@@ -80,11 +80,17 @@
 <h1 id="focus">Focus</h1>
 
 <p>When we open a UI Panel , we would like to &quot;Focus On&quot; a particular UI Element, especially a button.</p>
-<p>In Surfer, to accomplish this, we must simply use <code>UIGenerics/FocusOnObject</code> and drag the object we want to “Focus on” 
-when the state is open.</p>
+<p>In Surfer, to accomplish this, we must :</p>
+<ul>
+<li>For Canvas, use <code>UIGenerics/FocusOnObject</code> and drag the object we want to “Focus on” 
+when the state is open.</li>
+</ul>
 <p><img src="https://atstudios.github.io/Surfer/resources/focus1.png" alt="Image"></p>
-<p>So, if we hit play, when the UI state of that button will be open, we will see that button being automatically selected and coloured/animated/sprite swapped based on the settings of its Selectable component (in this case coloured of red)</p>
-<p><img src="https://atstudios.github.io/Surfer/resources/focus2.png" alt="Image"></p>
+<ul>
+<li>For UIToolkit, use <code>VisualElement/FocusOnElement</code> and choose the element we want to “Focus on” 
+when the state is open.</li>
+</ul>
+<p><img src="https://atstudios.github.io/Surfer/resources/focus3.png" alt="Image"></p>
 <p>This approach is useful especially for Popups, where the focus should always be on the same UI button.</p>
 </article>
           </div>

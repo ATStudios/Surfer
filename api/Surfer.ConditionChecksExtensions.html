@@ -100,6 +100,60 @@
   </h3>
   
   
+  <a id="Surfer_ConditionChecksExtensions_GetAllCanvasNames_" data-uid="Surfer.ConditionChecksExtensions.GetAllCanvasNames*"></a>
+  <h4 id="Surfer_ConditionChecksExtensions_GetAllCanvasNames" data-uid="Surfer.ConditionChecksExtensions.GetAllCanvasNames">GetAllCanvasNames()</h4>
+  <div class="markdown level1 summary"><p>Get all the canvas names/paths of the reactions. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAllCanvasNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><p>Names/paths list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ConditionChecksExtensions_GetAllUIToolkitNames_" data-uid="Surfer.ConditionChecksExtensions.GetAllUIToolkitNames*"></a>
+  <h4 id="Surfer_ConditionChecksExtensions_GetAllUIToolkitNames" data-uid="Surfer.ConditionChecksExtensions.GetAllUIToolkitNames">GetAllUIToolkitNames()</h4>
+  <div class="markdown level1 summary"><p>Get all the UIToolkit names/paths of the reactions. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAllUIToolkitNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><p>Names/paths list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Surfer_ConditionChecksExtensions_GetFieldsList_" data-uid="Surfer.ConditionChecksExtensions.GetFieldsList*"></a>
   <h4 id="Surfer_ConditionChecksExtensions_GetFieldsList_System_String_" data-uid="Surfer.ConditionChecksExtensions.GetFieldsList(System.String)">GetFieldsList(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -142,14 +196,14 @@
   </table>
   
   
-  <a id="Surfer_ConditionChecksExtensions_GetKeyFromUnion_" data-uid="Surfer.ConditionChecksExtensions.GetKeyFromUnion*"></a>
-  <h4 id="Surfer_ConditionChecksExtensions_GetKeyFromUnion_System_String_" data-uid="Surfer.ConditionChecksExtensions.GetKeyFromUnion(System.String)">GetKeyFromUnion(String)</h4>
+  <a id="Surfer_ConditionChecksExtensions_GetKey_" data-uid="Surfer.ConditionChecksExtensions.GetKey*"></a>
+  <h4 id="Surfer_ConditionChecksExtensions_GetKey_System_String_Surfer_SUCompatibility_ID_" data-uid="Surfer.ConditionChecksExtensions.GetKey(System.String,Surfer.SUCompatibility_ID)">GetKey(String, SUCompatibility_ID)</h4>
   <div class="markdown level1 summary"><p>Get the key of a specific condition. Used for the inspector</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetKeyFromUnion(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetKey(string path, SUCompatibility_ID compatibilityID = SUCompatibility_ID.Both)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,6 +220,61 @@
         <td><span class="parametername">path</span></td>
         <td><p>Condition name/path to retrieve the key</p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibilityID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>Condition key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ConditionChecksExtensions_GetKeyFromUnion_" data-uid="Surfer.ConditionChecksExtensions.GetKeyFromUnion*"></a>
+  <h4 id="Surfer_ConditionChecksExtensions_GetKeyFromUnion_System_String_Surfer_SUCompatibility_ID_" data-uid="Surfer.ConditionChecksExtensions.GetKeyFromUnion(System.String,Surfer.SUCompatibility_ID)">GetKeyFromUnion(String, SUCompatibility_ID)</h4>
+  <div class="markdown level1 summary"><p>Get the key of a specific condition. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetKeyFromUnion(string path, SUCompatibility_ID compatibilityID = SUCompatibility_ID.Both)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Condition name/path to retrieve the key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibilityID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -233,13 +342,13 @@
   
   
   <a id="Surfer_ConditionChecksExtensions_IsSatisfied_" data-uid="Surfer.ConditionChecksExtensions.IsSatisfied*"></a>
-  <h4 id="Surfer_ConditionChecksExtensions_IsSatisfied_System_String_GameObject_Surfer_SUConditionData_System_Object_" data-uid="Surfer.ConditionChecksExtensions.IsSatisfied(System.String,GameObject,Surfer.SUConditionData,System.Object)">IsSatisfied(String, GameObject, SUConditionData, Object)</h4>
+  <h4 id="Surfer_ConditionChecksExtensions_IsSatisfied_System_String_Surfer_SUElementData_Surfer_SUConditionData_System_Object_" data-uid="Surfer.ConditionChecksExtensions.IsSatisfied(System.String,Surfer.SUElementData,Surfer.SUConditionData,System.Object)">IsSatisfied(String, SUElementData, SUConditionData, Object)</h4>
   <div class="markdown level1 summary"><p>Check if a specific condition is satisfied</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsSatisfied(string conditionKey, GameObject go, SUConditionData data, object evtData)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsSatisfied(string conditionKey, SUElementData eleData, SUConditionData data, object evtData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,8 +367,8 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">eleData</span></td>
         <td></td>
       </tr>
       <tr>

@@ -80,11 +80,13 @@
 <h1 id="generating-constants">Generating Constants</h1>
 
 <p>If we use Surfer at runtime , when listening/registering to events, we should add string-based parameters representing the names of the states or scenes.</p>
-<p><img src="https://atstudios.github.io/Surfer/resources/gene1.png" alt="Image"></p>
-<p>To avoid using strings , we can generate <code>Constants</code> by going to  <code>Unity-&gt;Preferences-&gt;Surfer</code> and clicking the button <code>Generate Constants</code> : a class <code>SUConsts</code> will be created that will allow you to access and use all scenes, states and custom events names without using strings.</p>
+<pre><code>SurferManager.I.RegisterStateEnter(this,&quot;Menu&quot;);
+</code></pre><p>To avoid using strings , we can generate <code>Constants</code> by going to  <code>Unity-&gt;Preferences-&gt;Surfer</code> and clicking the button <code>Generate Constants</code> : a class <code>SUConsts</code> will be created that will allow you to access and use all scenes, states and custom events names without using strings.</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/edit1.png" alt="Image"></p>
-<p><img src="https://atstudios.github.io/Surfer/resources/gene2.png" alt="Image"></p>
-</article>
+<p><br></p>
+<p>Finally , you can change the code above to this one :</p>
+<pre><code>SurferManager.I.RegisterStateEnter(this,SUConsts.MENU);
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

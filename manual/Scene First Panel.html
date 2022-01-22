@@ -80,13 +80,9 @@
 <h1 id="scene-first-panel">Scene First Panel</h1>
 
 <p>Let&#39;s see how to trigger the opening of a panel when a Scene is loaded. </p>
-<h2 id="setup">Setup</h2>
-<p>Assuming we have a scene with a Canvas and a Camera, let’s add the component <code>SUElementCanvas</code> to the Camera.</p>
-<p>Now, click <code>+</code> to add a new 
-event and in the <code>WHEN…</code>
-section select 
-<code>Scene/MySceneLoaded</code>
-as event.</p>
+<h2 id="canvasugui">Canvas/UGUI</h2>
+<p>Assuming we have a scene with a Canvas and a Camera, let’s add the component <code>SUElementCanvas</code> to the Camera (not mandatory to be added to the camera, only for example purposes)</p>
+<p>Now, click <code>+</code> to add a new event and in the <code>WHEN…</code> section select <code>Scene/MySceneLoaded</code> as event.</p>
 <p>Next, in order to open a panel (UI State), we must create a <code>Surfer Action</code>.</p>
 <p>Basically, in the <code>If Conditions True</code> tab of the <code>DO…</code> section , let’s add a new reaction <code>Surfer/OpenState</code> and as state let’s select <code>Menu</code>. </p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef1.png" alt="Image"></p>
@@ -95,6 +91,26 @@ as event.</p>
 <p>Then, add a <code>State/MyStateEnter</code> event and in the <code>DO…</code> section let’s add the reaction <code>Transform/SetAnchoredPosition</code> and set the values to 0 ( this reaction is not mandatory , it&#39;s only for example purposes, you can choose the one it&#39;s better for you )</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef3.png" alt="Image"></p>
 <p>As last thing, move your UI Panel out of Camera view, hit play and what you will see is the same panel being shown directly in front of the Camera!</p>
+<p><br>
+<br>
+<br></p>
+<h2 id="uitoolkit">UIToolkit</h2>
+<p>First, let&#39;s create an UXML file with a panel called <code>menu</code> and set its display-style to <code>None</code> (disable it)</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef4.png" alt="Image"></p>
+<p>Now, let&#39;s create a gameObject and add a UIDocument component (with our UXML) and a <code>SUElementsToolkit</code> component to it</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef5.png" alt="Image"></p>
+<p>Then, in the &quot;WHO&quot; section , click <code>+</code> to create a new &quot;element data&quot; entry and let&#39;s select <code>&lt;Root&gt;</code> as visualElement to handle.
+Then, click <code>+</code> to create a new event and in the <code>WHEN</code> section select <code>Scene/MySceneLoaded</code> as event.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef6.png" alt="Image"></p>
+<p>Next, in order to open a panel (UI State), we must create a <code>Surfer Action</code>.</p>
+<p>Basically, in the <code>If Conditions True</code> tab of the <code>DO</code> section , let’s add a new reaction <code>Surfer/OpenState</code> and as state let’s select <code>Menu</code>. </p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef7.png" alt="Image"></p>
+<p>Now, in the &quot;WHO&quot; section , click <code>+</code> to create a new &quot;element data&quot; entry and let&#39;s select <code>menu</code> as visualElement to handle ; then set the Type to <code>State</code> and set the State to <code>Menu</code></p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef8.png" alt="Image"></p>
+<p>Then, add a <code>State/MyStateEnter</code> event and in the <code>DO</code> section let’s add the reaction <code>VisualElement/Set Display</code> and set the Display value to <code>Flex</code> (leave the element field to <code>&lt;Event&#39;s Element&gt;</code> because it means that the reaction will have effect on the <code>menu</code> visualElement itself)</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/scenef9.png" alt="Image"></p>
+<p>Basically we have told Surfer to open, on scene loaded, the UI State called <code>Menu</code> that is linked to the visualElement called <code>menu</code>.</p>
+<p>Now, hit play and what you will see is that panel being shown directly in front of the Camera!</p>
 </article>
           </div>
           

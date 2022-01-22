@@ -97,6 +97,104 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class SurferManager : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Surfer_SurferManager_kSceneLoadedVisualScripting" data-uid="Surfer.SurferManager.kSceneLoadedVisualScripting">kSceneLoadedVisualScripting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string kSceneLoadedVisualScripting = &quot;_SUSceneLoaded&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SurferManager_kSceneUnloadedVisualScripting" data-uid="Surfer.SurferManager.kSceneUnloadedVisualScripting">kSceneUnloadedVisualScripting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string kSceneUnloadedVisualScripting = &quot;_SUSceneUnloaded&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SurferManager_kStateEnterVisualScripting" data-uid="Surfer.SurferManager.kStateEnterVisualScripting">kStateEnterVisualScripting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string kStateEnterVisualScripting = &quot;_SUStateEnter&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SurferManager_kStateExitVisualScripting" data-uid="Surfer.SurferManager.kStateExitVisualScripting">kStateExitVisualScripting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string kStateExitVisualScripting = &quot;_SUStateExit&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -645,14 +743,14 @@
   </table>
   
   
-  <a id="Surfer_SurferManager_GetObjectStateElement_" data-uid="Surfer.SurferManager.GetObjectStateElement*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectStateElement_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateElement(GameObject,System.Boolean)">GetObjectStateElement(GameObject, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets the parent state element of a game object</p>
+  <a id="Surfer_SurferManager_GetStateElementData_" data-uid="Surfer.SurferManager.GetStateElementData*"></a>
+  <h4 id="Surfer_SurferManager_GetStateElementData_System_String_System_Int32_" data-uid="Surfer.SurferManager.GetStateElementData(System.String,System.Int32)">GetStateElementData(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the ElementData of a state</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SUElement GetObjectStateElement(GameObject obj, bool checkCaller = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public SUElementData GetStateElementData(string stateName, int playerID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -660,162 +758,18 @@
       <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">checkCaller</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.SUElement.html">SUElement</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_GetObjectStateName_" data-uid="Surfer.SurferManager.GetObjectStateName*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectStateName_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateName(GameObject,System.Boolean)">GetObjectStateName(GameObject, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets the parent state name of a game object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetObjectStateName(GameObject obj, bool checkCaller = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">checkCaller</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">stateName</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_GetObjectStatePlayerID_" data-uid="Surfer.SurferManager.GetObjectStatePlayerID*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectStatePlayerID_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStatePlayerID(GameObject,System.Boolean)">GetObjectStatePlayerID(GameObject, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets the playerID of the parent state of a game object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetObjectStatePlayerID(GameObject obj, bool checkCaller = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">checkCaller</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_GetObjectStateTransfom_" data-uid="Surfer.SurferManager.GetObjectStateTransfom*"></a>
-  <h4 id="Surfer_SurferManager_GetObjectStateTransfom_GameObject_System_Boolean_" data-uid="Surfer.SurferManager.GetObjectStateTransfom(GameObject,System.Boolean)">GetObjectStateTransfom(GameObject, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets the parent state of a game object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform GetObjectStateTransfom(GameObject obj, bool checkCaller = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">checkCaller</span></td>
+        <td><span class="parametername">playerID</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -830,7 +784,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -881,55 +835,6 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>true if closed, false otherwise</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_IsMyStateOpen_" data-uid="Surfer.SurferManager.IsMyStateOpen*"></a>
-  <h4 id="Surfer_SurferManager_IsMyStateOpen_GameObject_System_Int32_" data-uid="Surfer.SurferManager.IsMyStateOpen(GameObject,System.Int32)">IsMyStateOpen(GameObject, Int32)</h4>
-  <div class="markdown level1 summary"><p>Check if a state of an object is open or not</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsMyStateOpen(GameObject caller, int version = 0)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">caller</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">version</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>true if open, false otherwise</p>
 </td>
       </tr>
     </tbody>
@@ -1431,105 +1336,6 @@
         <td><span class="parametername">customData</span></td>
         <td><p>list of custom variables</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_RecursiveGetChildStatesUI_" data-uid="Surfer.SurferManager.RecursiveGetChildStatesUI*"></a>
-  <h4 id="Surfer_SurferManager_RecursiveGetChildStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___" data-uid="Surfer.SurferManager.RecursiveGetChildStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)">RecursiveGetChildStatesUI(Transform, ref List&lt;SUStateInfo&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get a list of all child states</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RecursiveGetChildStatesUI(Transform caller, ref List&lt;SUStateInfo&gt; output)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">caller</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Surfer.SUStateInfo.html">SUStateInfo</a>&gt;</td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_RecursiveGetParentStatesUI_" data-uid="Surfer.SurferManager.RecursiveGetParentStatesUI*"></a>
-  <h4 id="Surfer_SurferManager_RecursiveGetParentStatesUI_Transform_System_Collections_Generic_List_Surfer_SUStateInfo___" data-uid="Surfer.SurferManager.RecursiveGetParentStatesUI(Transform,System.Collections.Generic.List{Surfer.SUStateInfo}@)">RecursiveGetParentStatesUI(Transform, ref List&lt;SUStateInfo&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get a list of all parent states </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RecursiveGetParentStatesUI(Transform caller, ref List&lt;SUStateInfo&gt; output)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">caller</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Surfer.SUStateInfo.html">SUStateInfo</a>&gt;</td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferManager_RecursiveGetParentStateUI_" data-uid="Surfer.SurferManager.RecursiveGetParentStateUI*"></a>
-  <h4 id="Surfer_SurferManager_RecursiveGetParentStateUI_Transform_Surfer_SUElement__" data-uid="Surfer.SurferManager.RecursiveGetParentStateUI(Transform,Surfer.SUElement@)">RecursiveGetParentStateUI(Transform, ref SUElement)</h4>
-  <div class="markdown level1 summary"><p>Recursively get the parent state of an object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RecursiveGetParentStateUI(Transform caller, ref SUElement output)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">caller</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Surfer.SUElement.html">SUElement</a></td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>

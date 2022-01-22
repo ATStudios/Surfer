@@ -100,6 +100,60 @@
   </h3>
   
   
+  <a id="Surfer_CustomReactionsExtensions_GetAllCanvasNames_" data-uid="Surfer.CustomReactionsExtensions.GetAllCanvasNames*"></a>
+  <h4 id="Surfer_CustomReactionsExtensions_GetAllCanvasNames" data-uid="Surfer.CustomReactionsExtensions.GetAllCanvasNames">GetAllCanvasNames()</h4>
+  <div class="markdown level1 summary"><p>Get all the canvas names/paths of the reactions. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAllCanvasNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><p>Names/paths list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_CustomReactionsExtensions_GetAllUIToolkitNames_" data-uid="Surfer.CustomReactionsExtensions.GetAllUIToolkitNames*"></a>
+  <h4 id="Surfer_CustomReactionsExtensions_GetAllUIToolkitNames" data-uid="Surfer.CustomReactionsExtensions.GetAllUIToolkitNames">GetAllUIToolkitNames()</h4>
+  <div class="markdown level1 summary"><p>Get all the UIToolkit names/paths of the reactions. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetAllUIToolkitNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><p>Names/paths list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Surfer_CustomReactionsExtensions_GetFieldsList_" data-uid="Surfer.CustomReactionsExtensions.GetFieldsList*"></a>
   <h4 id="Surfer_CustomReactionsExtensions_GetFieldsList_System_String_" data-uid="Surfer.CustomReactionsExtensions.GetFieldsList(System.String)">GetFieldsList(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -142,14 +196,14 @@
   </table>
   
   
-  <a id="Surfer_CustomReactionsExtensions_GetKeyFromUnion_" data-uid="Surfer.CustomReactionsExtensions.GetKeyFromUnion*"></a>
-  <h4 id="Surfer_CustomReactionsExtensions_GetKeyFromUnion_System_String_" data-uid="Surfer.CustomReactionsExtensions.GetKeyFromUnion(System.String)">GetKeyFromUnion(String)</h4>
+  <a id="Surfer_CustomReactionsExtensions_GetKey_" data-uid="Surfer.CustomReactionsExtensions.GetKey*"></a>
+  <h4 id="Surfer_CustomReactionsExtensions_GetKey_System_String_Surfer_SUCompatibility_ID_" data-uid="Surfer.CustomReactionsExtensions.GetKey(System.String,Surfer.SUCompatibility_ID)">GetKey(String, SUCompatibility_ID)</h4>
   <div class="markdown level1 summary"><p>Get the key of a specific reaction. Used for the inspector</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetKeyFromUnion(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetKey(string path, SUCompatibility_ID compatibilityID = SUCompatibility_ID.Both)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,6 +220,61 @@
         <td><span class="parametername">path</span></td>
         <td><p>Reaction name/path to retrieve the key</p>
 </td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibilityID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>Reaction key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_CustomReactionsExtensions_GetKeyFromUnion_" data-uid="Surfer.CustomReactionsExtensions.GetKeyFromUnion*"></a>
+  <h4 id="Surfer_CustomReactionsExtensions_GetKeyFromUnion_System_String_Surfer_SUCompatibility_ID_" data-uid="Surfer.CustomReactionsExtensions.GetKeyFromUnion(System.String,Surfer.SUCompatibility_ID)">GetKeyFromUnion(String, SUCompatibility_ID)</h4>
+  <div class="markdown level1 summary"><p>Get the key of a specific reaction. Used for the inspector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetKeyFromUnion(string path, SUCompatibility_ID compatibilityID = SUCompatibility_ID.Both)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Reaction name/path to retrieve the key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibilityID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -233,13 +342,13 @@
   
   
   <a id="Surfer_CustomReactionsExtensions_PlayReaction_" data-uid="Surfer.CustomReactionsExtensions.PlayReaction*"></a>
-  <h4 id="Surfer_CustomReactionsExtensions_PlayReaction_System_String_GameObject_Surfer_SUReactionData_System_Object_" data-uid="Surfer.CustomReactionsExtensions.PlayReaction(System.String,GameObject,Surfer.SUReactionData,System.Object)">PlayReaction(String, GameObject, SUReactionData, Object)</h4>
+  <h4 id="Surfer_CustomReactionsExtensions_PlayReaction_System_String_Surfer_SUElementData_Surfer_SUReactionData_System_Object_" data-uid="Surfer.CustomReactionsExtensions.PlayReaction(System.String,Surfer.SUElementData,Surfer.SUReactionData,System.Object)">PlayReaction(String, SUElementData, SUReactionData, Object)</h4>
   <div class="markdown level1 summary"><p>Play a specific custom reaction </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PlayReaction(string key, GameObject go, SUReactionData data, object evtData)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void PlayReaction(string key, SUElementData eleData, SUReactionData data, object evtData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,8 +366,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
+        <td><a class="xref" href="Surfer.SUElementData.html">SUElementData</a></td>
+        <td><span class="parametername">eleData</span></td>
         <td></td>
       </tr>
       <tr>

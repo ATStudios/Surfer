@@ -73,12 +73,23 @@
 <h1 id="limitations">Limitations</h1>
 
 <p>Current known Surfer limitations :</p>
+<p><br></p>
+<h3 id="uitoolkit">UIToolkit</h3>
+<ul>
+<li>Currently these features are <code>work in progress</code> therefore not yet available : Drag States, Selection Indicator, Health Bars, On/Off Screen Indicators,<br>Text animations,  Split screen support , Group States and Buttons, History focus, Tutorial &quot;Click Constraint&quot; , Loading_Image element type</li>
+</ul>
+<p><br></p>
+<h3 id="canvas">Canvas</h3>
 <ul>
 <li>If a UI object is persistent ( is not destroyed when a new scene is loaded ) the <code>SUElementCanvas</code> Scene events like <code>MySceneLoaded</code> , <code>MySceneLoading</code>, <code>MySceneUnloading</code>, <code>MySceneUnloaded</code>, <code>MySceneActivated</code>, <code>MySceneDeactivated</code> don&#39;t work : use events like <code>Awake</code>or <code>Start</code>whenever possible.</li>
 <li>Selection Indicators don&#39;t work when the selected object under a Canvas is a Sprite or a Mesh</li>
 <li>Selection Indicators <code>always render in front</code> of the selected UI object , not behind. </li>
-<li>Nested <code>GroupStates</code>are currently not supported</li>
+<li>Nested <code>GroupStates</code> are currently not supported</li>
 <li>When using <code>GroupStates</code> it is recommended to use the <code>Start</code> to call Surfer logic like <code>OpenState</code>, because in the Awake <code>GroupStates</code>are setup</li>
+</ul>
+<h3 id="both">Both</h3>
+<ul>
+<li>Animations and other position-related logics do not support <code>Orientation change</code> at runtime from portrait to landscape and viceversa.</li>
 </ul>
 </article>
           </div>

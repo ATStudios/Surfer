@@ -97,12 +97,12 @@
   
   
   <a id="Surfer_PathFunc__ctor_" data-uid="Surfer.PathFunc.#ctor*"></a>
-  <h4 id="Surfer_PathFunc__ctor_System_String_Func_Surfer_FuncInput_System_Boolean__" data-uid="Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean})">PathFunc(String, Func&lt;FuncInput, Boolean&gt;)</h4>
+  <h4 id="Surfer_PathFunc__ctor_System_String_Func_Surfer_FuncInput_System_Boolean__Surfer_SUCompatibility_ID_" data-uid="Surfer.PathFunc.#ctor(System.String,Func{Surfer.FuncInput,System.Boolean},Surfer.SUCompatibility_ID)">PathFunc(String, Func&lt;FuncInput, Boolean&gt;, SUCompatibility_ID)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PathFunc(string path, Func&lt;FuncInput, bool&gt; func)</code></pre>
+    <pre><code class="lang-csharp hljs">public PathFunc(string path, Func&lt;FuncInput, bool&gt; func, SUCompatibility_ID compatibility = SUCompatibility_ID.Both)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,17 +124,22 @@
         <td><span class="parametername">func</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibility</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Surfer_PathFunc__ctor_" data-uid="Surfer.PathFunc.#ctor*"></a>
-  <h4 id="Surfer_PathFunc__ctor_System_String_System_Collections_Generic_List_Surfer_PathField__Func_Surfer_FuncInput_System_Boolean__" data-uid="Surfer.PathFunc.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Func{Surfer.FuncInput,System.Boolean})">PathFunc(String, List&lt;PathField&gt;, Func&lt;FuncInput, Boolean&gt;)</h4>
+  <h4 id="Surfer_PathFunc__ctor_System_String_System_Collections_Generic_List_Surfer_PathField__Func_Surfer_FuncInput_System_Boolean__Surfer_SUCompatibility_ID_" data-uid="Surfer.PathFunc.#ctor(System.String,System.Collections.Generic.List{Surfer.PathField},Func{Surfer.FuncInput,System.Boolean},Surfer.SUCompatibility_ID)">PathFunc(String, List&lt;PathField&gt;, Func&lt;FuncInput, Boolean&gt;, SUCompatibility_ID)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PathFunc(string path, List&lt;PathField&gt; fields, Func&lt;FuncInput, bool&gt; func)</code></pre>
+    <pre><code class="lang-csharp hljs">public PathFunc(string path, List&lt;PathField&gt; fields, Func&lt;FuncInput, bool&gt; func, SUCompatibility_ID compatibility = SUCompatibility_ID.Both)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,10 +166,40 @@
         <td><span class="parametername">func</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td><span class="parametername">compatibility</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Surfer_PathFunc_Compatibility_" data-uid="Surfer.PathFunc.Compatibility*"></a>
+  <h4 id="Surfer_PathFunc_Compatibility" data-uid="Surfer.PathFunc.Compatibility">Compatibility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUCompatibility_ID Compatibility { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUCompatibility_ID.html">SUCompatibility_ID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Surfer_PathFunc_Fields_" data-uid="Surfer.PathFunc.Fields*"></a>

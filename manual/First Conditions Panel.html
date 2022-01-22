@@ -84,7 +84,7 @@
 <h2 id="setup">Setup</h2>
 <p>Let&#39;s setup everything :</p>
 <ul>
-<li>add <code>SUElementCanvas</code> to a random scene object</li>
+<li>add <code>SUElementCanvas</code> to a random scene object (or, for UIToolkit, setup a <code>SUElementsToolkit</code> component and choose <code>Root</code> as visualElement)</li>
 <li>create a <code>MySceneLoaded</code> event</li>
 <li>add the condition <code>Application/IsLanguage</code> and choose <code>English</code></li>
 <li>add under the <code>If Conditions True</code> tab of the <code>DO...</code>section, a Surfer Action that will open a Menu panel </li>
@@ -93,12 +93,7 @@
 <p>Like this:</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/firstc1.png" alt="Image"></p>
 <p><img src="https://atstudios.github.io/Surfer/resources/firstc2.png" alt="Image"></p>
-<p>Then, always in our scene Canvas : </p>
-<ul>
-<li>let&#39;s create two panels with two <code>SUElementCanvas</code> states set to <code>Menu</code> and <code>Settings</code> each other </li>
-<li>let&#39;s add to each one of them , the fast reaction called <code>SetAnchoredPosition</code> under the <code>State/MyStateEnter</code> event ( see <a href="https://atstudios.github.io/Surfer/manual/Scene%20First%20Panel.html">Scene First Panel</a> )</li>
-</ul>
-<p>Move the panels out of Camera view and hit play. Surfer will show the Menu panel if our computer is set to &quot;English language&quot; and the Settings panel if not .</p>
+<p>In this way, if the computer is set to English, Surfer will call &quot;Open Menu State&quot; , otherwise it will call &quot;Open Settings State&quot;, whether it is a Canvas or UIToolkit panel state.</p>
 </article>
           </div>
           

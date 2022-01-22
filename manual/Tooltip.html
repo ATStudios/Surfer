@@ -79,10 +79,32 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="tooltip">Tooltip</h1>
 
-<p>To show a tooltip on mouse over , we must simply set the type of a <code>SUElementCanvas</code>to <code>Tooltip_State</code> and then call <code>OpenState</code>as usual.</p>
+<p>To show a tooltip on mouse over , we must simply set the type of a <code>SUElementCanvas</code>/<code>SUElementsToolkit</code> visualElement to <code>Tooltip_State</code> and then call <code>OpenState</code> as usual.</p>
 <p>The field <code>Offset Factor</code> is a value that decides the distance of the Tooltip state from the mouse cursor : negative values bring the tooltip at a left-bottom position relative to the cursor .</p>
 <p>Finally, the tooltip will always stay automatically in the Camera rect and will never go out of it : by default the position relative to the mouse is <code>top-right</code> . </p>
-</article>
+<h2 id="runtime">Runtime</h2>
+<p>Surfer <code>Tooltip</code> mechanics are also accessible and usable by code.</p>
+<p>For example, if we want a UGUI/RectTransform or UIToolkit/VisualElement follow the mouse , we must do this :</p>
+<pre><code>SUTooltipHandlerData _tooltipHandler = default;
+
+private void Awake()
+{
+
+    _tooltipHandler = new SUTooltipHandlerData();
+
+    //for Canvas/UGUI
+    _tooltipHandler.AddTooltip(_myRectTransform,new Vector2(0.5f,0.5f));
+
+    //for UIToolkit
+    _tooltipHandler.AddTooltip(_myVisualElement,new Vector2(0.5f,0.5f));
+
+    //to show it
+    _tooltipHandler.Show();
+
+    //to hide it
+    _tooltipHandler.Hide();
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

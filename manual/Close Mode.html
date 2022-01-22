@@ -82,16 +82,24 @@
 <p>Other than opening a state, we can even close it.</p>
 <p>Normally , we can do it manually by calling a classic Surfer action by selecting <code>Close State</code> as a mode. </p>
 <p>But automatic is better than manually.</p>
-<p>The <code>Close Mode</code>of a state, it automatically closes all the states specified without having the developer closing manually all of them.</p>
+<p>The <code>Close Mode</code> of a state (that we can found after choosing <code>State</code> as Element type), it automatically closes all the states specified without closing manually all of them.</p>
 <p>Example :</p>
 <p>We have two siblings Tab Panels, Tab1 and Tab2.</p>
 <p>When one of them is open, the other one should be closed. By doing it manually, we would have to call 4 actions : OpenState Tab1 and CloseState Tab2 , or OpenState Tab2 and CloseState Tab1.</p>
-<p>By using  <code>Close Mode</code>, if we choose <code>Siblings</code>as mode, the moment we call OpenState Tab1, the CloseState Tab2 action will be automatically triggered and viceversa.</p>
-<p>Anyway, this mode should be set directly in the SUElementCanvas component of each state, like  :</p>
+<p>By using  <code>Close Mode</code>, if we choose <code>Siblings</code> as mode, the moment we call OpenState Tab1, the CloseState Tab2 action will be automatically triggered and viceversa.</p>
+<p>Example :</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/closem1.png" alt="Image"></p>
-<p>And for example, other than reacting to its <code>MyStateEnter</code>event, every state can also react accordingly to its <code>MyStateExit</code>event by moving out of camera view, like :</p>
+<p>And for example, other than reacting to its <code>MyStateEnter</code> event, every state can also react accordingly to its <code>MyStateExit</code> event by moving out of camera view/hiding it , like :</p>
+<p>Canvas/UGUI example:</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/closem2.png" alt="Image"></p>
-<blockquote><p>In the Demo folder of the package, we can see this exact behaviour in the DemoScene called Tabs</p>
+<p><br>
+<br></p>
+<p>UIToolkit example:</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/closem3.png" alt="Image"></p>
+<p><br>
+<br>
+<br></p>
+<blockquote><p>In the Demo folder of the Demo package, we can see this exact behaviour in the DemoScene called Tabs</p>
 </blockquote>
 </article>
           </div>
