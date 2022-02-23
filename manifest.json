@@ -2488,7 +2488,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Bolt.html",
-          "hash": "I7AkQIlxp9C0XfxsNIvGGyR3VIcPEVM8/G+SNWg4oZ4="
+          "hash": "jCHiF4Xvg1xjsBJB2brLoOV3pxbQrLkXl8FGn2iIX7I="
         }
       },
       "is_incremental": false,
@@ -2932,7 +2932,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/vsbuiltin.html",
-          "hash": "XggmfJ4n+TWeCMB/fyuioBQhrBULKzx4BZS/RxgXS88="
+          "hash": "LfgBJHb70MnnQpj3b0BPmsfkjwXvl8GKXtk1rHGcGNw="
         }
       },
       "is_incremental": false,
@@ -3888,7 +3888,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 41,
-          "skipped_file_count": 40
+          "skipped_file_count": 39
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
