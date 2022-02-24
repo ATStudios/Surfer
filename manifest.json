@@ -2932,7 +2932,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/vsbuiltin.html",
-          "hash": "LfgBJHb70MnnQpj3b0BPmsfkjwXvl8GKXtk1rHGcGNw="
+          "hash": "R8vqtNbWz5/f+STvdxmmYtWG+z0yPOltFGOXRxYL3r4="
         }
       },
       "is_incremental": false,
@@ -3888,7 +3888,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 41,
-          "skipped_file_count": 39
+          "skipped_file_count": 40
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
