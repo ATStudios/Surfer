@@ -80,7 +80,7 @@
 <h1 id="scene-first-panel">Scene First Panel</h1>
 
 <p>Let&#39;s see how to trigger the opening of a panel when a Scene is loaded. </p>
-<h2 id="canvasugui">Canvas/UGUI</h2>
+<h2 id="inspector-way--canvasugui">Inspector way- Canvas/UGUI</h2>
 <p>Assuming we have a scene with a Canvas and a Camera, let’s add the component <code>SUElementCanvas</code> to the Camera (not mandatory to be added to the camera, only for example purposes)</p>
 <p>Now, click <code>+</code> to add a new event and in the <code>WHEN…</code> section select <code>Scene/MySceneLoaded</code> as event.</p>
 <p>Next, in order to open a panel (UI State), we must create a <code>Surfer Action</code>.</p>
@@ -94,7 +94,7 @@
 <p><br>
 <br>
 <br></p>
-<h2 id="uitoolkit">UIToolkit</h2>
+<h2 id="inspector-way---uitoolkit">Inspector way - UIToolkit</h2>
 <p>First, let&#39;s create an UXML file with a panel called <code>menu</code> and set its display-style to <code>None</code> (disable it)</p>
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef4.png" alt="Image"></p>
 <p>Now, let&#39;s create a gameObject and add a UIDocument component (with our UXML) and a <code>SUElementsToolkit</code> component to it</p>
@@ -111,7 +111,75 @@ Then, click <code>+</code> to create a new event and in the <code>WHEN</code> se
 <p><img src="https://atstudios.github.io/Surfer/resources/scenef9.png" alt="Image"></p>
 <p>Basically we have told Surfer to open, on scene loaded, the UI State called <code>Menu</code> that is linked to the visualElement called <code>menu</code>.</p>
 <p>Now, hit play and what you will see is that panel being shown directly in front of the Camera!</p>
-</article>
+<h2 id="runtime-way">Runtime way</h2>
+<p>Let&#39;s see how to accomplish this feature at runtime. </p>
+<p>Basically , for example purposes :</p>
+<ul>
+<li>let&#39;s create a normal Canvas/UIToolkit UI panel (like a simple Menu)</li>
+<li>let&#39;s create a script called Navigator (that will trigger the State event)</li>
+<li>let&#39;s create a script called UIStatePanel (that will handle our previous created UIPanel and receive the State event)</li>
+</ul>
+<p>In the Navigator script, let&#39;s receive the scene event and react to it:</p>
+<pre><code>
+public class Navigator : MonoBehaviour, ISUSceneLoadedHandler
+{
+
+
+    private void Awake()
+    {
+        SurferManager.I.RegisterSceneLoaded(this,&quot;MySceneName&quot;);
+    }
+
+    //implementation of ISUSceneLoadedHandler
+    public void OnSUSceneLoaded(SUSceneLoadedEventData eventInfo)
+    {
+        SurferManager.I.OpenState(&quot;Menu&quot;);
+    }
+}
+
+</code></pre><p><br>
+<br>
+<br></p>
+<p>Then, in the UIStatePanel script :</p>
+<pre><code>
+public class UIStatePanel : MonoBehaviour, ISUStateEnterHandler
+{
+
+    [SerializeField]
+    RectTransform _panel = default; //this is the panel previously created
+
+    private void Awake()
+    {
+        SUElementData stateData = new SUElementData();
+
+        //set up the state , for Canvas/UGUI
+        stateData.SetUpState(_panel.gameObject,&quot;Menu&quot;,0);
+
+        //set up the state , for UIToolkit
+        stateData.SetUpState(_myVisualElementPanel,gameObject,&quot;Menu&quot;,0);
+
+
+
+        //here we register to the state enter event of the state
+        SurferManager.I.RegisterStateEnter(this,&quot;Menu&quot;);
+    }
+
+    //implementation of ISUStateEnterHandler
+    public void OnSUStateEnter(SUStateEventData eventInfo)
+    {
+        //we bring the panel at the center of the camera
+
+
+        //Canvas/UGUI
+        _panel.localPosition = Vector3.zero;
+
+        //UIToolkit
+        _myVisualElementPanel.style.display = DisplayStyle.Flex;
+    }
+
+}
+
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
