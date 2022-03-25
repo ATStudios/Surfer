@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Mouse Hover Selection | Copyright &#169; 2021 ATStudio </title>
+    <title>Theme Manager | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Mouse Hover Selection | Copyright &#169; 2021 ATStudio ">
+    <meta name="title" content="Theme Manager | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../myfavicon.ico">
@@ -77,19 +77,54 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="mouse-hover-selection">Mouse Hover Selection</h2>
+<h2 id="theme-manager">Theme Manager</h2>
 
 <p>(This guide is only related to Canvas/UGUI)
 <br>
 <br></p>
-<p>By default, when you hover on an object with the mouse, Unity won&#39;t select the UI element but will only highlight it.</p>
-<p>If we want the UI element to be selected and deselected on &quot;MouseEnter&quot; and &quot;MouseExit&quot;, we have two options :</p>
-<p>1) If we need &quot;Hover Selection&quot; and we also want to setup some inspector events,reactions and conditions , we must add the <code>SUElementCanvas</code> and the <code>Selectable</code> component ( or one that inherits from it like the Button one) to the UI object itself.</p>
-<p>2) If we only need &quot;Hover Selection&quot; , we must add the <code>SUHoverSelection</code> and the <code>Selectable</code> component ( or one that inherits from it like the Button one) to the UI object itself.</p>
-<p>After this, Surfer will handle all by itself.</p>
-<blockquote><p><strong>WARNING</strong> : An element hovered but without the SUElementCanvas or SUHoverSelection component , won&#39;t be tracked in some Surfer mechanics like the HistoryFocus. It is recommended to use the component if we are going to use a mouse.</p>
-</blockquote>
-</article>
+<p>To setup our themes, let&#39;s go to <code>Unity-&gt;Preferences-&gt;Surfer-&gt;Theme Manager</code>.</p>
+<p>Then, let&#39;s create a new theme called <code>redTheme</code> and watch our window populate.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/theme1.png" alt="Image"></p>
+<p><br>
+<br></p>
+<p>Now , let&#39;s add a new color by clicking <code>+</code> next to the same category, and let&#39;s choose <code>Red</code> as an example color from the picker.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/theme2.png" alt="Image"></p>
+<p><br>
+<br></p>
+<p>Then, let&#39;s create a new theme called <code>blueTheme</code> and, from the list of properties, let&#39;s <code>Edit</code> the color of our <code>my color</code> to <code>Blue</code>.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/theme3.png" alt="Image"></p>
+<p><br>
+<br>
+<br></p>
+<p>Now, in our scene, let&#39;s create a simple UI Canvas Button, let&#39;s add the <code>SUThemable</code> component to it and finally, let&#39;s choose <code>my color</code> under the color category.
+Then, hit play.</p>
+<p><br></p>
+<p>Our button will be colored of blue cause our latest selected theme was <code>blueTheme</code>. So , let&#39;s exit PlayMode and go back to our Theme Manager Settings in the Preferences window and let&#39;s select <code>redTheme</code> from the dropdown list now.
+<br>
+Then, hit play and our button will be now colored of red.</p>
+<p><br>
+<br>
+<br></p>
+<h3 id="runtime">Runtime</h3>
+<p>To change theme at runtime we must simply call :</p>
+<pre><code>SUThemeManager.I.ChangeTheme(_myThemeName);
+</code></pre><p><br>
+Instead, if we want to be notified when this event occurs, we must do as follows :</p>
+<pre><code>public class MyScript : MonoBehaviour, ISUThemeChangeHandler
+{
+
+
+    void Awake() {
+        SUThemeManager.I.RegisterThemeChange(this);
+    }
+
+    public void OnThemeChanged(SUThemeChangeEventData evtData)
+    {
+        //do my stuff
+    }
+
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

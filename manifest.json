@@ -2452,7 +2452,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "ovSE5B3/QgNgrJoP9LcJdmEAVyStSFE/Q2FTVY4PQIs="
+          "hash": "GrRF/oQHXDTKNwtMAtpU+RROmjTGFsBKtQnrj2+JUKY="
         }
       },
       "is_incremental": false,
@@ -2476,7 +2476,7 @@
       "output": {
         ".html": {
           "relative_path": "limitations.html",
-          "hash": "cwZoeRgWOtBvemPo93Qn8yXNOKy0LOq6ueNZA/eJuGs="
+          "hash": "WLdgI8JIglZmSiCPj+wwSEShCTrNij1M6X4Nitpk1vE="
         }
       },
       "is_incremental": false,
@@ -2740,7 +2740,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Mouse Hover Selection.html",
-          "hash": "0dnYzEiqtG8pYfR5lgS/tw8+UnM9txNe+hiurKZcAKo="
+          "hash": "7gGMRRoVDGgqPmklZscrFtYkd/R5I9FjenC8mXdGoTg="
         }
       },
       "is_incremental": false,
@@ -2868,6 +2868,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/Theme Manager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Theme Manager.html",
+          "hash": "/MDl831hReojhKJBXi52V5tVoLRFVPtVa+097MTPqqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/Tooltip.md",
       "output": {
         ".html": {
@@ -2920,7 +2932,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "lipAmhlxTIkMpokh8I77xqu40ojwU+hQPxHJ4tQtdUQ="
+          "hash": "FYk5qFKO6Fw/3Xp32mg+43BitIclJNVVxo0nB7yMQmk="
         }
       },
       "is_incremental": false,
@@ -3765,6 +3777,39 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/theme1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/theme1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/theme2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/theme2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/theme3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/theme3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/tutorial1.png",
       "output": {
         "resource": {
@@ -3887,8 +3932,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 41,
-          "skipped_file_count": 40
+          "total_file_count": 42,
+          "skipped_file_count": 42
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
