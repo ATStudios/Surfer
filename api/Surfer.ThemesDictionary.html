@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SurferSO
+    <title>Class ThemesDictionary
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SurferSO
+    <meta name="title" content="Class ThemesDictionary
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,189 +78,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SurferSO">
+            <article class="content wrap" id="_content" data-uid="Surfer.ThemesDictionary">
   
   
-  <h1 id="Surfer_SurferSO" data-uid="Surfer.SurferSO" class="text-break">Class SurferSO
+  <h1 id="Surfer_ThemesDictionary" data-uid="Surfer.ThemesDictionary" class="text-break">Class ThemesDictionary
   </h1>
-  <div class="markdown level0 summary"><p>Scriptable object of Surfer that stores the state names</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SurferSO</span></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Surfer.SUThemeData.html">SUThemeData</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Surfer.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="Surfer.SUThemeData.html">SUThemeData</a>&gt;</div>
+    <div class="level3"><span class="xref">ThemesDictionary</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Surfer.SerializableDictionary-2.html#Surfer_SerializableDictionary_2_OnBeforeSerialize">SerializableDictionary&lt;String, SUThemeData&gt;.OnBeforeSerialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SerializableDictionary-2.html#Surfer_SerializableDictionary_2_OnAfterDeserialize">SerializableDictionary&lt;String, SUThemeData&gt;.OnAfterDeserialize()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SurferSO_syntax">Syntax</h5>
+  <h5 id="Surfer_ThemesDictionary_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SurferSO : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class ThemesDictionary : SerializableDictionary&lt;string, SUThemeData&gt;, IDictionary&lt;string, SUThemeData&gt;, ICollection&lt;KeyValuePair&lt;string, SUThemeData&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;string, SUThemeData&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;string, SUThemeData&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, SUThemeData&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback, ISerializationCallbackReceiver</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Surfer_SurferSO_BuildVersions_" data-uid="Surfer.SurferSO.BuildVersions*"></a>
-  <h4 id="Surfer_SurferSO_BuildVersions" data-uid="Surfer.SurferSO.BuildVersions">BuildVersions</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VersionsDictionary BuildVersions { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.VersionsDictionary.html">VersionsDictionary</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_DoubleClickDelay_" data-uid="Surfer.SurferSO.DoubleClickDelay*"></a>
-  <h4 id="Surfer_SurferSO_DoubleClickDelay" data-uid="Surfer.SurferSO.DoubleClickDelay">DoubleClickDelay</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float DoubleClickDelay { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_Layers_" data-uid="Surfer.SurferSO.Layers*"></a>
-  <h4 id="Surfer_SurferSO_Layers" data-uid="Surfer.SurferSO.Layers">Layers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Layers { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_SelectedThemeGUID_" data-uid="Surfer.SurferSO.SelectedThemeGUID*"></a>
-  <h4 id="Surfer_SurferSO_SelectedThemeGUID" data-uid="Surfer.SurferSO.SelectedThemeGUID">SelectedThemeGUID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SelectedThemeGUID { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_Tags_" data-uid="Surfer.SurferSO.Tags*"></a>
-  <h4 id="Surfer_SurferSO_Tags" data-uid="Surfer.SurferSO.Tags">Tags</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Tags { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_Themes_" data-uid="Surfer.SurferSO.Themes*"></a>
-  <h4 id="Surfer_SurferSO_Themes" data-uid="Surfer.SurferSO.Themes">Themes</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ThemesDictionary Themes { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.ThemesDictionary.html">ThemesDictionary</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Surfer_SurferSO_AddEvent_" data-uid="Surfer.SurferSO.AddEvent*"></a>
-  <h4 id="Surfer_SurferSO_AddEvent_System_String_" data-uid="Surfer.SurferSO.AddEvent(System.String)">AddEvent(String)</h4>
-  <div class="markdown level1 summary"><p>Add a new custom event. </p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetColorGUIDFromIndex_" data-uid="Surfer.ThemesDictionary.GetColorGUIDFromIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetColorGUIDFromIndex_System_Int32_" data-uid="Surfer.ThemesDictionary.GetColorGUIDFromIndex(System.Int32)">GetColorGUIDFromIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddEvent(string newName)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetColorGUIDFromIndex(int idx)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,105 +130,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>new event name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_AddState_" data-uid="Surfer.SurferSO.AddState*"></a>
-  <h4 id="Surfer_SurferSO_AddState_System_String_" data-uid="Surfer.SurferSO.AddState(System.String)">AddState(String)</h4>
-  <div class="markdown level1 summary"><p>Add a new state. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddState(string newName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>new state name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_AddTheme_" data-uid="Surfer.SurferSO.AddTheme*"></a>
-  <h4 id="Surfer_SurferSO_AddTheme_System_String_System_Action_System_Action_System_String__" data-uid="Surfer.SurferSO.AddTheme(System.String,System.Action,System.Action{System.String})">AddTheme(String, Action, Action&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Add a new theme. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddTheme(string newName, Action OnFail, Action&lt;string&gt; OnSuccess)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>new theme name</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td><span class="parametername">OnFail</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">OnSuccess</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_GetEvent_" data-uid="Surfer.SurferSO.GetEvent*"></a>
-  <h4 id="Surfer_SurferSO_GetEvent_System_String_" data-uid="Surfer.SurferSO.GetEvent(System.String)">GetEvent(String)</h4>
-  <div class="markdown level1 summary"><p>Get the name of the event with the specific key. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetEvent(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -387,21 +147,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>event name</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetEventKey_" data-uid="Surfer.SurferSO.GetEventKey*"></a>
-  <h4 id="Surfer_SurferSO_GetEventKey_System_String_" data-uid="Surfer.SurferSO.GetEventKey(System.String)">GetEventKey(String)</h4>
-  <div class="markdown level1 summary"><p>Get the key of a specific event. </p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetColorGUIDIndex_" data-uid="Surfer.ThemesDictionary.GetColorGUIDIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetColorGUIDIndex_System_String_" data-uid="Surfer.ThemesDictionary.GetColorGUIDIndex(System.String)">GetColorGUIDIndex(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetEventKey(string eventName)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetColorGUIDIndex(string GUID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -415,9 +173,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>event name</p>
-</td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -431,40 +188,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>key of the event</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_GetEventsList_" data-uid="Surfer.SurferSO.GetEventsList*"></a>
-  <h4 id="Surfer_SurferSO_GetEventsList_System_Boolean_" data-uid="Surfer.SurferSO.GetEventsList(System.Boolean)">GetEventsList(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get a list of all the event names. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] GetEventsList(bool addConstPrefix = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">addConstPrefix</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetColorsNames_" data-uid="Surfer.ThemesDictionary.GetColorsNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetColorsNames" data-uid="Surfer.ThemesDictionary.GetColorsNames">GetColorsNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetColorsNames()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -476,21 +214,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td><p>names list</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetSceneGUID_" data-uid="Surfer.SurferSO.GetSceneGUID*"></a>
-  <h4 id="Surfer_SurferSO_GetSceneGUID_System_String_" data-uid="Surfer.SurferSO.GetSceneGUID(System.String)">GetSceneGUID(String)</h4>
-  <div class="markdown level1 summary"><p>Get a GUID of a scene</p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetFontGUIDFromIndex_" data-uid="Surfer.ThemesDictionary.GetFontGUIDFromIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontGUIDFromIndex_System_Int32_" data-uid="Surfer.ThemesDictionary.GetFontGUIDFromIndex(System.Int32)">GetFontGUIDFromIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetSceneGUID(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetFontGUIDFromIndex(int idx)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -503,8 +239,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">name</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -520,21 +256,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>scene guid</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetSceneName_" data-uid="Surfer.SurferSO.GetSceneName*"></a>
-  <h4 id="Surfer_SurferSO_GetSceneName_System_String_" data-uid="Surfer.SurferSO.GetSceneName(System.String)">GetSceneName(String)</h4>
-  <div class="markdown level1 summary"><p>Get the name of a scene</p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetFontGUIDIndex_" data-uid="Surfer.ThemesDictionary.GetFontGUIDIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontGUIDIndex_System_String_" data-uid="Surfer.ThemesDictionary.GetFontGUIDIndex(System.String)">GetFontGUIDIndex(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetSceneName(string guid)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetFontGUIDIndex(string GUID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -548,7 +282,49 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">guid</span></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetFontSizeGUIDFromIndex_" data-uid="Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontSizeGUIDFromIndex_System_Int32_" data-uid="Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex(System.Int32)">GetFontSizeGUIDFromIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetFontSizeGUIDFromIndex(int idx)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -564,21 +340,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>scene name</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetScenesNameStrings_" data-uid="Surfer.SurferSO.GetScenesNameStrings*"></a>
-  <h4 id="Surfer_SurferSO_GetScenesNameStrings_System_Boolean_" data-uid="Surfer.SurferSO.GetScenesNameStrings(System.Boolean)">GetScenesNameStrings(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Get all scene names</p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetFontSizeGUIDIndex_" data-uid="Surfer.ThemesDictionary.GetFontSizeGUIDIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontSizeGUIDIndex_System_String_" data-uid="Surfer.ThemesDictionary.GetFontSizeGUIDIndex(System.String)">GetFontSizeGUIDIndex(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] GetScenesNameStrings(bool addConstPrefix = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetFontSizeGUIDIndex(string GUID)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -591,12 +365,37 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">addConstPrefix</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetFontSizesNames_" data-uid="Surfer.ThemesDictionary.GetFontSizesNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontSizesNames" data-uid="Surfer.ThemesDictionary.GetFontSizesNames">GetFontSizesNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetFontSizesNames()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -608,84 +407,20 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td><p>array of scene names</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_GetState_" data-uid="Surfer.SurferSO.GetState*"></a>
-  <h4 id="Surfer_SurferSO_GetState_System_String_" data-uid="Surfer.SurferSO.GetState(System.String)">GetState(String)</h4>
-  <div class="markdown level1 summary"><p>Get the name of the state with the specific key.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetState(string key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>state name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="Surfer_SurferSO_GetStateKey_" data-uid="Surfer.SurferSO.GetStateKey*"></a>
-  <h4 id="Surfer_SurferSO_GetStateKey_System_String_" data-uid="Surfer.SurferSO.GetStateKey(System.String)">GetStateKey(String)</h4>
-  <div class="markdown level1 summary"><p>Get the key of a specific state. </p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetFontsNames_" data-uid="Surfer.ThemesDictionary.GetFontsNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetFontsNames" data-uid="Surfer.ThemesDictionary.GetFontsNames">GetFontsNames()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetStateKey(string stateName)</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] GetFontsNames()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">stateName</span></td>
-        <td><p>state name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -696,22 +431,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>key of the state</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetStatesList_" data-uid="Surfer.SurferSO.GetStatesList*"></a>
-  <h4 id="Surfer_SurferSO_GetStatesList" data-uid="Surfer.SurferSO.GetStatesList">GetStatesList()</h4>
-  <div class="markdown level1 summary"><p>Get a list of all the state names. </p>
+  <a id="Surfer_ThemesDictionary_GetNames_" data-uid="Surfer.ThemesDictionary.GetNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetNames" data-uid="Surfer.ThemesDictionary.GetNames">GetNames()</h4>
+  <div class="markdown level1 summary"><p>Get a list of all the theme names. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] GetStatesList()</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] GetNames()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -731,14 +465,13 @@
   </table>
   
   
-  <a id="Surfer_SurferSO_GetTheme_" data-uid="Surfer.SurferSO.GetTheme*"></a>
-  <h4 id="Surfer_SurferSO_GetTheme_System_String_" data-uid="Surfer.SurferSO.GetTheme(System.String)">GetTheme(String)</h4>
-  <div class="markdown level1 summary"><p>Get the theme data with the specific key.</p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetSpriteGUIDFromIndex_" data-uid="Surfer.ThemesDictionary.GetSpriteGUIDFromIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpriteGUIDFromIndex_System_Int32_" data-uid="Surfer.ThemesDictionary.GetSpriteGUIDFromIndex(System.Int32)">GetSpriteGUIDFromIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SUThemeData GetTheme(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetSpriteGUIDFromIndex(int idx)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -751,8 +484,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -767,22 +500,196 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Surfer.SUThemeData.html">SUThemeData</a></td>
-        <td><p>theme name</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetThemeKey_" data-uid="Surfer.SurferSO.GetThemeKey*"></a>
-  <h4 id="Surfer_SurferSO_GetThemeKey_System_String_" data-uid="Surfer.SurferSO.GetThemeKey(System.String)">GetThemeKey(String)</h4>
-  <div class="markdown level1 summary"><p>Get the key of a specific theme. </p>
-</div>
+  <a id="Surfer_ThemesDictionary_GetSpriteGUIDIndex_" data-uid="Surfer.ThemesDictionary.GetSpriteGUIDIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpriteGUIDIndex_System_String_" data-uid="Surfer.ThemesDictionary.GetSpriteGUIDIndex(System.String)">GetSpriteGUIDIndex(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetThemeKey(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetSpriteGUIDIndex(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetSpriteResGUIDFromIndex_" data-uid="Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpriteResGUIDFromIndex_System_Int32_" data-uid="Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex(System.Int32)">GetSpriteResGUIDFromIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSpriteResGUIDFromIndex(int idx)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">idx</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetSpriteResGUIDIndex_" data-uid="Surfer.ThemesDictionary.GetSpriteResGUIDIndex*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpriteResGUIDIndex_System_String_" data-uid="Surfer.ThemesDictionary.GetSpriteResGUIDIndex(System.String)">GetSpriteResGUIDIndex(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetSpriteResGUIDIndex(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetSpritesNames_" data-uid="Surfer.ThemesDictionary.GetSpritesNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpritesNames" data-uid="Surfer.ThemesDictionary.GetSpritesNames">GetSpritesNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetSpritesNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_GetSpritesResNames_" data-uid="Surfer.ThemesDictionary.GetSpritesResNames*"></a>
+  <h4 id="Surfer_ThemesDictionary_GetSpritesResNames" data-uid="Surfer.ThemesDictionary.GetSpritesResNames">GetSpritesResNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetSpritesResNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_IsColorNameAvailable_" data-uid="Surfer.ThemesDictionary.IsColorNameAvailable*"></a>
+  <h4 id="Surfer_ThemesDictionary_IsColorNameAvailable_System_String_" data-uid="Surfer.ThemesDictionary.IsColorNameAvailable(System.String)">IsColorNameAvailable(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsColorNameAvailable(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -797,8 +704,7 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">name</span></td>
-        <td><p>theme name</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -812,125 +718,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>key of the theme</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_GetThemeName_" data-uid="Surfer.SurferSO.GetThemeName*"></a>
-  <h4 id="Surfer_SurferSO_GetThemeName_System_String_" data-uid="Surfer.SurferSO.GetThemeName(System.String)">GetThemeName(String)</h4>
-  <div class="markdown level1 summary"><p>Get the name of a specific theme. </p>
-</div>
+  <a id="Surfer_ThemesDictionary_IsFontNameAvailable_" data-uid="Surfer.ThemesDictionary.IsFontNameAvailable*"></a>
+  <h4 id="Surfer_ThemesDictionary_IsFontNameAvailable_System_String_" data-uid="Surfer.ThemesDictionary.IsFontNameAvailable(System.String)">IsFontNameAvailable(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetThemeName(string guid)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">guid</span></td>
-        <td><p>theme guid</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>name of the theme</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_RemoveEvent_" data-uid="Surfer.SurferSO.RemoveEvent*"></a>
-  <h4 id="Surfer_SurferSO_RemoveEvent_System_String_" data-uid="Surfer.SurferSO.RemoveEvent(System.String)">RemoveEvent(String)</h4>
-  <div class="markdown level1 summary"><p>Remove a specific event. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveEvent(string eventName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>event name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_RemoveState_" data-uid="Surfer.SurferSO.RemoveState*"></a>
-  <h4 id="Surfer_SurferSO_RemoveState_System_String_" data-uid="Surfer.SurferSO.RemoveState(System.String)">RemoveState(String)</h4>
-  <div class="markdown level1 summary"><p>Remove a specific state. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveState(string stateName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">stateName</span></td>
-        <td><p>state name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SurferSO_RemoveTheme_" data-uid="Surfer.SurferSO.RemoveTheme*"></a>
-  <h4 id="Surfer_SurferSO_RemoveTheme_System_String_" data-uid="Surfer.SurferSO.RemoveTheme(System.String)">RemoveTheme(String)</h4>
-  <div class="markdown level1 summary"><p>Remove a specific theme. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveTheme(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsFontNameAvailable(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -949,16 +750,30 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Surfer_SurferSO_RenameEvent_" data-uid="Surfer.SurferSO.RenameEvent*"></a>
-  <h4 id="Surfer_SurferSO_RenameEvent_System_String_System_String_" data-uid="Surfer.SurferSO.RenameEvent(System.String,System.String)">RenameEvent(String, String)</h4>
-  <div class="markdown level1 summary"><p>Rename a specific event. Used only in the Surfer Settings Window</p>
-</div>
+  <a id="Surfer_ThemesDictionary_IsFontSizeNameAvailable_" data-uid="Surfer.ThemesDictionary.IsFontSizeNameAvailable*"></a>
+  <h4 id="Surfer_ThemesDictionary_IsFontSizeNameAvailable_System_String_" data-uid="Surfer.ThemesDictionary.IsFontSizeNameAvailable(System.String)">IsFontSizeNameAvailable(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenameEvent(string key, string newName)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsFontSizeNameAvailable(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -972,27 +787,35 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>event new name</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_RenameState_" data-uid="Surfer.SurferSO.RenameState*"></a>
-  <h4 id="Surfer_SurferSO_RenameState_System_String_System_String_" data-uid="Surfer.SurferSO.RenameState(System.String,System.String)">RenameState(String, String)</h4>
-  <div class="markdown level1 summary"><p>Rename a specific state. Used only in the Surfer Settings Window</p>
-</div>
+  <a id="Surfer_ThemesDictionary_IsResSpriteNameAvailable_" data-uid="Surfer.ThemesDictionary.IsResSpriteNameAvailable*"></a>
+  <h4 id="Surfer_ThemesDictionary_IsResSpriteNameAvailable_System_String_" data-uid="Surfer.ThemesDictionary.IsResSpriteNameAvailable(System.String)">IsResSpriteNameAvailable(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenameState(string key, string newName)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsResSpriteNameAvailable(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1006,27 +829,35 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>state new name</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_RenameTheme_" data-uid="Surfer.SurferSO.RenameTheme*"></a>
-  <h4 id="Surfer_SurferSO_RenameTheme_System_String_System_String_System_Action_System_Action_" data-uid="Surfer.SurferSO.RenameTheme(System.String,System.String,System.Action,System.Action)">RenameTheme(String, String, Action, Action)</h4>
-  <div class="markdown level1 summary"><p>Rename a specific theme. Used only in the Surfer Settings Window</p>
-</div>
+  <a id="Surfer_ThemesDictionary_IsSpriteNameAvailable_" data-uid="Surfer.ThemesDictionary.IsSpriteNameAvailable*"></a>
+  <h4 id="Surfer_ThemesDictionary_IsSpriteNameAvailable_System_String_" data-uid="Surfer.ThemesDictionary.IsSpriteNameAvailable(System.String)">IsSpriteNameAvailable(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RenameTheme(string key, string newName, Action OnFail, Action OnSuccess)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsSpriteNameAvailable(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1040,38 +871,161 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newName</span></td>
-        <td><p>theme new name</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td><span class="parametername">OnFail</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td><span class="parametername">OnSuccess</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferSO_SetUp_" data-uid="Surfer.SurferSO.SetUp*"></a>
-  <h4 id="Surfer_SurferSO_SetUp" data-uid="Surfer.SurferSO.SetUp">SetUp()</h4>
-  <div class="markdown level1 summary"><p>Adds the default state names.Used when it is first created</p>
-</div>
+  <a id="Surfer_ThemesDictionary_RemoveColor_" data-uid="Surfer.ThemesDictionary.RemoveColor*"></a>
+  <h4 id="Surfer_ThemesDictionary_RemoveColor_System_String_" data-uid="Surfer.ThemesDictionary.RemoveColor(System.String)">RemoveColor(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetUp()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveColor(string GUID)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_RemoveFont_" data-uid="Surfer.ThemesDictionary.RemoveFont*"></a>
+  <h4 id="Surfer_ThemesDictionary_RemoveFont_System_String_" data-uid="Surfer.ThemesDictionary.RemoveFont(System.String)">RemoveFont(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFont(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_RemoveFontSize_" data-uid="Surfer.ThemesDictionary.RemoveFontSize*"></a>
+  <h4 id="Surfer_ThemesDictionary_RemoveFontSize_System_String_" data-uid="Surfer.ThemesDictionary.RemoveFontSize(System.String)">RemoveFontSize(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFontSize(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_RemoveResSprite_" data-uid="Surfer.ThemesDictionary.RemoveResSprite*"></a>
+  <h4 id="Surfer_ThemesDictionary_RemoveResSprite_System_String_" data-uid="Surfer.ThemesDictionary.RemoveResSprite(System.String)">RemoveResSprite(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveResSprite(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_ThemesDictionary_RemoveSprite_" data-uid="Surfer.ThemesDictionary.RemoveSprite*"></a>
+  <h4 id="Surfer_ThemesDictionary_RemoveSprite_System_String_" data-uid="Surfer.ThemesDictionary.RemoveSprite(System.String)">RemoveSprite(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSprite(string GUID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">GUID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

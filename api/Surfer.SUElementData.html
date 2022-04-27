@@ -633,128 +633,6 @@ wheter it is a state or normal element.</p>
   </h3>
   
   
-  <a id="Surfer_SUElementData_ForEachChild_" data-uid="Surfer.SUElementData.ForEachChild*"></a>
-  <h4 id="Surfer_SUElementData_ForEachChild_System_Action_Transform_System_Int32__" data-uid="Surfer.SUElementData.ForEachChild(System.Action{Transform,System.Int32})">ForEachChild(Action&lt;Transform, Int32&gt;)</h4>
-  <div class="markdown level1 summary"><p>Helper for groupStates element types</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ForEachChild(Action&lt;Transform, int&gt; OnChild)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<span class="xref">Transform</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
-        <td><span class="parametername">OnChild</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SUElementData_GetGroupStateNameOfObject_" data-uid="Surfer.SUElementData.GetGroupStateNameOfObject*"></a>
-  <h4 id="Surfer_SUElementData_GetGroupStateNameOfObject_GameObject_GameObject_" data-uid="Surfer.SUElementData.GetGroupStateNameOfObject(GameObject,GameObject)">GetGroupStateNameOfObject(GameObject, GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetGroupStateNameOfObject(GameObject go, GameObject groupStatesOwner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">groupStatesOwner</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SUElementData_GetGroupStateOfObject_" data-uid="Surfer.SUElementData.GetGroupStateOfObject*"></a>
-  <h4 id="Surfer_SUElementData_GetGroupStateOfObject_GameObject_GameObject_" data-uid="Surfer.SUElementData.GetGroupStateOfObject(GameObject,GameObject)">GetGroupStateOfObject(GameObject, GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform GetGroupStateOfObject(GameObject go, GameObject groupStatesOwner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">groupStatesOwner</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Surfer_SUElementData_HandleOnDestroy_" data-uid="Surfer.SUElementData.HandleOnDestroy*"></a>
   <h4 id="Surfer_SUElementData_HandleOnDestroy" data-uid="Surfer.SUElementData.HandleOnDestroy">HandleOnDestroy()</h4>
   <div class="markdown level1 summary"></div>
@@ -802,6 +680,70 @@ wheter it is a state or normal element.</p>
   </table>
   
   
+  <a id="Surfer_SUElementData_SetCloseMode_" data-uid="Surfer.SUElementData.SetCloseMode*"></a>
+  <h4 id="Surfer_SUElementData_SetCloseMode_Surfer_SUElementData_StateCloseMode_ID_System_Single_System_Collections_Generic_List_System_String__" data-uid="Surfer.SUElementData.SetCloseMode(Surfer.SUElementData.StateCloseMode_ID,System.Single,System.Collections.Generic.List{System.String})">SetCloseMode(SUElementData.StateCloseMode_ID, Single, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCloseMode(SUElementData.StateCloseMode_ID closeModeID, float closeDelay = 0F, List&lt;string&gt; customListToClose = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUElementData.StateCloseMode_ID.html">SUElementData.StateCloseMode_ID</a></td>
+        <td><span class="parametername">closeModeID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">closeDelay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">customListToClose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElementData_SetStacking_" data-uid="Surfer.SUElementData.SetStacking*"></a>
+  <h4 id="Surfer_SUElementData_SetStacking_System_Single_" data-uid="Surfer.SUElementData.SetStacking(System.Single)">SetStacking(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStacking(float stackDelay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">stackDelay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Surfer_SUElementData_SetUp_" data-uid="Surfer.SUElementData.SetUp*"></a>
   <h4 id="Surfer_SUElementData_SetUp_GameObject_System_Nullable_System_Boolean__" data-uid="Surfer.SUElementData.SetUp(GameObject,System.Nullable{System.Boolean})">SetUp(GameObject, Nullable&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -823,6 +765,48 @@ wheter it is a state or normal element.</p>
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">persistent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUElementData_SetUpState_" data-uid="Surfer.SUElementData.SetUpState*"></a>
+  <h4 id="Surfer_SUElementData_SetUpState_GameObject_System_String_System_Int32_System_Nullable_System_Boolean__" data-uid="Surfer.SUElementData.SetUpState(GameObject,System.String,System.Int32,System.Nullable{System.Boolean})">SetUpState(GameObject, String, Int32, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUpState(GameObject rectGO, string stateName, int playerID, bool? persistent = default(bool? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">rectGO</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">stateName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">playerID</span></td>
         <td></td>
       </tr>
       <tr>

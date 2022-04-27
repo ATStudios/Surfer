@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SUOrientationManager
+    <title>Class SUFontPopup
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SUOrientationManager
+    <meta name="title" content="Class SUFontPopup
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,36 +78,132 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SUOrientationManager">
+            <article class="content wrap" id="_content" data-uid="Surfer.SUFontPopup">
   
   
-  <h1 id="Surfer_SUOrientationManager" data-uid="Surfer.SUOrientationManager" class="text-break">Class SUOrientationManager
+  <h1 id="Surfer_SUFontPopup" data-uid="Surfer.SUFontPopup" class="text-break">Class SUFontPopup
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SUOrientationManager</span></div>
+    <div class="level1"><a class="xref" href="Surfer.SUGUIDBasePopup.html">SUGUIDBasePopup</a></div>
+    <div class="level2"><span class="xref">SUFontPopup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnConfirmData">SUGUIDBasePopup.OnConfirmData</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_Name">SUGUIDBasePopup.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__title">SUGUIDBasePopup._title</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__nameError">SUGUIDBasePopup._nameError</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__showNameError">SUGUIDBasePopup._showNameError</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__showValueError">SUGUIDBasePopup._showValueError</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__modeID">SUGUIDBasePopup._modeID</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__dataToEdit">SUGUIDBasePopup._dataToEdit</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_GetWindowSize">SUGUIDBasePopup.GetWindowSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnGUI_Rect_">SUGUIDBasePopup.OnGUI(Rect)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SUOrientationManager_syntax">Syntax</h5>
+  <h5 id="Surfer_SUFontPopup_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUOrientationManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUFontPopup : SUGUIDBasePopup</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="Surfer_SUOrientationManager_kOrientationChanged" data-uid="Surfer.SUOrientationManager.kOrientationChanged">kOrientationChanged</h4>
+  <a id="Surfer_SUFontPopup__ctor_" data-uid="Surfer.SUFontPopup.#ctor*"></a>
+  <h4 id="Surfer_SUFontPopup__ctor_Surfer_SUGUIDFontData_System_Action_Surfer_SUGUIDElementBaseData__" data-uid="Surfer.SUFontPopup.#ctor(Surfer.SUGUIDFontData,System.Action{Surfer.SUGUIDElementBaseData})">SUFontPopup(SUGUIDFontData, Action&lt;SUGUIDElementBaseData&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string kOrientationChanged = &quot;_SUOrientationChanged&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public SUFontPopup(SUGUIDFontData dataToEdit, Action&lt;SUGUIDElementBaseData&gt; OnSave)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUGUIDFontData.html">SUGUIDFontData</a></td>
+        <td><span class="parametername">dataToEdit</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a>&gt;</td>
+        <td><span class="parametername">OnSave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUFontPopup__ctor_" data-uid="Surfer.SUFontPopup.#ctor*"></a>
+  <h4 id="Surfer_SUFontPopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__" data-uid="Surfer.SUFontPopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})">SUFontPopup(Action&lt;SUGUIDElementBaseData&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUFontPopup(Action&lt;SUGUIDElementBaseData&gt; OnSave)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a>&gt;</td>
+        <td><span class="parametername">OnSave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Surfer_SUFontPopup_ValueError_" data-uid="Surfer.SUFontPopup.ValueError*"></a>
+  <h4 id="Surfer_SUFontPopup_ValueError" data-uid="Surfer.SUFontPopup.ValueError">ValueError</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string ValueError { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -122,99 +218,46 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Surfer_SUOrientationManager_I_" data-uid="Surfer.SUOrientationManager.I*"></a>
-  <h4 id="Surfer_SUOrientationManager_I" data-uid="Surfer.SUOrientationManager.I">I</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SUOrientationManager I { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.SUOrientationManager.html">SUOrientationManager</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_ValueError">SUGUIDBasePopup.ValueError</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Surfer_SUOrientationManager_MainLoop_" data-uid="Surfer.SUOrientationManager.MainLoop*"></a>
-  <h4 id="Surfer_SUOrientationManager_MainLoop" data-uid="Surfer.SUOrientationManager.MainLoop">MainLoop()</h4>
+  <a id="Surfer_SUFontPopup_OnCustomField_" data-uid="Surfer.SUFontPopup.OnCustomField*"></a>
+  <h4 id="Surfer_SUFontPopup_OnCustomField" data-uid="Surfer.SUFontPopup.OnCustomField">OnCustomField()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MainLoop()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnCustomField()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnCustomField">SUGUIDBasePopup.OnCustomField()</a></div>
   
   
-  <a id="Surfer_SUOrientationManager_RegisterOrientationEvent_" data-uid="Surfer.SUOrientationManager.RegisterOrientationEvent*"></a>
-  <h4 id="Surfer_SUOrientationManager_RegisterOrientationEvent_Surfer_ISUOrientationHandler_" data-uid="Surfer.SUOrientationManager.RegisterOrientationEvent(Surfer.ISUOrientationHandler)">RegisterOrientationEvent(ISUOrientationHandler)</h4>
+  <a id="Surfer_SUFontPopup_OnOpen_" data-uid="Surfer.SUFontPopup.OnOpen*"></a>
+  <h4 id="Surfer_SUFontPopup_OnOpen" data-uid="Surfer.SUFontPopup.OnOpen">OnOpen()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterOrientationEvent(ISUOrientationHandler interf)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnOpen()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></td>
-        <td><span class="parametername">interf</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnOpen">SUGUIDBasePopup.OnOpen()</a></div>
   
   
-  <a id="Surfer_SUOrientationManager_UnregisterOrientationEvent_" data-uid="Surfer.SUOrientationManager.UnregisterOrientationEvent*"></a>
-  <h4 id="Surfer_SUOrientationManager_UnregisterOrientationEvent_Surfer_ISUOrientationHandler_" data-uid="Surfer.SUOrientationManager.UnregisterOrientationEvent(Surfer.ISUOrientationHandler)">UnregisterOrientationEvent(ISUOrientationHandler)</h4>
+  <a id="Surfer_SUFontPopup_OnSave_" data-uid="Surfer.SUFontPopup.OnSave*"></a>
+  <h4 id="Surfer_SUFontPopup_OnSave" data-uid="Surfer.SUFontPopup.OnSave">OnSave()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UnregisterOrientationEvent(ISUOrientationHandler interf)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnSave()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></td>
-        <td><span class="parametername">interf</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnSave">SUGUIDBasePopup.OnSave()</a></div>
 </article>
           </div>
           

@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Limitations | Copyright &#169; 2021 ATStudio </title>
+    <title>Safe Area | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Limitations | Copyright &#169; 2021 ATStudio ">
+    <meta name="title" content="Safe Area | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
-    <link rel="shortcut icon" href="myfavicon.ico">
-    <link rel="stylesheet" href="styles/docfx.vendor.css">
-    <link rel="stylesheet" href="styles/docfx.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc.html">
+    <link rel="shortcut icon" href="../myfavicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="">
+    <meta property="docfx:rel" content="../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -67,32 +67,40 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="limitations">Limitations</h1>
+<h1 id="safe-area">Safe Area</h1>
 
-<p>Current known Surfer limitations :</p>
-<p><br></p>
-<h3 id="uitoolkit">UIToolkit</h3>
+<p>(This feature and guide are currently only available for Canvas/UGUI)
+<br>
+<br></p>
+<p>Let&#39;s see how to automatically manage the Safe Area on a UIPanel.</p>
+<h2 id="runtimeeditor-or-device-simulator">Runtime/Editor (or Device Simulator)</h2>
+<p>Basically :</p>
 <ul>
-<li>Support only from Unity <code>2021.2 or newer</code></li>
-<li>While some features are available (UI States Management,Scenes Management,Custom Reactions/Conditions/Events,Orientation &amp; UI Events,Tooltip,Basic Animations) , there are others currently <code>work in progress</code> therefore not yet available : Safe Area Manager, Drag States, Selection Indicator, Health Bars, On/Off Screen Indicators, Theme Manager,
-Text animations (3rd party integrations),  Split screen support , Groups , History focus, Tutorial &quot;Click Constraint&quot; , Loading_Image element type</li>
+<li>Add a Canvas (only for example purposes)</li>
+<li>Add an empty UIPanel object with a Button inside , completely aligned to the left (only for example purposes)</li>
 </ul>
-<p><br></p>
-<h3 id="canvas">Canvas</h3>
+<p><img src="https://atstudios.github.io/Surfer/resources/safe1.png" alt="Image"></p>
 <ul>
-<li>If a UI object is persistent ( is not destroyed when a new scene is loaded ) the <code>SUElementCanvas</code> Scene events like <code>MySceneLoaded</code> , <code>MySceneLoading</code>, <code>MySceneUnloading</code>, <code>MySceneUnloaded</code>, <code>MySceneActivated</code>, <code>MySceneDeactivated</code> don&#39;t work : use events like <code>Awake</code>or <code>Start</code>whenever possible.</li>
-<li>Selection Indicators don&#39;t work when the selected object under a Canvas is a Sprite or a Mesh</li>
-<li>Selection Indicators <code>always render in front</code> of the selected UI object , not behind. </li>
-<li>Nested <code>GroupStates</code> are currently not supported</li>
-<li>When using <code>GroupStates</code> it is recommended to use the <code>Start</code> to call Surfer logic like <code>OpenState</code>, because in the Awake <code>GroupStates</code>are setup</li>
+<li>Add these <code>Anchors</code> to the panel gameObject, namely completely stretched (required to make it work)</li>
 </ul>
-<h3 id="both">Both</h3>
+<p><img src="https://atstudios.github.io/Surfer/resources/safe2.png" alt="Image"></p>
 <ul>
-<li>Animations and other position-related logics do not support <code>Orientation change</code> at runtime from portrait to landscape and viceversa.</li>
+<li>Add the component <code>SUSafeAreaResizer</code> to the panel object (required to make it work)</li>
 </ul>
+<p><br>
+Now our panel will be automatically resized to fit inside the Safe Area;
+in fact, if we change the &quot;Game Window&quot; size or if we go to the &quot;Device Simulator&quot; window we can see that our button is aligned to the left but it is fitting inside the Safe Area.</p>
+<p><img src="https://atstudios.github.io/Surfer/resources/safe3.png" alt="Image"></p>
 </article>
           </div>
           
@@ -125,8 +133,8 @@ Text animations (3rd party integrations),  Split screen support , Groups , Histo
       </footer>
     </div>
     
-    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

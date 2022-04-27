@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SUOrientationManager
+    <title>Class SUGUIDFontData
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SUOrientationManager
+    <meta name="title" content="Class SUGUIDFontData
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,46 +78,103 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SUOrientationManager">
+            <article class="content wrap" id="_content" data-uid="Surfer.SUGUIDFontData">
   
   
-  <h1 id="Surfer_SUOrientationManager" data-uid="Surfer.SUOrientationManager" class="text-break">Class SUOrientationManager
+  <h1 id="Surfer_SUGUIDFontData" data-uid="Surfer.SUGUIDFontData" class="text-break">Class SUGUIDFontData
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SUOrientationManager</span></div>
+    <div class="level1"><a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a></div>
+    <div class="level2"><span class="xref">SUGUIDFontData</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__name">SUGUIDElementBaseData._name</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_Name">SUGUIDElementBaseData.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__guid">SUGUIDElementBaseData._guid</a>
+    </div>
+    <div>
+      <a class="xref" href="Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_GUID">SUGUIDElementBaseData.GUID</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SUOrientationManager_syntax">Syntax</h5>
+  <h5 id="Surfer_SUGUIDFontData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SUOrientationManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SUGUIDFontData : SUGUIDElementBaseData</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="Surfer_SUOrientationManager_kOrientationChanged" data-uid="Surfer.SUOrientationManager.kOrientationChanged">kOrientationChanged</h4>
+  <a id="Surfer_SUGUIDFontData__ctor_" data-uid="Surfer.SUGUIDFontData.#ctor*"></a>
+  <h4 id="Surfer_SUGUIDFontData__ctor_Surfer_SUGUIDFontData_" data-uid="Surfer.SUGUIDFontData.#ctor(Surfer.SUGUIDFontData)">SUGUIDFontData(SUGUIDFontData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string kOrientationChanged = &quot;_SUOrientationChanged&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public SUGUIDFontData(SUGUIDFontData data)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUGUIDFontData.html">SUGUIDFontData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUGUIDFontData__ctor_" data-uid="Surfer.SUGUIDFontData.#ctor*"></a>
+  <h4 id="Surfer_SUGUIDFontData__ctor_System_String_System_String_TMP_FontAsset_" data-uid="Surfer.SUGUIDFontData.#ctor(System.String,System.String,TMP_FontAsset)">SUGUIDFontData(String, String, TMP_FontAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUGUIDFontData(string guid, string name, TMP_FontAsset font)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">guid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TMP_FontAsset</span></td>
+        <td><span class="parametername">font</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -126,13 +183,13 @@
   </h3>
   
   
-  <a id="Surfer_SUOrientationManager_I_" data-uid="Surfer.SUOrientationManager.I*"></a>
-  <h4 id="Surfer_SUOrientationManager_I" data-uid="Surfer.SUOrientationManager.I">I</h4>
+  <a id="Surfer_SUGUIDFontData_Font_" data-uid="Surfer.SUGUIDFontData.Font*"></a>
+  <h4 id="Surfer_SUGUIDFontData_Font" data-uid="Surfer.SUGUIDFontData.Font">Font</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SUOrientationManager I { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TMP_FontAsset Font { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,7 +201,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Surfer.SUOrientationManager.html">SUOrientationManager</a></td>
+        <td><span class="xref">TMP_FontAsset</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -153,23 +210,13 @@
   </h3>
   
   
-  <a id="Surfer_SUOrientationManager_MainLoop_" data-uid="Surfer.SUOrientationManager.MainLoop*"></a>
-  <h4 id="Surfer_SUOrientationManager_MainLoop" data-uid="Surfer.SUOrientationManager.MainLoop">MainLoop()</h4>
+  <a id="Surfer_SUGUIDFontData_UpdateData_" data-uid="Surfer.SUGUIDFontData.UpdateData*"></a>
+  <h4 id="Surfer_SUGUIDFontData_UpdateData_Surfer_SUGUIDFontData_" data-uid="Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)">UpdateData(SUGUIDFontData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MainLoop()</code></pre>
-  </div>
-  
-  
-  <a id="Surfer_SUOrientationManager_RegisterOrientationEvent_" data-uid="Surfer.SUOrientationManager.RegisterOrientationEvent*"></a>
-  <h4 id="Surfer_SUOrientationManager_RegisterOrientationEvent_Surfer_ISUOrientationHandler_" data-uid="Surfer.SUOrientationManager.RegisterOrientationEvent(Surfer.ISUOrientationHandler)">RegisterOrientationEvent(ISUOrientationHandler)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterOrientationEvent(ISUOrientationHandler interf)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateData(SUGUIDFontData dataUpdated)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,35 +229,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></td>
-        <td><span class="parametername">interf</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Surfer_SUOrientationManager_UnregisterOrientationEvent_" data-uid="Surfer.SUOrientationManager.UnregisterOrientationEvent*"></a>
-  <h4 id="Surfer_SUOrientationManager_UnregisterOrientationEvent_Surfer_ISUOrientationHandler_" data-uid="Surfer.SUOrientationManager.UnregisterOrientationEvent(Surfer.ISUOrientationHandler)">UnregisterOrientationEvent(ISUOrientationHandler)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UnregisterOrientationEvent(ISUOrientationHandler interf)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Surfer.ISUOrientationHandler.html">ISUOrientationHandler</a></td>
-        <td><span class="parametername">interf</span></td>
+        <td><a class="xref" href="Surfer.SUGUIDFontData.html">SUGUIDFontData</a></td>
+        <td><span class="parametername">dataUpdated</span></td>
         <td></td>
       </tr>
     </tbody>

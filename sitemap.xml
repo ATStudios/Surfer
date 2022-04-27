@@ -2,1453 +2,1603 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ConditionChecks.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ConditionChecksExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.CustomReactions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.CustomReactionsExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.DefaultConditionChecks.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.DefaultCustomReactions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.DictCamKey.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.EventsDictionary.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.FuncInput.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ILastStateSelectionHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.IResetLastStateSelectionHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUChildrenMonitorHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUCustomEventHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUHealthBarHPStateHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUHealthBarStateHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUHealthBarVisualHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUIndicatorDistanceHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUIndicatorStateHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUIndicatorVisualHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUNewInputActionHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUNewInputAnyHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUOldInputActionHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUOldInputAnyKeyHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUOldInputKeyHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUOrientationHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISURewiredActionHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISURewiredAnyHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneActivatedHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneDeactivatedHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneLoadedHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneLoadingHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneUnloadedHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUSceneUnloadingHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUStateEnterHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUStateExitHandler.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ISUThemeChangeHandler.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.PathAction.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.PathField.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.PathFieldType_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.PathFunc.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.ScenesDictionary.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SerializableDictionary-2.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SerializedPropertyExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.StatesDictionary.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAction.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.SUAction_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.SUPrefabParent_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUActionDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnchoredAnimationData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnchoredPositionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.DelayMode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.EndMode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.StartMode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimationsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimatorBehaviour.SUAnimatorEvent_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUAnimatorBehaviour.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBehaviourData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUBehavioursData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCamData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCamItemsManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCGroupData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCharTweenData.Mode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCharTweenData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCharTweenDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUChildMonitorManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUChildrenMonitorData.Mode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUChildrenMonitorData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUColorData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUColorPopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCompatibility_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCompatibilityExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUConditionsDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUCustomEventsDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUDictEventsExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElement.DictEvents.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElement.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementCanvas.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementCanvasEditor.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.StateCloseMode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.Type_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementDataExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUElementEditor.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEvent.Type_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEvent.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEventDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEventExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUEventSystemManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionData.Type_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastConditionsDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionData.Type_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFastReactionsDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFieldValuesData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFloatExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFontPopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFontSizePopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUFuncInputExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGameObjectExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDBasePopup.Mode_ID.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDBasePopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDColorData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDElementBaseData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDFontData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDFontSizeData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDResourcesSpriteData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUGUIDSpriteData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarCamData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarDataExtensions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarHPState_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarLink.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarLinkData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarsManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarState_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHealthBarVisualData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHierarchyMonitor.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUHoverSelection.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorCamData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorData.Type_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorDistanceState_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorLink.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorLinkData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorsManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorState_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUIndicatorVisualData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUInputFieldHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUInputHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUInputManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUItemLinkData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUJumpData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUJumpDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SULastSelectionEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SULinkData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUNewInputActionEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUOldInputActionEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUOldInputKeyEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUOrientationHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUOrientationInfo.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUOrientationManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPositionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPreBuildManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchData.Mode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUPunchDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUReactionData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUReactionDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUReactionsData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUReactionsDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeData.Mode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURectSizeDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUResourcesSpritePopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURewiredActionEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURewiredAnyEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferHelper.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferManager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SurferSO.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SURotationData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSafeAreaManager.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSafeAreaResizer.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScaleData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneActivatedEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneDeactivatedEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneLoadedEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneLoadingEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScenesData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScenesDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneUnloadedEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSceneUnloadingEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScreenAnimationData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScreenAnimationDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScrollHandlerData.Position_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUScrollHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSettingsRegister.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeData.Mode_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUShakeDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSliderHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUSpritePopup.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateEventData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStateInfo.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatesData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUStatesDataDrawer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemable.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemableEditor.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemeChangeEventData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemeData.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemeManager.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.SUThemeSettingsRegister.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUToolsMenu.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUTooltipHandlerData.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUTriggerEvent.SUTriggerEvent_ID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.SUTriggerEvent.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/api/Surfer.ThemesDictionary.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.VersionsDictionary.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/api/Surfer.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/changelog.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/index.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/limitations.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Bolt.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/CharTweener.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Click%20button.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Close%20Mode.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Custom%20Conditions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Custom%20Events.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Custom%20Reactions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Edit%20states%20and%20events.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/First%20Conditions%20Panel.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Focus...%20and%20remember.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Focus.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Generating%20Constants.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/getstart.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/GroupState.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/HealthBars.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/History%20focus.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Input.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Installation.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Loading%20Scene%20Progress.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Local%20Multiplayer%20and%20PlayerID.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Migration%20v1%20to%20v2.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Mouse%20Cursor%20.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Mouse%20Hover%20Selection.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Notification%20and%20Stack.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/OnOff%20Screen%20Indicators.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Playmaker.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Position%20Animation.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Runtime%20Events.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://atstudios.github.io/Surfer/manual/Safe%20Area.html</loc>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Scene%20First%20Panel.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Selection%20Indicator.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Sibling%20Delay.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/SideMenu%20Drag.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Sprite%20or%20Mesh.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Theme%20Manager.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Tooltip.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Tutorial%20Click%20Constraint.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/Versions.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/manual/vsbuiltin.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://atstudios.github.io/Surfer/UI%20Kits.html</loc>
-    <lastmod>2022-03-25T03:20:59+01:00</lastmod>
+    <lastmod>2022-04-27T01:47:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

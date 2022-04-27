@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SurferHelper
+    <title>Class SUGUIDBasePopup
    | Copyright &#169; 2021 ATStudio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SurferHelper
+    <meta name="title" content="Class SUGUIDBasePopup
    | Copyright &#169; 2021 ATStudio ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -78,35 +78,148 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Surfer.SurferHelper">
+            <article class="content wrap" id="_content" data-uid="Surfer.SUGUIDBasePopup">
   
   
-  <h1 id="Surfer_SurferHelper" data-uid="Surfer.SurferHelper" class="text-break">Class SurferHelper
+  <h1 id="Surfer_SUGUIDBasePopup" data-uid="Surfer.SUGUIDBasePopup" class="text-break">Class SUGUIDBasePopup
   </h1>
-  <div class="markdown level0 summary"><p>Helper class of Surfer for editor and runtime code.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SurferHelper</span></div>
+    <div class="level1"><span class="xref">SUGUIDBasePopup</span></div>
+      <div class="level2"><a class="xref" href="Surfer.SUColorPopup.html">SUColorPopup</a></div>
+      <div class="level2"><a class="xref" href="Surfer.SUFontPopup.html">SUFontPopup</a></div>
+      <div class="level2"><a class="xref" href="Surfer.SUFontSizePopup.html">SUFontSizePopup</a></div>
+      <div class="level2"><a class="xref" href="Surfer.SUResourcesSpritePopup.html">SUResourcesSpritePopup</a></div>
+      <div class="level2"><a class="xref" href="Surfer.SUSpritePopup.html">SUSpritePopup</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Surfer.html">Surfer</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Surfer_SurferHelper_syntax">Syntax</h5>
+  <h5 id="Surfer_SUGUIDBasePopup_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SurferHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class SUGUIDBasePopup : PopupWindowContent</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Surfer_SUGUIDBasePopup__ctor_" data-uid="Surfer.SUGUIDBasePopup.#ctor*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup__ctor_Surfer_SUGUIDElementBaseData_System_Action_Surfer_SUGUIDElementBaseData__" data-uid="Surfer.SUGUIDBasePopup.#ctor(Surfer.SUGUIDElementBaseData,System.Action{Surfer.SUGUIDElementBaseData})">SUGUIDBasePopup(SUGUIDElementBaseData, Action&lt;SUGUIDElementBaseData&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUGUIDBasePopup(SUGUIDElementBaseData elementToEdit, Action&lt;SUGUIDElementBaseData&gt; OnSave)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a></td>
+        <td><span class="parametername">elementToEdit</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a>&gt;</td>
+        <td><span class="parametername">OnSave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUGUIDBasePopup__ctor_" data-uid="Surfer.SUGUIDBasePopup.#ctor*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__" data-uid="Surfer.SUGUIDBasePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})">SUGUIDBasePopup(Action&lt;SUGUIDElementBaseData&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SUGUIDBasePopup(Action&lt;SUGUIDElementBaseData&gt; OnSave)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a>&gt;</td>
+        <td><span class="parametername">OnSave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Surfer_SurferHelper_BoltSymbol" data-uid="Surfer.SurferHelper.BoltSymbol">BoltSymbol</h4>
+  <h4 id="Surfer_SUGUIDBasePopup__dataToEdit" data-uid="Surfer.SUGUIDBasePopup._dataToEdit">_dataToEdit</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string BoltSymbol = &quot;SUBolt&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">protected SUGUIDElementBaseData _dataToEdit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SUGUIDBasePopup__modeID" data-uid="Surfer.SUGUIDBasePopup._modeID">_modeID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SUGUIDBasePopup.Mode_ID _modeID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Surfer.SUGUIDBasePopup.Mode_ID.html">SUGUIDBasePopup.Mode_ID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SUGUIDBasePopup__nameError" data-uid="Surfer.SUGUIDBasePopup._nameError">_nameError</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _nameError</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,12 +238,60 @@
   </table>
   
   
-  <h4 id="Surfer_SurferHelper_CharTweenerSymbol" data-uid="Surfer.SurferHelper.CharTweenerSymbol">CharTweenerSymbol</h4>
+  <h4 id="Surfer_SUGUIDBasePopup__showNameError" data-uid="Surfer.SUGUIDBasePopup._showNameError">_showNameError</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string CharTweenerSymbol = &quot;SUCharT&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool _showNameError</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SUGUIDBasePopup__showValueError" data-uid="Surfer.SUGUIDBasePopup._showValueError">_showValueError</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _showValueError</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Surfer_SUGUIDBasePopup__title" data-uid="Surfer.SUGUIDBasePopup._title">_title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _title</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,12 +310,12 @@
   </table>
   
   
-  <h4 id="Surfer_SurferHelper_kDefaultPlayerID" data-uid="Surfer.SurferHelper.kDefaultPlayerID">kDefaultPlayerID</h4>
+  <h4 id="Surfer_SUGUIDBasePopup_OnConfirmData" data-uid="Surfer.SUGUIDBasePopup.OnConfirmData">OnConfirmData</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int kDefaultPlayerID = -1</code></pre>
+    <pre><code class="lang-csharp hljs">protected Action&lt;SUGUIDElementBaseData&gt; OnConfirmData</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,295 +327,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_kNestedPlayerID" data-uid="Surfer.SurferHelper.kNestedPlayerID">kNestedPlayerID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int kNestedPlayerID = -1</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_kNoFoldout" data-uid="Surfer.SurferHelper.kNoFoldout">kNoFoldout</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string kNoFoldout = &quot;NO_FOLDOUT&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_kOverallVolume" data-uid="Surfer.SurferHelper.kOverallVolume">kOverallVolume</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string kOverallVolume = &quot;_kSUVolume&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_kPlayerIDFallback" data-uid="Surfer.SurferHelper.kPlayerIDFallback">kPlayerIDFallback</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int kPlayerIDFallback = 0</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_kWhateverVersion" data-uid="Surfer.SurferHelper.kWhateverVersion">kWhateverVersion</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int kWhateverVersion = 0</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_lineHeight" data-uid="Surfer.SurferHelper.lineHeight">lineHeight</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float lineHeight = 20F</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_NewInputSymbol" data-uid="Surfer.SurferHelper.NewInputSymbol">NewInputSymbol</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string NewInputSymbol = &quot;SUNew&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_OldInputSymbol" data-uid="Surfer.SurferHelper.OldInputSymbol">OldInputSymbol</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string OldInputSymbol = &quot;SUOld&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_OutPos" data-uid="Surfer.SurferHelper.OutPos">OutPos</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 OutPos</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_RewiredInputSymbol" data-uid="Surfer.SurferHelper.RewiredInputSymbol">RewiredInputSymbol</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string RewiredInputSymbol = &quot;SURew&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_Unset" data-uid="Surfer.SurferHelper.Unset">Unset</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Unset = &quot;-----&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Surfer_SurferHelper_VisualSSymbol" data-uid="Surfer.SurferHelper.VisualSSymbol">VisualSSymbol</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string VisualSSymbol = &quot;SUVis&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Surfer.SUGUIDElementBaseData.html">SUGUIDElementBaseData</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -463,13 +336,13 @@
   </h3>
   
   
-  <a id="Surfer_SurferHelper_BuildVPrefix_" data-uid="Surfer.SurferHelper.BuildVPrefix*"></a>
-  <h4 id="Surfer_SurferHelper_BuildVPrefix" data-uid="Surfer.SurferHelper.BuildVPrefix">BuildVPrefix</h4>
+  <a id="Surfer_SUGUIDBasePopup_Name_" data-uid="Surfer.SUGUIDBasePopup.Name*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_Name" data-uid="Surfer.SUGUIDBasePopup.Name">Name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string BuildVPrefix { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -488,13 +361,13 @@
   </table>
   
   
-  <a id="Surfer_SurferHelper_SO_" data-uid="Surfer.SurferHelper.SO*"></a>
-  <h4 id="Surfer_SurferHelper_SO" data-uid="Surfer.SurferHelper.SO">SO</h4>
+  <a id="Surfer_SUGUIDBasePopup_ValueError_" data-uid="Surfer.SUGUIDBasePopup.ValueError*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_ValueError" data-uid="Surfer.SUGUIDBasePopup.ValueError">ValueError</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SurferSO SO { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual string ValueError { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -506,7 +379,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Surfer.SurferSO.html">SurferSO</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -515,13 +388,48 @@
   </h3>
   
   
-  <a id="Surfer_SurferHelper_GetParentRect_" data-uid="Surfer.SurferHelper.GetParentRect*"></a>
-  <h4 id="Surfer_SurferHelper_GetParentRect_Transform_" data-uid="Surfer.SurferHelper.GetParentRect(Transform)">GetParentRect(Transform)</h4>
+  <a id="Surfer_SUGUIDBasePopup_GetWindowSize_" data-uid="Surfer.SUGUIDBasePopup.GetWindowSize*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_GetWindowSize" data-uid="Surfer.SUGUIDBasePopup.GetWindowSize">GetWindowSize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RectTransform GetParentRect(Transform transf)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Vector2 GetWindowSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Surfer_SUGUIDBasePopup_OnCustomField_" data-uid="Surfer.SUGUIDBasePopup.OnCustomField*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_OnCustomField" data-uid="Surfer.SUGUIDBasePopup.OnCustomField">OnCustomField()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCustomField()</code></pre>
+  </div>
+  
+  
+  <a id="Surfer_SUGUIDBasePopup_OnGUI_" data-uid="Surfer.SUGUIDBasePopup.OnGUI*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_OnGUI_Rect_" data-uid="Surfer.SUGUIDBasePopup.OnGUI(Rect)">OnGUI(Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnGUI(Rect rect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -534,91 +442,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transf</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RectTransform</span></td>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">rect</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Surfer_SurferHelper_GetVersion_" data-uid="Surfer.SurferHelper.GetVersion*"></a>
-  <h4 id="Surfer_SurferHelper_GetVersion" data-uid="Surfer.SurferHelper.GetVersion">GetVersion()</h4>
+  <a id="Surfer_SUGUIDBasePopup_OnOpen_" data-uid="Surfer.SUGUIDBasePopup.OnOpen*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_OnOpen" data-uid="Surfer.SUGUIDBasePopup.OnOpen">OnOpen()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetVersion()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnOpen()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="Surfer_SurferHelper_PlaySound_" data-uid="Surfer.SurferHelper.PlaySound*"></a>
-  <h4 id="Surfer_SurferHelper_PlaySound_AudioClip_GameObject_System_Single_" data-uid="Surfer.SurferHelper.PlaySound(AudioClip,GameObject,System.Single)">PlaySound(AudioClip, GameObject, Single)</h4>
-  <div class="markdown level1 summary"><p>Play a sound if an audioClip is set. It checks and adds (if not available) an AudioSource  </p>
-</div>
+  <a id="Surfer_SUGUIDBasePopup_OnSave_" data-uid="Surfer.SUGUIDBasePopup.OnSave*"></a>
+  <h4 id="Surfer_SUGUIDBasePopup_OnSave" data-uid="Surfer.SUGUIDBasePopup.OnSave">OnSave()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PlaySound(AudioClip clip, GameObject go, float delay = 0F)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnSave()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AudioClip</span></td>
-        <td><span class="parametername">clip</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">go</span></td>
-        <td><p>GameObject where to check or add for an Audiosource to play the sound on</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">delay</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

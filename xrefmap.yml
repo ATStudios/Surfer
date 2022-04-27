@@ -1207,6 +1207,25 @@ references:
   isSpec: "True"
   fullName: Surfer.ISUStateExitHandler.OnSUStateExit
   nameWithType: ISUStateExitHandler.OnSUStateExit
+- uid: Surfer.ISUThemeChangeHandler
+  name: ISUThemeChangeHandler
+  href: api/Surfer.ISUThemeChangeHandler.html
+  commentId: T:Surfer.ISUThemeChangeHandler
+  fullName: Surfer.ISUThemeChangeHandler
+  nameWithType: ISUThemeChangeHandler
+- uid: Surfer.ISUThemeChangeHandler.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  name: OnThemeChanged(SUThemeChangeEventData)
+  href: api/Surfer.ISUThemeChangeHandler.html#Surfer_ISUThemeChangeHandler_OnThemeChanged_Surfer_SUThemeChangeEventData_
+  commentId: M:Surfer.ISUThemeChangeHandler.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  fullName: Surfer.ISUThemeChangeHandler.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  nameWithType: ISUThemeChangeHandler.OnThemeChanged(SUThemeChangeEventData)
+- uid: Surfer.ISUThemeChangeHandler.OnThemeChanged*
+  name: OnThemeChanged
+  href: api/Surfer.ISUThemeChangeHandler.html#Surfer_ISUThemeChangeHandler_OnThemeChanged_
+  commentId: Overload:Surfer.ISUThemeChangeHandler.OnThemeChanged
+  isSpec: "True"
+  fullName: Surfer.ISUThemeChangeHandler.OnThemeChanged
+  nameWithType: ISUThemeChangeHandler.OnThemeChanged
 - uid: Surfer.PathAction
   name: PathAction
   href: api/Surfer.PathAction.html
@@ -3571,6 +3590,89 @@ references:
   isSpec: "True"
   fullName: Surfer.SUColorData.OnPlay
   nameWithType: SUColorData.OnPlay
+- uid: Surfer.SUColorPopup
+  name: SUColorPopup
+  href: api/Surfer.SUColorPopup.html
+  commentId: T:Surfer.SUColorPopup
+  fullName: Surfer.SUColorPopup
+  nameWithType: SUColorPopup
+- uid: Surfer.SUColorPopup.#ctor(Surfer.SUGUIDColorData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUColorPopup(SUGUIDColorData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup__ctor_Surfer_SUGUIDColorData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUColorPopup.#ctor(Surfer.SUGUIDColorData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUColorPopup(SUGUIDColorData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUColorPopup.SUColorPopup(Surfer.SUGUIDColorData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUColorPopup.SUColorPopup(Surfer.SUGUIDColorData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUColorPopup.SUColorPopup(SUGUIDColorData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUColorPopup.SUColorPopup(SUGUIDColorData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUColorPopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUColorPopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUColorPopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUColorPopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUColorPopup.SUColorPopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUColorPopup.SUColorPopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUColorPopup.SUColorPopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUColorPopup.SUColorPopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUColorPopup.#ctor*
+  name: SUColorPopup
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup__ctor_
+  commentId: Overload:Surfer.SUColorPopup.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUColorPopup.SUColorPopup
+  nameWithType: SUColorPopup.SUColorPopup
+- uid: Surfer.SUColorPopup.OnClose
+  name: OnClose()
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnClose
+  commentId: M:Surfer.SUColorPopup.OnClose
+  fullName: Surfer.SUColorPopup.OnClose()
+  nameWithType: SUColorPopup.OnClose()
+- uid: Surfer.SUColorPopup.OnClose*
+  name: OnClose
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnClose_
+  commentId: Overload:Surfer.SUColorPopup.OnClose
+  isSpec: "True"
+  fullName: Surfer.SUColorPopup.OnClose
+  nameWithType: SUColorPopup.OnClose
+- uid: Surfer.SUColorPopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnCustomField
+  commentId: M:Surfer.SUColorPopup.OnCustomField
+  fullName: Surfer.SUColorPopup.OnCustomField()
+  nameWithType: SUColorPopup.OnCustomField()
+- uid: Surfer.SUColorPopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnCustomField_
+  commentId: Overload:Surfer.SUColorPopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUColorPopup.OnCustomField
+  nameWithType: SUColorPopup.OnCustomField
+- uid: Surfer.SUColorPopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnOpen
+  commentId: M:Surfer.SUColorPopup.OnOpen
+  fullName: Surfer.SUColorPopup.OnOpen()
+  nameWithType: SUColorPopup.OnOpen()
+- uid: Surfer.SUColorPopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnOpen_
+  commentId: Overload:Surfer.SUColorPopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUColorPopup.OnOpen
+  nameWithType: SUColorPopup.OnOpen
+- uid: Surfer.SUColorPopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnSave
+  commentId: M:Surfer.SUColorPopup.OnSave
+  fullName: Surfer.SUColorPopup.OnSave()
+  nameWithType: SUColorPopup.OnSave()
+- uid: Surfer.SUColorPopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUColorPopup.html#Surfer_SUColorPopup_OnSave_
+  commentId: Overload:Surfer.SUColorPopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUColorPopup.OnSave
+  nameWithType: SUColorPopup.OnSave
 - uid: Surfer.SUCompatibility_ID
   name: SUCompatibility_ID
   href: api/Surfer.SUCompatibility_ID.html
@@ -4701,48 +4803,6 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.CloseDelay
   nameWithType: SUElementData.CloseDelay
-- uid: Surfer.SUElementData.ForEachChild(System.Action{Transform,System.Int32})
-  name: ForEachChild(Action<Transform, Int32>)
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_ForEachChild_System_Action_Transform_System_Int32__
-  commentId: M:Surfer.SUElementData.ForEachChild(System.Action{Transform,System.Int32})
-  name.vb: ForEachChild(Action(Of Transform, Int32))
-  fullName: Surfer.SUElementData.ForEachChild(System.Action<Transform, System.Int32>)
-  fullName.vb: Surfer.SUElementData.ForEachChild(System.Action(Of Transform, System.Int32))
-  nameWithType: SUElementData.ForEachChild(Action<Transform, Int32>)
-  nameWithType.vb: SUElementData.ForEachChild(Action(Of Transform, Int32))
-- uid: Surfer.SUElementData.ForEachChild*
-  name: ForEachChild
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_ForEachChild_
-  commentId: Overload:Surfer.SUElementData.ForEachChild
-  isSpec: "True"
-  fullName: Surfer.SUElementData.ForEachChild
-  nameWithType: SUElementData.ForEachChild
-- uid: Surfer.SUElementData.GetGroupStateNameOfObject(GameObject,GameObject)
-  name: GetGroupStateNameOfObject(GameObject, GameObject)
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GetGroupStateNameOfObject_GameObject_GameObject_
-  commentId: M:Surfer.SUElementData.GetGroupStateNameOfObject(GameObject,GameObject)
-  fullName: Surfer.SUElementData.GetGroupStateNameOfObject(GameObject, GameObject)
-  nameWithType: SUElementData.GetGroupStateNameOfObject(GameObject, GameObject)
-- uid: Surfer.SUElementData.GetGroupStateNameOfObject*
-  name: GetGroupStateNameOfObject
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GetGroupStateNameOfObject_
-  commentId: Overload:Surfer.SUElementData.GetGroupStateNameOfObject
-  isSpec: "True"
-  fullName: Surfer.SUElementData.GetGroupStateNameOfObject
-  nameWithType: SUElementData.GetGroupStateNameOfObject
-- uid: Surfer.SUElementData.GetGroupStateOfObject(GameObject,GameObject)
-  name: GetGroupStateOfObject(GameObject, GameObject)
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GetGroupStateOfObject_GameObject_GameObject_
-  commentId: M:Surfer.SUElementData.GetGroupStateOfObject(GameObject,GameObject)
-  fullName: Surfer.SUElementData.GetGroupStateOfObject(GameObject, GameObject)
-  nameWithType: SUElementData.GetGroupStateOfObject(GameObject, GameObject)
-- uid: Surfer.SUElementData.GetGroupStateOfObject*
-  name: GetGroupStateOfObject
-  href: api/Surfer.SUElementData.html#Surfer_SUElementData_GetGroupStateOfObject_
-  commentId: Overload:Surfer.SUElementData.GetGroupStateOfObject
-  isSpec: "True"
-  fullName: Surfer.SUElementData.GetGroupStateOfObject
-  nameWithType: SUElementData.GetGroupStateOfObject
 - uid: Surfer.SUElementData.GroupStates
   name: GroupStates
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_GroupStates
@@ -4892,6 +4952,35 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.PlayerID
   nameWithType: SUElementData.PlayerID
+- uid: Surfer.SUElementData.SetCloseMode(Surfer.SUElementData.StateCloseMode_ID,System.Single,System.Collections.Generic.List{System.String})
+  name: SetCloseMode(SUElementData.StateCloseMode_ID, Single, List<String>)
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetCloseMode_Surfer_SUElementData_StateCloseMode_ID_System_Single_System_Collections_Generic_List_System_String__
+  commentId: M:Surfer.SUElementData.SetCloseMode(Surfer.SUElementData.StateCloseMode_ID,System.Single,System.Collections.Generic.List{System.String})
+  name.vb: SetCloseMode(SUElementData.StateCloseMode_ID, Single, List(Of String))
+  fullName: Surfer.SUElementData.SetCloseMode(Surfer.SUElementData.StateCloseMode_ID, System.Single, System.Collections.Generic.List<System.String>)
+  fullName.vb: Surfer.SUElementData.SetCloseMode(Surfer.SUElementData.StateCloseMode_ID, System.Single, System.Collections.Generic.List(Of System.String))
+  nameWithType: SUElementData.SetCloseMode(SUElementData.StateCloseMode_ID, Single, List<String>)
+  nameWithType.vb: SUElementData.SetCloseMode(SUElementData.StateCloseMode_ID, Single, List(Of String))
+- uid: Surfer.SUElementData.SetCloseMode*
+  name: SetCloseMode
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetCloseMode_
+  commentId: Overload:Surfer.SUElementData.SetCloseMode
+  isSpec: "True"
+  fullName: Surfer.SUElementData.SetCloseMode
+  nameWithType: SUElementData.SetCloseMode
+- uid: Surfer.SUElementData.SetStacking(System.Single)
+  name: SetStacking(Single)
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetStacking_System_Single_
+  commentId: M:Surfer.SUElementData.SetStacking(System.Single)
+  fullName: Surfer.SUElementData.SetStacking(System.Single)
+  nameWithType: SUElementData.SetStacking(Single)
+- uid: Surfer.SUElementData.SetStacking*
+  name: SetStacking
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetStacking_
+  commentId: Overload:Surfer.SUElementData.SetStacking
+  isSpec: "True"
+  fullName: Surfer.SUElementData.SetStacking
+  nameWithType: SUElementData.SetStacking
 - uid: Surfer.SUElementData.SetUp(GameObject,System.Nullable{System.Boolean})
   name: SetUp(GameObject, Nullable<Boolean>)
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetUp_GameObject_System_Nullable_System_Boolean__
@@ -4908,6 +4997,22 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementData.SetUp
   nameWithType: SUElementData.SetUp
+- uid: Surfer.SUElementData.SetUpState(GameObject,System.String,System.Int32,System.Nullable{System.Boolean})
+  name: SetUpState(GameObject, String, Int32, Nullable<Boolean>)
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetUpState_GameObject_System_String_System_Int32_System_Nullable_System_Boolean__
+  commentId: M:Surfer.SUElementData.SetUpState(GameObject,System.String,System.Int32,System.Nullable{System.Boolean})
+  name.vb: SetUpState(GameObject, String, Int32, Nullable(Of Boolean))
+  fullName: Surfer.SUElementData.SetUpState(GameObject, System.String, System.Int32, System.Nullable<System.Boolean>)
+  fullName.vb: Surfer.SUElementData.SetUpState(GameObject, System.String, System.Int32, System.Nullable(Of System.Boolean))
+  nameWithType: SUElementData.SetUpState(GameObject, String, Int32, Nullable<Boolean>)
+  nameWithType.vb: SUElementData.SetUpState(GameObject, String, Int32, Nullable(Of Boolean))
+- uid: Surfer.SUElementData.SetUpState*
+  name: SetUpState
+  href: api/Surfer.SUElementData.html#Surfer_SUElementData_SetUpState_
+  commentId: Overload:Surfer.SUElementData.SetUpState
+  isSpec: "True"
+  fullName: Surfer.SUElementData.SetUpState
+  nameWithType: SUElementData.SetUpState
 - uid: Surfer.SUElementData.StackDelay
   name: StackDelay
   href: api/Surfer.SUElementData.html#Surfer_SUElementData_StackDelay
@@ -7410,6 +7515,172 @@ references:
   isSpec: "True"
   fullName: Surfer.SUFloatExtensions.IsEqualTo
   nameWithType: SUFloatExtensions.IsEqualTo
+- uid: Surfer.SUFontPopup
+  name: SUFontPopup
+  href: api/Surfer.SUFontPopup.html
+  commentId: T:Surfer.SUFontPopup
+  fullName: Surfer.SUFontPopup
+  nameWithType: SUFontPopup
+- uid: Surfer.SUFontPopup.#ctor(Surfer.SUGUIDFontData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUFontPopup(SUGUIDFontData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup__ctor_Surfer_SUGUIDFontData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUFontPopup.#ctor(Surfer.SUGUIDFontData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUFontPopup(SUGUIDFontData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUFontPopup.SUFontPopup(Surfer.SUGUIDFontData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUFontPopup.SUFontPopup(Surfer.SUGUIDFontData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUFontPopup.SUFontPopup(SUGUIDFontData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUFontPopup.SUFontPopup(SUGUIDFontData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUFontPopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUFontPopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUFontPopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUFontPopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUFontPopup.SUFontPopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUFontPopup.SUFontPopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUFontPopup.SUFontPopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUFontPopup.SUFontPopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUFontPopup.#ctor*
+  name: SUFontPopup
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup__ctor_
+  commentId: Overload:Surfer.SUFontPopup.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUFontPopup.SUFontPopup
+  nameWithType: SUFontPopup.SUFontPopup
+- uid: Surfer.SUFontPopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnCustomField
+  commentId: M:Surfer.SUFontPopup.OnCustomField
+  fullName: Surfer.SUFontPopup.OnCustomField()
+  nameWithType: SUFontPopup.OnCustomField()
+- uid: Surfer.SUFontPopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnCustomField_
+  commentId: Overload:Surfer.SUFontPopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUFontPopup.OnCustomField
+  nameWithType: SUFontPopup.OnCustomField
+- uid: Surfer.SUFontPopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnOpen
+  commentId: M:Surfer.SUFontPopup.OnOpen
+  fullName: Surfer.SUFontPopup.OnOpen()
+  nameWithType: SUFontPopup.OnOpen()
+- uid: Surfer.SUFontPopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnOpen_
+  commentId: Overload:Surfer.SUFontPopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUFontPopup.OnOpen
+  nameWithType: SUFontPopup.OnOpen
+- uid: Surfer.SUFontPopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnSave
+  commentId: M:Surfer.SUFontPopup.OnSave
+  fullName: Surfer.SUFontPopup.OnSave()
+  nameWithType: SUFontPopup.OnSave()
+- uid: Surfer.SUFontPopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_OnSave_
+  commentId: Overload:Surfer.SUFontPopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUFontPopup.OnSave
+  nameWithType: SUFontPopup.OnSave
+- uid: Surfer.SUFontPopup.ValueError
+  name: ValueError
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_ValueError
+  commentId: P:Surfer.SUFontPopup.ValueError
+  fullName: Surfer.SUFontPopup.ValueError
+  nameWithType: SUFontPopup.ValueError
+- uid: Surfer.SUFontPopup.ValueError*
+  name: ValueError
+  href: api/Surfer.SUFontPopup.html#Surfer_SUFontPopup_ValueError_
+  commentId: Overload:Surfer.SUFontPopup.ValueError
+  isSpec: "True"
+  fullName: Surfer.SUFontPopup.ValueError
+  nameWithType: SUFontPopup.ValueError
+- uid: Surfer.SUFontSizePopup
+  name: SUFontSizePopup
+  href: api/Surfer.SUFontSizePopup.html
+  commentId: T:Surfer.SUFontSizePopup
+  fullName: Surfer.SUFontSizePopup
+  nameWithType: SUFontSizePopup
+- uid: Surfer.SUFontSizePopup.#ctor(Surfer.SUGUIDFontSizeData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUFontSizePopup(SUGUIDFontSizeData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup__ctor_Surfer_SUGUIDFontSizeData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUFontSizePopup.#ctor(Surfer.SUGUIDFontSizeData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUFontSizePopup(SUGUIDFontSizeData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUFontSizePopup.SUFontSizePopup(Surfer.SUGUIDFontSizeData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUFontSizePopup.SUFontSizePopup(Surfer.SUGUIDFontSizeData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUFontSizePopup.SUFontSizePopup(SUGUIDFontSizeData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUFontSizePopup.SUFontSizePopup(SUGUIDFontSizeData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUFontSizePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUFontSizePopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUFontSizePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUFontSizePopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUFontSizePopup.SUFontSizePopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUFontSizePopup.SUFontSizePopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUFontSizePopup.SUFontSizePopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUFontSizePopup.SUFontSizePopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUFontSizePopup.#ctor*
+  name: SUFontSizePopup
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup__ctor_
+  commentId: Overload:Surfer.SUFontSizePopup.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUFontSizePopup.SUFontSizePopup
+  nameWithType: SUFontSizePopup.SUFontSizePopup
+- uid: Surfer.SUFontSizePopup.OnClose
+  name: OnClose()
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnClose
+  commentId: M:Surfer.SUFontSizePopup.OnClose
+  fullName: Surfer.SUFontSizePopup.OnClose()
+  nameWithType: SUFontSizePopup.OnClose()
+- uid: Surfer.SUFontSizePopup.OnClose*
+  name: OnClose
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnClose_
+  commentId: Overload:Surfer.SUFontSizePopup.OnClose
+  isSpec: "True"
+  fullName: Surfer.SUFontSizePopup.OnClose
+  nameWithType: SUFontSizePopup.OnClose
+- uid: Surfer.SUFontSizePopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnCustomField
+  commentId: M:Surfer.SUFontSizePopup.OnCustomField
+  fullName: Surfer.SUFontSizePopup.OnCustomField()
+  nameWithType: SUFontSizePopup.OnCustomField()
+- uid: Surfer.SUFontSizePopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnCustomField_
+  commentId: Overload:Surfer.SUFontSizePopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUFontSizePopup.OnCustomField
+  nameWithType: SUFontSizePopup.OnCustomField
+- uid: Surfer.SUFontSizePopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnOpen
+  commentId: M:Surfer.SUFontSizePopup.OnOpen
+  fullName: Surfer.SUFontSizePopup.OnOpen()
+  nameWithType: SUFontSizePopup.OnOpen()
+- uid: Surfer.SUFontSizePopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnOpen_
+  commentId: Overload:Surfer.SUFontSizePopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUFontSizePopup.OnOpen
+  nameWithType: SUFontSizePopup.OnOpen
+- uid: Surfer.SUFontSizePopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnSave
+  commentId: M:Surfer.SUFontSizePopup.OnSave
+  fullName: Surfer.SUFontSizePopup.OnSave()
+  nameWithType: SUFontSizePopup.OnSave()
+- uid: Surfer.SUFontSizePopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUFontSizePopup.html#Surfer_SUFontSizePopup_OnSave_
+  commentId: Overload:Surfer.SUFontSizePopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUFontSizePopup.OnSave
+  nameWithType: SUFontSizePopup.OnSave
 - uid: Surfer.SUFuncInputExtensions
   name: SUFuncInputExtensions
   href: api/Surfer.SUFuncInputExtensions.html
@@ -7438,19 +7709,35 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGameObjectExtensions.GetCanvasAndCamerInfo
   nameWithType: SUGameObjectExtensions.GetCanvasAndCamerInfo
-- uid: Surfer.SUGameObjectExtensions.GetObjectStateElement(GameObject,System.Boolean)
-  name: GetObjectStateElement(GameObject, Boolean)
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetObjectStateElement_GameObject_System_Boolean_
-  commentId: M:Surfer.SUGameObjectExtensions.GetObjectStateElement(GameObject,System.Boolean)
-  fullName: Surfer.SUGameObjectExtensions.GetObjectStateElement(GameObject, System.Boolean)
-  nameWithType: SUGameObjectExtensions.GetObjectStateElement(GameObject, Boolean)
-- uid: Surfer.SUGameObjectExtensions.GetObjectStateElement*
-  name: GetObjectStateElement
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetObjectStateElement_
-  commentId: Overload:Surfer.SUGameObjectExtensions.GetObjectStateElement
+- uid: Surfer.SUGameObjectExtensions.GetChildStates(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name: GetChildStates(GameObject, ref List<SUStateInfo>)
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetChildStates_GameObject_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SUGameObjectExtensions.GetChildStates(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name.vb: GetChildStates(GameObject, ByRef List(Of SUStateInfo))
+  fullName: Surfer.SUGameObjectExtensions.GetChildStates(GameObject, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SUGameObjectExtensions.GetChildStates(GameObject, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  nameWithType: SUGameObjectExtensions.GetChildStates(GameObject, ref List<SUStateInfo>)
+  nameWithType.vb: SUGameObjectExtensions.GetChildStates(GameObject, ByRef List(Of SUStateInfo))
+- uid: Surfer.SUGameObjectExtensions.GetChildStates*
+  name: GetChildStates
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetChildStates_
+  commentId: Overload:Surfer.SUGameObjectExtensions.GetChildStates
   isSpec: "True"
-  fullName: Surfer.SUGameObjectExtensions.GetObjectStateElement
-  nameWithType: SUGameObjectExtensions.GetObjectStateElement
+  fullName: Surfer.SUGameObjectExtensions.GetChildStates
+  nameWithType: SUGameObjectExtensions.GetChildStates
+- uid: Surfer.SUGameObjectExtensions.GetObjectStateElementData(GameObject,System.Boolean)
+  name: GetObjectStateElementData(GameObject, Boolean)
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetObjectStateElementData_GameObject_System_Boolean_
+  commentId: M:Surfer.SUGameObjectExtensions.GetObjectStateElementData(GameObject,System.Boolean)
+  fullName: Surfer.SUGameObjectExtensions.GetObjectStateElementData(GameObject, System.Boolean)
+  nameWithType: SUGameObjectExtensions.GetObjectStateElementData(GameObject, Boolean)
+- uid: Surfer.SUGameObjectExtensions.GetObjectStateElementData*
+  name: GetObjectStateElementData
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetObjectStateElementData_
+  commentId: Overload:Surfer.SUGameObjectExtensions.GetObjectStateElementData
+  isSpec: "True"
+  fullName: Surfer.SUGameObjectExtensions.GetObjectStateElementData
+  nameWithType: SUGameObjectExtensions.GetObjectStateElementData
 - uid: Surfer.SUGameObjectExtensions.GetObjectStateName(GameObject,System.Boolean)
   name: GetObjectStateName(GameObject, Boolean)
   href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetObjectStateName_GameObject_System_Boolean_
@@ -7490,6 +7777,51 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGameObjectExtensions.GetObjectStateTransfom
   nameWithType: SUGameObjectExtensions.GetObjectStateTransfom
+- uid: Surfer.SUGameObjectExtensions.GetParentState(GameObject)
+  name: GetParentState(GameObject)
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetParentState_GameObject_
+  commentId: M:Surfer.SUGameObjectExtensions.GetParentState(GameObject)
+  fullName: Surfer.SUGameObjectExtensions.GetParentState(GameObject)
+  nameWithType: SUGameObjectExtensions.GetParentState(GameObject)
+- uid: Surfer.SUGameObjectExtensions.GetParentState*
+  name: GetParentState
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetParentState_
+  commentId: Overload:Surfer.SUGameObjectExtensions.GetParentState
+  isSpec: "True"
+  fullName: Surfer.SUGameObjectExtensions.GetParentState
+  nameWithType: SUGameObjectExtensions.GetParentState
+- uid: Surfer.SUGameObjectExtensions.GetParentStates(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name: GetParentStates(GameObject, ref List<SUStateInfo>)
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetParentStates_GameObject_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SUGameObjectExtensions.GetParentStates(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name.vb: GetParentStates(GameObject, ByRef List(Of SUStateInfo))
+  fullName: Surfer.SUGameObjectExtensions.GetParentStates(GameObject, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SUGameObjectExtensions.GetParentStates(GameObject, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  nameWithType: SUGameObjectExtensions.GetParentStates(GameObject, ref List<SUStateInfo>)
+  nameWithType.vb: SUGameObjectExtensions.GetParentStates(GameObject, ByRef List(Of SUStateInfo))
+- uid: Surfer.SUGameObjectExtensions.GetParentStates*
+  name: GetParentStates
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetParentStates_
+  commentId: Overload:Surfer.SUGameObjectExtensions.GetParentStates
+  isSpec: "True"
+  fullName: Surfer.SUGameObjectExtensions.GetParentStates
+  nameWithType: SUGameObjectExtensions.GetParentStates
+- uid: Surfer.SUGameObjectExtensions.GetSiblingStates(GameObject,System.String,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name: GetSiblingStates(GameObject, String, ref List<SUStateInfo>)
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetSiblingStates_GameObject_System_String_System_Collections_Generic_List_Surfer_SUStateInfo___
+  commentId: M:Surfer.SUGameObjectExtensions.GetSiblingStates(GameObject,System.String,System.Collections.Generic.List{Surfer.SUStateInfo}@)
+  name.vb: GetSiblingStates(GameObject, String, ByRef List(Of SUStateInfo))
+  fullName: Surfer.SUGameObjectExtensions.GetSiblingStates(GameObject, System.String, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
+  fullName.vb: Surfer.SUGameObjectExtensions.GetSiblingStates(GameObject, System.String, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
+  nameWithType: SUGameObjectExtensions.GetSiblingStates(GameObject, String, ref List<SUStateInfo>)
+  nameWithType.vb: SUGameObjectExtensions.GetSiblingStates(GameObject, String, ByRef List(Of SUStateInfo))
+- uid: Surfer.SUGameObjectExtensions.GetSiblingStates*
+  name: GetSiblingStates
+  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_GetSiblingStates_
+  commentId: Overload:Surfer.SUGameObjectExtensions.GetSiblingStates
+  isSpec: "True"
+  fullName: Surfer.SUGameObjectExtensions.GetSiblingStates
+  nameWithType: SUGameObjectExtensions.GetSiblingStates
 - uid: Surfer.SUGameObjectExtensions.IsMyStateOpen(GameObject,System.Int32)
   name: IsMyStateOpen(GameObject, Int32)
   href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_IsMyStateOpen_GameObject_System_Int32_
@@ -7503,54 +7835,506 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGameObjectExtensions.IsMyStateOpen
   nameWithType: SUGameObjectExtensions.IsMyStateOpen
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
-  name: RecursiveGetChildStatesUI(GameObject, ref List<SUStateInfo>)
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetChildStatesUI_GameObject_System_Collections_Generic_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
-  name.vb: RecursiveGetChildStatesUI(GameObject, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
-  nameWithType: SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject, ref List<SUStateInfo>)
-  nameWithType.vb: SUGameObjectExtensions.RecursiveGetChildStatesUI(GameObject, ByRef List(Of SUStateInfo))
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI*
-  name: RecursiveGetChildStatesUI
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetChildStatesUI_
-  commentId: Overload:Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI
+- uid: Surfer.SUGUIDBasePopup
+  name: SUGUIDBasePopup
+  href: api/Surfer.SUGUIDBasePopup.html
+  commentId: T:Surfer.SUGUIDBasePopup
+  fullName: Surfer.SUGUIDBasePopup
+  nameWithType: SUGUIDBasePopup
+- uid: Surfer.SUGUIDBasePopup.#ctor(Surfer.SUGUIDElementBaseData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUGUIDBasePopup(SUGUIDElementBaseData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__ctor_Surfer_SUGUIDElementBaseData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUGUIDBasePopup.#ctor(Surfer.SUGUIDElementBaseData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUGUIDBasePopup(SUGUIDElementBaseData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUGUIDBasePopup.SUGUIDBasePopup(Surfer.SUGUIDElementBaseData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUGUIDBasePopup.SUGUIDBasePopup(Surfer.SUGUIDElementBaseData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUGUIDBasePopup.SUGUIDBasePopup(SUGUIDElementBaseData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUGUIDBasePopup.SUGUIDBasePopup(SUGUIDElementBaseData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUGUIDBasePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUGUIDBasePopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUGUIDBasePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUGUIDBasePopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUGUIDBasePopup.SUGUIDBasePopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUGUIDBasePopup.SUGUIDBasePopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUGUIDBasePopup.SUGUIDBasePopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUGUIDBasePopup.SUGUIDBasePopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUGUIDBasePopup.#ctor*
+  name: SUGUIDBasePopup
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__ctor_
+  commentId: Overload:Surfer.SUGUIDBasePopup.#ctor
   isSpec: "True"
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetChildStatesUI
-  nameWithType: SUGameObjectExtensions.RecursiveGetChildStatesUI
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
-  name: RecursiveGetParentStatesUI(GameObject, ref List<SUStateInfo>)
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetParentStatesUI_GameObject_System_Collections_Generic_List_Surfer_SUStateInfo___
-  commentId: M:Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject,System.Collections.Generic.List{Surfer.SUStateInfo}@)
-  name.vb: RecursiveGetParentStatesUI(GameObject, ByRef List(Of SUStateInfo))
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject, ref System.Collections.Generic.List<Surfer.SUStateInfo>)
-  fullName.vb: Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject, ByRef System.Collections.Generic.List(Of Surfer.SUStateInfo))
-  nameWithType: SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject, ref List<SUStateInfo>)
-  nameWithType.vb: SUGameObjectExtensions.RecursiveGetParentStatesUI(GameObject, ByRef List(Of SUStateInfo))
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI*
-  name: RecursiveGetParentStatesUI
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetParentStatesUI_
-  commentId: Overload:Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI
+  fullName: Surfer.SUGUIDBasePopup.SUGUIDBasePopup
+  nameWithType: SUGUIDBasePopup.SUGUIDBasePopup
+- uid: Surfer.SUGUIDBasePopup._dataToEdit
+  name: _dataToEdit
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__dataToEdit
+  commentId: F:Surfer.SUGUIDBasePopup._dataToEdit
+  fullName: Surfer.SUGUIDBasePopup._dataToEdit
+  nameWithType: SUGUIDBasePopup._dataToEdit
+- uid: Surfer.SUGUIDBasePopup._modeID
+  name: _modeID
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__modeID
+  commentId: F:Surfer.SUGUIDBasePopup._modeID
+  fullName: Surfer.SUGUIDBasePopup._modeID
+  nameWithType: SUGUIDBasePopup._modeID
+- uid: Surfer.SUGUIDBasePopup._nameError
+  name: _nameError
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__nameError
+  commentId: F:Surfer.SUGUIDBasePopup._nameError
+  fullName: Surfer.SUGUIDBasePopup._nameError
+  nameWithType: SUGUIDBasePopup._nameError
+- uid: Surfer.SUGUIDBasePopup._showNameError
+  name: _showNameError
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__showNameError
+  commentId: F:Surfer.SUGUIDBasePopup._showNameError
+  fullName: Surfer.SUGUIDBasePopup._showNameError
+  nameWithType: SUGUIDBasePopup._showNameError
+- uid: Surfer.SUGUIDBasePopup._showValueError
+  name: _showValueError
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__showValueError
+  commentId: F:Surfer.SUGUIDBasePopup._showValueError
+  fullName: Surfer.SUGUIDBasePopup._showValueError
+  nameWithType: SUGUIDBasePopup._showValueError
+- uid: Surfer.SUGUIDBasePopup._title
+  name: _title
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup__title
+  commentId: F:Surfer.SUGUIDBasePopup._title
+  fullName: Surfer.SUGUIDBasePopup._title
+  nameWithType: SUGUIDBasePopup._title
+- uid: Surfer.SUGUIDBasePopup.GetWindowSize
+  name: GetWindowSize()
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_GetWindowSize
+  commentId: M:Surfer.SUGUIDBasePopup.GetWindowSize
+  fullName: Surfer.SUGUIDBasePopup.GetWindowSize()
+  nameWithType: SUGUIDBasePopup.GetWindowSize()
+- uid: Surfer.SUGUIDBasePopup.GetWindowSize*
+  name: GetWindowSize
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_GetWindowSize_
+  commentId: Overload:Surfer.SUGUIDBasePopup.GetWindowSize
   isSpec: "True"
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetParentStatesUI
-  nameWithType: SUGameObjectExtensions.RecursiveGetParentStatesUI
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject,Surfer.SUElement@)
-  name: RecursiveGetParentStateUI(GameObject, ref SUElement)
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetParentStateUI_GameObject_Surfer_SUElement__
-  commentId: M:Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject,Surfer.SUElement@)
-  name.vb: RecursiveGetParentStateUI(GameObject, ByRef SUElement)
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject, ref Surfer.SUElement)
-  fullName.vb: Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject, ByRef Surfer.SUElement)
-  nameWithType: SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject, ref SUElement)
-  nameWithType.vb: SUGameObjectExtensions.RecursiveGetParentStateUI(GameObject, ByRef SUElement)
-- uid: Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI*
-  name: RecursiveGetParentStateUI
-  href: api/Surfer.SUGameObjectExtensions.html#Surfer_SUGameObjectExtensions_RecursiveGetParentStateUI_
-  commentId: Overload:Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI
+  fullName: Surfer.SUGUIDBasePopup.GetWindowSize
+  nameWithType: SUGUIDBasePopup.GetWindowSize
+- uid: Surfer.SUGUIDBasePopup.Mode_ID
+  name: SUGUIDBasePopup.Mode_ID
+  href: api/Surfer.SUGUIDBasePopup.Mode_ID.html
+  commentId: T:Surfer.SUGUIDBasePopup.Mode_ID
+  fullName: Surfer.SUGUIDBasePopup.Mode_ID
+  nameWithType: SUGUIDBasePopup.Mode_ID
+- uid: Surfer.SUGUIDBasePopup.Mode_ID.Add
+  name: Add
+  href: api/Surfer.SUGUIDBasePopup.Mode_ID.html#Surfer_SUGUIDBasePopup_Mode_ID_Add
+  commentId: F:Surfer.SUGUIDBasePopup.Mode_ID.Add
+  fullName: Surfer.SUGUIDBasePopup.Mode_ID.Add
+  nameWithType: SUGUIDBasePopup.Mode_ID.Add
+- uid: Surfer.SUGUIDBasePopup.Mode_ID.Edit
+  name: Edit
+  href: api/Surfer.SUGUIDBasePopup.Mode_ID.html#Surfer_SUGUIDBasePopup_Mode_ID_Edit
+  commentId: F:Surfer.SUGUIDBasePopup.Mode_ID.Edit
+  fullName: Surfer.SUGUIDBasePopup.Mode_ID.Edit
+  nameWithType: SUGUIDBasePopup.Mode_ID.Edit
+- uid: Surfer.SUGUIDBasePopup.Name
+  name: Name
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_Name
+  commentId: P:Surfer.SUGUIDBasePopup.Name
+  fullName: Surfer.SUGUIDBasePopup.Name
+  nameWithType: SUGUIDBasePopup.Name
+- uid: Surfer.SUGUIDBasePopup.Name*
+  name: Name
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_Name_
+  commentId: Overload:Surfer.SUGUIDBasePopup.Name
   isSpec: "True"
-  fullName: Surfer.SUGameObjectExtensions.RecursiveGetParentStateUI
-  nameWithType: SUGameObjectExtensions.RecursiveGetParentStateUI
+  fullName: Surfer.SUGUIDBasePopup.Name
+  nameWithType: SUGUIDBasePopup.Name
+- uid: Surfer.SUGUIDBasePopup.OnConfirmData
+  name: OnConfirmData
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnConfirmData
+  commentId: F:Surfer.SUGUIDBasePopup.OnConfirmData
+  fullName: Surfer.SUGUIDBasePopup.OnConfirmData
+  nameWithType: SUGUIDBasePopup.OnConfirmData
+- uid: Surfer.SUGUIDBasePopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnCustomField
+  commentId: M:Surfer.SUGUIDBasePopup.OnCustomField
+  fullName: Surfer.SUGUIDBasePopup.OnCustomField()
+  nameWithType: SUGUIDBasePopup.OnCustomField()
+- uid: Surfer.SUGUIDBasePopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnCustomField_
+  commentId: Overload:Surfer.SUGUIDBasePopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUGUIDBasePopup.OnCustomField
+  nameWithType: SUGUIDBasePopup.OnCustomField
+- uid: Surfer.SUGUIDBasePopup.OnGUI(Rect)
+  name: OnGUI(Rect)
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnGUI_Rect_
+  commentId: M:Surfer.SUGUIDBasePopup.OnGUI(Rect)
+  fullName: Surfer.SUGUIDBasePopup.OnGUI(Rect)
+  nameWithType: SUGUIDBasePopup.OnGUI(Rect)
+- uid: Surfer.SUGUIDBasePopup.OnGUI*
+  name: OnGUI
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnGUI_
+  commentId: Overload:Surfer.SUGUIDBasePopup.OnGUI
+  isSpec: "True"
+  fullName: Surfer.SUGUIDBasePopup.OnGUI
+  nameWithType: SUGUIDBasePopup.OnGUI
+- uid: Surfer.SUGUIDBasePopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnOpen
+  commentId: M:Surfer.SUGUIDBasePopup.OnOpen
+  fullName: Surfer.SUGUIDBasePopup.OnOpen()
+  nameWithType: SUGUIDBasePopup.OnOpen()
+- uid: Surfer.SUGUIDBasePopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnOpen_
+  commentId: Overload:Surfer.SUGUIDBasePopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUGUIDBasePopup.OnOpen
+  nameWithType: SUGUIDBasePopup.OnOpen
+- uid: Surfer.SUGUIDBasePopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnSave
+  commentId: M:Surfer.SUGUIDBasePopup.OnSave
+  fullName: Surfer.SUGUIDBasePopup.OnSave()
+  nameWithType: SUGUIDBasePopup.OnSave()
+- uid: Surfer.SUGUIDBasePopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_OnSave_
+  commentId: Overload:Surfer.SUGUIDBasePopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUGUIDBasePopup.OnSave
+  nameWithType: SUGUIDBasePopup.OnSave
+- uid: Surfer.SUGUIDBasePopup.ValueError
+  name: ValueError
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_ValueError
+  commentId: P:Surfer.SUGUIDBasePopup.ValueError
+  fullName: Surfer.SUGUIDBasePopup.ValueError
+  nameWithType: SUGUIDBasePopup.ValueError
+- uid: Surfer.SUGUIDBasePopup.ValueError*
+  name: ValueError
+  href: api/Surfer.SUGUIDBasePopup.html#Surfer_SUGUIDBasePopup_ValueError_
+  commentId: Overload:Surfer.SUGUIDBasePopup.ValueError
+  isSpec: "True"
+  fullName: Surfer.SUGUIDBasePopup.ValueError
+  nameWithType: SUGUIDBasePopup.ValueError
+- uid: Surfer.SUGUIDColorData
+  name: SUGUIDColorData
+  href: api/Surfer.SUGUIDColorData.html
+  commentId: T:Surfer.SUGUIDColorData
+  fullName: Surfer.SUGUIDColorData
+  nameWithType: SUGUIDColorData
+- uid: Surfer.SUGUIDColorData.#ctor(Surfer.SUGUIDColorData)
+  name: SUGUIDColorData(SUGUIDColorData)
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData__ctor_Surfer_SUGUIDColorData_
+  commentId: M:Surfer.SUGUIDColorData.#ctor(Surfer.SUGUIDColorData)
+  fullName: Surfer.SUGUIDColorData.SUGUIDColorData(Surfer.SUGUIDColorData)
+  nameWithType: SUGUIDColorData.SUGUIDColorData(SUGUIDColorData)
+- uid: Surfer.SUGUIDColorData.#ctor(System.String,System.String,Color)
+  name: SUGUIDColorData(String, String, Color)
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData__ctor_System_String_System_String_Color_
+  commentId: M:Surfer.SUGUIDColorData.#ctor(System.String,System.String,Color)
+  fullName: Surfer.SUGUIDColorData.SUGUIDColorData(System.String, System.String, Color)
+  nameWithType: SUGUIDColorData.SUGUIDColorData(String, String, Color)
+- uid: Surfer.SUGUIDColorData.#ctor*
+  name: SUGUIDColorData
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData__ctor_
+  commentId: Overload:Surfer.SUGUIDColorData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDColorData.SUGUIDColorData
+  nameWithType: SUGUIDColorData.SUGUIDColorData
+- uid: Surfer.SUGUIDColorData.Color
+  name: Color
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_Color
+  commentId: P:Surfer.SUGUIDColorData.Color
+  fullName: Surfer.SUGUIDColorData.Color
+  nameWithType: SUGUIDColorData.Color
+- uid: Surfer.SUGUIDColorData.Color*
+  name: Color
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_Color_
+  commentId: Overload:Surfer.SUGUIDColorData.Color
+  isSpec: "True"
+  fullName: Surfer.SUGUIDColorData.Color
+  nameWithType: SUGUIDColorData.Color
+- uid: Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
+  name: UpdateData(SUGUIDColorData)
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateData_Surfer_SUGUIDColorData_
+  commentId: M:Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
+  fullName: Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
+  nameWithType: SUGUIDColorData.UpdateData(SUGUIDColorData)
+- uid: Surfer.SUGUIDColorData.UpdateData*
+  name: UpdateData
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateData_
+  commentId: Overload:Surfer.SUGUIDColorData.UpdateData
+  isSpec: "True"
+  fullName: Surfer.SUGUIDColorData.UpdateData
+  nameWithType: SUGUIDColorData.UpdateData
+- uid: Surfer.SUGUIDElementBaseData
+  name: SUGUIDElementBaseData
+  href: api/Surfer.SUGUIDElementBaseData.html
+  commentId: T:Surfer.SUGUIDElementBaseData
+  fullName: Surfer.SUGUIDElementBaseData
+  nameWithType: SUGUIDElementBaseData
+- uid: Surfer.SUGUIDElementBaseData.#ctor
+  name: SUGUIDElementBaseData()
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__ctor
+  commentId: M:Surfer.SUGUIDElementBaseData.#ctor
+  fullName: Surfer.SUGUIDElementBaseData.SUGUIDElementBaseData()
+  nameWithType: SUGUIDElementBaseData.SUGUIDElementBaseData()
+- uid: Surfer.SUGUIDElementBaseData.#ctor(Surfer.SUGUIDElementBaseData)
+  name: SUGUIDElementBaseData(SUGUIDElementBaseData)
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__ctor_Surfer_SUGUIDElementBaseData_
+  commentId: M:Surfer.SUGUIDElementBaseData.#ctor(Surfer.SUGUIDElementBaseData)
+  fullName: Surfer.SUGUIDElementBaseData.SUGUIDElementBaseData(Surfer.SUGUIDElementBaseData)
+  nameWithType: SUGUIDElementBaseData.SUGUIDElementBaseData(SUGUIDElementBaseData)
+- uid: Surfer.SUGUIDElementBaseData.#ctor*
+  name: SUGUIDElementBaseData
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__ctor_
+  commentId: Overload:Surfer.SUGUIDElementBaseData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDElementBaseData.SUGUIDElementBaseData
+  nameWithType: SUGUIDElementBaseData.SUGUIDElementBaseData
+- uid: Surfer.SUGUIDElementBaseData._guid
+  name: _guid
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__guid
+  commentId: F:Surfer.SUGUIDElementBaseData._guid
+  fullName: Surfer.SUGUIDElementBaseData._guid
+  nameWithType: SUGUIDElementBaseData._guid
+- uid: Surfer.SUGUIDElementBaseData._name
+  name: _name
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData__name
+  commentId: F:Surfer.SUGUIDElementBaseData._name
+  fullName: Surfer.SUGUIDElementBaseData._name
+  nameWithType: SUGUIDElementBaseData._name
+- uid: Surfer.SUGUIDElementBaseData.GUID
+  name: GUID
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_GUID
+  commentId: P:Surfer.SUGUIDElementBaseData.GUID
+  fullName: Surfer.SUGUIDElementBaseData.GUID
+  nameWithType: SUGUIDElementBaseData.GUID
+- uid: Surfer.SUGUIDElementBaseData.GUID*
+  name: GUID
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_GUID_
+  commentId: Overload:Surfer.SUGUIDElementBaseData.GUID
+  isSpec: "True"
+  fullName: Surfer.SUGUIDElementBaseData.GUID
+  nameWithType: SUGUIDElementBaseData.GUID
+- uid: Surfer.SUGUIDElementBaseData.Name
+  name: Name
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_Name
+  commentId: P:Surfer.SUGUIDElementBaseData.Name
+  fullName: Surfer.SUGUIDElementBaseData.Name
+  nameWithType: SUGUIDElementBaseData.Name
+- uid: Surfer.SUGUIDElementBaseData.Name*
+  name: Name
+  href: api/Surfer.SUGUIDElementBaseData.html#Surfer_SUGUIDElementBaseData_Name_
+  commentId: Overload:Surfer.SUGUIDElementBaseData.Name
+  isSpec: "True"
+  fullName: Surfer.SUGUIDElementBaseData.Name
+  nameWithType: SUGUIDElementBaseData.Name
+- uid: Surfer.SUGUIDFontData
+  name: SUGUIDFontData
+  href: api/Surfer.SUGUIDFontData.html
+  commentId: T:Surfer.SUGUIDFontData
+  fullName: Surfer.SUGUIDFontData
+  nameWithType: SUGUIDFontData
+- uid: Surfer.SUGUIDFontData.#ctor(Surfer.SUGUIDFontData)
+  name: SUGUIDFontData(SUGUIDFontData)
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData__ctor_Surfer_SUGUIDFontData_
+  commentId: M:Surfer.SUGUIDFontData.#ctor(Surfer.SUGUIDFontData)
+  fullName: Surfer.SUGUIDFontData.SUGUIDFontData(Surfer.SUGUIDFontData)
+  nameWithType: SUGUIDFontData.SUGUIDFontData(SUGUIDFontData)
+- uid: Surfer.SUGUIDFontData.#ctor(System.String,System.String,TMP_FontAsset)
+  name: SUGUIDFontData(String, String, TMP_FontAsset)
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData__ctor_System_String_System_String_TMP_FontAsset_
+  commentId: M:Surfer.SUGUIDFontData.#ctor(System.String,System.String,TMP_FontAsset)
+  fullName: Surfer.SUGUIDFontData.SUGUIDFontData(System.String, System.String, TMP_FontAsset)
+  nameWithType: SUGUIDFontData.SUGUIDFontData(String, String, TMP_FontAsset)
+- uid: Surfer.SUGUIDFontData.#ctor*
+  name: SUGUIDFontData
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData__ctor_
+  commentId: Overload:Surfer.SUGUIDFontData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontData.SUGUIDFontData
+  nameWithType: SUGUIDFontData.SUGUIDFontData
+- uid: Surfer.SUGUIDFontData.Font
+  name: Font
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_Font
+  commentId: P:Surfer.SUGUIDFontData.Font
+  fullName: Surfer.SUGUIDFontData.Font
+  nameWithType: SUGUIDFontData.Font
+- uid: Surfer.SUGUIDFontData.Font*
+  name: Font
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_Font_
+  commentId: Overload:Surfer.SUGUIDFontData.Font
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontData.Font
+  nameWithType: SUGUIDFontData.Font
+- uid: Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
+  name: UpdateData(SUGUIDFontData)
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateData_Surfer_SUGUIDFontData_
+  commentId: M:Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
+  fullName: Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
+  nameWithType: SUGUIDFontData.UpdateData(SUGUIDFontData)
+- uid: Surfer.SUGUIDFontData.UpdateData*
+  name: UpdateData
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateData_
+  commentId: Overload:Surfer.SUGUIDFontData.UpdateData
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontData.UpdateData
+  nameWithType: SUGUIDFontData.UpdateData
+- uid: Surfer.SUGUIDFontSizeData
+  name: SUGUIDFontSizeData
+  href: api/Surfer.SUGUIDFontSizeData.html
+  commentId: T:Surfer.SUGUIDFontSizeData
+  fullName: Surfer.SUGUIDFontSizeData
+  nameWithType: SUGUIDFontSizeData
+- uid: Surfer.SUGUIDFontSizeData.#ctor(Surfer.SUGUIDFontSizeData)
+  name: SUGUIDFontSizeData(SUGUIDFontSizeData)
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData__ctor_Surfer_SUGUIDFontSizeData_
+  commentId: M:Surfer.SUGUIDFontSizeData.#ctor(Surfer.SUGUIDFontSizeData)
+  fullName: Surfer.SUGUIDFontSizeData.SUGUIDFontSizeData(Surfer.SUGUIDFontSizeData)
+  nameWithType: SUGUIDFontSizeData.SUGUIDFontSizeData(SUGUIDFontSizeData)
+- uid: Surfer.SUGUIDFontSizeData.#ctor(System.String,System.String,System.Int32)
+  name: SUGUIDFontSizeData(String, String, Int32)
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData__ctor_System_String_System_String_System_Int32_
+  commentId: M:Surfer.SUGUIDFontSizeData.#ctor(System.String,System.String,System.Int32)
+  fullName: Surfer.SUGUIDFontSizeData.SUGUIDFontSizeData(System.String, System.String, System.Int32)
+  nameWithType: SUGUIDFontSizeData.SUGUIDFontSizeData(String, String, Int32)
+- uid: Surfer.SUGUIDFontSizeData.#ctor*
+  name: SUGUIDFontSizeData
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData__ctor_
+  commentId: Overload:Surfer.SUGUIDFontSizeData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontSizeData.SUGUIDFontSizeData
+  nameWithType: SUGUIDFontSizeData.SUGUIDFontSizeData
+- uid: Surfer.SUGUIDFontSizeData.FontSize
+  name: FontSize
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_FontSize
+  commentId: P:Surfer.SUGUIDFontSizeData.FontSize
+  fullName: Surfer.SUGUIDFontSizeData.FontSize
+  nameWithType: SUGUIDFontSizeData.FontSize
+- uid: Surfer.SUGUIDFontSizeData.FontSize*
+  name: FontSize
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_FontSize_
+  commentId: Overload:Surfer.SUGUIDFontSizeData.FontSize
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontSizeData.FontSize
+  nameWithType: SUGUIDFontSizeData.FontSize
+- uid: Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
+  name: UpdateData(SUGUIDFontSizeData)
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateData_Surfer_SUGUIDFontSizeData_
+  commentId: M:Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
+  fullName: Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
+  nameWithType: SUGUIDFontSizeData.UpdateData(SUGUIDFontSizeData)
+- uid: Surfer.SUGUIDFontSizeData.UpdateData*
+  name: UpdateData
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateData_
+  commentId: Overload:Surfer.SUGUIDFontSizeData.UpdateData
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontSizeData.UpdateData
+  nameWithType: SUGUIDFontSizeData.UpdateData
+- uid: Surfer.SUGUIDResourcesSpriteData
+  name: SUGUIDResourcesSpriteData
+  href: api/Surfer.SUGUIDResourcesSpriteData.html
+  commentId: T:Surfer.SUGUIDResourcesSpriteData
+  fullName: Surfer.SUGUIDResourcesSpriteData
+  nameWithType: SUGUIDResourcesSpriteData
+- uid: Surfer.SUGUIDResourcesSpriteData.#ctor(Surfer.SUGUIDResourcesSpriteData)
+  name: SUGUIDResourcesSpriteData(SUGUIDResourcesSpriteData)
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData__ctor_Surfer_SUGUIDResourcesSpriteData_
+  commentId: M:Surfer.SUGUIDResourcesSpriteData.#ctor(Surfer.SUGUIDResourcesSpriteData)
+  fullName: Surfer.SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData(Surfer.SUGUIDResourcesSpriteData)
+  nameWithType: SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData(SUGUIDResourcesSpriteData)
+- uid: Surfer.SUGUIDResourcesSpriteData.#ctor(System.String,System.String,System.String)
+  name: SUGUIDResourcesSpriteData(String, String, String)
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData__ctor_System_String_System_String_System_String_
+  commentId: M:Surfer.SUGUIDResourcesSpriteData.#ctor(System.String,System.String,System.String)
+  fullName: Surfer.SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData(System.String, System.String, System.String)
+  nameWithType: SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData(String, String, String)
+- uid: Surfer.SUGUIDResourcesSpriteData.#ctor*
+  name: SUGUIDResourcesSpriteData
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData__ctor_
+  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData
+  nameWithType: SUGUIDResourcesSpriteData.SUGUIDResourcesSpriteData
+- uid: Surfer.SUGUIDResourcesSpriteData.Path
+  name: Path
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_Path
+  commentId: P:Surfer.SUGUIDResourcesSpriteData.Path
+  fullName: Surfer.SUGUIDResourcesSpriteData.Path
+  nameWithType: SUGUIDResourcesSpriteData.Path
+- uid: Surfer.SUGUIDResourcesSpriteData.Path*
+  name: Path
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_Path_
+  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.Path
+  isSpec: "True"
+  fullName: Surfer.SUGUIDResourcesSpriteData.Path
+  nameWithType: SUGUIDResourcesSpriteData.Path
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
+  name: UpdateData(SUGUIDResourcesSpriteData)
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateData_Surfer_SUGUIDResourcesSpriteData_
+  commentId: M:Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
+  nameWithType: SUGUIDResourcesSpriteData.UpdateData(SUGUIDResourcesSpriteData)
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdateData*
+  name: UpdateData
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateData_
+  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.UpdateData
+  isSpec: "True"
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateData
+  nameWithType: SUGUIDResourcesSpriteData.UpdateData
+- uid: Surfer.SUGUIDSpriteData
+  name: SUGUIDSpriteData
+  href: api/Surfer.SUGUIDSpriteData.html
+  commentId: T:Surfer.SUGUIDSpriteData
+  fullName: Surfer.SUGUIDSpriteData
+  nameWithType: SUGUIDSpriteData
+- uid: Surfer.SUGUIDSpriteData.#ctor(Surfer.SUGUIDSpriteData)
+  name: SUGUIDSpriteData(SUGUIDSpriteData)
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData__ctor_Surfer_SUGUIDSpriteData_
+  commentId: M:Surfer.SUGUIDSpriteData.#ctor(Surfer.SUGUIDSpriteData)
+  fullName: Surfer.SUGUIDSpriteData.SUGUIDSpriteData(Surfer.SUGUIDSpriteData)
+  nameWithType: SUGUIDSpriteData.SUGUIDSpriteData(SUGUIDSpriteData)
+- uid: Surfer.SUGUIDSpriteData.#ctor(System.String,System.String,Sprite)
+  name: SUGUIDSpriteData(String, String, Sprite)
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData__ctor_System_String_System_String_Sprite_
+  commentId: M:Surfer.SUGUIDSpriteData.#ctor(System.String,System.String,Sprite)
+  fullName: Surfer.SUGUIDSpriteData.SUGUIDSpriteData(System.String, System.String, Sprite)
+  nameWithType: SUGUIDSpriteData.SUGUIDSpriteData(String, String, Sprite)
+- uid: Surfer.SUGUIDSpriteData.#ctor*
+  name: SUGUIDSpriteData
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData__ctor_
+  commentId: Overload:Surfer.SUGUIDSpriteData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUGUIDSpriteData.SUGUIDSpriteData
+  nameWithType: SUGUIDSpriteData.SUGUIDSpriteData
+- uid: Surfer.SUGUIDSpriteData.Sprite
+  name: Sprite
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_Sprite
+  commentId: P:Surfer.SUGUIDSpriteData.Sprite
+  fullName: Surfer.SUGUIDSpriteData.Sprite
+  nameWithType: SUGUIDSpriteData.Sprite
+- uid: Surfer.SUGUIDSpriteData.Sprite*
+  name: Sprite
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_Sprite_
+  commentId: Overload:Surfer.SUGUIDSpriteData.Sprite
+  isSpec: "True"
+  fullName: Surfer.SUGUIDSpriteData.Sprite
+  nameWithType: SUGUIDSpriteData.Sprite
+- uid: Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
+  name: UpdateData(SUGUIDSpriteData)
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateData_Surfer_SUGUIDSpriteData_
+  commentId: M:Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
+  fullName: Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
+  nameWithType: SUGUIDSpriteData.UpdateData(SUGUIDSpriteData)
+- uid: Surfer.SUGUIDSpriteData.UpdateData*
+  name: UpdateData
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateData_
+  commentId: Overload:Surfer.SUGUIDSpriteData.UpdateData
+  isSpec: "True"
+  fullName: Surfer.SUGUIDSpriteData.UpdateData
+  nameWithType: SUGUIDSpriteData.UpdateData
 - uid: Surfer.SUHealthBarCamData
   name: SUHealthBarCamData
   href: api/Surfer.SUHealthBarCamData.html
@@ -8240,6 +9024,38 @@ references:
   commentId: T:Surfer.SUHierarchyMonitor
   fullName: Surfer.SUHierarchyMonitor
   nameWithType: SUHierarchyMonitor
+- uid: Surfer.SUHoverSelection
+  name: SUHoverSelection
+  href: api/Surfer.SUHoverSelection.html
+  commentId: T:Surfer.SUHoverSelection
+  fullName: Surfer.SUHoverSelection
+  nameWithType: SUHoverSelection
+- uid: Surfer.SUHoverSelection.OnPointerEnter(PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/Surfer.SUHoverSelection.html#Surfer_SUHoverSelection_OnPointerEnter_PointerEventData_
+  commentId: M:Surfer.SUHoverSelection.OnPointerEnter(PointerEventData)
+  fullName: Surfer.SUHoverSelection.OnPointerEnter(PointerEventData)
+  nameWithType: SUHoverSelection.OnPointerEnter(PointerEventData)
+- uid: Surfer.SUHoverSelection.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/Surfer.SUHoverSelection.html#Surfer_SUHoverSelection_OnPointerEnter_
+  commentId: Overload:Surfer.SUHoverSelection.OnPointerEnter
+  isSpec: "True"
+  fullName: Surfer.SUHoverSelection.OnPointerEnter
+  nameWithType: SUHoverSelection.OnPointerEnter
+- uid: Surfer.SUHoverSelection.OnPointerExit(PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/Surfer.SUHoverSelection.html#Surfer_SUHoverSelection_OnPointerExit_PointerEventData_
+  commentId: M:Surfer.SUHoverSelection.OnPointerExit(PointerEventData)
+  fullName: Surfer.SUHoverSelection.OnPointerExit(PointerEventData)
+  nameWithType: SUHoverSelection.OnPointerExit(PointerEventData)
+- uid: Surfer.SUHoverSelection.OnPointerExit*
+  name: OnPointerExit
+  href: api/Surfer.SUHoverSelection.html#Surfer_SUHoverSelection_OnPointerExit_
+  commentId: Overload:Surfer.SUHoverSelection.OnPointerExit
+  isSpec: "True"
+  fullName: Surfer.SUHoverSelection.OnPointerExit
+  nameWithType: SUHoverSelection.OnPointerExit
 - uid: Surfer.SUIndicatorCamData
   name: SUIndicatorCamData
   href: api/Surfer.SUIndicatorCamData.html
@@ -9432,6 +10248,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUOrientationManager.I
   nameWithType: SUOrientationManager.I
+- uid: Surfer.SUOrientationManager.kOrientationChanged
+  name: kOrientationChanged
+  href: api/Surfer.SUOrientationManager.html#Surfer_SUOrientationManager_kOrientationChanged
+  commentId: F:Surfer.SUOrientationManager.kOrientationChanged
+  fullName: Surfer.SUOrientationManager.kOrientationChanged
+  nameWithType: SUOrientationManager.kOrientationChanged
 - uid: Surfer.SUOrientationManager.MainLoop
   name: MainLoop()
   href: api/Surfer.SUOrientationManager.html#Surfer_SUOrientationManager_MainLoop
@@ -10193,6 +11015,89 @@ references:
   isSpec: "True"
   fullName: Surfer.SURectSizeDataDrawer.OnCanUseDefaultModes
   nameWithType: SURectSizeDataDrawer.OnCanUseDefaultModes
+- uid: Surfer.SUResourcesSpritePopup
+  name: SUResourcesSpritePopup
+  href: api/Surfer.SUResourcesSpritePopup.html
+  commentId: T:Surfer.SUResourcesSpritePopup
+  fullName: Surfer.SUResourcesSpritePopup
+  nameWithType: SUResourcesSpritePopup
+- uid: Surfer.SUResourcesSpritePopup.#ctor(Surfer.SUGUIDResourcesSpriteData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUResourcesSpritePopup(SUGUIDResourcesSpriteData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup__ctor_Surfer_SUGUIDResourcesSpriteData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUResourcesSpritePopup.#ctor(Surfer.SUGUIDResourcesSpriteData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUResourcesSpritePopup(SUGUIDResourcesSpriteData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUResourcesSpritePopup.SUResourcesSpritePopup(Surfer.SUGUIDResourcesSpriteData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUResourcesSpritePopup.SUResourcesSpritePopup(Surfer.SUGUIDResourcesSpriteData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUResourcesSpritePopup.SUResourcesSpritePopup(SUGUIDResourcesSpriteData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUResourcesSpritePopup.SUResourcesSpritePopup(SUGUIDResourcesSpriteData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUResourcesSpritePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUResourcesSpritePopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUResourcesSpritePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUResourcesSpritePopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUResourcesSpritePopup.SUResourcesSpritePopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUResourcesSpritePopup.SUResourcesSpritePopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUResourcesSpritePopup.SUResourcesSpritePopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUResourcesSpritePopup.SUResourcesSpritePopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUResourcesSpritePopup.#ctor*
+  name: SUResourcesSpritePopup
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup__ctor_
+  commentId: Overload:Surfer.SUResourcesSpritePopup.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUResourcesSpritePopup.SUResourcesSpritePopup
+  nameWithType: SUResourcesSpritePopup.SUResourcesSpritePopup
+- uid: Surfer.SUResourcesSpritePopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnCustomField
+  commentId: M:Surfer.SUResourcesSpritePopup.OnCustomField
+  fullName: Surfer.SUResourcesSpritePopup.OnCustomField()
+  nameWithType: SUResourcesSpritePopup.OnCustomField()
+- uid: Surfer.SUResourcesSpritePopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnCustomField_
+  commentId: Overload:Surfer.SUResourcesSpritePopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUResourcesSpritePopup.OnCustomField
+  nameWithType: SUResourcesSpritePopup.OnCustomField
+- uid: Surfer.SUResourcesSpritePopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnOpen
+  commentId: M:Surfer.SUResourcesSpritePopup.OnOpen
+  fullName: Surfer.SUResourcesSpritePopup.OnOpen()
+  nameWithType: SUResourcesSpritePopup.OnOpen()
+- uid: Surfer.SUResourcesSpritePopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnOpen_
+  commentId: Overload:Surfer.SUResourcesSpritePopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUResourcesSpritePopup.OnOpen
+  nameWithType: SUResourcesSpritePopup.OnOpen
+- uid: Surfer.SUResourcesSpritePopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnSave
+  commentId: M:Surfer.SUResourcesSpritePopup.OnSave
+  fullName: Surfer.SUResourcesSpritePopup.OnSave()
+  nameWithType: SUResourcesSpritePopup.OnSave()
+- uid: Surfer.SUResourcesSpritePopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_OnSave_
+  commentId: Overload:Surfer.SUResourcesSpritePopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUResourcesSpritePopup.OnSave
+  nameWithType: SUResourcesSpritePopup.OnSave
+- uid: Surfer.SUResourcesSpritePopup.ValueError
+  name: ValueError
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_ValueError
+  commentId: P:Surfer.SUResourcesSpritePopup.ValueError
+  fullName: Surfer.SUResourcesSpritePopup.ValueError
+  nameWithType: SUResourcesSpritePopup.ValueError
+- uid: Surfer.SUResourcesSpritePopup.ValueError*
+  name: ValueError
+  href: api/Surfer.SUResourcesSpritePopup.html#Surfer_SUResourcesSpritePopup_ValueError_
+  commentId: Overload:Surfer.SUResourcesSpritePopup.ValueError
+  isSpec: "True"
+  fullName: Surfer.SUResourcesSpritePopup.ValueError
+  nameWithType: SUResourcesSpritePopup.ValueError
 - uid: Surfer.SURewiredActionEventData
   name: SURewiredActionEventData
   href: api/Surfer.SURewiredActionEventData.html
@@ -10360,6 +11265,12 @@ references:
   commentId: F:Surfer.SurferHelper.Unset
   fullName: Surfer.SurferHelper.Unset
   nameWithType: SurferHelper.Unset
+- uid: Surfer.SurferHelper.VisualSSymbol
+  name: VisualSSymbol
+  href: api/Surfer.SurferHelper.html#Surfer_SurferHelper_VisualSSymbol
+  commentId: F:Surfer.SurferHelper.VisualSSymbol
+  fullName: Surfer.SurferHelper.VisualSSymbol
+  nameWithType: SurferHelper.VisualSSymbol
 - uid: Surfer.SurferManager
   name: SurferManager
   href: api/Surfer.SurferManager.html
@@ -11160,6 +12071,22 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.AddState
   nameWithType: SurferSO.AddState
+- uid: Surfer.SurferSO.AddTheme(System.String,System.Action,System.Action{System.String})
+  name: AddTheme(String, Action, Action<String>)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddTheme_System_String_System_Action_System_Action_System_String__
+  commentId: M:Surfer.SurferSO.AddTheme(System.String,System.Action,System.Action{System.String})
+  name.vb: AddTheme(String, Action, Action(Of String))
+  fullName: Surfer.SurferSO.AddTheme(System.String, System.Action, System.Action<System.String>)
+  fullName.vb: Surfer.SurferSO.AddTheme(System.String, System.Action, System.Action(Of System.String))
+  nameWithType: SurferSO.AddTheme(String, Action, Action<String>)
+  nameWithType.vb: SurferSO.AddTheme(String, Action, Action(Of String))
+- uid: Surfer.SurferSO.AddTheme*
+  name: AddTheme
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddTheme_
+  commentId: Overload:Surfer.SurferSO.AddTheme
+  isSpec: "True"
+  fullName: Surfer.SurferSO.AddTheme
+  nameWithType: SurferSO.AddTheme
 - uid: Surfer.SurferSO.BuildVersions
   name: BuildVersions
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_BuildVersions
@@ -11303,6 +12230,45 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.GetStatesList
   nameWithType: SurferSO.GetStatesList
+- uid: Surfer.SurferSO.GetTheme(System.String)
+  name: GetTheme(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetTheme_System_String_
+  commentId: M:Surfer.SurferSO.GetTheme(System.String)
+  fullName: Surfer.SurferSO.GetTheme(System.String)
+  nameWithType: SurferSO.GetTheme(String)
+- uid: Surfer.SurferSO.GetTheme*
+  name: GetTheme
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetTheme_
+  commentId: Overload:Surfer.SurferSO.GetTheme
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetTheme
+  nameWithType: SurferSO.GetTheme
+- uid: Surfer.SurferSO.GetThemeKey(System.String)
+  name: GetThemeKey(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetThemeKey_System_String_
+  commentId: M:Surfer.SurferSO.GetThemeKey(System.String)
+  fullName: Surfer.SurferSO.GetThemeKey(System.String)
+  nameWithType: SurferSO.GetThemeKey(String)
+- uid: Surfer.SurferSO.GetThemeKey*
+  name: GetThemeKey
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetThemeKey_
+  commentId: Overload:Surfer.SurferSO.GetThemeKey
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetThemeKey
+  nameWithType: SurferSO.GetThemeKey
+- uid: Surfer.SurferSO.GetThemeName(System.String)
+  name: GetThemeName(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetThemeName_System_String_
+  commentId: M:Surfer.SurferSO.GetThemeName(System.String)
+  fullName: Surfer.SurferSO.GetThemeName(System.String)
+  nameWithType: SurferSO.GetThemeName(String)
+- uid: Surfer.SurferSO.GetThemeName*
+  name: GetThemeName
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetThemeName_
+  commentId: Overload:Surfer.SurferSO.GetThemeName
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetThemeName
+  nameWithType: SurferSO.GetThemeName
 - uid: Surfer.SurferSO.Layers
   name: Layers
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_Layers
@@ -11342,6 +12308,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.RemoveState
   nameWithType: SurferSO.RemoveState
+- uid: Surfer.SurferSO.RemoveTheme(System.String)
+  name: RemoveTheme(String)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveTheme_System_String_
+  commentId: M:Surfer.SurferSO.RemoveTheme(System.String)
+  fullName: Surfer.SurferSO.RemoveTheme(System.String)
+  nameWithType: SurferSO.RemoveTheme(String)
+- uid: Surfer.SurferSO.RemoveTheme*
+  name: RemoveTheme
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveTheme_
+  commentId: Overload:Surfer.SurferSO.RemoveTheme
+  isSpec: "True"
+  fullName: Surfer.SurferSO.RemoveTheme
+  nameWithType: SurferSO.RemoveTheme
 - uid: Surfer.SurferSO.RenameEvent(System.String,System.String)
   name: RenameEvent(String, String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameEvent_System_String_System_String_
@@ -11368,6 +12347,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.RenameState
   nameWithType: SurferSO.RenameState
+- uid: Surfer.SurferSO.RenameTheme(System.String,System.String,System.Action,System.Action)
+  name: RenameTheme(String, String, Action, Action)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameTheme_System_String_System_String_System_Action_System_Action_
+  commentId: M:Surfer.SurferSO.RenameTheme(System.String,System.String,System.Action,System.Action)
+  fullName: Surfer.SurferSO.RenameTheme(System.String, System.String, System.Action, System.Action)
+  nameWithType: SurferSO.RenameTheme(String, String, Action, Action)
+- uid: Surfer.SurferSO.RenameTheme*
+  name: RenameTheme
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RenameTheme_
+  commentId: Overload:Surfer.SurferSO.RenameTheme
+  isSpec: "True"
+  fullName: Surfer.SurferSO.RenameTheme
+  nameWithType: SurferSO.RenameTheme
+- uid: Surfer.SurferSO.SelectedThemeGUID
+  name: SelectedThemeGUID
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_SelectedThemeGUID
+  commentId: P:Surfer.SurferSO.SelectedThemeGUID
+  fullName: Surfer.SurferSO.SelectedThemeGUID
+  nameWithType: SurferSO.SelectedThemeGUID
+- uid: Surfer.SurferSO.SelectedThemeGUID*
+  name: SelectedThemeGUID
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_SelectedThemeGUID_
+  commentId: Overload:Surfer.SurferSO.SelectedThemeGUID
+  isSpec: "True"
+  fullName: Surfer.SurferSO.SelectedThemeGUID
+  nameWithType: SurferSO.SelectedThemeGUID
 - uid: Surfer.SurferSO.SetUp
   name: SetUp()
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_SetUp
@@ -11394,6 +12399,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.Tags
   nameWithType: SurferSO.Tags
+- uid: Surfer.SurferSO.Themes
+  name: Themes
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_Themes
+  commentId: P:Surfer.SurferSO.Themes
+  fullName: Surfer.SurferSO.Themes
+  nameWithType: SurferSO.Themes
+- uid: Surfer.SurferSO.Themes*
+  name: Themes
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_Themes_
+  commentId: Overload:Surfer.SurferSO.Themes
+  isSpec: "True"
+  fullName: Surfer.SurferSO.Themes
+  nameWithType: SurferSO.Themes
 - uid: Surfer.SURotationData
   name: SURotationData
   href: api/Surfer.SURotationData.html
@@ -11426,6 +12444,76 @@ references:
   isSpec: "True"
   fullName: Surfer.SURotationData.OnPlay
   nameWithType: SURotationData.OnPlay
+- uid: Surfer.SUSafeAreaManager
+  name: SUSafeAreaManager
+  href: api/Surfer.SUSafeAreaManager.html
+  commentId: T:Surfer.SUSafeAreaManager
+  fullName: Surfer.SUSafeAreaManager
+  nameWithType: SUSafeAreaManager
+- uid: Surfer.SUSafeAreaManager.I
+  name: I
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_I
+  commentId: P:Surfer.SUSafeAreaManager.I
+  fullName: Surfer.SUSafeAreaManager.I
+  nameWithType: SUSafeAreaManager.I
+- uid: Surfer.SUSafeAreaManager.I*
+  name: I
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_I_
+  commentId: Overload:Surfer.SUSafeAreaManager.I
+  isSpec: "True"
+  fullName: Surfer.SUSafeAreaManager.I
+  nameWithType: SUSafeAreaManager.I
+- uid: Surfer.SUSafeAreaManager.MainLoop
+  name: MainLoop()
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_MainLoop
+  commentId: M:Surfer.SUSafeAreaManager.MainLoop
+  fullName: Surfer.SUSafeAreaManager.MainLoop()
+  nameWithType: SUSafeAreaManager.MainLoop()
+- uid: Surfer.SUSafeAreaManager.MainLoop*
+  name: MainLoop
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_MainLoop_
+  commentId: Overload:Surfer.SUSafeAreaManager.MainLoop
+  isSpec: "True"
+  fullName: Surfer.SUSafeAreaManager.MainLoop
+  nameWithType: SUSafeAreaManager.MainLoop
+- uid: Surfer.SUSafeAreaManager.OnOrientationChanged(Surfer.SUOrientationInfo)
+  name: OnOrientationChanged(SUOrientationInfo)
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_OnOrientationChanged_Surfer_SUOrientationInfo_
+  commentId: M:Surfer.SUSafeAreaManager.OnOrientationChanged(Surfer.SUOrientationInfo)
+  fullName: Surfer.SUSafeAreaManager.OnOrientationChanged(Surfer.SUOrientationInfo)
+  nameWithType: SUSafeAreaManager.OnOrientationChanged(SUOrientationInfo)
+- uid: Surfer.SUSafeAreaManager.OnOrientationChanged*
+  name: OnOrientationChanged
+  href: api/Surfer.SUSafeAreaManager.html#Surfer_SUSafeAreaManager_OnOrientationChanged_
+  commentId: Overload:Surfer.SUSafeAreaManager.OnOrientationChanged
+  isSpec: "True"
+  fullName: Surfer.SUSafeAreaManager.OnOrientationChanged
+  nameWithType: SUSafeAreaManager.OnOrientationChanged
+- uid: Surfer.SUSafeAreaResizer
+  name: SUSafeAreaResizer
+  href: api/Surfer.SUSafeAreaResizer.html
+  commentId: T:Surfer.SUSafeAreaResizer
+  fullName: Surfer.SUSafeAreaResizer
+  nameWithType: SUSafeAreaResizer
+- uid: Surfer.SUSafeAreaResizer.AllResizers
+  name: AllResizers
+  href: api/Surfer.SUSafeAreaResizer.html#Surfer_SUSafeAreaResizer_AllResizers
+  commentId: F:Surfer.SUSafeAreaResizer.AllResizers
+  fullName: Surfer.SUSafeAreaResizer.AllResizers
+  nameWithType: SUSafeAreaResizer.AllResizers
+- uid: Surfer.SUSafeAreaResizer.Resize
+  name: Resize()
+  href: api/Surfer.SUSafeAreaResizer.html#Surfer_SUSafeAreaResizer_Resize
+  commentId: M:Surfer.SUSafeAreaResizer.Resize
+  fullName: Surfer.SUSafeAreaResizer.Resize()
+  nameWithType: SUSafeAreaResizer.Resize()
+- uid: Surfer.SUSafeAreaResizer.Resize*
+  name: Resize
+  href: api/Surfer.SUSafeAreaResizer.html#Surfer_SUSafeAreaResizer_Resize_
+  commentId: Overload:Surfer.SUSafeAreaResizer.Resize
+  isSpec: "True"
+  fullName: Surfer.SUSafeAreaResizer.Resize
+  nameWithType: SUSafeAreaResizer.Resize
 - uid: Surfer.SUScaleData
   name: SUScaleData
   href: api/Surfer.SUScaleData.html
@@ -12409,6 +13497,89 @@ references:
   isSpec: "True"
   fullName: Surfer.SUSliderHandlerData.ResetSlider
   nameWithType: SUSliderHandlerData.ResetSlider
+- uid: Surfer.SUSpritePopup
+  name: SUSpritePopup
+  href: api/Surfer.SUSpritePopup.html
+  commentId: T:Surfer.SUSpritePopup
+  fullName: Surfer.SUSpritePopup
+  nameWithType: SUSpritePopup
+- uid: Surfer.SUSpritePopup.#ctor(Surfer.SUGUIDSpriteData,System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUSpritePopup(SUGUIDSpriteData, Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup__ctor_Surfer_SUGUIDSpriteData_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUSpritePopup.#ctor(Surfer.SUGUIDSpriteData,System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUSpritePopup(SUGUIDSpriteData, Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUSpritePopup.SUSpritePopup(Surfer.SUGUIDSpriteData, System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUSpritePopup.SUSpritePopup(Surfer.SUGUIDSpriteData, System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUSpritePopup.SUSpritePopup(SUGUIDSpriteData, Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUSpritePopup.SUSpritePopup(SUGUIDSpriteData, Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUSpritePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name: SUSpritePopup(Action<SUGUIDElementBaseData>)
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup__ctor_System_Action_Surfer_SUGUIDElementBaseData__
+  commentId: M:Surfer.SUSpritePopup.#ctor(System.Action{Surfer.SUGUIDElementBaseData})
+  name.vb: SUSpritePopup(Action(Of SUGUIDElementBaseData))
+  fullName: Surfer.SUSpritePopup.SUSpritePopup(System.Action<Surfer.SUGUIDElementBaseData>)
+  fullName.vb: Surfer.SUSpritePopup.SUSpritePopup(System.Action(Of Surfer.SUGUIDElementBaseData))
+  nameWithType: SUSpritePopup.SUSpritePopup(Action<SUGUIDElementBaseData>)
+  nameWithType.vb: SUSpritePopup.SUSpritePopup(Action(Of SUGUIDElementBaseData))
+- uid: Surfer.SUSpritePopup.#ctor*
+  name: SUSpritePopup
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup__ctor_
+  commentId: Overload:Surfer.SUSpritePopup.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUSpritePopup.SUSpritePopup
+  nameWithType: SUSpritePopup.SUSpritePopup
+- uid: Surfer.SUSpritePopup.OnCustomField
+  name: OnCustomField()
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnCustomField
+  commentId: M:Surfer.SUSpritePopup.OnCustomField
+  fullName: Surfer.SUSpritePopup.OnCustomField()
+  nameWithType: SUSpritePopup.OnCustomField()
+- uid: Surfer.SUSpritePopup.OnCustomField*
+  name: OnCustomField
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnCustomField_
+  commentId: Overload:Surfer.SUSpritePopup.OnCustomField
+  isSpec: "True"
+  fullName: Surfer.SUSpritePopup.OnCustomField
+  nameWithType: SUSpritePopup.OnCustomField
+- uid: Surfer.SUSpritePopup.OnOpen
+  name: OnOpen()
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnOpen
+  commentId: M:Surfer.SUSpritePopup.OnOpen
+  fullName: Surfer.SUSpritePopup.OnOpen()
+  nameWithType: SUSpritePopup.OnOpen()
+- uid: Surfer.SUSpritePopup.OnOpen*
+  name: OnOpen
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnOpen_
+  commentId: Overload:Surfer.SUSpritePopup.OnOpen
+  isSpec: "True"
+  fullName: Surfer.SUSpritePopup.OnOpen
+  nameWithType: SUSpritePopup.OnOpen
+- uid: Surfer.SUSpritePopup.OnSave
+  name: OnSave()
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnSave
+  commentId: M:Surfer.SUSpritePopup.OnSave
+  fullName: Surfer.SUSpritePopup.OnSave()
+  nameWithType: SUSpritePopup.OnSave()
+- uid: Surfer.SUSpritePopup.OnSave*
+  name: OnSave
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_OnSave_
+  commentId: Overload:Surfer.SUSpritePopup.OnSave
+  isSpec: "True"
+  fullName: Surfer.SUSpritePopup.OnSave
+  nameWithType: SUSpritePopup.OnSave
+- uid: Surfer.SUSpritePopup.ValueError
+  name: ValueError
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_ValueError
+  commentId: P:Surfer.SUSpritePopup.ValueError
+  fullName: Surfer.SUSpritePopup.ValueError
+  nameWithType: SUSpritePopup.ValueError
+- uid: Surfer.SUSpritePopup.ValueError*
+  name: ValueError
+  href: api/Surfer.SUSpritePopup.html#Surfer_SUSpritePopup_ValueError_
+  commentId: Overload:Surfer.SUSpritePopup.ValueError
+  isSpec: "True"
+  fullName: Surfer.SUSpritePopup.ValueError
+  nameWithType: SUSpritePopup.ValueError
 - uid: Surfer.SUStateData
   name: SUStateData
   href: api/Surfer.SUStateData.html
@@ -12734,6 +13905,28 @@ references:
   commentId: T:Surfer.SUStatesData
   fullName: Surfer.SUStatesData
   nameWithType: SUStatesData
+- uid: Surfer.SUStatesData.#ctor
+  name: SUStatesData()
+  href: api/Surfer.SUStatesData.html#Surfer_SUStatesData__ctor
+  commentId: M:Surfer.SUStatesData.#ctor
+  fullName: Surfer.SUStatesData.SUStatesData()
+  nameWithType: SUStatesData.SUStatesData()
+- uid: Surfer.SUStatesData.#ctor(System.Collections.Generic.List{System.String})
+  name: SUStatesData(List<String>)
+  href: api/Surfer.SUStatesData.html#Surfer_SUStatesData__ctor_System_Collections_Generic_List_System_String__
+  commentId: M:Surfer.SUStatesData.#ctor(System.Collections.Generic.List{System.String})
+  name.vb: SUStatesData(List(Of String))
+  fullName: Surfer.SUStatesData.SUStatesData(System.Collections.Generic.List<System.String>)
+  fullName.vb: Surfer.SUStatesData.SUStatesData(System.Collections.Generic.List(Of System.String))
+  nameWithType: SUStatesData.SUStatesData(List<String>)
+  nameWithType.vb: SUStatesData.SUStatesData(List(Of String))
+- uid: Surfer.SUStatesData.#ctor*
+  name: SUStatesData
+  href: api/Surfer.SUStatesData.html#Surfer_SUStatesData__ctor_
+  commentId: Overload:Surfer.SUStatesData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUStatesData.SUStatesData
+  nameWithType: SUStatesData.SUStatesData
 - uid: Surfer.SUStatesData.AllNames
   name: AllNames
   href: api/Surfer.SUStatesData.html#Surfer_SUStatesData_AllNames
@@ -12818,6 +14011,330 @@ references:
   isSpec: "True"
   fullName: Surfer.SUStatesDataDrawer.OnGUI
   nameWithType: SUStatesDataDrawer.OnGUI
+- uid: Surfer.SUThemable
+  name: SUThemable
+  href: api/Surfer.SUThemable.html
+  commentId: T:Surfer.SUThemable
+  fullName: Surfer.SUThemable
+  nameWithType: SUThemable
+- uid: Surfer.SUThemable.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  name: OnThemeChanged(SUThemeChangeEventData)
+  href: api/Surfer.SUThemable.html#Surfer_SUThemable_OnThemeChanged_Surfer_SUThemeChangeEventData_
+  commentId: M:Surfer.SUThemable.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  fullName: Surfer.SUThemable.OnThemeChanged(Surfer.SUThemeChangeEventData)
+  nameWithType: SUThemable.OnThemeChanged(SUThemeChangeEventData)
+- uid: Surfer.SUThemable.OnThemeChanged*
+  name: OnThemeChanged
+  href: api/Surfer.SUThemable.html#Surfer_SUThemable_OnThemeChanged_
+  commentId: Overload:Surfer.SUThemable.OnThemeChanged
+  isSpec: "True"
+  fullName: Surfer.SUThemable.OnThemeChanged
+  nameWithType: SUThemable.OnThemeChanged
+- uid: Surfer.SUThemableEditor
+  name: SUThemableEditor
+  href: api/Surfer.SUThemableEditor.html
+  commentId: T:Surfer.SUThemableEditor
+  fullName: Surfer.SUThemableEditor
+  nameWithType: SUThemableEditor
+- uid: Surfer.SUThemableEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Surfer.SUThemableEditor.html#Surfer_SUThemableEditor_OnInspectorGUI
+  commentId: M:Surfer.SUThemableEditor.OnInspectorGUI
+  fullName: Surfer.SUThemableEditor.OnInspectorGUI()
+  nameWithType: SUThemableEditor.OnInspectorGUI()
+- uid: Surfer.SUThemableEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Surfer.SUThemableEditor.html#Surfer_SUThemableEditor_OnInspectorGUI_
+  commentId: Overload:Surfer.SUThemableEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: Surfer.SUThemableEditor.OnInspectorGUI
+  nameWithType: SUThemableEditor.OnInspectorGUI
+- uid: Surfer.SUThemeChangeEventData
+  name: SUThemeChangeEventData
+  href: api/Surfer.SUThemeChangeEventData.html
+  commentId: T:Surfer.SUThemeChangeEventData
+  fullName: Surfer.SUThemeChangeEventData
+  nameWithType: SUThemeChangeEventData
+- uid: Surfer.SUThemeChangeEventData.#ctor(Surfer.SUThemeData,Surfer.SUThemeData)
+  name: SUThemeChangeEventData(SUThemeData, SUThemeData)
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData__ctor_Surfer_SUThemeData_Surfer_SUThemeData_
+  commentId: M:Surfer.SUThemeChangeEventData.#ctor(Surfer.SUThemeData,Surfer.SUThemeData)
+  fullName: Surfer.SUThemeChangeEventData.SUThemeChangeEventData(Surfer.SUThemeData, Surfer.SUThemeData)
+  nameWithType: SUThemeChangeEventData.SUThemeChangeEventData(SUThemeData, SUThemeData)
+- uid: Surfer.SUThemeChangeEventData.#ctor*
+  name: SUThemeChangeEventData
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData__ctor_
+  commentId: Overload:Surfer.SUThemeChangeEventData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUThemeChangeEventData.SUThemeChangeEventData
+  nameWithType: SUThemeChangeEventData.SUThemeChangeEventData
+- uid: Surfer.SUThemeChangeEventData.NewTheme
+  name: NewTheme
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData_NewTheme
+  commentId: P:Surfer.SUThemeChangeEventData.NewTheme
+  fullName: Surfer.SUThemeChangeEventData.NewTheme
+  nameWithType: SUThemeChangeEventData.NewTheme
+- uid: Surfer.SUThemeChangeEventData.NewTheme*
+  name: NewTheme
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData_NewTheme_
+  commentId: Overload:Surfer.SUThemeChangeEventData.NewTheme
+  isSpec: "True"
+  fullName: Surfer.SUThemeChangeEventData.NewTheme
+  nameWithType: SUThemeChangeEventData.NewTheme
+- uid: Surfer.SUThemeChangeEventData.OldTheme
+  name: OldTheme
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData_OldTheme
+  commentId: P:Surfer.SUThemeChangeEventData.OldTheme
+  fullName: Surfer.SUThemeChangeEventData.OldTheme
+  nameWithType: SUThemeChangeEventData.OldTheme
+- uid: Surfer.SUThemeChangeEventData.OldTheme*
+  name: OldTheme
+  href: api/Surfer.SUThemeChangeEventData.html#Surfer_SUThemeChangeEventData_OldTheme_
+  commentId: Overload:Surfer.SUThemeChangeEventData.OldTheme
+  isSpec: "True"
+  fullName: Surfer.SUThemeChangeEventData.OldTheme
+  nameWithType: SUThemeChangeEventData.OldTheme
+- uid: Surfer.SUThemeData
+  name: SUThemeData
+  href: api/Surfer.SUThemeData.html
+  commentId: T:Surfer.SUThemeData
+  fullName: Surfer.SUThemeData
+  nameWithType: SUThemeData
+- uid: Surfer.SUThemeData.#ctor(System.String,Surfer.SUThemeData)
+  name: SUThemeData(String, SUThemeData)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData__ctor_System_String_Surfer_SUThemeData_
+  commentId: M:Surfer.SUThemeData.#ctor(System.String,Surfer.SUThemeData)
+  fullName: Surfer.SUThemeData.SUThemeData(System.String, Surfer.SUThemeData)
+  nameWithType: SUThemeData.SUThemeData(String, SUThemeData)
+- uid: Surfer.SUThemeData.#ctor*
+  name: SUThemeData
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData__ctor_
+  commentId: Overload:Surfer.SUThemeData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.SUThemeData
+  nameWithType: SUThemeData.SUThemeData
+- uid: Surfer.SUThemeData.Colors
+  name: Colors
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Colors
+  commentId: P:Surfer.SUThemeData.Colors
+  fullName: Surfer.SUThemeData.Colors
+  nameWithType: SUThemeData.Colors
+- uid: Surfer.SUThemeData.Colors*
+  name: Colors
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Colors_
+  commentId: Overload:Surfer.SUThemeData.Colors
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.Colors
+  nameWithType: SUThemeData.Colors
+- uid: Surfer.SUThemeData.Fonts
+  name: Fonts
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Fonts
+  commentId: P:Surfer.SUThemeData.Fonts
+  fullName: Surfer.SUThemeData.Fonts
+  nameWithType: SUThemeData.Fonts
+- uid: Surfer.SUThemeData.Fonts*
+  name: Fonts
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Fonts_
+  commentId: Overload:Surfer.SUThemeData.Fonts
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.Fonts
+  nameWithType: SUThemeData.Fonts
+- uid: Surfer.SUThemeData.FontSizes
+  name: FontSizes
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_FontSizes
+  commentId: P:Surfer.SUThemeData.FontSizes
+  fullName: Surfer.SUThemeData.FontSizes
+  nameWithType: SUThemeData.FontSizes
+- uid: Surfer.SUThemeData.FontSizes*
+  name: FontSizes
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_FontSizes_
+  commentId: Overload:Surfer.SUThemeData.FontSizes
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.FontSizes
+  nameWithType: SUThemeData.FontSizes
+- uid: Surfer.SUThemeData.GetColor(System.String,Color@)
+  name: GetColor(String, out Color)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetColor_System_String_Color__
+  commentId: M:Surfer.SUThemeData.GetColor(System.String,Color@)
+  name.vb: GetColor(String, ByRef Color)
+  fullName: Surfer.SUThemeData.GetColor(System.String, out Color)
+  fullName.vb: Surfer.SUThemeData.GetColor(System.String, ByRef Color)
+  nameWithType: SUThemeData.GetColor(String, out Color)
+  nameWithType.vb: SUThemeData.GetColor(String, ByRef Color)
+- uid: Surfer.SUThemeData.GetColor*
+  name: GetColor
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetColor_
+  commentId: Overload:Surfer.SUThemeData.GetColor
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.GetColor
+  nameWithType: SUThemeData.GetColor
+- uid: Surfer.SUThemeData.GetFont(System.String,TMP_FontAsset@)
+  name: GetFont(String, out TMP_FontAsset)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetFont_System_String_TMP_FontAsset__
+  commentId: M:Surfer.SUThemeData.GetFont(System.String,TMP_FontAsset@)
+  name.vb: GetFont(String, ByRef TMP_FontAsset)
+  fullName: Surfer.SUThemeData.GetFont(System.String, out TMP_FontAsset)
+  fullName.vb: Surfer.SUThemeData.GetFont(System.String, ByRef TMP_FontAsset)
+  nameWithType: SUThemeData.GetFont(String, out TMP_FontAsset)
+  nameWithType.vb: SUThemeData.GetFont(String, ByRef TMP_FontAsset)
+- uid: Surfer.SUThemeData.GetFont*
+  name: GetFont
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetFont_
+  commentId: Overload:Surfer.SUThemeData.GetFont
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.GetFont
+  nameWithType: SUThemeData.GetFont
+- uid: Surfer.SUThemeData.GetFontSize(System.String,System.Single@)
+  name: GetFontSize(String, out Single)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetFontSize_System_String_System_Single__
+  commentId: M:Surfer.SUThemeData.GetFontSize(System.String,System.Single@)
+  name.vb: GetFontSize(String, ByRef Single)
+  fullName: Surfer.SUThemeData.GetFontSize(System.String, out System.Single)
+  fullName.vb: Surfer.SUThemeData.GetFontSize(System.String, ByRef System.Single)
+  nameWithType: SUThemeData.GetFontSize(String, out Single)
+  nameWithType.vb: SUThemeData.GetFontSize(String, ByRef Single)
+- uid: Surfer.SUThemeData.GetFontSize*
+  name: GetFontSize
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetFontSize_
+  commentId: Overload:Surfer.SUThemeData.GetFontSize
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.GetFontSize
+  nameWithType: SUThemeData.GetFontSize
+- uid: Surfer.SUThemeData.GetSprite(System.String,Sprite@)
+  name: GetSprite(String, out Sprite)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetSprite_System_String_Sprite__
+  commentId: M:Surfer.SUThemeData.GetSprite(System.String,Sprite@)
+  name.vb: GetSprite(String, ByRef Sprite)
+  fullName: Surfer.SUThemeData.GetSprite(System.String, out Sprite)
+  fullName.vb: Surfer.SUThemeData.GetSprite(System.String, ByRef Sprite)
+  nameWithType: SUThemeData.GetSprite(String, out Sprite)
+  nameWithType.vb: SUThemeData.GetSprite(String, ByRef Sprite)
+- uid: Surfer.SUThemeData.GetSprite*
+  name: GetSprite
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetSprite_
+  commentId: Overload:Surfer.SUThemeData.GetSprite
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.GetSprite
+  nameWithType: SUThemeData.GetSprite
+- uid: Surfer.SUThemeData.GetSpriteRes(System.String,Sprite@)
+  name: GetSpriteRes(String, out Sprite)
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetSpriteRes_System_String_Sprite__
+  commentId: M:Surfer.SUThemeData.GetSpriteRes(System.String,Sprite@)
+  name.vb: GetSpriteRes(String, ByRef Sprite)
+  fullName: Surfer.SUThemeData.GetSpriteRes(System.String, out Sprite)
+  fullName.vb: Surfer.SUThemeData.GetSpriteRes(System.String, ByRef Sprite)
+  nameWithType: SUThemeData.GetSpriteRes(String, out Sprite)
+  nameWithType.vb: SUThemeData.GetSpriteRes(String, ByRef Sprite)
+- uid: Surfer.SUThemeData.GetSpriteRes*
+  name: GetSpriteRes
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_GetSpriteRes_
+  commentId: Overload:Surfer.SUThemeData.GetSpriteRes
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.GetSpriteRes
+  nameWithType: SUThemeData.GetSpriteRes
+- uid: Surfer.SUThemeData.Name
+  name: Name
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Name
+  commentId: P:Surfer.SUThemeData.Name
+  fullName: Surfer.SUThemeData.Name
+  nameWithType: SUThemeData.Name
+- uid: Surfer.SUThemeData.Name*
+  name: Name
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Name_
+  commentId: Overload:Surfer.SUThemeData.Name
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.Name
+  nameWithType: SUThemeData.Name
+- uid: Surfer.SUThemeData.ResSprites
+  name: ResSprites
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_ResSprites
+  commentId: P:Surfer.SUThemeData.ResSprites
+  fullName: Surfer.SUThemeData.ResSprites
+  nameWithType: SUThemeData.ResSprites
+- uid: Surfer.SUThemeData.ResSprites*
+  name: ResSprites
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_ResSprites_
+  commentId: Overload:Surfer.SUThemeData.ResSprites
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.ResSprites
+  nameWithType: SUThemeData.ResSprites
+- uid: Surfer.SUThemeData.Sprites
+  name: Sprites
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Sprites
+  commentId: P:Surfer.SUThemeData.Sprites
+  fullName: Surfer.SUThemeData.Sprites
+  nameWithType: SUThemeData.Sprites
+- uid: Surfer.SUThemeData.Sprites*
+  name: Sprites
+  href: api/Surfer.SUThemeData.html#Surfer_SUThemeData_Sprites_
+  commentId: Overload:Surfer.SUThemeData.Sprites
+  isSpec: "True"
+  fullName: Surfer.SUThemeData.Sprites
+  nameWithType: SUThemeData.Sprites
+- uid: Surfer.SUThemeManager
+  name: SUThemeManager
+  href: api/Surfer.SUThemeManager.html
+  commentId: T:Surfer.SUThemeManager
+  fullName: Surfer.SUThemeManager
+  nameWithType: SUThemeManager
+- uid: Surfer.SUThemeManager.ChangeTheme(System.String)
+  name: ChangeTheme(String)
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_ChangeTheme_System_String_
+  commentId: M:Surfer.SUThemeManager.ChangeTheme(System.String)
+  fullName: Surfer.SUThemeManager.ChangeTheme(System.String)
+  nameWithType: SUThemeManager.ChangeTheme(String)
+- uid: Surfer.SUThemeManager.ChangeTheme*
+  name: ChangeTheme
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_ChangeTheme_
+  commentId: Overload:Surfer.SUThemeManager.ChangeTheme
+  isSpec: "True"
+  fullName: Surfer.SUThemeManager.ChangeTheme
+  nameWithType: SUThemeManager.ChangeTheme
+- uid: Surfer.SUThemeManager.I
+  name: I
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_I
+  commentId: P:Surfer.SUThemeManager.I
+  fullName: Surfer.SUThemeManager.I
+  nameWithType: SUThemeManager.I
+- uid: Surfer.SUThemeManager.I*
+  name: I
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_I_
+  commentId: Overload:Surfer.SUThemeManager.I
+  isSpec: "True"
+  fullName: Surfer.SUThemeManager.I
+  nameWithType: SUThemeManager.I
+- uid: Surfer.SUThemeManager.RegisterThemeChange(Surfer.ISUThemeChangeHandler)
+  name: RegisterThemeChange(ISUThemeChangeHandler)
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_RegisterThemeChange_Surfer_ISUThemeChangeHandler_
+  commentId: M:Surfer.SUThemeManager.RegisterThemeChange(Surfer.ISUThemeChangeHandler)
+  fullName: Surfer.SUThemeManager.RegisterThemeChange(Surfer.ISUThemeChangeHandler)
+  nameWithType: SUThemeManager.RegisterThemeChange(ISUThemeChangeHandler)
+- uid: Surfer.SUThemeManager.RegisterThemeChange*
+  name: RegisterThemeChange
+  href: api/Surfer.SUThemeManager.html#Surfer_SUThemeManager_RegisterThemeChange_
+  commentId: Overload:Surfer.SUThemeManager.RegisterThemeChange
+  isSpec: "True"
+  fullName: Surfer.SUThemeManager.RegisterThemeChange
+  nameWithType: SUThemeManager.RegisterThemeChange
+- uid: Surfer.SUThemeSettingsRegister
+  name: SUThemeSettingsRegister
+  href: api/Surfer.SUThemeSettingsRegister.html
+  commentId: T:Surfer.SUThemeSettingsRegister
+  fullName: Surfer.SUThemeSettingsRegister
+  nameWithType: SUThemeSettingsRegister
+- uid: Surfer.SUThemeSettingsRegister.CreateSettingsProvider
+  name: CreateSettingsProvider()
+  href: api/Surfer.SUThemeSettingsRegister.html#Surfer_SUThemeSettingsRegister_CreateSettingsProvider
+  commentId: M:Surfer.SUThemeSettingsRegister.CreateSettingsProvider
+  fullName: Surfer.SUThemeSettingsRegister.CreateSettingsProvider()
+  nameWithType: SUThemeSettingsRegister.CreateSettingsProvider()
+- uid: Surfer.SUThemeSettingsRegister.CreateSettingsProvider*
+  name: CreateSettingsProvider
+  href: api/Surfer.SUThemeSettingsRegister.html#Surfer_SUThemeSettingsRegister_CreateSettingsProvider_
+  commentId: Overload:Surfer.SUThemeSettingsRegister.CreateSettingsProvider
+  isSpec: "True"
+  fullName: Surfer.SUThemeSettingsRegister.CreateSettingsProvider
+  nameWithType: SUThemeSettingsRegister.CreateSettingsProvider
 - uid: Surfer.SUToolsMenu
   name: SUToolsMenu
   href: api/Surfer.SUToolsMenu.html
@@ -12912,6 +14429,350 @@ references:
   commentId: F:Surfer.SUTriggerEvent.SUTriggerEvent_ID.Exit
   fullName: Surfer.SUTriggerEvent.SUTriggerEvent_ID.Exit
   nameWithType: SUTriggerEvent.SUTriggerEvent_ID.Exit
+- uid: Surfer.ThemesDictionary
+  name: ThemesDictionary
+  href: api/Surfer.ThemesDictionary.html
+  commentId: T:Surfer.ThemesDictionary
+  fullName: Surfer.ThemesDictionary
+  nameWithType: ThemesDictionary
+- uid: Surfer.ThemesDictionary.GetColorGUIDFromIndex(System.Int32)
+  name: GetColorGUIDFromIndex(Int32)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.ThemesDictionary.GetColorGUIDFromIndex(System.Int32)
+  fullName: Surfer.ThemesDictionary.GetColorGUIDFromIndex(System.Int32)
+  nameWithType: ThemesDictionary.GetColorGUIDFromIndex(Int32)
+- uid: Surfer.ThemesDictionary.GetColorGUIDFromIndex*
+  name: GetColorGUIDFromIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorGUIDFromIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetColorGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetColorGUIDFromIndex
+  nameWithType: ThemesDictionary.GetColorGUIDFromIndex
+- uid: Surfer.ThemesDictionary.GetColorGUIDIndex(System.String)
+  name: GetColorGUIDIndex(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorGUIDIndex_System_String_
+  commentId: M:Surfer.ThemesDictionary.GetColorGUIDIndex(System.String)
+  fullName: Surfer.ThemesDictionary.GetColorGUIDIndex(System.String)
+  nameWithType: ThemesDictionary.GetColorGUIDIndex(String)
+- uid: Surfer.ThemesDictionary.GetColorGUIDIndex*
+  name: GetColorGUIDIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorGUIDIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetColorGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetColorGUIDIndex
+  nameWithType: ThemesDictionary.GetColorGUIDIndex
+- uid: Surfer.ThemesDictionary.GetColorsNames
+  name: GetColorsNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorsNames
+  commentId: M:Surfer.ThemesDictionary.GetColorsNames
+  fullName: Surfer.ThemesDictionary.GetColorsNames()
+  nameWithType: ThemesDictionary.GetColorsNames()
+- uid: Surfer.ThemesDictionary.GetColorsNames*
+  name: GetColorsNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetColorsNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetColorsNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetColorsNames
+  nameWithType: ThemesDictionary.GetColorsNames
+- uid: Surfer.ThemesDictionary.GetFontGUIDFromIndex(System.Int32)
+  name: GetFontGUIDFromIndex(Int32)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.ThemesDictionary.GetFontGUIDFromIndex(System.Int32)
+  fullName: Surfer.ThemesDictionary.GetFontGUIDFromIndex(System.Int32)
+  nameWithType: ThemesDictionary.GetFontGUIDFromIndex(Int32)
+- uid: Surfer.ThemesDictionary.GetFontGUIDFromIndex*
+  name: GetFontGUIDFromIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontGUIDFromIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontGUIDFromIndex
+  nameWithType: ThemesDictionary.GetFontGUIDFromIndex
+- uid: Surfer.ThemesDictionary.GetFontGUIDIndex(System.String)
+  name: GetFontGUIDIndex(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontGUIDIndex_System_String_
+  commentId: M:Surfer.ThemesDictionary.GetFontGUIDIndex(System.String)
+  fullName: Surfer.ThemesDictionary.GetFontGUIDIndex(System.String)
+  nameWithType: ThemesDictionary.GetFontGUIDIndex(String)
+- uid: Surfer.ThemesDictionary.GetFontGUIDIndex*
+  name: GetFontGUIDIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontGUIDIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontGUIDIndex
+  nameWithType: ThemesDictionary.GetFontGUIDIndex
+- uid: Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex(System.Int32)
+  name: GetFontSizeGUIDFromIndex(Int32)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizeGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex(System.Int32)
+  fullName: Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex(System.Int32)
+  nameWithType: ThemesDictionary.GetFontSizeGUIDFromIndex(Int32)
+- uid: Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex*
+  name: GetFontSizeGUIDFromIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizeGUIDFromIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontSizeGUIDFromIndex
+  nameWithType: ThemesDictionary.GetFontSizeGUIDFromIndex
+- uid: Surfer.ThemesDictionary.GetFontSizeGUIDIndex(System.String)
+  name: GetFontSizeGUIDIndex(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizeGUIDIndex_System_String_
+  commentId: M:Surfer.ThemesDictionary.GetFontSizeGUIDIndex(System.String)
+  fullName: Surfer.ThemesDictionary.GetFontSizeGUIDIndex(System.String)
+  nameWithType: ThemesDictionary.GetFontSizeGUIDIndex(String)
+- uid: Surfer.ThemesDictionary.GetFontSizeGUIDIndex*
+  name: GetFontSizeGUIDIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizeGUIDIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontSizeGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontSizeGUIDIndex
+  nameWithType: ThemesDictionary.GetFontSizeGUIDIndex
+- uid: Surfer.ThemesDictionary.GetFontSizesNames
+  name: GetFontSizesNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizesNames
+  commentId: M:Surfer.ThemesDictionary.GetFontSizesNames
+  fullName: Surfer.ThemesDictionary.GetFontSizesNames()
+  nameWithType: ThemesDictionary.GetFontSizesNames()
+- uid: Surfer.ThemesDictionary.GetFontSizesNames*
+  name: GetFontSizesNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontSizesNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontSizesNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontSizesNames
+  nameWithType: ThemesDictionary.GetFontSizesNames
+- uid: Surfer.ThemesDictionary.GetFontsNames
+  name: GetFontsNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontsNames
+  commentId: M:Surfer.ThemesDictionary.GetFontsNames
+  fullName: Surfer.ThemesDictionary.GetFontsNames()
+  nameWithType: ThemesDictionary.GetFontsNames()
+- uid: Surfer.ThemesDictionary.GetFontsNames*
+  name: GetFontsNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetFontsNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetFontsNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetFontsNames
+  nameWithType: ThemesDictionary.GetFontsNames
+- uid: Surfer.ThemesDictionary.GetNames
+  name: GetNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetNames
+  commentId: M:Surfer.ThemesDictionary.GetNames
+  fullName: Surfer.ThemesDictionary.GetNames()
+  nameWithType: ThemesDictionary.GetNames()
+- uid: Surfer.ThemesDictionary.GetNames*
+  name: GetNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetNames
+  nameWithType: ThemesDictionary.GetNames
+- uid: Surfer.ThemesDictionary.GetSpriteGUIDFromIndex(System.Int32)
+  name: GetSpriteGUIDFromIndex(Int32)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.ThemesDictionary.GetSpriteGUIDFromIndex(System.Int32)
+  fullName: Surfer.ThemesDictionary.GetSpriteGUIDFromIndex(System.Int32)
+  nameWithType: ThemesDictionary.GetSpriteGUIDFromIndex(Int32)
+- uid: Surfer.ThemesDictionary.GetSpriteGUIDFromIndex*
+  name: GetSpriteGUIDFromIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteGUIDFromIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpriteGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpriteGUIDFromIndex
+  nameWithType: ThemesDictionary.GetSpriteGUIDFromIndex
+- uid: Surfer.ThemesDictionary.GetSpriteGUIDIndex(System.String)
+  name: GetSpriteGUIDIndex(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteGUIDIndex_System_String_
+  commentId: M:Surfer.ThemesDictionary.GetSpriteGUIDIndex(System.String)
+  fullName: Surfer.ThemesDictionary.GetSpriteGUIDIndex(System.String)
+  nameWithType: ThemesDictionary.GetSpriteGUIDIndex(String)
+- uid: Surfer.ThemesDictionary.GetSpriteGUIDIndex*
+  name: GetSpriteGUIDIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteGUIDIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpriteGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpriteGUIDIndex
+  nameWithType: ThemesDictionary.GetSpriteGUIDIndex
+- uid: Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex(System.Int32)
+  name: GetSpriteResGUIDFromIndex(Int32)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteResGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex(System.Int32)
+  fullName: Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex(System.Int32)
+  nameWithType: ThemesDictionary.GetSpriteResGUIDFromIndex(Int32)
+- uid: Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex*
+  name: GetSpriteResGUIDFromIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteResGUIDFromIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpriteResGUIDFromIndex
+  nameWithType: ThemesDictionary.GetSpriteResGUIDFromIndex
+- uid: Surfer.ThemesDictionary.GetSpriteResGUIDIndex(System.String)
+  name: GetSpriteResGUIDIndex(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteResGUIDIndex_System_String_
+  commentId: M:Surfer.ThemesDictionary.GetSpriteResGUIDIndex(System.String)
+  fullName: Surfer.ThemesDictionary.GetSpriteResGUIDIndex(System.String)
+  nameWithType: ThemesDictionary.GetSpriteResGUIDIndex(String)
+- uid: Surfer.ThemesDictionary.GetSpriteResGUIDIndex*
+  name: GetSpriteResGUIDIndex
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpriteResGUIDIndex_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpriteResGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpriteResGUIDIndex
+  nameWithType: ThemesDictionary.GetSpriteResGUIDIndex
+- uid: Surfer.ThemesDictionary.GetSpritesNames
+  name: GetSpritesNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpritesNames
+  commentId: M:Surfer.ThemesDictionary.GetSpritesNames
+  fullName: Surfer.ThemesDictionary.GetSpritesNames()
+  nameWithType: ThemesDictionary.GetSpritesNames()
+- uid: Surfer.ThemesDictionary.GetSpritesNames*
+  name: GetSpritesNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpritesNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpritesNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpritesNames
+  nameWithType: ThemesDictionary.GetSpritesNames
+- uid: Surfer.ThemesDictionary.GetSpritesResNames
+  name: GetSpritesResNames()
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpritesResNames
+  commentId: M:Surfer.ThemesDictionary.GetSpritesResNames
+  fullName: Surfer.ThemesDictionary.GetSpritesResNames()
+  nameWithType: ThemesDictionary.GetSpritesResNames()
+- uid: Surfer.ThemesDictionary.GetSpritesResNames*
+  name: GetSpritesResNames
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_GetSpritesResNames_
+  commentId: Overload:Surfer.ThemesDictionary.GetSpritesResNames
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.GetSpritesResNames
+  nameWithType: ThemesDictionary.GetSpritesResNames
+- uid: Surfer.ThemesDictionary.IsColorNameAvailable(System.String)
+  name: IsColorNameAvailable(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsColorNameAvailable_System_String_
+  commentId: M:Surfer.ThemesDictionary.IsColorNameAvailable(System.String)
+  fullName: Surfer.ThemesDictionary.IsColorNameAvailable(System.String)
+  nameWithType: ThemesDictionary.IsColorNameAvailable(String)
+- uid: Surfer.ThemesDictionary.IsColorNameAvailable*
+  name: IsColorNameAvailable
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsColorNameAvailable_
+  commentId: Overload:Surfer.ThemesDictionary.IsColorNameAvailable
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.IsColorNameAvailable
+  nameWithType: ThemesDictionary.IsColorNameAvailable
+- uid: Surfer.ThemesDictionary.IsFontNameAvailable(System.String)
+  name: IsFontNameAvailable(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsFontNameAvailable_System_String_
+  commentId: M:Surfer.ThemesDictionary.IsFontNameAvailable(System.String)
+  fullName: Surfer.ThemesDictionary.IsFontNameAvailable(System.String)
+  nameWithType: ThemesDictionary.IsFontNameAvailable(String)
+- uid: Surfer.ThemesDictionary.IsFontNameAvailable*
+  name: IsFontNameAvailable
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsFontNameAvailable_
+  commentId: Overload:Surfer.ThemesDictionary.IsFontNameAvailable
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.IsFontNameAvailable
+  nameWithType: ThemesDictionary.IsFontNameAvailable
+- uid: Surfer.ThemesDictionary.IsFontSizeNameAvailable(System.String)
+  name: IsFontSizeNameAvailable(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsFontSizeNameAvailable_System_String_
+  commentId: M:Surfer.ThemesDictionary.IsFontSizeNameAvailable(System.String)
+  fullName: Surfer.ThemesDictionary.IsFontSizeNameAvailable(System.String)
+  nameWithType: ThemesDictionary.IsFontSizeNameAvailable(String)
+- uid: Surfer.ThemesDictionary.IsFontSizeNameAvailable*
+  name: IsFontSizeNameAvailable
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsFontSizeNameAvailable_
+  commentId: Overload:Surfer.ThemesDictionary.IsFontSizeNameAvailable
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.IsFontSizeNameAvailable
+  nameWithType: ThemesDictionary.IsFontSizeNameAvailable
+- uid: Surfer.ThemesDictionary.IsResSpriteNameAvailable(System.String)
+  name: IsResSpriteNameAvailable(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsResSpriteNameAvailable_System_String_
+  commentId: M:Surfer.ThemesDictionary.IsResSpriteNameAvailable(System.String)
+  fullName: Surfer.ThemesDictionary.IsResSpriteNameAvailable(System.String)
+  nameWithType: ThemesDictionary.IsResSpriteNameAvailable(String)
+- uid: Surfer.ThemesDictionary.IsResSpriteNameAvailable*
+  name: IsResSpriteNameAvailable
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsResSpriteNameAvailable_
+  commentId: Overload:Surfer.ThemesDictionary.IsResSpriteNameAvailable
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.IsResSpriteNameAvailable
+  nameWithType: ThemesDictionary.IsResSpriteNameAvailable
+- uid: Surfer.ThemesDictionary.IsSpriteNameAvailable(System.String)
+  name: IsSpriteNameAvailable(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsSpriteNameAvailable_System_String_
+  commentId: M:Surfer.ThemesDictionary.IsSpriteNameAvailable(System.String)
+  fullName: Surfer.ThemesDictionary.IsSpriteNameAvailable(System.String)
+  nameWithType: ThemesDictionary.IsSpriteNameAvailable(String)
+- uid: Surfer.ThemesDictionary.IsSpriteNameAvailable*
+  name: IsSpriteNameAvailable
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_IsSpriteNameAvailable_
+  commentId: Overload:Surfer.ThemesDictionary.IsSpriteNameAvailable
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.IsSpriteNameAvailable
+  nameWithType: ThemesDictionary.IsSpriteNameAvailable
+- uid: Surfer.ThemesDictionary.RemoveColor(System.String)
+  name: RemoveColor(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveColor_System_String_
+  commentId: M:Surfer.ThemesDictionary.RemoveColor(System.String)
+  fullName: Surfer.ThemesDictionary.RemoveColor(System.String)
+  nameWithType: ThemesDictionary.RemoveColor(String)
+- uid: Surfer.ThemesDictionary.RemoveColor*
+  name: RemoveColor
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveColor_
+  commentId: Overload:Surfer.ThemesDictionary.RemoveColor
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.RemoveColor
+  nameWithType: ThemesDictionary.RemoveColor
+- uid: Surfer.ThemesDictionary.RemoveFont(System.String)
+  name: RemoveFont(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveFont_System_String_
+  commentId: M:Surfer.ThemesDictionary.RemoveFont(System.String)
+  fullName: Surfer.ThemesDictionary.RemoveFont(System.String)
+  nameWithType: ThemesDictionary.RemoveFont(String)
+- uid: Surfer.ThemesDictionary.RemoveFont*
+  name: RemoveFont
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveFont_
+  commentId: Overload:Surfer.ThemesDictionary.RemoveFont
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.RemoveFont
+  nameWithType: ThemesDictionary.RemoveFont
+- uid: Surfer.ThemesDictionary.RemoveFontSize(System.String)
+  name: RemoveFontSize(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveFontSize_System_String_
+  commentId: M:Surfer.ThemesDictionary.RemoveFontSize(System.String)
+  fullName: Surfer.ThemesDictionary.RemoveFontSize(System.String)
+  nameWithType: ThemesDictionary.RemoveFontSize(String)
+- uid: Surfer.ThemesDictionary.RemoveFontSize*
+  name: RemoveFontSize
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveFontSize_
+  commentId: Overload:Surfer.ThemesDictionary.RemoveFontSize
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.RemoveFontSize
+  nameWithType: ThemesDictionary.RemoveFontSize
+- uid: Surfer.ThemesDictionary.RemoveResSprite(System.String)
+  name: RemoveResSprite(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveResSprite_System_String_
+  commentId: M:Surfer.ThemesDictionary.RemoveResSprite(System.String)
+  fullName: Surfer.ThemesDictionary.RemoveResSprite(System.String)
+  nameWithType: ThemesDictionary.RemoveResSprite(String)
+- uid: Surfer.ThemesDictionary.RemoveResSprite*
+  name: RemoveResSprite
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveResSprite_
+  commentId: Overload:Surfer.ThemesDictionary.RemoveResSprite
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.RemoveResSprite
+  nameWithType: ThemesDictionary.RemoveResSprite
+- uid: Surfer.ThemesDictionary.RemoveSprite(System.String)
+  name: RemoveSprite(String)
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveSprite_System_String_
+  commentId: M:Surfer.ThemesDictionary.RemoveSprite(System.String)
+  fullName: Surfer.ThemesDictionary.RemoveSprite(System.String)
+  nameWithType: ThemesDictionary.RemoveSprite(String)
+- uid: Surfer.ThemesDictionary.RemoveSprite*
+  name: RemoveSprite
+  href: api/Surfer.ThemesDictionary.html#Surfer_ThemesDictionary_RemoveSprite_
+  commentId: Overload:Surfer.ThemesDictionary.RemoveSprite
+  isSpec: "True"
+  fullName: Surfer.ThemesDictionary.RemoveSprite
+  nameWithType: ThemesDictionary.RemoveSprite
 - uid: Surfer.VersionsDictionary
   name: VersionsDictionary
   href: api/Surfer.VersionsDictionary.html
