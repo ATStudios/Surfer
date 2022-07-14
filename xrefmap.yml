@@ -8055,19 +8055,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGUIDColorData.Color
   nameWithType: SUGUIDColorData.Color
-- uid: Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
-  name: UpdateData(SUGUIDColorData)
-  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateData_Surfer_SUGUIDColorData_
-  commentId: M:Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
-  fullName: Surfer.SUGUIDColorData.UpdateData(Surfer.SUGUIDColorData)
-  nameWithType: SUGUIDColorData.UpdateData(SUGUIDColorData)
-- uid: Surfer.SUGUIDColorData.UpdateData*
-  name: UpdateData
-  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateData_
-  commentId: Overload:Surfer.SUGUIDColorData.UpdateData
+- uid: Surfer.SUGUIDColorData.UpdateColor(Surfer.SUGUIDColorData)
+  name: UpdateColor(SUGUIDColorData)
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateColor_Surfer_SUGUIDColorData_
+  commentId: M:Surfer.SUGUIDColorData.UpdateColor(Surfer.SUGUIDColorData)
+  fullName: Surfer.SUGUIDColorData.UpdateColor(Surfer.SUGUIDColorData)
+  nameWithType: SUGUIDColorData.UpdateColor(SUGUIDColorData)
+- uid: Surfer.SUGUIDColorData.UpdateColor*
+  name: UpdateColor
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateColor_
+  commentId: Overload:Surfer.SUGUIDColorData.UpdateColor
   isSpec: "True"
-  fullName: Surfer.SUGUIDColorData.UpdateData
-  nameWithType: SUGUIDColorData.UpdateData
+  fullName: Surfer.SUGUIDColorData.UpdateColor
+  nameWithType: SUGUIDColorData.UpdateColor
+- uid: Surfer.SUGUIDColorData.UpdateName(Surfer.SUGUIDColorData)
+  name: UpdateName(SUGUIDColorData)
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateName_Surfer_SUGUIDColorData_
+  commentId: M:Surfer.SUGUIDColorData.UpdateName(Surfer.SUGUIDColorData)
+  fullName: Surfer.SUGUIDColorData.UpdateName(Surfer.SUGUIDColorData)
+  nameWithType: SUGUIDColorData.UpdateName(SUGUIDColorData)
+- uid: Surfer.SUGUIDColorData.UpdateName*
+  name: UpdateName
+  href: api/Surfer.SUGUIDColorData.html#Surfer_SUGUIDColorData_UpdateName_
+  commentId: Overload:Surfer.SUGUIDColorData.UpdateName
+  isSpec: "True"
+  fullName: Surfer.SUGUIDColorData.UpdateName
+  nameWithType: SUGUIDColorData.UpdateName
 - uid: Surfer.SUGUIDElementBaseData
   name: SUGUIDElementBaseData
   href: api/Surfer.SUGUIDElementBaseData.html
@@ -8169,19 +8182,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGUIDFontData.Font
   nameWithType: SUGUIDFontData.Font
-- uid: Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
-  name: UpdateData(SUGUIDFontData)
-  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateData_Surfer_SUGUIDFontData_
-  commentId: M:Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
-  fullName: Surfer.SUGUIDFontData.UpdateData(Surfer.SUGUIDFontData)
-  nameWithType: SUGUIDFontData.UpdateData(SUGUIDFontData)
-- uid: Surfer.SUGUIDFontData.UpdateData*
-  name: UpdateData
-  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateData_
-  commentId: Overload:Surfer.SUGUIDFontData.UpdateData
+- uid: Surfer.SUGUIDFontData.UpdateFont(Surfer.SUGUIDFontData)
+  name: UpdateFont(SUGUIDFontData)
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateFont_Surfer_SUGUIDFontData_
+  commentId: M:Surfer.SUGUIDFontData.UpdateFont(Surfer.SUGUIDFontData)
+  fullName: Surfer.SUGUIDFontData.UpdateFont(Surfer.SUGUIDFontData)
+  nameWithType: SUGUIDFontData.UpdateFont(SUGUIDFontData)
+- uid: Surfer.SUGUIDFontData.UpdateFont*
+  name: UpdateFont
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateFont_
+  commentId: Overload:Surfer.SUGUIDFontData.UpdateFont
   isSpec: "True"
-  fullName: Surfer.SUGUIDFontData.UpdateData
-  nameWithType: SUGUIDFontData.UpdateData
+  fullName: Surfer.SUGUIDFontData.UpdateFont
+  nameWithType: SUGUIDFontData.UpdateFont
+- uid: Surfer.SUGUIDFontData.UpdateName(Surfer.SUGUIDFontData)
+  name: UpdateName(SUGUIDFontData)
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateName_Surfer_SUGUIDFontData_
+  commentId: M:Surfer.SUGUIDFontData.UpdateName(Surfer.SUGUIDFontData)
+  fullName: Surfer.SUGUIDFontData.UpdateName(Surfer.SUGUIDFontData)
+  nameWithType: SUGUIDFontData.UpdateName(SUGUIDFontData)
+- uid: Surfer.SUGUIDFontData.UpdateName*
+  name: UpdateName
+  href: api/Surfer.SUGUIDFontData.html#Surfer_SUGUIDFontData_UpdateName_
+  commentId: Overload:Surfer.SUGUIDFontData.UpdateName
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontData.UpdateName
+  nameWithType: SUGUIDFontData.UpdateName
 - uid: Surfer.SUGUIDFontSizeData
   name: SUGUIDFontSizeData
   href: api/Surfer.SUGUIDFontSizeData.html
@@ -8220,19 +8246,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGUIDFontSizeData.FontSize
   nameWithType: SUGUIDFontSizeData.FontSize
-- uid: Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
-  name: UpdateData(SUGUIDFontSizeData)
-  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateData_Surfer_SUGUIDFontSizeData_
-  commentId: M:Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
-  fullName: Surfer.SUGUIDFontSizeData.UpdateData(Surfer.SUGUIDFontSizeData)
-  nameWithType: SUGUIDFontSizeData.UpdateData(SUGUIDFontSizeData)
-- uid: Surfer.SUGUIDFontSizeData.UpdateData*
-  name: UpdateData
-  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateData_
-  commentId: Overload:Surfer.SUGUIDFontSizeData.UpdateData
+- uid: Surfer.SUGUIDFontSizeData.UpdateFontSize(Surfer.SUGUIDFontSizeData)
+  name: UpdateFontSize(SUGUIDFontSizeData)
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateFontSize_Surfer_SUGUIDFontSizeData_
+  commentId: M:Surfer.SUGUIDFontSizeData.UpdateFontSize(Surfer.SUGUIDFontSizeData)
+  fullName: Surfer.SUGUIDFontSizeData.UpdateFontSize(Surfer.SUGUIDFontSizeData)
+  nameWithType: SUGUIDFontSizeData.UpdateFontSize(SUGUIDFontSizeData)
+- uid: Surfer.SUGUIDFontSizeData.UpdateFontSize*
+  name: UpdateFontSize
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateFontSize_
+  commentId: Overload:Surfer.SUGUIDFontSizeData.UpdateFontSize
   isSpec: "True"
-  fullName: Surfer.SUGUIDFontSizeData.UpdateData
-  nameWithType: SUGUIDFontSizeData.UpdateData
+  fullName: Surfer.SUGUIDFontSizeData.UpdateFontSize
+  nameWithType: SUGUIDFontSizeData.UpdateFontSize
+- uid: Surfer.SUGUIDFontSizeData.UpdateName(Surfer.SUGUIDFontSizeData)
+  name: UpdateName(SUGUIDFontSizeData)
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateName_Surfer_SUGUIDFontSizeData_
+  commentId: M:Surfer.SUGUIDFontSizeData.UpdateName(Surfer.SUGUIDFontSizeData)
+  fullName: Surfer.SUGUIDFontSizeData.UpdateName(Surfer.SUGUIDFontSizeData)
+  nameWithType: SUGUIDFontSizeData.UpdateName(SUGUIDFontSizeData)
+- uid: Surfer.SUGUIDFontSizeData.UpdateName*
+  name: UpdateName
+  href: api/Surfer.SUGUIDFontSizeData.html#Surfer_SUGUIDFontSizeData_UpdateName_
+  commentId: Overload:Surfer.SUGUIDFontSizeData.UpdateName
+  isSpec: "True"
+  fullName: Surfer.SUGUIDFontSizeData.UpdateName
+  nameWithType: SUGUIDFontSizeData.UpdateName
 - uid: Surfer.SUGUIDResourcesSpriteData
   name: SUGUIDResourcesSpriteData
   href: api/Surfer.SUGUIDResourcesSpriteData.html
@@ -8271,19 +8310,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGUIDResourcesSpriteData.Path
   nameWithType: SUGUIDResourcesSpriteData.Path
-- uid: Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
-  name: UpdateData(SUGUIDResourcesSpriteData)
-  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateData_Surfer_SUGUIDResourcesSpriteData_
-  commentId: M:Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
-  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateData(Surfer.SUGUIDResourcesSpriteData)
-  nameWithType: SUGUIDResourcesSpriteData.UpdateData(SUGUIDResourcesSpriteData)
-- uid: Surfer.SUGUIDResourcesSpriteData.UpdateData*
-  name: UpdateData
-  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateData_
-  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.UpdateData
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdateName(Surfer.SUGUIDResourcesSpriteData)
+  name: UpdateName(SUGUIDResourcesSpriteData)
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateName_Surfer_SUGUIDResourcesSpriteData_
+  commentId: M:Surfer.SUGUIDResourcesSpriteData.UpdateName(Surfer.SUGUIDResourcesSpriteData)
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateName(Surfer.SUGUIDResourcesSpriteData)
+  nameWithType: SUGUIDResourcesSpriteData.UpdateName(SUGUIDResourcesSpriteData)
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdateName*
+  name: UpdateName
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdateName_
+  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.UpdateName
   isSpec: "True"
-  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateData
-  nameWithType: SUGUIDResourcesSpriteData.UpdateData
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdateName
+  nameWithType: SUGUIDResourcesSpriteData.UpdateName
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdatePath(Surfer.SUGUIDResourcesSpriteData)
+  name: UpdatePath(SUGUIDResourcesSpriteData)
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdatePath_Surfer_SUGUIDResourcesSpriteData_
+  commentId: M:Surfer.SUGUIDResourcesSpriteData.UpdatePath(Surfer.SUGUIDResourcesSpriteData)
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdatePath(Surfer.SUGUIDResourcesSpriteData)
+  nameWithType: SUGUIDResourcesSpriteData.UpdatePath(SUGUIDResourcesSpriteData)
+- uid: Surfer.SUGUIDResourcesSpriteData.UpdatePath*
+  name: UpdatePath
+  href: api/Surfer.SUGUIDResourcesSpriteData.html#Surfer_SUGUIDResourcesSpriteData_UpdatePath_
+  commentId: Overload:Surfer.SUGUIDResourcesSpriteData.UpdatePath
+  isSpec: "True"
+  fullName: Surfer.SUGUIDResourcesSpriteData.UpdatePath
+  nameWithType: SUGUIDResourcesSpriteData.UpdatePath
 - uid: Surfer.SUGUIDSpriteData
   name: SUGUIDSpriteData
   href: api/Surfer.SUGUIDSpriteData.html
@@ -8322,19 +8374,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SUGUIDSpriteData.Sprite
   nameWithType: SUGUIDSpriteData.Sprite
-- uid: Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
-  name: UpdateData(SUGUIDSpriteData)
-  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateData_Surfer_SUGUIDSpriteData_
-  commentId: M:Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
-  fullName: Surfer.SUGUIDSpriteData.UpdateData(Surfer.SUGUIDSpriteData)
-  nameWithType: SUGUIDSpriteData.UpdateData(SUGUIDSpriteData)
-- uid: Surfer.SUGUIDSpriteData.UpdateData*
-  name: UpdateData
-  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateData_
-  commentId: Overload:Surfer.SUGUIDSpriteData.UpdateData
+- uid: Surfer.SUGUIDSpriteData.UpdateName(Surfer.SUGUIDSpriteData)
+  name: UpdateName(SUGUIDSpriteData)
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateName_Surfer_SUGUIDSpriteData_
+  commentId: M:Surfer.SUGUIDSpriteData.UpdateName(Surfer.SUGUIDSpriteData)
+  fullName: Surfer.SUGUIDSpriteData.UpdateName(Surfer.SUGUIDSpriteData)
+  nameWithType: SUGUIDSpriteData.UpdateName(SUGUIDSpriteData)
+- uid: Surfer.SUGUIDSpriteData.UpdateName*
+  name: UpdateName
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateName_
+  commentId: Overload:Surfer.SUGUIDSpriteData.UpdateName
   isSpec: "True"
-  fullName: Surfer.SUGUIDSpriteData.UpdateData
-  nameWithType: SUGUIDSpriteData.UpdateData
+  fullName: Surfer.SUGUIDSpriteData.UpdateName
+  nameWithType: SUGUIDSpriteData.UpdateName
+- uid: Surfer.SUGUIDSpriteData.UpdateSprite(Surfer.SUGUIDSpriteData)
+  name: UpdateSprite(SUGUIDSpriteData)
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateSprite_Surfer_SUGUIDSpriteData_
+  commentId: M:Surfer.SUGUIDSpriteData.UpdateSprite(Surfer.SUGUIDSpriteData)
+  fullName: Surfer.SUGUIDSpriteData.UpdateSprite(Surfer.SUGUIDSpriteData)
+  nameWithType: SUGUIDSpriteData.UpdateSprite(SUGUIDSpriteData)
+- uid: Surfer.SUGUIDSpriteData.UpdateSprite*
+  name: UpdateSprite
+  href: api/Surfer.SUGUIDSpriteData.html#Surfer_SUGUIDSpriteData_UpdateSprite_
+  commentId: Overload:Surfer.SUGUIDSpriteData.UpdateSprite
+  isSpec: "True"
+  fullName: Surfer.SUGUIDSpriteData.UpdateSprite
+  nameWithType: SUGUIDSpriteData.UpdateSprite
 - uid: Surfer.SUHealthBarCamData
   name: SUHealthBarCamData
   href: api/Surfer.SUHealthBarCamData.html
@@ -9721,6 +9786,340 @@ references:
   isSpec: "True"
   fullName: Surfer.SUInputHandlerData.OnSubmit
   nameWithType: SUInputHandlerData.OnSubmit
+- uid: Surfer.SUInputIcon
+  name: SUInputIcon
+  href: api/Surfer.SUInputIcon.html
+  commentId: T:Surfer.SUInputIcon
+  fullName: Surfer.SUInputIcon
+  nameWithType: SUInputIcon
+- uid: Surfer.SUInputIconEditor
+  name: SUInputIconEditor
+  href: api/Surfer.SUInputIconEditor.html
+  commentId: T:Surfer.SUInputIconEditor
+  fullName: Surfer.SUInputIconEditor
+  nameWithType: SUInputIconEditor
+- uid: Surfer.SUInputIconEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Surfer.SUInputIconEditor.html#Surfer_SUInputIconEditor_OnInspectorGUI
+  commentId: M:Surfer.SUInputIconEditor.OnInspectorGUI
+  fullName: Surfer.SUInputIconEditor.OnInspectorGUI()
+  nameWithType: SUInputIconEditor.OnInspectorGUI()
+- uid: Surfer.SUInputIconEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Surfer.SUInputIconEditor.html#Surfer_SUInputIconEditor_OnInspectorGUI_
+  commentId: Overload:Surfer.SUInputIconEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: Surfer.SUInputIconEditor.OnInspectorGUI
+  nameWithType: SUInputIconEditor.OnInspectorGUI
+- uid: Surfer.SUInputIconsData
+  name: SUInputIconsData
+  href: api/Surfer.SUInputIconsData.html
+  commentId: T:Surfer.SUInputIconsData
+  fullName: Surfer.SUInputIconsData
+  nameWithType: SUInputIconsData
+- uid: Surfer.SUInputIconsData.#ctor(Surfer.SUInputIconsData)
+  name: SUInputIconsData(SUInputIconsData)
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData__ctor_Surfer_SUInputIconsData_
+  commentId: M:Surfer.SUInputIconsData.#ctor(Surfer.SUInputIconsData)
+  fullName: Surfer.SUInputIconsData.SUInputIconsData(Surfer.SUInputIconsData)
+  nameWithType: SUInputIconsData.SUInputIconsData(SUInputIconsData)
+- uid: Surfer.SUInputIconsData.#ctor*
+  name: SUInputIconsData
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData__ctor_
+  commentId: Overload:Surfer.SUInputIconsData.#ctor
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.SUInputIconsData
+  nameWithType: SUInputIconsData.SUInputIconsData
+- uid: Surfer.SUInputIconsData.GetResSpriteFromGUID(System.String,Sprite@)
+  name: GetResSpriteFromGUID(String, out Sprite)
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetResSpriteFromGUID_System_String_Sprite__
+  commentId: M:Surfer.SUInputIconsData.GetResSpriteFromGUID(System.String,Sprite@)
+  name.vb: GetResSpriteFromGUID(String, ByRef Sprite)
+  fullName: Surfer.SUInputIconsData.GetResSpriteFromGUID(System.String, out Sprite)
+  fullName.vb: Surfer.SUInputIconsData.GetResSpriteFromGUID(System.String, ByRef Sprite)
+  nameWithType: SUInputIconsData.GetResSpriteFromGUID(String, out Sprite)
+  nameWithType.vb: SUInputIconsData.GetResSpriteFromGUID(String, ByRef Sprite)
+- uid: Surfer.SUInputIconsData.GetResSpriteFromGUID*
+  name: GetResSpriteFromGUID
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetResSpriteFromGUID_
+  commentId: Overload:Surfer.SUInputIconsData.GetResSpriteFromGUID
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.GetResSpriteFromGUID
+  nameWithType: SUInputIconsData.GetResSpriteFromGUID
+- uid: Surfer.SUInputIconsData.GetResSpriteFromName(System.String,Sprite@)
+  name: GetResSpriteFromName(String, out Sprite)
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetResSpriteFromName_System_String_Sprite__
+  commentId: M:Surfer.SUInputIconsData.GetResSpriteFromName(System.String,Sprite@)
+  name.vb: GetResSpriteFromName(String, ByRef Sprite)
+  fullName: Surfer.SUInputIconsData.GetResSpriteFromName(System.String, out Sprite)
+  fullName.vb: Surfer.SUInputIconsData.GetResSpriteFromName(System.String, ByRef Sprite)
+  nameWithType: SUInputIconsData.GetResSpriteFromName(String, out Sprite)
+  nameWithType.vb: SUInputIconsData.GetResSpriteFromName(String, ByRef Sprite)
+- uid: Surfer.SUInputIconsData.GetResSpriteFromName*
+  name: GetResSpriteFromName
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetResSpriteFromName_
+  commentId: Overload:Surfer.SUInputIconsData.GetResSpriteFromName
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.GetResSpriteFromName
+  nameWithType: SUInputIconsData.GetResSpriteFromName
+- uid: Surfer.SUInputIconsData.GetSpriteFromGUID(System.String,Sprite@)
+  name: GetSpriteFromGUID(String, out Sprite)
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetSpriteFromGUID_System_String_Sprite__
+  commentId: M:Surfer.SUInputIconsData.GetSpriteFromGUID(System.String,Sprite@)
+  name.vb: GetSpriteFromGUID(String, ByRef Sprite)
+  fullName: Surfer.SUInputIconsData.GetSpriteFromGUID(System.String, out Sprite)
+  fullName.vb: Surfer.SUInputIconsData.GetSpriteFromGUID(System.String, ByRef Sprite)
+  nameWithType: SUInputIconsData.GetSpriteFromGUID(String, out Sprite)
+  nameWithType.vb: SUInputIconsData.GetSpriteFromGUID(String, ByRef Sprite)
+- uid: Surfer.SUInputIconsData.GetSpriteFromGUID*
+  name: GetSpriteFromGUID
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetSpriteFromGUID_
+  commentId: Overload:Surfer.SUInputIconsData.GetSpriteFromGUID
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.GetSpriteFromGUID
+  nameWithType: SUInputIconsData.GetSpriteFromGUID
+- uid: Surfer.SUInputIconsData.GetSpriteFromName(System.String,Sprite@)
+  name: GetSpriteFromName(String, out Sprite)
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetSpriteFromName_System_String_Sprite__
+  commentId: M:Surfer.SUInputIconsData.GetSpriteFromName(System.String,Sprite@)
+  name.vb: GetSpriteFromName(String, ByRef Sprite)
+  fullName: Surfer.SUInputIconsData.GetSpriteFromName(System.String, out Sprite)
+  fullName.vb: Surfer.SUInputIconsData.GetSpriteFromName(System.String, ByRef Sprite)
+  nameWithType: SUInputIconsData.GetSpriteFromName(String, out Sprite)
+  nameWithType.vb: SUInputIconsData.GetSpriteFromName(String, ByRef Sprite)
+- uid: Surfer.SUInputIconsData.GetSpriteFromName*
+  name: GetSpriteFromName
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_GetSpriteFromName_
+  commentId: Overload:Surfer.SUInputIconsData.GetSpriteFromName
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.GetSpriteFromName
+  nameWithType: SUInputIconsData.GetSpriteFromName
+- uid: Surfer.SUInputIconsData.ResSprites
+  name: ResSprites
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_ResSprites
+  commentId: P:Surfer.SUInputIconsData.ResSprites
+  fullName: Surfer.SUInputIconsData.ResSprites
+  nameWithType: SUInputIconsData.ResSprites
+- uid: Surfer.SUInputIconsData.ResSprites*
+  name: ResSprites
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_ResSprites_
+  commentId: Overload:Surfer.SUInputIconsData.ResSprites
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.ResSprites
+  nameWithType: SUInputIconsData.ResSprites
+- uid: Surfer.SUInputIconsData.Sprites
+  name: Sprites
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_Sprites
+  commentId: P:Surfer.SUInputIconsData.Sprites
+  fullName: Surfer.SUInputIconsData.Sprites
+  nameWithType: SUInputIconsData.Sprites
+- uid: Surfer.SUInputIconsData.Sprites*
+  name: Sprites
+  href: api/Surfer.SUInputIconsData.html#Surfer_SUInputIconsData_Sprites_
+  commentId: Overload:Surfer.SUInputIconsData.Sprites
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsData.Sprites
+  nameWithType: SUInputIconsData.Sprites
+- uid: Surfer.SUInputIconsDict
+  name: SUInputIconsDict
+  href: api/Surfer.SUInputIconsDict.html
+  commentId: T:Surfer.SUInputIconsDict
+  fullName: Surfer.SUInputIconsDict
+  nameWithType: SUInputIconsDict
+- uid: Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex(System.Int32)
+  name: GetSpriteGUIDFromIndex(Int32)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex(System.Int32)
+  fullName: Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex(System.Int32)
+  nameWithType: SUInputIconsDict.GetSpriteGUIDFromIndex(Int32)
+- uid: Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex*
+  name: GetSpriteGUIDFromIndex
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteGUIDFromIndex_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpriteGUIDFromIndex
+  nameWithType: SUInputIconsDict.GetSpriteGUIDFromIndex
+- uid: Surfer.SUInputIconsDict.GetSpriteGUIDIndex(System.String)
+  name: GetSpriteGUIDIndex(String)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteGUIDIndex_System_String_
+  commentId: M:Surfer.SUInputIconsDict.GetSpriteGUIDIndex(System.String)
+  fullName: Surfer.SUInputIconsDict.GetSpriteGUIDIndex(System.String)
+  nameWithType: SUInputIconsDict.GetSpriteGUIDIndex(String)
+- uid: Surfer.SUInputIconsDict.GetSpriteGUIDIndex*
+  name: GetSpriteGUIDIndex
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteGUIDIndex_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpriteGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpriteGUIDIndex
+  nameWithType: SUInputIconsDict.GetSpriteGUIDIndex
+- uid: Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex(System.Int32)
+  name: GetSpriteResGUIDFromIndex(Int32)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteResGUIDFromIndex_System_Int32_
+  commentId: M:Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex(System.Int32)
+  fullName: Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex(System.Int32)
+  nameWithType: SUInputIconsDict.GetSpriteResGUIDFromIndex(Int32)
+- uid: Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex*
+  name: GetSpriteResGUIDFromIndex
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteResGUIDFromIndex_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpriteResGUIDFromIndex
+  nameWithType: SUInputIconsDict.GetSpriteResGUIDFromIndex
+- uid: Surfer.SUInputIconsDict.GetSpriteResGUIDIndex(System.String)
+  name: GetSpriteResGUIDIndex(String)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteResGUIDIndex_System_String_
+  commentId: M:Surfer.SUInputIconsDict.GetSpriteResGUIDIndex(System.String)
+  fullName: Surfer.SUInputIconsDict.GetSpriteResGUIDIndex(System.String)
+  nameWithType: SUInputIconsDict.GetSpriteResGUIDIndex(String)
+- uid: Surfer.SUInputIconsDict.GetSpriteResGUIDIndex*
+  name: GetSpriteResGUIDIndex
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpriteResGUIDIndex_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpriteResGUIDIndex
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpriteResGUIDIndex
+  nameWithType: SUInputIconsDict.GetSpriteResGUIDIndex
+- uid: Surfer.SUInputIconsDict.GetSpritesNames
+  name: GetSpritesNames()
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpritesNames
+  commentId: M:Surfer.SUInputIconsDict.GetSpritesNames
+  fullName: Surfer.SUInputIconsDict.GetSpritesNames()
+  nameWithType: SUInputIconsDict.GetSpritesNames()
+- uid: Surfer.SUInputIconsDict.GetSpritesNames*
+  name: GetSpritesNames
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpritesNames_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpritesNames
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpritesNames
+  nameWithType: SUInputIconsDict.GetSpritesNames
+- uid: Surfer.SUInputIconsDict.GetSpritesResNames
+  name: GetSpritesResNames()
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpritesResNames
+  commentId: M:Surfer.SUInputIconsDict.GetSpritesResNames
+  fullName: Surfer.SUInputIconsDict.GetSpritesResNames()
+  nameWithType: SUInputIconsDict.GetSpritesResNames()
+- uid: Surfer.SUInputIconsDict.GetSpritesResNames*
+  name: GetSpritesResNames
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_GetSpritesResNames_
+  commentId: Overload:Surfer.SUInputIconsDict.GetSpritesResNames
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.GetSpritesResNames
+  nameWithType: SUInputIconsDict.GetSpritesResNames
+- uid: Surfer.SUInputIconsDict.RemoveResSprite(System.String)
+  name: RemoveResSprite(String)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_RemoveResSprite_System_String_
+  commentId: M:Surfer.SUInputIconsDict.RemoveResSprite(System.String)
+  fullName: Surfer.SUInputIconsDict.RemoveResSprite(System.String)
+  nameWithType: SUInputIconsDict.RemoveResSprite(String)
+- uid: Surfer.SUInputIconsDict.RemoveResSprite*
+  name: RemoveResSprite
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_RemoveResSprite_
+  commentId: Overload:Surfer.SUInputIconsDict.RemoveResSprite
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.RemoveResSprite
+  nameWithType: SUInputIconsDict.RemoveResSprite
+- uid: Surfer.SUInputIconsDict.RemoveSprite(System.String)
+  name: RemoveSprite(String)
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_RemoveSprite_System_String_
+  commentId: M:Surfer.SUInputIconsDict.RemoveSprite(System.String)
+  fullName: Surfer.SUInputIconsDict.RemoveSprite(System.String)
+  nameWithType: SUInputIconsDict.RemoveSprite(String)
+- uid: Surfer.SUInputIconsDict.RemoveSprite*
+  name: RemoveSprite
+  href: api/Surfer.SUInputIconsDict.html#Surfer_SUInputIconsDict_RemoveSprite_
+  commentId: Overload:Surfer.SUInputIconsDict.RemoveSprite
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsDict.RemoveSprite
+  nameWithType: SUInputIconsDict.RemoveSprite
+- uid: Surfer.SUInputIconSettingsRegister
+  name: SUInputIconSettingsRegister
+  href: api/Surfer.SUInputIconSettingsRegister.html
+  commentId: T:Surfer.SUInputIconSettingsRegister
+  fullName: Surfer.SUInputIconSettingsRegister
+  nameWithType: SUInputIconSettingsRegister
+- uid: Surfer.SUInputIconSettingsRegister.CreateSettingsProvider
+  name: CreateSettingsProvider()
+  href: api/Surfer.SUInputIconSettingsRegister.html#Surfer_SUInputIconSettingsRegister_CreateSettingsProvider
+  commentId: M:Surfer.SUInputIconSettingsRegister.CreateSettingsProvider
+  fullName: Surfer.SUInputIconSettingsRegister.CreateSettingsProvider()
+  nameWithType: SUInputIconSettingsRegister.CreateSettingsProvider()
+- uid: Surfer.SUInputIconSettingsRegister.CreateSettingsProvider*
+  name: CreateSettingsProvider
+  href: api/Surfer.SUInputIconSettingsRegister.html#Surfer_SUInputIconSettingsRegister_CreateSettingsProvider_
+  commentId: Overload:Surfer.SUInputIconSettingsRegister.CreateSettingsProvider
+  isSpec: "True"
+  fullName: Surfer.SUInputIconSettingsRegister.CreateSettingsProvider
+  nameWithType: SUInputIconSettingsRegister.CreateSettingsProvider
+- uid: Surfer.SUInputIconsManager
+  name: SUInputIconsManager
+  href: api/Surfer.SUInputIconsManager.html
+  commentId: T:Surfer.SUInputIconsManager
+  fullName: Surfer.SUInputIconsManager
+  nameWithType: SUInputIconsManager
+- uid: Surfer.SUInputIconsManager.GetIconResSpriteFromGUID(System.String)
+  name: GetIconResSpriteFromGUID(String)
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconResSpriteFromGUID_System_String_
+  commentId: M:Surfer.SUInputIconsManager.GetIconResSpriteFromGUID(System.String)
+  fullName: Surfer.SUInputIconsManager.GetIconResSpriteFromGUID(System.String)
+  nameWithType: SUInputIconsManager.GetIconResSpriteFromGUID(String)
+- uid: Surfer.SUInputIconsManager.GetIconResSpriteFromGUID*
+  name: GetIconResSpriteFromGUID
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconResSpriteFromGUID_
+  commentId: Overload:Surfer.SUInputIconsManager.GetIconResSpriteFromGUID
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsManager.GetIconResSpriteFromGUID
+  nameWithType: SUInputIconsManager.GetIconResSpriteFromGUID
+- uid: Surfer.SUInputIconsManager.GetIconResSpriteFromName(System.String)
+  name: GetIconResSpriteFromName(String)
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconResSpriteFromName_System_String_
+  commentId: M:Surfer.SUInputIconsManager.GetIconResSpriteFromName(System.String)
+  fullName: Surfer.SUInputIconsManager.GetIconResSpriteFromName(System.String)
+  nameWithType: SUInputIconsManager.GetIconResSpriteFromName(String)
+- uid: Surfer.SUInputIconsManager.GetIconResSpriteFromName*
+  name: GetIconResSpriteFromName
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconResSpriteFromName_
+  commentId: Overload:Surfer.SUInputIconsManager.GetIconResSpriteFromName
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsManager.GetIconResSpriteFromName
+  nameWithType: SUInputIconsManager.GetIconResSpriteFromName
+- uid: Surfer.SUInputIconsManager.GetIconSpriteFromGUID(System.String)
+  name: GetIconSpriteFromGUID(String)
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconSpriteFromGUID_System_String_
+  commentId: M:Surfer.SUInputIconsManager.GetIconSpriteFromGUID(System.String)
+  fullName: Surfer.SUInputIconsManager.GetIconSpriteFromGUID(System.String)
+  nameWithType: SUInputIconsManager.GetIconSpriteFromGUID(String)
+- uid: Surfer.SUInputIconsManager.GetIconSpriteFromGUID*
+  name: GetIconSpriteFromGUID
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconSpriteFromGUID_
+  commentId: Overload:Surfer.SUInputIconsManager.GetIconSpriteFromGUID
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsManager.GetIconSpriteFromGUID
+  nameWithType: SUInputIconsManager.GetIconSpriteFromGUID
+- uid: Surfer.SUInputIconsManager.GetIconSpriteFromName(System.String)
+  name: GetIconSpriteFromName(String)
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconSpriteFromName_System_String_
+  commentId: M:Surfer.SUInputIconsManager.GetIconSpriteFromName(System.String)
+  fullName: Surfer.SUInputIconsManager.GetIconSpriteFromName(System.String)
+  nameWithType: SUInputIconsManager.GetIconSpriteFromName(String)
+- uid: Surfer.SUInputIconsManager.GetIconSpriteFromName*
+  name: GetIconSpriteFromName
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_GetIconSpriteFromName_
+  commentId: Overload:Surfer.SUInputIconsManager.GetIconSpriteFromName
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsManager.GetIconSpriteFromName
+  nameWithType: SUInputIconsManager.GetIconSpriteFromName
+- uid: Surfer.SUInputIconsManager.I
+  name: I
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_I
+  commentId: P:Surfer.SUInputIconsManager.I
+  fullName: Surfer.SUInputIconsManager.I
+  nameWithType: SUInputIconsManager.I
+- uid: Surfer.SUInputIconsManager.I*
+  name: I
+  href: api/Surfer.SUInputIconsManager.html#Surfer_SUInputIconsManager_I_
+  commentId: Overload:Surfer.SUInputIconsManager.I
+  isSpec: "True"
+  fullName: Surfer.SUInputIconsManager.I
+  nameWithType: SUInputIconsManager.I
 - uid: Surfer.SUInputManager
   name: SUInputManager
   href: api/Surfer.SUInputManager.html
@@ -10293,6 +10692,79 @@ references:
   isSpec: "True"
   fullName: Surfer.SUOrientationManager.UnregisterOrientationEvent
   nameWithType: SUOrientationManager.UnregisterOrientationEvent
+- uid: Surfer.SUPlatform_ID
+  name: SUPlatform_ID
+  href: api/Surfer.SUPlatform_ID.html
+  commentId: T:Surfer.SUPlatform_ID
+  fullName: Surfer.SUPlatform_ID
+  nameWithType: SUPlatform_ID
+- uid: Surfer.SUPlatform_ID.Desktop
+  name: Desktop
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_Desktop
+  commentId: F:Surfer.SUPlatform_ID.Desktop
+  fullName: Surfer.SUPlatform_ID.Desktop
+  nameWithType: SUPlatform_ID.Desktop
+- uid: Surfer.SUPlatform_ID.Mobile
+  name: Mobile
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_Mobile
+  commentId: F:Surfer.SUPlatform_ID.Mobile
+  fullName: Surfer.SUPlatform_ID.Mobile
+  nameWithType: SUPlatform_ID.Mobile
+- uid: Surfer.SUPlatform_ID.PlayStation
+  name: PlayStation
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_PlayStation
+  commentId: F:Surfer.SUPlatform_ID.PlayStation
+  fullName: Surfer.SUPlatform_ID.PlayStation
+  nameWithType: SUPlatform_ID.PlayStation
+- uid: Surfer.SUPlatform_ID.Stadia
+  name: Stadia
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_Stadia
+  commentId: F:Surfer.SUPlatform_ID.Stadia
+  fullName: Surfer.SUPlatform_ID.Stadia
+  nameWithType: SUPlatform_ID.Stadia
+- uid: Surfer.SUPlatform_ID.Switch
+  name: Switch
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_Switch
+  commentId: F:Surfer.SUPlatform_ID.Switch
+  fullName: Surfer.SUPlatform_ID.Switch
+  nameWithType: SUPlatform_ID.Switch
+- uid: Surfer.SUPlatform_ID.Xbox
+  name: Xbox
+  href: api/Surfer.SUPlatform_ID.html#Surfer_SUPlatform_ID_Xbox
+  commentId: F:Surfer.SUPlatform_ID.Xbox
+  fullName: Surfer.SUPlatform_ID.Xbox
+  nameWithType: SUPlatform_ID.Xbox
+- uid: Surfer.SUPlatformIDExtensions
+  name: SUPlatformIDExtensions
+  href: api/Surfer.SUPlatformIDExtensions.html
+  commentId: T:Surfer.SUPlatformIDExtensions
+  fullName: Surfer.SUPlatformIDExtensions
+  nameWithType: SUPlatformIDExtensions
+- uid: Surfer.SUPlatformIDExtensions.ToPlatformID(RuntimePlatform)
+  name: ToPlatformID(RuntimePlatform)
+  href: api/Surfer.SUPlatformIDExtensions.html#Surfer_SUPlatformIDExtensions_ToPlatformID_RuntimePlatform_
+  commentId: M:Surfer.SUPlatformIDExtensions.ToPlatformID(RuntimePlatform)
+  fullName: Surfer.SUPlatformIDExtensions.ToPlatformID(RuntimePlatform)
+  nameWithType: SUPlatformIDExtensions.ToPlatformID(RuntimePlatform)
+- uid: Surfer.SUPlatformIDExtensions.ToPlatformID(System.Int32)
+  name: ToPlatformID(Int32)
+  href: api/Surfer.SUPlatformIDExtensions.html#Surfer_SUPlatformIDExtensions_ToPlatformID_System_Int32_
+  commentId: M:Surfer.SUPlatformIDExtensions.ToPlatformID(System.Int32)
+  fullName: Surfer.SUPlatformIDExtensions.ToPlatformID(System.Int32)
+  nameWithType: SUPlatformIDExtensions.ToPlatformID(Int32)
+- uid: Surfer.SUPlatformIDExtensions.ToPlatformID(System.String)
+  name: ToPlatformID(String)
+  href: api/Surfer.SUPlatformIDExtensions.html#Surfer_SUPlatformIDExtensions_ToPlatformID_System_String_
+  commentId: M:Surfer.SUPlatformIDExtensions.ToPlatformID(System.String)
+  fullName: Surfer.SUPlatformIDExtensions.ToPlatformID(System.String)
+  nameWithType: SUPlatformIDExtensions.ToPlatformID(String)
+- uid: Surfer.SUPlatformIDExtensions.ToPlatformID*
+  name: ToPlatformID
+  href: api/Surfer.SUPlatformIDExtensions.html#Surfer_SUPlatformIDExtensions_ToPlatformID_
+  commentId: Overload:Surfer.SUPlatformIDExtensions.ToPlatformID
+  isSpec: "True"
+  fullName: Surfer.SUPlatformIDExtensions.ToPlatformID
+  nameWithType: SUPlatformIDExtensions.ToPlatformID
 - uid: Surfer.SUPositionData
   name: SUPositionData
   href: api/Surfer.SUPositionData.html
@@ -12058,6 +12530,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.AddEvent
   nameWithType: SurferSO.AddEvent
+- uid: Surfer.SurferSO.AddInputIconsPlatform(Surfer.SUPlatform_ID,System.Action,System.Action)
+  name: AddInputIconsPlatform(SUPlatform_ID, Action, Action)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddInputIconsPlatform_Surfer_SUPlatform_ID_System_Action_System_Action_
+  commentId: M:Surfer.SurferSO.AddInputIconsPlatform(Surfer.SUPlatform_ID,System.Action,System.Action)
+  fullName: Surfer.SurferSO.AddInputIconsPlatform(Surfer.SUPlatform_ID, System.Action, System.Action)
+  nameWithType: SurferSO.AddInputIconsPlatform(SUPlatform_ID, Action, Action)
+- uid: Surfer.SurferSO.AddInputIconsPlatform*
+  name: AddInputIconsPlatform
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddInputIconsPlatform_
+  commentId: Overload:Surfer.SurferSO.AddInputIconsPlatform
+  isSpec: "True"
+  fullName: Surfer.SurferSO.AddInputIconsPlatform
+  nameWithType: SurferSO.AddInputIconsPlatform
 - uid: Surfer.SurferSO.AddState(System.String)
   name: AddState(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_AddState_System_String_
@@ -12152,6 +12637,32 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.GetEventsList
   nameWithType: SurferSO.GetEventsList
+- uid: Surfer.SurferSO.GetInputIcons(Surfer.SUPlatform_ID)
+  name: GetInputIcons(SUPlatform_ID)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetInputIcons_Surfer_SUPlatform_ID_
+  commentId: M:Surfer.SurferSO.GetInputIcons(Surfer.SUPlatform_ID)
+  fullName: Surfer.SurferSO.GetInputIcons(Surfer.SUPlatform_ID)
+  nameWithType: SurferSO.GetInputIcons(SUPlatform_ID)
+- uid: Surfer.SurferSO.GetInputIcons*
+  name: GetInputIcons
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetInputIcons_
+  commentId: Overload:Surfer.SurferSO.GetInputIcons
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetInputIcons
+  nameWithType: SurferSO.GetInputIcons
+- uid: Surfer.SurferSO.GetInputIconsPlatformNames
+  name: GetInputIconsPlatformNames()
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetInputIconsPlatformNames
+  commentId: M:Surfer.SurferSO.GetInputIconsPlatformNames
+  fullName: Surfer.SurferSO.GetInputIconsPlatformNames()
+  nameWithType: SurferSO.GetInputIconsPlatformNames()
+- uid: Surfer.SurferSO.GetInputIconsPlatformNames*
+  name: GetInputIconsPlatformNames
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetInputIconsPlatformNames_
+  commentId: Overload:Surfer.SurferSO.GetInputIconsPlatformNames
+  isSpec: "True"
+  fullName: Surfer.SurferSO.GetInputIconsPlatformNames
+  nameWithType: SurferSO.GetInputIconsPlatformNames
 - uid: Surfer.SurferSO.GetSceneGUID(System.String)
   name: GetSceneGUID(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_GetSceneGUID_System_String_
@@ -12269,6 +12780,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.GetThemeName
   nameWithType: SurferSO.GetThemeName
+- uid: Surfer.SurferSO.InputIcons
+  name: InputIcons
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_InputIcons
+  commentId: P:Surfer.SurferSO.InputIcons
+  fullName: Surfer.SurferSO.InputIcons
+  nameWithType: SurferSO.InputIcons
+- uid: Surfer.SurferSO.InputIcons*
+  name: InputIcons
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_InputIcons_
+  commentId: Overload:Surfer.SurferSO.InputIcons
+  isSpec: "True"
+  fullName: Surfer.SurferSO.InputIcons
+  nameWithType: SurferSO.InputIcons
 - uid: Surfer.SurferSO.Layers
   name: Layers
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_Layers
@@ -12295,6 +12819,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SurferSO.RemoveEvent
   nameWithType: SurferSO.RemoveEvent
+- uid: Surfer.SurferSO.RemoveInputIconsPlatform(Surfer.SUPlatform_ID)
+  name: RemoveInputIconsPlatform(SUPlatform_ID)
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveInputIconsPlatform_Surfer_SUPlatform_ID_
+  commentId: M:Surfer.SurferSO.RemoveInputIconsPlatform(Surfer.SUPlatform_ID)
+  fullName: Surfer.SurferSO.RemoveInputIconsPlatform(Surfer.SUPlatform_ID)
+  nameWithType: SurferSO.RemoveInputIconsPlatform(SUPlatform_ID)
+- uid: Surfer.SurferSO.RemoveInputIconsPlatform*
+  name: RemoveInputIconsPlatform
+  href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveInputIconsPlatform_
+  commentId: Overload:Surfer.SurferSO.RemoveInputIconsPlatform
+  isSpec: "True"
+  fullName: Surfer.SurferSO.RemoveInputIconsPlatform
+  nameWithType: SurferSO.RemoveInputIconsPlatform
 - uid: Surfer.SurferSO.RemoveState(System.String)
   name: RemoveState(String)
   href: api/Surfer.SurferSO.html#Surfer_SurferSO_RemoveState_System_String_

@@ -1396,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUGUIDColorData.html",
-          "hash": "DgczkyAd90Glj/clWJDE61TcBnFkTAiFjLW0iBnu2Dw="
+          "hash": "NxYlSojUO7QvPotP6vQrHAZKpgAb9TmX7rq2oe9Te3w="
         }
       },
       "is_incremental": false,
@@ -1420,7 +1420,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUGUIDFontData.html",
-          "hash": "cau9MgUgQ/zgxNoRIe9EXVT0F1TW7LlFO3rv2UxmVx4="
+          "hash": "M323HwMKQt16XlkVW8Uf6x02X0VHqnqy7X6W4ULOdjs="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUGUIDFontSizeData.html",
-          "hash": "3uLaDfi+5sTleKbAkzeMIJ+4LQhC7MdhwXa9RUhIDfU="
+          "hash": "C4fcSZM1xe9h5JuRQ50ayKr03PaxftLfdke0R/V9syM="
         }
       },
       "is_incremental": false,
@@ -1444,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUGUIDResourcesSpriteData.html",
-          "hash": "NNXZnifITDhapBiphgvBXzB3MhEM/1zMpE5KBHQtOR8="
+          "hash": "0cGvYpu8eFaGPixWx2L6awisfiwkYfSpr760IT7eh6Q="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SUGUIDSpriteData.html",
-          "hash": "C/UDqnATJKl/li00l1Qg7KwJnZusiV1LHhJSNFI4n4Q="
+          "hash": "5k2tB27W35tbutj8zX9xzS09WJ+yg1sC3TbRfOouUZk="
         }
       },
       "is_incremental": false,
@@ -1776,6 +1776,78 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIcon.html",
+          "hash": "cXIYutlMyzdytHHWlGIFENKp9P7SdIUgAsW/wuYsSyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIconEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIconEditor.html",
+          "hash": "OrVasqATsDfPkWElOWBRI8uy7gNeViuMOSetj+rn/7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIconSettingsRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIconSettingsRegister.html",
+          "hash": "/TVxjKraGaD8SXuFpNjwMIKNclK+qAihRGYfl2LGhl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIconsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIconsData.html",
+          "hash": "ScHarqHySj4HUXpJbunCp3YekCxgToO9ftlQH+lTFMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIconsDict.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIconsDict.html",
+          "hash": "v2xShrdPiT7RVcSqTMgUhW91PQSlTHHykJQIdDNxrRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUInputIconsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUInputIconsManager.html",
+          "hash": "Y57zr3Ir6TPDYCMEEYMuTnY590Q+xyJJU0eP2zeSkXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Surfer.SUInputManager.yml",
       "output": {
         ".html": {
@@ -1913,6 +1985,30 @@
         ".html": {
           "relative_path": "api/Surfer.SUOrientationManager.html",
           "hash": "FKK6u+JXCfsA6ySDejbQTCz4IlZ/t8p5SAknHo6lbCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPlatformIDExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPlatformIDExtensions.html",
+          "hash": "WXhItR6EyQQzmoUYyNZNc1uzVWlL3LH4KqkfH1AHkd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Surfer.SUPlatform_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Surfer.SUPlatform_ID.html",
+          "hash": "1TFT/eBTvvqmKTlABo2kJTSunLflNzb/Ns3R8j3E8GQ="
         }
       },
       "is_incremental": false,
@@ -2620,7 +2716,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SerializableDictionary-2.html",
-          "hash": "DvUsTq0Hj9IEcVT0qGftzTzha3sEHK4uLV4wPzl84F8="
+          "hash": "ZHD2pVqiSg/9Tn8hwGRMJxFZDzMVm1MD6gQkVLlGNk0="
         }
       },
       "is_incremental": false,
@@ -2680,7 +2776,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.SurferSO.html",
-          "hash": "yznXiv5Sr92hgCE7yhacgaJgbhVauxuZ1fPD/FQUhcI="
+          "hash": "R3c530eseYDWRL99Ml/IMoA86RX+RfgSPUypgmgsaP4="
         }
       },
       "is_incremental": false,
@@ -2716,7 +2812,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Surfer.html",
-          "hash": "T+ijulYVK5hCuvf9C43cAEwaUEOvR1HQeSukXYQ5OTk="
+          "hash": "YAY5v2cyI3rQpVwbP9l9ONgwR3MyyXPaO7Rn4kIqHHc="
         }
       },
       "is_incremental": false,
@@ -2728,7 +2824,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KY/str2y9KE9QhCBRQm2TVbBd2E01a5FIoYpZyzVZAQ="
+          "hash": "gKqKjtE0TnLm1rtI+2Zp5b6D1g87IL7CDT+KgR5t5j4="
         }
       },
       "is_incremental": false,
@@ -2740,7 +2836,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "GtEc+jL3MtVWG6mK7HWShSZgZcbgUytpfhiTyGjb2os="
+          "hash": "K7sD01aQgwngo2nQ8D5/kyUlTef5DGcdjWGimUVAFUw="
         }
       },
       "is_incremental": false,
@@ -2945,6 +3041,18 @@
         ".html": {
           "relative_path": "manual/History focus.html",
           "hash": "xGmniH3Hg6AW91bKoSAnxveSRiGujLsUFb+0USfaFMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Input Icons Manager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Input Icons Manager.html",
+          "hash": "cbwYazNz6jGri3Isk8pk9vgrcIg/7/ilzTGQ34kXzBc="
         }
       },
       "is_incremental": false,
@@ -3232,7 +3340,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "2ExktXDNnIDJjgmGyVNdX/9EN/ZqH4KDCqzj1YFjeQ4="
+          "hash": "MWHNfyxhQfK3RezuLLbJEvCHGWK78YX+Lt5G19YSShQ="
         }
       },
       "is_incremental": false,
@@ -4256,24 +4364,22 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 43,
-          "skipped_file_count": 0
+          "total_file_count": 44,
+          "skipped_file_count": 42
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 224,
+          "total_file_count": 232,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
