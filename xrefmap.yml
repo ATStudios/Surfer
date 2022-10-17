@@ -4434,6 +4434,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElement.OnDrag
   nameWithType: SUElement.OnDrag
+- uid: Surfer.SUElement.OnDragStateProgress
+  name: OnDragStateProgress
+  href: api/Surfer.SUElement.html#Surfer_SUElement_OnDragStateProgress
+  commentId: F:Surfer.SUElement.OnDragStateProgress
+  fullName: Surfer.SUElement.OnDragStateProgress
+  nameWithType: SUElement.OnDragStateProgress
 - uid: Surfer.SUElement.OnEndDrag(PointerEventData)
   name: OnEndDrag(PointerEventData)
   href: api/Surfer.SUElement.html#Surfer_SUElement_OnEndDrag_PointerEventData_
@@ -5381,6 +5387,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementDataExtensions.IsGroupStates
   nameWithType: SUElementDataExtensions.IsGroupStates
+- uid: Surfer.SUElementDataExtensions.IsHorizontalDrag(Surfer.SUElementData)
+  name: IsHorizontalDrag(SUElementData)
+  href: api/Surfer.SUElementDataExtensions.html#Surfer_SUElementDataExtensions_IsHorizontalDrag_Surfer_SUElementData_
+  commentId: M:Surfer.SUElementDataExtensions.IsHorizontalDrag(Surfer.SUElementData)
+  fullName: Surfer.SUElementDataExtensions.IsHorizontalDrag(Surfer.SUElementData)
+  nameWithType: SUElementDataExtensions.IsHorizontalDrag(SUElementData)
+- uid: Surfer.SUElementDataExtensions.IsHorizontalDrag*
+  name: IsHorizontalDrag
+  href: api/Surfer.SUElementDataExtensions.html#Surfer_SUElementDataExtensions_IsHorizontalDrag_
+  commentId: Overload:Surfer.SUElementDataExtensions.IsHorizontalDrag
+  isSpec: "True"
+  fullName: Surfer.SUElementDataExtensions.IsHorizontalDrag
+  nameWithType: SUElementDataExtensions.IsHorizontalDrag
 - uid: Surfer.SUElementDataExtensions.IsLoading(Surfer.SUElementData)
   name: IsLoading(SUElementData)
   href: api/Surfer.SUElementDataExtensions.html#Surfer_SUElementDataExtensions_IsLoading_Surfer_SUElementData_
@@ -5438,6 +5457,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUElementDataExtensions.IsTooltip
   nameWithType: SUElementDataExtensions.IsTooltip
+- uid: Surfer.SUElementDataExtensions.IsVerticalDrag(Surfer.SUElementData)
+  name: IsVerticalDrag(SUElementData)
+  href: api/Surfer.SUElementDataExtensions.html#Surfer_SUElementDataExtensions_IsVerticalDrag_Surfer_SUElementData_
+  commentId: M:Surfer.SUElementDataExtensions.IsVerticalDrag(Surfer.SUElementData)
+  fullName: Surfer.SUElementDataExtensions.IsVerticalDrag(Surfer.SUElementData)
+  nameWithType: SUElementDataExtensions.IsVerticalDrag(SUElementData)
+- uid: Surfer.SUElementDataExtensions.IsVerticalDrag*
+  name: IsVerticalDrag
+  href: api/Surfer.SUElementDataExtensions.html#Surfer_SUElementDataExtensions_IsVerticalDrag_
+  commentId: Overload:Surfer.SUElementDataExtensions.IsVerticalDrag
+  isSpec: "True"
+  fullName: Surfer.SUElementDataExtensions.IsVerticalDrag
+  nameWithType: SUElementDataExtensions.IsVerticalDrag
 - uid: Surfer.SUElementEditor
   name: SUElementEditor
   href: api/Surfer.SUElementEditor.html
