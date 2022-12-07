@@ -2959,6 +2959,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.ForEachBeh
   nameWithType: SUBehavioursData.ForEachBeh
+- uid: Surfer.SUBehavioursData.OrderedBehaviours
+  name: OrderedBehaviours
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_OrderedBehaviours
+  commentId: P:Surfer.SUBehavioursData.OrderedBehaviours
+  fullName: Surfer.SUBehavioursData.OrderedBehaviours
+  nameWithType: SUBehavioursData.OrderedBehaviours
+- uid: Surfer.SUBehavioursData.OrderedBehaviours*
+  name: OrderedBehaviours
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_OrderedBehaviours_
+  commentId: Overload:Surfer.SUBehavioursData.OrderedBehaviours
+  isSpec: "True"
+  fullName: Surfer.SUBehavioursData.OrderedBehaviours
+  nameWithType: SUBehavioursData.OrderedBehaviours
 - uid: Surfer.SUBehavioursData.Run(Surfer.SUElementData,System.Object)
   name: Run(SUElementData, Object)
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_Run_Surfer_SUElementData_System_Object_
@@ -2972,6 +2985,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUBehavioursData.Run
   nameWithType: SUBehavioursData.Run
+- uid: Surfer.SUBehavioursData.RunWithParams(Surfer.SUElementData,System.Single)
+  name: RunWithParams(SUElementData, Single)
+  href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParams_Surfer_SUElementData_System_Single_
+  commentId: M:Surfer.SUBehavioursData.RunWithParams(Surfer.SUElementData,System.Single)
+  fullName: Surfer.SUBehavioursData.RunWithParams(Surfer.SUElementData, System.Single)
+  nameWithType: SUBehavioursData.RunWithParams(SUElementData, Single)
 - uid: Surfer.SUBehavioursData.RunWithParams(Surfer.SUElementData,System.String)
   name: RunWithParams(SUElementData, String)
   href: api/Surfer.SUBehavioursData.html#Surfer_SUBehavioursData_RunWithParams_Surfer_SUElementData_System_String_
@@ -4188,6 +4207,12 @@ references:
   isSpec: "True"
   fullName: Surfer.SUDictEventsExtensions.RunEventBehaviour
   nameWithType: SUDictEventsExtensions.RunEventBehaviour
+- uid: Surfer.SUDictEventsExtensions.RunEventBehaviourParams(DictEvents,Surfer.SUElementData,Surfer.SUEvent.Type_ID,System.Single)
+  name: RunEventBehaviourParams(DictEvents, SUElementData, SUEvent.Type_ID, Single)
+  href: api/Surfer.SUDictEventsExtensions.html#Surfer_SUDictEventsExtensions_RunEventBehaviourParams_DictEvents_Surfer_SUElementData_Surfer_SUEvent_Type_ID_System_Single_
+  commentId: M:Surfer.SUDictEventsExtensions.RunEventBehaviourParams(DictEvents,Surfer.SUElementData,Surfer.SUEvent.Type_ID,System.Single)
+  fullName: Surfer.SUDictEventsExtensions.RunEventBehaviourParams(DictEvents, Surfer.SUElementData, Surfer.SUEvent.Type_ID, System.Single)
+  nameWithType: SUDictEventsExtensions.RunEventBehaviourParams(DictEvents, SUElementData, SUEvent.Type_ID, Single)
 - uid: Surfer.SUDictEventsExtensions.RunEventBehaviourParams(DictEvents,Surfer.SUElementData,Surfer.SUEvent.Type_ID,System.String)
   name: RunEventBehaviourParams(DictEvents, SUElementData, SUEvent.Type_ID, String)
   href: api/Surfer.SUDictEventsExtensions.html#Surfer_SUDictEventsExtensions_RunEventBehaviourParams_DictEvents_Surfer_SUElementData_Surfer_SUEvent_Type_ID_System_String_
@@ -5586,6 +5611,19 @@ references:
   isSpec: "True"
   fullName: Surfer.SUEvent.KeyCodeVal
   nameWithType: SUEvent.KeyCodeVal
+- uid: Surfer.SUEvent.Priority
+  name: Priority
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_Priority
+  commentId: P:Surfer.SUEvent.Priority
+  fullName: Surfer.SUEvent.Priority
+  nameWithType: SUEvent.Priority
+- uid: Surfer.SUEvent.Priority*
+  name: Priority
+  href: api/Surfer.SUEvent.html#Surfer_SUEvent_Priority_
+  commentId: Overload:Surfer.SUEvent.Priority
+  isSpec: "True"
+  fullName: Surfer.SUEvent.Priority
+  nameWithType: SUEvent.Priority
 - uid: Surfer.SUEvent.ScenesData
   name: ScenesData
   href: api/Surfer.SUEvent.html#Surfer_SUEvent_ScenesData
