@@ -1314,6 +1314,11 @@
     "title": "Position Animation | Copyright © 2021 ATStudio",
     "keywords": "Position Animation (This is an explanation only for the Canvas/UGUI Position animation; the UIToolkit one is self-explanatory) In the list of animated reactions ( SUElementCanvas->Do...->Animations/ ) there is an animation called Position . Basically, if we want to simply animate an anchoredPosition of an UI object, we must use the AnchoredPosition animation, but if we don't want to deal with specific values and just use percentages based , we must use the one called Position . The percentages that we see ( To Parent % and To Size % ) are related to the size of the parent RectTransform of the object animated and the size of the RectTransform animated. Below some examples by using a button inside a parent Rect Transform."
   },
+  "manual/Priority Order.html": {
+    "href": "manual/Priority Order.html",
+    "title": "Priority Order | Copyright © 2021 ATStudio",
+    "keywords": "Priority Order Every event has a property called Priority available next to them (Pr:). This field is needed to decide in which order events are triggered; the higher the priority is the sooner the event is executed. For example : Event A , triggers a color reaction (that changes the color to Red) and the priority is 100 Event B , triggers a color reaction (that changes the color to Yellow) and the priority is 50 The result will be the object colored with Yellow, because \"Event A\" will be triggered first (Red color) and \"Event B\" will be triggered as second (Yellow color)."
+  },
   "manual/Runtime Events.html": {
     "href": "manual/Runtime Events.html",
     "title": "Runtime events | Copyright © 2021 ATStudio",
